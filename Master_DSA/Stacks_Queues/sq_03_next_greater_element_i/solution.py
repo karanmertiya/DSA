@@ -1,15 +1,13 @@
-# Time Complexity: O(N) (Constraint)
+# Time Complexity: O(N + M)
 # Space Complexity: O(N)
-# Explanation: Iterate backwards maintaining a strictly decreasing Monotonic Stack. The top of the stack is the next greater element.
+# Explanation: Monotonic Stack traversing `nums2` from right to left. Maintain stack of elements in decreasing order.
 
-def next_greater_element(nums: list[int]) -> list[int]:
-    res = [-1] * len(nums)
-    stack = []
-    for i in range(len(nums) - 1, -1, -1):
-        while stack and stack[-1] <= nums[i]:
-            stack.pop()
-        if stack:
-            res[i] = stack[-1]
-        stack.append(nums[i])
-    return res
+def nextGreaterElement(nums1: list[int], nums2: list[int]) -> list[int]:
+    mpp = {}
+    st = []
+    for num in reversed(nums2):
+        while st and st[-1] <= num: st.pop()
+        mpp[num] = st[-1] if st else -1
+        st.append(num)
+    return [mpp[num] for num in nums1]
 

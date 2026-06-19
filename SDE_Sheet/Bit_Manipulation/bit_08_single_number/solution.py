@@ -11,13 +11,3 @@ def single_number_brute(nums: list[int]) -> int:
             return num
     return -1
 
-# Time Complexity: O(N) (Constraint)
-# Space Complexity: O(1) (Constraint)
-# Explanation: XOR all elements. Identical pairs cancel out (A ^ A = 0), leaving only the unique element (0 ^ B = B).
-
-def single_number_optimal(nums: list[int]) -> int:
-    xor_res = 0
-    for num in nums:
-        xor_res ^= num
-    return xor_res
-
