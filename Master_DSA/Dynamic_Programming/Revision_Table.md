@@ -72,7 +72,7 @@
     </tr>
     <tr>
       <td>7</td>
-      <td>Dp 06 Longest Increasing Subsequence<br><br></b> <a href='https://leetcode.com/problems/longest-increasing-subsequence/' target='_blank'>LeetCode 300</a></td>
+      <td>Dp 07 Longest Increasing Subsequence<br><br></b> <a href='https://leetcode.com/problems/longest-increasing-subsequence/' target='_blank'>LeetCode 300</a></td>
       <td><b>Example 1:</b> Input: nums = [10,9,2,5,3,7,101,18], Output: 4 (LIS is [2,3,7,101])</td>
       <td><b>Time:</b> O(N^2)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -81,7 +81,7 @@
     </tr>
     <tr>
       <td>8</td>
-      <td>Dp 07 Coin Change<br><br></b> <a href='https://leetcode.com/problems/coin-change/' target='_blank'>LeetCode 322</a></td>
+      <td>Dp 08 Coin Change<br><br></b> <a href='https://leetcode.com/problems/coin-change/' target='_blank'>LeetCode 322</a></td>
       <td><b>Example 1:</b> Input: coins = [1,2,5], amount = 11, Output: 3 (5+5+1)</td>
       <td><b>Time:</b> O(amount * N)<br><b>Space:</b> O(amount)</td>
       <td>-</td>
@@ -90,7 +90,7 @@
     </tr>
     <tr>
       <td>9</td>
-      <td>Dp 08 01 Knapsack<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1' target='_blank'>GFG</a></td>
+      <td>Dp 09 01 Knapsack<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Input: N=3, W=4, values[]={1,2,3}, weight[]={4,5,1}, Output: 3</td>
       <td><b>Time:</b> O(N * W)<br><b>Space:</b> O(W)</td>
       <td>-</td>
@@ -99,7 +99,7 @@
     </tr>
     <tr>
       <td>10</td>
-      <td>Dp 09 Longest Common Subsequence<br><br></b> <a href='https://leetcode.com/problems/longest-common-subsequence/' target='_blank'>LeetCode 1143</a></td>
+      <td>Dp 10 Longest Common Subsequence<br><br></b> <a href='https://leetcode.com/problems/longest-common-subsequence/' target='_blank'>LeetCode 1143</a></td>
       <td><b>Example 1:</b> Input: text1 = 'abcde', text2 = 'ace', Output: 3</td>
       <td><b>Time:</b> O(N * M)<br><b>Space:</b> O(N * M)</td>
       <td>-</td>
@@ -108,7 +108,7 @@
     </tr>
     <tr>
       <td>11</td>
-      <td>Dp 10 Edit Distance<br><br></b> <a href='https://leetcode.com/problems/edit-distance/' target='_blank'>LeetCode 72</a></td>
+      <td>Dp 11 Edit Distance<br><br></b> <a href='https://leetcode.com/problems/edit-distance/' target='_blank'>LeetCode 72</a></td>
       <td><b>Example 1:</b> Input: word1 = 'horse', word2 = 'ros', Output: 3</td>
       <td><b>Time:</b> O(N * M)<br><b>Space:</b> O(M)</td>
       <td>-</td>
@@ -117,7 +117,7 @@
     </tr>
     <tr>
       <td>12</td>
-      <td>Dp 11 Matrix Chain Multiplication<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1' target='_blank'>GFG</a></td>
+      <td>Dp 12 Matrix Chain Multiplication<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Input: N=5, arr=[40, 20, 30, 10, 30], Output: 26000</td>
       <td><b>Time:</b> O(N^3)<br><b>Space:</b> O(N^2)</td>
       <td><code>#include <vector></code></td>
@@ -126,7 +126,7 @@
     </tr>
     <tr>
       <td>13</td>
-      <td>Dp 12 Subset Sum Problem<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1' target='_blank'>GFG</a></td>
+      <td>Dp 13 Subset Sum Problem<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/subset-sum-problem-1611555638/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Input: set=[3,34,4,12,5,2], sum=9, Output: True</td>
       <td><b>Time:</b> O(N * Sum)<br><b>Space:</b> O(Sum) space optimized</td>
       <td>-</td>
@@ -135,7 +135,7 @@
     </tr>
     <tr>
       <td>14</td>
-      <td>Dp 13 Word Break<br><br></b> <a href='https://leetcode.com/problems/word-break/' target='_blank'>LeetCode 139</a></td>
+      <td>Dp 14 Word Break<br><br></b> <a href='https://leetcode.com/problems/word-break/' target='_blank'>LeetCode 139</a></td>
       <td><b>Example 1:</b> Input: s='leetcode', wordDict=['leet', 'code'], Output: true</td>
       <td><b>Time:</b> O(N^3)<br><b>Space:</b> O(N)</td>
       <td><code>#include <unordered_set></code></td>
@@ -144,7 +144,7 @@
     </tr>
     <tr>
       <td>15</td>
-      <td>Dp 14 Longest Common Subsequence<br><br></b> <a href='https://leetcode.com/problems/longest-common-subsequence/' target='_blank'>LeetCode 1143</a></td>
+      <td>Dp 15 Longest Common Subsequence<br><br></b> <a href='https://leetcode.com/problems/longest-common-subsequence/' target='_blank'>LeetCode 1143</a></td>
       <td><b>Example 1:</b> Input: text1 = 'abcde', text2 = 'ace', Output: 3</td>
       <td><b>Time:</b> O(N * M)<br><b>Space:</b> O(M)</td>
       <td>-</td>
@@ -153,7 +153,7 @@
     </tr>
     <tr>
       <td>16</td>
-      <td>Dp 15 Longest Increasing Subsequence<br><br></b> <a href='https://leetcode.com/problems/longest-increasing-subsequence/' target='_blank'>LeetCode 300</a></td>
+      <td>Dp 16 Longest Increasing Subsequence<br><br></b> <a href='https://leetcode.com/problems/longest-increasing-subsequence/' target='_blank'>LeetCode 300</a></td>
       <td><b>Example 1:</b> Input: nums = [10,9,2,5,3,7,101,18], Output: 4</td>
       <td><b>Time:</b> O(N log N)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -162,7 +162,7 @@
     </tr>
     <tr>
       <td>17</td>
-      <td>Dp 16 Edit Distance<br><br></b> <a href='https://leetcode.com/problems/edit-distance/' target='_blank'>LeetCode 72</a></td>
+      <td>Dp 17 Edit Distance<br><br></b> <a href='https://leetcode.com/problems/edit-distance/' target='_blank'>LeetCode 72</a></td>
       <td><b>Example 1:</b> Input: word1 = 'horse', word2 = 'ros', Output: 3</td>
       <td><b>Time:</b> O(N * M)<br><b>Space:</b> O(M)</td>
       <td>-</td>
@@ -171,7 +171,7 @@
     </tr>
     <tr>
       <td>18</td>
-      <td>Dp 17 Coin Change<br><br></b> <a href='https://leetcode.com/problems/coin-change/' target='_blank'>LeetCode 322</a></td>
+      <td>Dp 18 Coin Change<br><br></b> <a href='https://leetcode.com/problems/coin-change/' target='_blank'>LeetCode 322</a></td>
       <td><b>Example 1:</b> Input: coins = [1,2,5], amount = 11, Output: 3</td>
       <td><b>Time:</b> O(N * Amount)<br><b>Space:</b> O(Amount)</td>
       <td>-</td>
@@ -180,7 +180,7 @@
     </tr>
     <tr>
       <td>19</td>
-      <td>Dp 18 Minimum Path Sum<br><br></b> <a href='https://leetcode.com/problems/minimum-path-sum/' target='_blank'>LeetCode 64</a></td>
+      <td>Dp 19 Minimum Path Sum<br><br></b> <a href='https://leetcode.com/problems/minimum-path-sum/' target='_blank'>LeetCode 64</a></td>
       <td><b>Example 1:</b> Input: grid = [[1,3,1],[1,5,1],[4,2,1]], Output: 7</td>
       <td><b>Time:</b> O(N * M)<br><b>Space:</b> O(M)</td>
       <td>-</td>
@@ -189,7 +189,7 @@
     </tr>
     <tr>
       <td>20</td>
-      <td>Dp 19 Triangle<br><br></b> <a href='https://leetcode.com/problems/triangle/' target='_blank'>LeetCode 120</a></td>
+      <td>Dp 20 Triangle<br><br></b> <a href='https://leetcode.com/problems/triangle/' target='_blank'>LeetCode 120</a></td>
       <td><b>Example 1:</b> Output: 11</td>
       <td><b>Time:</b> O(N^2)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -198,7 +198,7 @@
     </tr>
     <tr>
       <td>21</td>
-      <td>Dp 20 Minimum Falling Path Sum<br><br></b> <a href='https://leetcode.com/problems/minimum-falling-path-sum/' target='_blank'>LeetCode 931</a></td>
+      <td>Dp 21 Minimum Falling Path Sum<br><br></b> <a href='https://leetcode.com/problems/minimum-falling-path-sum/' target='_blank'>LeetCode 931</a></td>
       <td><b>Example 1:</b> Output: 13</td>
       <td><b>Time:</b> O(N^2)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -207,7 +207,7 @@
     </tr>
     <tr>
       <td>22</td>
-      <td>Dp 21 Cherry Pickup Ii<br><br></b> <a href='https://leetcode.com/problems/cherry-pickup-ii/' target='_blank'>LeetCode 1463</a></td>
+      <td>Dp 22 Cherry Pickup Ii<br><br></b> <a href='https://leetcode.com/problems/cherry-pickup-ii/' target='_blank'>LeetCode 1463</a></td>
       <td><b>Example 1:</b> 3D DP.</td>
       <td><b>Time:</b> O(N * M * M * 9)<br><b>Space:</b> O(M * M)</td>
       <td>-</td>
@@ -216,7 +216,7 @@
     </tr>
     <tr>
       <td>23</td>
-      <td>Dp 22 Partition Equal Subset Sum<br><br></b> <a href='https://leetcode.com/problems/partition-equal-subset-sum/' target='_blank'>LeetCode 416</a></td>
+      <td>Dp 23 Partition Equal Subset Sum<br><br></b> <a href='https://leetcode.com/problems/partition-equal-subset-sum/' target='_blank'>LeetCode 416</a></td>
       <td><b>Example 1:</b> Output: True.</td>
       <td><b>Time:</b> O(N * Target)<br><b>Space:</b> O(Target)</td>
       <td>-</td>
@@ -225,7 +225,7 @@
     </tr>
     <tr>
       <td>24</td>
-      <td>Dp 23 Target Sum<br><br></b> <a href='https://leetcode.com/problems/target-sum/' target='_blank'>LeetCode 494</a></td>
+      <td>Dp 24 Target Sum<br><br></b> <a href='https://leetcode.com/problems/target-sum/' target='_blank'>LeetCode 494</a></td>
       <td><b>Example 1:</b> Count Subsets with Diff = target.</td>
       <td><b>Time:</b> O(N * Target)<br><b>Space:</b> O(Target)</td>
       <td>-</td>
@@ -234,7 +234,7 @@
     </tr>
     <tr>
       <td>25</td>
-      <td>Dp 24 Burst Balloons<br><br></b> <a href='https://leetcode.com/problems/burst-balloons/' target='_blank'>LeetCode 312</a></td>
+      <td>Dp 25 Burst Balloons<br><br></b> <a href='https://leetcode.com/problems/burst-balloons/' target='_blank'>LeetCode 312</a></td>
       <td><b>Example 1:</b> Input: nums = [3,1,5,8], Output: 167</td>
       <td><b>Time:</b> O(N^3)<br><b>Space:</b> O(N^2)</td>
       <td>-</td>
@@ -243,7 +243,7 @@
     </tr>
     <tr>
       <td>26</td>
-      <td>Dp 25 Palindrome Partitioning Ii<br><br></b> <a href='https://leetcode.com/problems/palindrome-partitioning-ii/' target='_blank'>LeetCode 132</a></td>
+      <td>Dp 26 Palindrome Partitioning Ii<br><br></b> <a href='https://leetcode.com/problems/palindrome-partitioning-ii/' target='_blank'>LeetCode 132</a></td>
       <td><b>Example 1:</b> Input: s = 'aab', Output: 1</td>
       <td><b>Time:</b> O(N^2)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -252,7 +252,7 @@
     </tr>
     <tr>
       <td>27</td>
-      <td>Dp 26 Evaluate Boolean Expression To True<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/boolean-parenthesization5610/1' target='_blank'>GFG</a></td>
+      <td>Dp 27 Evaluate Boolean Expression To True<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/boolean-parenthesization5610/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> MCM DP pattern.</td>
       <td><b>Time:</b> O(N^3)<br><b>Space:</b> O(N^2)</td>
       <td>-</td>
@@ -261,7 +261,7 @@
     </tr>
     <tr>
       <td>28</td>
-      <td>Dp 27 Maximum Rectangle Area With All 1S<br><br></b> <a href='https://leetcode.com/problems/maximal-rectangle/' target='_blank'>LeetCode 85</a></td>
+      <td>Dp 28 Maximum Rectangle Area With All 1S<br><br></b> <a href='https://leetcode.com/problems/maximal-rectangle/' target='_blank'>LeetCode 85</a></td>
       <td><b>Example 1:</b> Calculate largest area.</td>
       <td><b>Time:</b> O(N * M)<br><b>Space:</b> O(M)</td>
       <td><code>#include <stack></code></td>
@@ -270,7 +270,7 @@
     </tr>
     <tr>
       <td>29</td>
-      <td>Dp 28 Count Square Submatrices With All Ones<br><br></b> <a href='https://leetcode.com/problems/count-square-submatrices-with-all-ones/' target='_blank'>LeetCode 1277</a></td>
+      <td>Dp 29 Count Square Submatrices With All Ones<br><br></b> <a href='https://leetcode.com/problems/count-square-submatrices-with-all-ones/' target='_blank'>LeetCode 1277</a></td>
       <td><b>Example 1:</b> Return total count.</td>
       <td><b>Time:</b> O(N * M)<br><b>Space:</b> O(N * M)</td>
       <td>-</td>
@@ -279,7 +279,7 @@
     </tr>
     <tr>
       <td>30</td>
-      <td>Dp 29 Word Break Dp<br><br></b> <a href='https://leetcode.com/problems/word-break/' target='_blank'>LeetCode 139</a></td>
+      <td>Dp 30 Word Break Dp<br><br></b> <a href='https://leetcode.com/problems/word-break/' target='_blank'>LeetCode 139</a></td>
       <td><b>Example 1:</b> `s = "leetcode"`. Output: `true`.</td>
       <td><b>Time:</b> O(N^2 * max_word_length)<br><b>Space:</b> O(N)</td>
       <td><code>#include <unordered_set></code></td>
@@ -288,7 +288,7 @@
     </tr>
     <tr>
       <td>31</td>
-      <td>Dp 30 Matrix Chain Multiplication<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1' target='_blank'>GFG</a></td>
+      <td>Dp 31 Matrix Chain Multiplication<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Minimize scalar multiplications.</td>
       <td><b>Time:</b> O(N^3)<br><b>Space:</b> O(N^2)</td>
       <td>-</td>
@@ -297,7 +297,7 @@
     </tr>
     <tr>
       <td>32</td>
-      <td>Dp 31 Minimum Cost To Cut A Stick<br><br></b> <a href='https://leetcode.com/problems/minimum-cost-to-cut-a-stick/' target='_blank'>LeetCode 1547</a></td>
+      <td>Dp 32 Minimum Cost To Cut A Stick<br><br></b> <a href='https://leetcode.com/problems/minimum-cost-to-cut-a-stick/' target='_blank'>LeetCode 1547</a></td>
       <td><b>Example 1:</b> Cost depends on current stick length.</td>
       <td><b>Time:</b> O(C^3) where C is number of cuts<br><b>Space:</b> O(C^2)</td>
       <td>-</td>
@@ -306,7 +306,7 @@
     </tr>
     <tr>
       <td>33</td>
-      <td>Dp 32 Partition Array For Maximum Sum<br><br></b> <a href='https://leetcode.com/problems/partition-array-for-maximum-sum/' target='_blank'>LeetCode 1043</a></td>
+      <td>Dp 33 Partition Array For Maximum Sum<br><br></b> <a href='https://leetcode.com/problems/partition-array-for-maximum-sum/' target='_blank'>LeetCode 1043</a></td>
       <td><b>Example 1:</b> Front partitioning DP.</td>
       <td><b>Time:</b> O(N * K)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -315,7 +315,7 @@
     </tr>
     <tr>
       <td>34</td>
-      <td>Dp 33 Distinct Subsequences<br><br></b> <a href='https://leetcode.com/problems/distinct-subsequences/' target='_blank'>LeetCode 115</a></td>
+      <td>Dp 34 Distinct Subsequences<br><br></b> <a href='https://leetcode.com/problems/distinct-subsequences/' target='_blank'>LeetCode 115</a></td>
       <td><b>Example 1:</b> Subsequence match count.</td>
       <td><b>Time:</b> O(N * M)<br><b>Space:</b> O(M)</td>
       <td>-</td>
@@ -324,7 +324,7 @@
     </tr>
     <tr>
       <td>35</td>
-      <td>Dp 34 Wildcard Matching<br><br></b> <a href='https://leetcode.com/problems/wildcard-matching/' target='_blank'>LeetCode 44</a></td>
+      <td>Dp 35 Wildcard Matching<br><br></b> <a href='https://leetcode.com/problems/wildcard-matching/' target='_blank'>LeetCode 44</a></td>
       <td><b>Example 1:</b> 2D DP.</td>
       <td><b>Time:</b> O(N * M)<br><b>Space:</b> O(N * M) or O(M)</td>
       <td>-</td>
@@ -333,7 +333,7 @@
     </tr>
     <tr>
       <td>36</td>
-      <td>Dp 35 Best Time To Buy And Sell Stock Ii<br><br></b> <a href='https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/' target='_blank'>LeetCode 122</a></td>
+      <td>Dp 36 Best Time To Buy And Sell Stock Ii<br><br></b> <a href='https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/' target='_blank'>LeetCode 122</a></td>
       <td><b>Example 1:</b> Valley Peak approach.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -342,7 +342,7 @@
     </tr>
     <tr>
       <td>37</td>
-      <td>Dp 36 Best Time To Buy And Sell Stock Iii<br><br></b> <a href='https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/' target='_blank'>LeetCode 123</a></td>
+      <td>Dp 37 Best Time To Buy And Sell Stock Iii<br><br></b> <a href='https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/' target='_blank'>LeetCode 123</a></td>
       <td><b>Example 1:</b> 3D DP / State Machine.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -351,7 +351,7 @@
     </tr>
     <tr>
       <td>38</td>
-      <td>Dp 37 Best Time To Buy And Sell Stock Iv<br><br></b> <a href='https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/' target='_blank'>LeetCode 188</a></td>
+      <td>Dp 38 Best Time To Buy And Sell Stock Iv<br><br></b> <a href='https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/' target='_blank'>LeetCode 188</a></td>
       <td><b>Example 1:</b> DP with transactions.</td>
       <td><b>Time:</b> O(N * K)<br><b>Space:</b> O(N * K) or O(K)</td>
       <td>-</td>
@@ -360,7 +360,7 @@
     </tr>
     <tr>
       <td>39</td>
-      <td>Dp 38 Best Time To Buy And Sell Stock With Cooldown<br><br></b> <a href='https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/' target='_blank'>LeetCode 309</a></td>
+      <td>Dp 39 Best Time To Buy And Sell Stock With Cooldown<br><br></b> <a href='https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/' target='_blank'>LeetCode 309</a></td>
       <td><b>Example 1:</b> State Machine DP.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -369,7 +369,7 @@
     </tr>
     <tr>
       <td>40</td>
-      <td>Dp 39 Best Time To Buy And Sell Stock With Transaction Fee<br><br></b> <a href='https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/' target='_blank'>LeetCode 714</a></td>
+      <td>Dp 40 Best Time To Buy And Sell Stock With Transaction Fee<br><br></b> <a href='https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/' target='_blank'>LeetCode 714</a></td>
       <td><b>Example 1:</b> DP State Machine.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -378,7 +378,7 @@
     </tr>
     <tr>
       <td>41</td>
-      <td>Dp 40 Longest Increasing Subsequence<br><br></b> <a href='https://leetcode.com/problems/longest-increasing-subsequence/' target='_blank'>LeetCode 300</a></td>
+      <td>Dp 41 Longest Increasing Subsequence<br><br></b> <a href='https://leetcode.com/problems/longest-increasing-subsequence/' target='_blank'>LeetCode 300</a></td>
       <td><b>Example 1:</b> Binary Search with tails array.</td>
       <td><b>Time:</b> O(N log N)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -387,7 +387,7 @@
     </tr>
     <tr>
       <td>42</td>
-      <td>Dp 41 Largest Divisible Subset<br><br></b> <a href='https://leetcode.com/problems/largest-divisible-subset/' target='_blank'>LeetCode 368</a></td>
+      <td>Dp 42 Largest Divisible Subset<br><br></b> <a href='https://leetcode.com/problems/largest-divisible-subset/' target='_blank'>LeetCode 368</a></td>
       <td><b>Example 1:</b> Sort and LIS variant.</td>
       <td><b>Time:</b> O(N^2)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -396,7 +396,7 @@
     </tr>
     <tr>
       <td>43</td>
-      <td>Dp 42 Longest String Chain<br><br></b> <a href='https://leetcode.com/problems/longest-string-chain/' target='_blank'>LeetCode 1048</a></td>
+      <td>Dp 43 Longest String Chain<br><br></b> <a href='https://leetcode.com/problems/longest-string-chain/' target='_blank'>LeetCode 1048</a></td>
       <td><b>Example 1:</b> Sort by length and use hash map.</td>
       <td><b>Time:</b> O(N log N + N * L^2) where L is max word length<br><b>Space:</b> O(N * L)</td>
       <td><code>#include <unordered_map></code></td>
@@ -405,7 +405,7 @@
     </tr>
     <tr>
       <td>44</td>
-      <td>Dp 43 Longest Bitonic Subsequence<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/longest-bitonic-subsequence0824/1' target='_blank'>GFG</a></td>
+      <td>Dp 44 Longest Bitonic Subsequence<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/longest-bitonic-subsequence0824/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> LIS from left + LIS from right.</td>
       <td><b>Time:</b> O(N^2)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -414,7 +414,7 @@
     </tr>
     <tr>
       <td>45</td>
-      <td>Dp 44 Number Of Longest Increasing Subsequence<br><br></b> <a href='https://leetcode.com/problems/number-of-longest-increasing-subsequence/' target='_blank'>LeetCode 673</a></td>
+      <td>Dp 45 Number Of Longest Increasing Subsequence<br><br></b> <a href='https://leetcode.com/problems/number-of-longest-increasing-subsequence/' target='_blank'>LeetCode 673</a></td>
       <td><b>Example 1:</b> Two DP arrays (Length and Count).</td>
       <td><b>Time:</b> O(N^2)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -423,7 +423,7 @@
     </tr>
     <tr>
       <td>46</td>
-      <td>Dp 45 Matrix Chain Multiplication<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1' target='_blank'>GFG</a></td>
+      <td>Dp 46 Matrix Chain Multiplication<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/matrix-chain-multiplication0303/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Interval DP.</td>
       <td><b>Time:</b> O(N^3)<br><b>Space:</b> O(N^2)</td>
       <td>-</td>
@@ -432,7 +432,7 @@
     </tr>
     <tr>
       <td>47</td>
-      <td>Dp 46 Minimum Cost To Cut A Stick<br><br></b> <a href='https://leetcode.com/problems/minimum-cost-to-cut-a-stick/' target='_blank'>LeetCode 1547</a></td>
+      <td>Dp 47 Minimum Cost To Cut A Stick<br><br></b> <a href='https://leetcode.com/problems/minimum-cost-to-cut-a-stick/' target='_blank'>LeetCode 1547</a></td>
       <td><b>Example 1:</b> Interval DP like Matrix Chain Multiplication.</td>
       <td><b>Time:</b> O(C^3) where C is number of cuts<br><b>Space:</b> O(C^2)</td>
       <td>-</td>
@@ -441,7 +441,7 @@
     </tr>
     <tr>
       <td>48</td>
-      <td>Dp 47 Burst Balloons<br><br></b> <a href='https://leetcode.com/problems/burst-balloons/' target='_blank'>LeetCode 312</a></td>
+      <td>Dp 48 Burst Balloons<br><br></b> <a href='https://leetcode.com/problems/burst-balloons/' target='_blank'>LeetCode 312</a></td>
       <td><b>Example 1:</b> Interval DP (Thinking backwards).</td>
       <td><b>Time:</b> O(N^3)<br><b>Space:</b> O(N^2)</td>
       <td>-</td>
@@ -450,7 +450,7 @@
     </tr>
     <tr>
       <td>49</td>
-      <td>Dp 48 Evaluate Boolean Expression To True<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/boolean-parenthesization5610/1' target='_blank'>GFG</a></td>
+      <td>Dp 49 Evaluate Boolean Expression To True<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/boolean-parenthesization5610/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> 3D Interval DP.</td>
       <td><b>Time:</b> O(N^3)<br><b>Space:</b> O(N^2 * 2)</td>
       <td>-</td>
@@ -459,7 +459,7 @@
     </tr>
     <tr>
       <td>50</td>
-      <td>Dp 49 Palindrome Partitioning Ii<br><br></b> <a href='https://leetcode.com/problems/palindrome-partitioning-ii/' target='_blank'>LeetCode 132</a></td>
+      <td>Dp 50 Palindrome Partitioning Ii<br><br></b> <a href='https://leetcode.com/problems/palindrome-partitioning-ii/' target='_blank'>LeetCode 132</a></td>
       <td><b>Example 1:</b> 1D DP using Precomputed Palindrome Table.</td>
       <td><b>Time:</b> O(N^2)<br><b>Space:</b> O(N^2)</td>
       <td>-</td>
@@ -468,7 +468,7 @@
     </tr>
     <tr>
       <td>51</td>
-      <td>Dp 50 Partition Array For Maximum Sum<br><br></b> <a href='https://leetcode.com/problems/partition-array-for-maximum-sum/' target='_blank'>LeetCode 1043</a></td>
+      <td>Dp 51 Partition Array For Maximum Sum<br><br></b> <a href='https://leetcode.com/problems/partition-array-for-maximum-sum/' target='_blank'>LeetCode 1043</a></td>
       <td><b>Example 1:</b> 1D DP.</td>
       <td><b>Time:</b> O(N * K)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -477,7 +477,7 @@
     </tr>
     <tr>
       <td>52</td>
-      <td>Dp 51 Maximal Rectangle<br><br></b> <a href='https://leetcode.com/problems/maximal-rectangle/' target='_blank'>LeetCode 85</a></td>
+      <td>Dp 52 Maximal Rectangle<br><br></b> <a href='https://leetcode.com/problems/maximal-rectangle/' target='_blank'>LeetCode 85</a></td>
       <td><b>Example 1:</b> DP to convert to Largest Rectangle in Histogram.</td>
       <td><b>Time:</b> O(R * C)<br><b>Space:</b> O(C)</td>
       <td><code>#include <stack></code></td>
@@ -486,7 +486,7 @@
     </tr>
     <tr>
       <td>53</td>
-      <td>Dp 52 Count Square Submatrices With All Ones<br><br></b> <a href='https://leetcode.com/problems/count-square-submatrices-with-all-ones/' target='_blank'>LeetCode 1277</a></td>
+      <td>Dp 53 Count Square Submatrices With All Ones<br><br></b> <a href='https://leetcode.com/problems/count-square-submatrices-with-all-ones/' target='_blank'>LeetCode 1277</a></td>
       <td><b>Example 1:</b> 2D DP.</td>
       <td><b>Time:</b> O(R * C)<br><b>Space:</b> O(R * C) or O(C) optimized</td>
       <td>-</td>
@@ -495,7 +495,7 @@
     </tr>
     <tr>
       <td>54</td>
-      <td>Dp 53 Word Break<br><br></b> <a href='https://leetcode.com/problems/word-break/' target='_blank'>LeetCode 139</a></td>
+      <td>Dp 54 Word Break<br><br></b> <a href='https://leetcode.com/problems/word-break/' target='_blank'>LeetCode 139</a></td>
       <td><b>Example 1:</b> 1D DP.</td>
       <td><b>Time:</b> O(N * M * L) or O(N^2)<br><b>Space:</b> O(N)</td>
       <td><code>#include <unordered_set></code></td>
@@ -504,7 +504,7 @@
     </tr>
     <tr>
       <td>55</td>
-      <td>Dp 54 Count Palindromic Subsequences<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/count-palindromic-subsequences/1' target='_blank'>GFG</a></td>
+      <td>Dp 55 Count Palindromic Subsequences<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/count-palindromic-subsequences/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> 2D Interval DP.</td>
       <td><b>Time:</b> O(N^2)<br><b>Space:</b> O(N^2)</td>
       <td>-</td>
@@ -513,7 +513,7 @@
     </tr>
     <tr>
       <td>56</td>
-      <td>Dp 55 Longest Alternating Subsequence<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/longest-alternating-subsequence5951/1' target='_blank'>GFG</a></td>
+      <td>Dp 56 Longest Alternating Subsequence<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/longest-alternating-subsequence5951/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Two state DP.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -522,7 +522,7 @@
     </tr>
     <tr>
       <td>57</td>
-      <td>Dp 56 Largest Square Formed In A Matrix<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/largest-square-formed-in-a-matrix0806/1' target='_blank'>GFG</a></td>
+      <td>Dp 57 Largest Square Formed In A Matrix<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/largest-square-formed-in-a-matrix0806/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Bottom-up DP.</td>
       <td><b>Time:</b> O(N * M)<br><b>Space:</b> O(N * M) or O(M)</td>
       <td>-</td>
@@ -531,7 +531,7 @@
     </tr>
     <tr>
       <td>58</td>
-      <td>Dp 57 Pairs With Specific Difference<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/pairs-with-specific-difference1533/1' target='_blank'>GFG</a></td>
+      <td>Dp 58 Pairs With Specific Difference<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/pairs-with-specific-difference1533/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Sort and DP or Greedy.</td>
       <td><b>Time:</b> O(N log N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -540,7 +540,7 @@
     </tr>
     <tr>
       <td>59</td>
-      <td>Dp 58 Maximum Path Sum In Matrix<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/path-in-matrix3805/1' target='_blank'>GFG</a></td>
+      <td>Dp 59 Maximum Path Sum In Matrix<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/path-in-matrix3805/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> 2D DP.</td>
       <td><b>Time:</b> O(N^2)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -549,7 +549,7 @@
     </tr>
     <tr>
       <td>60</td>
-      <td>Dp 59 Maximum Difference Of Zeros And Ones In Binary String<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/maximum-difference-of-zeros-and-ones-in-binary-string4111/1' target='_blank'>GFG</a></td>
+      <td>Dp 60 Maximum Difference Of Zeros And Ones In Binary String<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/maximum-difference-of-zeros-and-ones-in-binary-string4111/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Kadane's Algorithm.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -558,7 +558,7 @@
     </tr>
     <tr>
       <td>61</td>
-      <td>Dp 60 Minimum Number Of Jumps<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1' target='_blank'>GFG</a></td>
+      <td>Dp 61 Minimum Number Of Jumps<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Greedy tracking bounds.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -567,7 +567,7 @@
     </tr>
     <tr>
       <td>62</td>
-      <td>Dp 61 Minimum Removals From Array To Make Max Min K<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-removals3851/1' target='_blank'>GFG</a></td>
+      <td>Dp 62 Minimum Removals From Array To Make Max Min K<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-removals3851/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> DP after sorting.</td>
       <td><b>Time:</b> O(N log N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -576,7 +576,7 @@
     </tr>
     <tr>
       <td>63</td>
-      <td>Dp 62 Longest Common Substring<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/longest-common-substring1452/1' target='_blank'>GFG</a></td>
+      <td>Dp 63 Longest Common Substring<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/longest-common-substring1452/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> 2D DP.</td>
       <td><b>Time:</b> O(N * M)<br><b>Space:</b> O(M)</td>
       <td>-</td>
@@ -585,7 +585,7 @@
     </tr>
     <tr>
       <td>64</td>
-      <td>Dp 63 Reach A Given Score<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/reach-a-given-score-1587115621/1' target='_blank'>GFG</a></td>
+      <td>Dp 64 Reach A Given Score<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/reach-a-given-score-1587115621/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Unbounded Knapsack.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -594,7 +594,7 @@
     </tr>
     <tr>
       <td>65</td>
-      <td>Dp 14 Coin Change Minimum Coins<br><br></b> <a href='https://leetcode.com/problems/coin-change/' target='_blank'>LeetCode 322</a></td>
+      <td>Dp 65 Coin Change Minimum Coins<br><br></b> <a href='https://leetcode.com/problems/coin-change/' target='_blank'>LeetCode 322</a></td>
       <td><b>Example 1:</b> 1D Tabulation.</td>
       <td><b>Time:</b> O(amount * N)<br><b>Space:</b> O(amount)</td>
       <td>-</td>
@@ -603,7 +603,7 @@
     </tr>
     <tr>
       <td>66</td>
-      <td>Dp 15 Coin Change Maximum Ways<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/coin-change2448/1' target='_blank'>GFG</a></td>
+      <td>Dp 66 Coin Change Maximum Ways<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/coin-change2448/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> 1D Tabulation.</td>
       <td><b>Time:</b> O(M * N)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -612,7 +612,7 @@
     </tr>
     <tr>
       <td>67</td>
-      <td>Dp 16 Longest Common Subsequence<br><br></b> <a href='https://leetcode.com/problems/longest-common-subsequence/' target='_blank'>LeetCode 1143</a></td>
+      <td>Dp 67 Longest Common Subsequence<br><br></b> <a href='https://leetcode.com/problems/longest-common-subsequence/' target='_blank'>LeetCode 1143</a></td>
       <td><b>Example 1:</b> 2D Tabulation.</td>
       <td><b>Time:</b> O(N * M)<br><b>Space:</b> O(N * M)</td>
       <td>-</td>
@@ -621,7 +621,7 @@
     </tr>
     <tr>
       <td>68</td>
-      <td>Dp 17 Edit Distance<br><br></b> <a href='https://leetcode.com/problems/edit-distance/' target='_blank'>LeetCode 72</a></td>
+      <td>Dp 68 Edit Distance<br><br></b> <a href='https://leetcode.com/problems/edit-distance/' target='_blank'>LeetCode 72</a></td>
       <td><b>Example 1:</b> 2D Tabulation.</td>
       <td><b>Time:</b> O(N * M)<br><b>Space:</b> O(N * M)</td>
       <td>-</td>
@@ -630,7 +630,7 @@
     </tr>
     <tr>
       <td>69</td>
-      <td>Dp 18 Longest Increasing Subsequence<br><br></b> <a href='https://leetcode.com/problems/longest-increasing-subsequence/' target='_blank'>LeetCode 300</a></td>
+      <td>Dp 69 Longest Increasing Subsequence<br><br></b> <a href='https://leetcode.com/problems/longest-increasing-subsequence/' target='_blank'>LeetCode 300</a></td>
       <td><b>Example 1:</b> O(N^2) Tabulation.</td>
       <td><b>Time:</b> O(N^2)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -639,7 +639,7 @@
     </tr>
     <tr>
       <td>70</td>
-      <td>Dp 19 0 1 Knapsack Problem<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1' target='_blank'>GFG</a></td>
+      <td>Dp 70 0 1 Knapsack Problem<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/0-1-knapsack-problem0945/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> 1D Space Optimized DP.</td>
       <td><b>Time:</b> O(N * W)<br><b>Space:</b> O(W)</td>
       <td>-</td>
@@ -648,7 +648,7 @@
     </tr>
     <tr>
       <td>71</td>
-      <td>Dp 20 Maximum Product Subarray<br><br></b> <a href='https://leetcode.com/problems/maximum-product-subarray/' target='_blank'>LeetCode 152</a></td>
+      <td>Dp 71 Maximum Product Subarray<br><br></b> <a href='https://leetcode.com/problems/maximum-product-subarray/' target='_blank'>LeetCode 152</a></td>
       <td><b>Example 1:</b> Keep track of max and min.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -657,7 +657,7 @@
     </tr>
     <tr>
       <td>72</td>
-      <td>Dp 21 Palindromic Partitioning<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/palindromic-patitioning4845/1' target='_blank'>GFG</a></td>
+      <td>Dp 72 Palindromic Partitioning<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/palindromic-patitioning4845/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> 1D DP.</td>
       <td><b>Time:</b> O(N^2)<br><b>Space:</b> O(N^2)</td>
       <td>-</td>
@@ -666,7 +666,7 @@
     </tr>
     <tr>
       <td>73</td>
-      <td>Dp 22 Partition Equal Subset Sum V2<br><br></b> <a href='https://leetcode.com/problems/partition-equal-subset-sum/' target='_blank'>LeetCode 416</a></td>
+      <td>Dp 73 Partition Equal Subset Sum V2<br><br></b> <a href='https://leetcode.com/problems/partition-equal-subset-sum/' target='_blank'>LeetCode 416</a></td>
       <td><b>Example 1:</b> Target sum = Total / 2.</td>
       <td><b>Time:</b> O(N * Target)<br><b>Space:</b> O(Target)</td>
       <td>-</td>
@@ -675,7 +675,7 @@
     </tr>
     <tr>
       <td>74</td>
-      <td>Dp 23 Minimum Number Of Jumps<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1' target='_blank'>GFG</a></td>
+      <td>Dp 74 Minimum Number Of Jumps<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Greedy (often grouped in DP).</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -684,7 +684,7 @@
     </tr>
     <tr>
       <td>75</td>
-      <td>Dp 24 Maximum Sum Increasing Subsequence<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/maximum-sum-increasing-subsequence4749/1' target='_blank'>GFG</a></td>
+      <td>Dp 75 Maximum Sum Increasing Subsequence<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/maximum-sum-increasing-subsequence4749/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> DP (LIS variant).</td>
       <td><b>Time:</b> O(N^2)<br><b>Space:</b> O(N)</td>
       <td>DP</td>
@@ -693,7 +693,7 @@
     </tr>
     <tr>
       <td>76</td>
-      <td>Dp 25 Count All Subsequences Having Product Less Than K<br><br></b> <a href='https://www.geeksforgeeks.org/count-subsequences-product-less-k/' target='_blank'>GFG</a></td>
+      <td>Dp 76 Count All Subsequences Having Product Less Than K<br><br></b> <a href='https://www.geeksforgeeks.org/count-subsequences-product-less-k/' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> DP.</td>
       <td><b>Time:</b> O(N * K)<br><b>Space:</b> O(N * K)</td>
       <td>DP</td>
@@ -702,7 +702,7 @@
     </tr>
     <tr>
       <td>77</td>
-      <td>Dp 26 Longest Subsequence Such That Difference Between Adjacents Is One<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/longest-subsequence-such-that-difference-between-adjacents-is-one4724/1' target='_blank'>GFG</a></td>
+      <td>Dp 77 Longest Subsequence Such That Difference Between Adjacents Is One<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/longest-subsequence-such-that-difference-between-adjacents-is-one4724/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> DP (LIS variant).</td>
       <td><b>Time:</b> O(N^2)<br><b>Space:</b> O(N)</td>
       <td>DP</td>
@@ -711,7 +711,7 @@
     </tr>
     <tr>
       <td>78</td>
-      <td>Dp 27 Maximum Subsequence Sum Such That No Three Are Consecutive<br><br></b> <a href='https://www.geeksforgeeks.org/maximum-subsequence-sum-such-that-no-three-are-consecutive/' target='_blank'>GFG</a></td>
+      <td>Dp 78 Maximum Subsequence Sum Such That No Three Are Consecutive<br><br></b> <a href='https://www.geeksforgeeks.org/maximum-subsequence-sum-such-that-no-three-are-consecutive/' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> DP.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
       <td>DP</td>
@@ -720,7 +720,7 @@
     </tr>
     <tr>
       <td>79</td>
-      <td>Dp 28 Egg Dropping Puzzle<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/egg-dropping-puzzle-1587115620/1' target='_blank'>GFG</a></td>
+      <td>Dp 79 Egg Dropping Puzzle<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/egg-dropping-puzzle-1587115620/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> DP + Binary Search / Math.</td>
       <td><b>Time:</b> O(N * K log K)<br><b>Space:</b> O(N * K)</td>
       <td>DP</td>
@@ -729,7 +729,7 @@
     </tr>
     <tr>
       <td>80</td>
-      <td>Dp 29 Maximum Length Chain Of Pairs<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/max-length-chain/1' target='_blank'>GFG</a></td>
+      <td>Dp 80 Maximum Length Chain Of Pairs<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/max-length-chain/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Sort and Greedy / DP.</td>
       <td><b>Time:</b> O(N log N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -738,7 +738,7 @@
     </tr>
     <tr>
       <td>81</td>
-      <td>Dp 30 Maximum Size Square Sub Matrix With All 1S<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/largest-square-formed-in-a-matrix0806/1' target='_blank'>GFG</a></td>
+      <td>Dp 81 Maximum Size Square Sub Matrix With All 1S<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/largest-square-formed-in-a-matrix0806/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> DP.</td>
       <td><b>Time:</b> O(N * M)<br><b>Space:</b> O(M)</td>
       <td>DP</td>
@@ -747,7 +747,7 @@
     </tr>
     <tr>
       <td>82</td>
-      <td>Dp 31 Maximum Profit By Buying And Selling A Share At Most Twice<br><br></b> <a href='https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/' target='_blank'>LeetCode 123</a></td>
+      <td>Dp 82 Maximum Profit By Buying And Selling A Share At Most Twice<br><br></b> <a href='https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/' target='_blank'>LeetCode 123</a></td>
       <td><b>Example 1:</b> 4 states DP.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>DP</td>
@@ -756,7 +756,7 @@
     </tr>
     <tr>
       <td>83</td>
-      <td>Dp 32 Optimal Strategy For A Game<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/optimal-strategy-for-a-game-1587115620/1' target='_blank'>GFG</a></td>
+      <td>Dp 83 Optimal Strategy For A Game<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/optimal-strategy-for-a-game-1587115620/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> DP.</td>
       <td><b>Time:</b> O(N^2)<br><b>Space:</b> O(N^2)</td>
       <td>DP</td>
@@ -765,12 +765,102 @@
     </tr>
     <tr>
       <td>84</td>
-      <td>Dp 33 Boolean Parenthesization Problem<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/boolean-parenthesization5610/1' target='_blank'>GFG</a></td>
+      <td>Dp 84 Boolean Parenthesization Problem<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/boolean-parenthesization5610/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> MCM DP variant.</td>
       <td><b>Time:</b> O(N^3)<br><b>Space:</b> O(N^2)</td>
       <td>DP</td>
       <td>-</td>
       <td><b>Explanation:</b> Use a 3D DP array `dp[i][j][isTrue]` representing the number of ways to evaluate the substring from `i` to `j` to `isTrue`. Iterate over all possible split points `k` with an operator. Combine the True and False counts from left and right halves based on the operator.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">int countWays(int N, string S) {&#10;    vector&lt;vector&lt;vector&lt;int&gt;&gt;&gt; dp(N, vector&lt;vector&lt;int&gt;&gt;(N, vector&lt;int&gt;(2, 0)));&#10;    for(int i = 0; i &lt; N; i += 2) {&#10;        dp[i][i][1] = (S[i] == &#x27;T&#x27;);&#10;        dp[i][i][0] = (S[i] == &#x27;F&#x27;);&#10;    }&#10;    for(int len = 3; len &lt;= N; len += 2) {&#10;        for(int i = 0; i &lt;= N - len; i += 2) {&#10;            int j = i + len - 1;&#10;            for(int k = i + 1; k &lt; j; k += 2) {&#10;                int lt = dp[i][k-1][1], lf = dp[i][k-1][0];&#10;                int rt = dp[k+1][j][1], rf = dp[k+1][j][0];&#10;                if(S[k] == &#x27;&amp;&#x27;) {&#10;                    dp[i][j][1] = (dp[i][j][1] + (lt * rt) % 1003) % 1003;&#10;                    dp[i][j][0] = (dp[i][j][0] + (lt * rf) % 1003 + (lf * rt) % 1003 + (lf * rf) % 1003) % 1003;&#10;                } else if(S[k] == &#x27;|&#x27;) {&#10;                    dp[i][j][1] = (dp[i][j][1] + (lt * rt) % 1003 + (lt * rf) % 1003 + (lf * rt) % 1003) % 1003;&#10;                    dp[i][j][0] = (dp[i][j][0] + (lf * rf) % 1003) % 1003;&#10;                } else if(S[k] == &#x27;^&#x27;) {&#10;                    dp[i][j][1] = (dp[i][j][1] + (lt * rf) % 1003 + (lf * rt) % 1003) % 1003;&#10;                    dp[i][j][0] = (dp[i][j][0] + (lt * rt) % 1003 + (lf * rf) % 1003) % 1003;&#10;                }&#10;            }&#10;        }&#10;    }&#10;    return dp[0][N-1][1];&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def countWays(N, S):&#10;    dp = [[[0] * 2 for _ in range(N)] for _ in range(N)]&#10;    for i in range(0, N, 2):&#10;        dp[i][i][1] = 1 if S[i] == &#x27;T&#x27; else 0&#10;        dp[i][i][0] = 1 if S[i] == &#x27;F&#x27; else 0&#10;    for length in range(3, N + 1, 2):&#10;        for i in range(0, N - length + 1, 2):&#10;            j = i + length - 1&#10;            for k in range(i + 1, j, 2):&#10;                lt, lf = dp[i][k-1][1], dp[i][k-1][0]&#10;                rt, rf = dp[k+1][j][1], dp[k+1][j][0]&#10;                if S[k] == &#x27;&amp;&#x27;:&#10;                    dp[i][j][1] = (dp[i][j][1] + lt * rt) % 1003&#10;                    dp[i][j][0] = (dp[i][j][0] + lt * rf + lf * rt + lf * rf) % 1003&#10;                elif S[k] == &#x27;|&#x27;:&#10;                    dp[i][j][1] = (dp[i][j][1] + lt * rt + lt * rf + lf * rt) % 1003&#10;                    dp[i][j][0] = (dp[i][j][0] + lf * rf) % 1003&#10;                elif S[k] == &#x27;^&#x27;:&#10;                    dp[i][j][1] = (dp[i][j][1] + lt * rf + lf * rt) % 1003&#10;                    dp[i][j][0] = (dp[i][j][0] + lt * rt + lf * rf) % 1003&#10;    return dp[0][N-1][1]</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>85</td>
+      <td>Dp 85 Longest Increasing Subsequence<br><br></b> <a href='https://leetcode.com/problems/longest-increasing-subsequence/' target='_blank'>LeetCode 300</a></td>
+      <td><b>Example 1:</b> Binary Search approach.</td>
+      <td><b>Time:</b> O(N log N)<br><b>Space:</b> O(N)</td>
+      <td>-</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Maintain an array `temp` storing the smallest tail of all increasing subsequences of length i+1 in `temp[i]`. For each num, use binary search to find its position in `temp`. If num is larger than all, append it. Otherwise, replace the element.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">int lengthOfLIS(vector&lt;int&gt;&amp; nums) {&#10;    vector&lt;int&gt; temp;&#10;    for(int num : nums) {&#10;        auto it = lower_bound(temp.begin(), temp.end(), num);&#10;        if(it == temp.end()) temp.push_back(num);&#10;        else *it = num;&#10;    }&#10;    return temp.size();&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">import bisect&#10;def lengthOfLIS(nums):&#10;    temp = []&#10;    for num in nums:&#10;        idx = bisect.bisect_left(temp, num)&#10;        if idx == len(temp): temp.append(num)&#10;        else: temp[idx] = num&#10;    return len(temp)</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>86</td>
+      <td>Dp 86 Minimum Insertions To Make String Palindrome<br><br></b> <a href='https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/' target='_blank'>LeetCode 1312</a></td>
+      <td><b>Example 1:</b> Longest Palindromic Subsequence.</td>
+      <td><b>Time:</b> O(N^2)<br><b>Space:</b> O(N^2)</td>
+      <td>-</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Find the Longest Palindromic Subsequence (LPS). The minimum insertions required will be `string_length - LPS_length`. LPS is just LCS(s, reverse(s)).<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">int minInsertions(string s) {&#10;    int n = s.length();&#10;    string t = s;&#10;    reverse(t.begin(), t.end());&#10;    vector&lt;vector&lt;int&gt;&gt; dp(n + 1, vector&lt;int&gt;(n + 1, 0));&#10;    for(int i = 1; i &lt;= n; i++) {&#10;        for(int j = 1; j &lt;= n; j++) {&#10;            if(s[i-1] == t[j-1]) dp[i][j] = 1 + dp[i-1][j-1];&#10;            else dp[i][j] = max(dp[i-1][j], dp[i][j-1]);&#10;        }&#10;    }&#10;    return n - dp[n][n];&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def minInsertions(s):&#10;    n = len(s)&#10;    t = s[::-1]&#10;    dp = [[0] * (n + 1) for _ in range(n + 1)]&#10;    for i in range(1, n + 1):&#10;        for j in range(1, n + 1):&#10;            if s[i-1] == t[j-1]: dp[i][j] = 1 + dp[i-1][j-1]&#10;            else: dp[i][j] = max(dp[i-1][j], dp[i][j-1])&#10;    return n - dp[n][n]</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>87</td>
+      <td>Dp 87 Print Longest Common Subsequence<br><br></b> <a href='https://www.geeksforgeeks.org/printing-longest-common-subsequence/' target='_blank'>GFG</a></td>
+      <td><b>Example 1:</b> DP table backtracking.</td>
+      <td><b>Time:</b> O(M * N)<br><b>Space:</b> O(M * N)</td>
+      <td>-</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Build the LCS DP table. Start from `dp[m][n]`. If `s1[i-1] == s2[j-1]`, include this character in the result and move diagonally to `dp[i-1][j-1]`. Otherwise, move to the maximum of `dp[i-1][j]` or `dp[i][j-1]`. Reverse the string at the end.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">string printLCS(string s1, string s2) {&#10;    int m = s1.length(), n = s2.length();&#10;    vector&lt;vector&lt;int&gt;&gt; dp(m + 1, vector&lt;int&gt;(n + 1, 0));&#10;    for(int i = 1; i &lt;= m; i++) {&#10;        for(int j = 1; j &lt;= n; j++) {&#10;            if(s1[i-1] == s2[j-1]) dp[i][j] = 1 + dp[i-1][j-1];&#10;            else dp[i][j] = max(dp[i-1][j], dp[i][j-1]);&#10;        }&#10;    }&#10;    int i = m, j = n;&#10;    string res = &quot;&quot;;&#10;    while(i &gt; 0 &amp;&amp; j &gt; 0) {&#10;        if(s1[i-1] == s2[j-1]) {&#10;            res += s1[i-1];&#10;            i--; j--;&#10;        } else if(dp[i-1][j] &gt; dp[i][j-1]) i--;&#10;        else j--;&#10;    }&#10;    reverse(res.begin(), res.end());&#10;    return res;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def printLCS(s1, s2):&#10;    m, n = len(s1), len(s2)&#10;    dp = [[0] * (n + 1) for _ in range(m + 1)]&#10;    for i in range(1, m + 1):&#10;        for j in range(1, n + 1):&#10;            if s1[i-1] == s2[j-1]: dp[i][j] = 1 + dp[i-1][j-1]&#10;            else: dp[i][j] = max(dp[i-1][j], dp[i][j-1])&#10;    i, j = m, n&#10;    res = &quot;&quot;&#10;    while i &gt; 0 and j &gt; 0:&#10;        if s1[i-1] == s2[j-1]:&#10;            res += s1[i-1]&#10;            i -= 1; j -= 1&#10;        elif dp[i-1][j] &gt; dp[i][j-1]: i -= 1&#10;        else: j -= 1&#10;    return res[::-1]</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>88</td>
+      <td>Dp 88 Wildcard Matching<br><br></b> <a href='https://leetcode.com/problems/wildcard-matching/' target='_blank'>LeetCode 44</a></td>
+      <td><b>Example 1:</b> 2D DP.</td>
+      <td><b>Time:</b> O(N * M)<br><b>Space:</b> O(N * M)</td>
+      <td>-</td>
+      <td>-</td>
+      <td><b>Explanation:</b> DP state `dp[i][j]` is true if `s[0..i-1]` matches `p[0..j-1]`. Base cases: empty pattern only matches empty string. `p[0..j-1]` can match empty string if all chars are '*'. Transitions: If `s[i-1] == p[j-1]` or `p[j-1] == '?'`, `dp[i][j] = dp[i-1][j-1]`. If `p[j-1] == '*'`, it can match empty string (`dp[i][j-1]`) or one/more characters (`dp[i-1][j]`).<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">bool isMatch(string s, string p) {&#10;    int m = s.length(), n = p.length();&#10;    vector&lt;vector&lt;bool&gt;&gt; dp(m + 1, vector&lt;bool&gt;(n + 1, false));&#10;    dp[0][0] = true;&#10;    for(int j = 1; j &lt;= n; j++) {&#10;        if(p[j-1] == &#x27;*&#x27;) dp[0][j] = dp[0][j-1];&#10;    }&#10;    for(int i = 1; i &lt;= m; i++) {&#10;        for(int j = 1; j &lt;= n; j++) {&#10;            if(p[j-1] == &#x27;?&#x27; || s[i-1] == p[j-1]) dp[i][j] = dp[i-1][j-1];&#10;            else if(p[j-1] == &#x27;*&#x27;) dp[i][j] = dp[i-1][j] || dp[i][j-1];&#10;        }&#10;    }&#10;    return dp[m][n];&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def isMatch(s, p):&#10;    m, n = len(s), len(p)&#10;    dp = [[False] * (n + 1) for _ in range(m + 1)]&#10;    dp[0][0] = True&#10;    for j in range(1, n + 1):&#10;        if p[j-1] == &#x27;*&#x27;: dp[0][j] = dp[0][j-1]&#10;    for i in range(1, m + 1):&#10;        for j in range(1, n + 1):&#10;            if p[j-1] == &#x27;?&#x27; or s[i-1] == p[j-1]: dp[i][j] = dp[i-1][j-1]&#10;            elif p[j-1] == &#x27;*&#x27;: dp[i][j] = dp[i-1][j] or dp[i][j-1]&#10;    return dp[m][n]</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>89</td>
+      <td>Dp 89 Burst Balloons<br><br></b> <a href='https://leetcode.com/problems/burst-balloons/' target='_blank'>LeetCode 312</a></td>
+      <td><b>Example 1:</b> MCM DP pattern.</td>
+      <td><b>Time:</b> O(N^3)<br><b>Space:</b> O(N^2)</td>
+      <td>-</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Add 1 to both ends of the array. Let `dp[i][j]` be the max coins collected by bursting balloons in `nums[i..j]`. Iterate length `L` from 1 to N. For each window `[i, j]`, try every `k` from `i` to `j` as the LAST balloon to burst in this window. Cost is `nums[i-1] * nums[k] * nums[j+1] + dp[i][k-1] + dp[k+1][j]`.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">int maxCoins(vector&lt;int&gt;&amp; nums) {&#10;    int n = nums.size();&#10;    vector&lt;int&gt; arr(n + 2, 1);&#10;    for(int i = 0; i &lt; n; i++) arr[i+1] = nums[i];&#10;    vector&lt;vector&lt;int&gt;&gt; dp(n + 2, vector&lt;int&gt;(n + 2, 0));&#10;    for(int L = 1; L &lt;= n; L++) {&#10;        for(int i = 1; i &lt;= n - L + 1; i++) {&#10;            int j = i + L - 1;&#10;            for(int k = i; k &lt;= j; k++) {&#10;                int cost = arr[i-1] * arr[k] * arr[j+1] + dp[i][k-1] + dp[k+1][j];&#10;                dp[i][j] = max(dp[i][j], cost);&#10;            }&#10;        }&#10;    }&#10;    return dp[1][n];&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def maxCoins(nums):&#10;    n = len(nums)&#10;    arr = [1] + nums + [1]&#10;    dp = [[0] * (n + 2) for _ in range(n + 2)]&#10;    for L in range(1, n + 1):&#10;        for i in range(1, n - L + 2):&#10;            j = i + L - 1&#10;            for k in range(i, j + 1):&#10;                cost = arr[i-1] * arr[k] * arr[j+1] + dp[i][k-1] + dp[k+1][j]&#10;                dp[i][j] = max(dp[i][j], cost)&#10;    return dp[1][n]</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>90</td>
+      <td>Dp 90 Evaluate Boolean Expression To True<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/boolean-parenthesization5610/1' target='_blank'>GFG</a></td>
+      <td><b>Example 1:</b> DP Partitioning.</td>
+      <td><b>Time:</b> O(N^3)<br><b>Space:</b> O(N^2 * 2)</td>
+      <td>-</td>
+      <td>-</td>
+      <td><b>Explanation:</b> MCM variant. `dp[i][j][isTrue]` stores the number of ways to evaluate the expression from `i` to `j` to `isTrue`. Partition at every operator `k`. Calculate `leftTrue`, `leftFalse`, `rightTrue`, `rightFalse`. Combine these based on the operator `S[k]`.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">int solve(string S, int i, int j, int isTrue, vector&lt;vector&lt;vector&lt;int&gt;&gt;&gt;&amp; dp) {&#10;    if(i &gt; j) return 0;&#10;    if(i == j) {&#10;        if(isTrue == 1) return S[i] == &#x27;T&#x27;;&#10;        else return S[i] == &#x27;F&#x27;;&#10;    }&#10;    if(dp[i][j][isTrue] != -1) return dp[i][j][isTrue];&#10;    long long ways = 0;&#10;    int mod = 1003;&#10;    for(int k = i + 1; k &lt;= j - 1; k += 2) {&#10;        long long lT = solve(S, i, k - 1, 1, dp);&#10;        long long lF = solve(S, i, k - 1, 0, dp);&#10;        long long rT = solve(S, k + 1, j, 1, dp);&#10;        long long rF = solve(S, k + 1, j, 0, dp);&#10;        if(S[k] == &#x27;&amp;&#x27;) {&#10;            if(isTrue) ways = (ways + (lT * rT) % mod) % mod;&#10;            else ways = (ways + (lT * rF) % mod + (lF * rT) % mod + (lF * rF) % mod) % mod;&#10;        } else if(S[k] == &#x27;|&#x27;) {&#10;            if(isTrue) ways = (ways + (lT * rT) % mod + (lT * rF) % mod + (lF * rT) % mod) % mod;&#10;            else ways = (ways + (lF * rF) % mod) % mod;&#10;        } else if(S[k] == &#x27;^&#x27;) {&#10;            if(isTrue) ways = (ways + (lT * rF) % mod + (lF * rT) % mod) % mod;&#10;            else ways = (ways + (lT * rT) % mod + (lF * rF) % mod) % mod;&#10;        }&#10;    }&#10;    return dp[i][j][isTrue] = ways;&#10;}&#10;int countWays(int N, string S) {&#10;    vector&lt;vector&lt;vector&lt;int&gt;&gt;&gt; dp(N, vector&lt;vector&lt;int&gt;&gt;(N, vector&lt;int&gt;(2, -1)));&#10;    return solve(S, 0, N - 1, 1, dp);&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def countWays(N, S):&#10;    mod = 1003&#10;    dp = [[[-1] * 2 for _ in range(N)] for _ in range(N)]&#10;    def solve(i, j, isTrue):&#10;        if i &gt; j: return 0&#10;        if i == j:&#10;            if isTrue: return 1 if S[i] == &#x27;T&#x27; else 0&#10;            else: return 1 if S[i] == &#x27;F&#x27; else 0&#10;        if dp[i][j][isTrue] != -1: return dp[i][j][isTrue]&#10;        ways = 0&#10;        for k in range(i + 1, j, 2):&#10;            lT = solve(i, k - 1, 1)&#10;            lF = solve(i, k - 1, 0)&#10;            rT = solve(k + 1, j, 1)&#10;            rF = solve(k + 1, j, 0)&#10;            if S[k] == &#x27;&amp;&#x27;:&#10;                if isTrue: ways = (ways + lT * rT) % mod&#10;                else: ways = (ways + lT * rF + lF * rT + lF * rF) % mod&#10;            elif S[k] == &#x27;|&#x27;:&#10;                if isTrue: ways = (ways + lT * rT + lT * rF + lF * rT) % mod&#10;                else: ways = (ways + lF * rF) % mod&#10;            elif S[k] == &#x27;^&#x27;:&#10;                if isTrue: ways = (ways + lT * rF + lF * rT) % mod&#10;                else: ways = (ways + lT * rT + lF * rF) % mod&#10;        dp[i][j][isTrue] = ways&#10;        return ways&#10;    return solve(0, N - 1, 1)</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>91</td>
+      <td>Dp 91 Palindrome Partitioning Ii<br><br></b> <a href='https://leetcode.com/problems/palindrome-partitioning-ii/' target='_blank'>LeetCode 132</a></td>
+      <td><b>Example 1:</b> Precompute palindromes + 1D DP.</td>
+      <td><b>Time:</b> O(N^2)<br><b>Space:</b> O(N^2)</td>
+      <td>-</td>
+      <td>-</td>
+      <td><b>Explanation:</b> First, precompute a 2D boolean array `isPal[i][j]` to quickly check if `s[i..j]` is a palindrome. Then, use a 1D DP array where `dp[i]` represents the minimum cuts for `s[0..i]`. For each `i`, iterate `j` from `0` to `i`. If `s[j..i]` is a palindrome, then `dp[i] = min(dp[i], dp[j-1] + 1)`. If `s[0..i]` is a palindrome, `dp[i] = 0`.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">int minCut(string s) {&#10;    int n = s.length();&#10;    vector&lt;vector&lt;bool&gt;&gt; isPal(n, vector&lt;bool&gt;(n, false));&#10;    for(int i = 0; i &lt; n; i++) {&#10;        isPal[i][i] = true;&#10;        if(i &lt; n - 1 &amp;&amp; s[i] == s[i+1]) isPal[i][i+1] = true;&#10;    }&#10;    for(int len = 3; len &lt;= n; len++) {&#10;        for(int i = 0; i &lt;= n - len; i++) {&#10;            int j = i + len - 1;&#10;            if(s[i] == s[j] &amp;&amp; isPal[i+1][j-1]) isPal[i][j] = true;&#10;        }&#10;    }&#10;    vector&lt;int&gt; dp(n, 0);&#10;    for(int i = 0; i &lt; n; i++) {&#10;        if(isPal[0][i]) { dp[i] = 0; continue; }&#10;        int minCuts = i;&#10;        for(int j = 1; j &lt;= i; j++) {&#10;            if(isPal[j][i]) minCuts = min(minCuts, dp[j-1] + 1);&#10;        }&#10;        dp[i] = minCuts;&#10;    }&#10;    return dp[n-1];&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def minCut(s):&#10;    n = len(s)&#10;    isPal = [[False] * n for _ in range(n)]&#10;    for i in range(n):&#10;        isPal[i][i] = True&#10;        if i &lt; n - 1 and s[i] == s[i+1]: isPal[i][i+1] = True&#10;    for length in range(3, n + 1):&#10;        for i in range(n - length + 1):&#10;            j = i + length - 1&#10;            if s[i] == s[j] and isPal[i+1][j-1]: isPal[i][j] = True&#10;    dp = [0] * n&#10;    for i in range(n):&#10;        if isPal[0][i]:&#10;            dp[i] = 0&#10;            continue&#10;        min_cuts = i&#10;        for j in range(1, i + 1):&#10;            if isPal[j][i]: min_cuts = min(min_cuts, dp[j-1] + 1)&#10;        dp[i] = min_cuts&#10;    return dp[n-1]</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>92</td>
+      <td>Dp 92 Partition Array For Maximum Sum<br><br></b> <a href='https://leetcode.com/problems/partition-array-for-maximum-sum/' target='_blank'>LeetCode 1043</a></td>
+      <td><b>Example 1:</b> 1D DP.</td>
+      <td><b>Time:</b> O(N * K)<br><b>Space:</b> O(N)</td>
+      <td>-</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Let `dp[i]` be the maximum sum for `arr[0..i-1]`. To compute `dp[i]`, iterate back `j` from 1 to `k`. Keep track of the maximum element in `arr[i-j..i-1]`. The sum is `max_val * j + dp[i-j]`. Maximize this over all valid `j`.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">int maxSumAfterPartitioning(vector&lt;int&gt;&amp; arr, int k) {&#10;    int n = arr.size();&#10;    vector&lt;int&gt; dp(n + 1, 0);&#10;    for(int i = 1; i &lt;= n; i++) {&#10;        int curMax = 0, best = 0;&#10;        for(int j = 1; j &lt;= k &amp;&amp; i - j &gt;= 0; j++) {&#10;            curMax = max(curMax, arr[i-j]);&#10;            best = max(best, dp[i-j] + curMax * j);&#10;        }&#10;        dp[i] = best;&#10;    }&#10;    return dp[n];&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def maxSumAfterPartitioning(arr, k):&#10;    n = len(arr)&#10;    dp = [0] * (n + 1)&#10;    for i in range(1, n + 1):&#10;        cur_max = 0&#10;        best = 0&#10;        for j in range(1, min(k, i) + 1):&#10;            cur_max = max(cur_max, arr[i-j])&#10;            best = max(best, dp[i-j] + cur_max * j)&#10;        dp[i] = best&#10;    return dp[n]</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>93</td>
+      <td>Dp 93 Maximum Rectangle With All 1S<br><br></b> <a href='https://leetcode.com/problems/maximal-rectangle/' target='_blank'>LeetCode 85</a></td>
+      <td><b>Example 1:</b> Histogram method.</td>
+      <td><b>Time:</b> O(R * C)<br><b>Space:</b> O(C)</td>
+      <td>Stack</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Treat each row as the base of a histogram. The height is the number of consecutive 1s going upwards. If a cell is 0, height is 0. For each row, after updating the heights, find the Largest Rectangle in Histogram (using a stack) and keep track of the maximum area overall.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">int largestRectangleArea(vector&lt;int&gt;&amp; heights) {&#10;    int n = heights.size();&#10;    stack&lt;int&gt; st;&#10;    int maxArea = 0;&#10;    for(int i = 0; i &lt;= n; i++) {&#10;        while(!st.empty() &amp;&amp; (i == n || heights[st.top()] &gt;= heights[i])) {&#10;            int h = heights[st.top()]; st.pop();&#10;            int w = st.empty() ? i : i - st.top() - 1;&#10;            maxArea = max(maxArea, h * w);&#10;        }&#10;        st.push(i);&#10;    }&#10;    return maxArea;&#10;}&#10;int maximalRectangle(vector&lt;vector&lt;char&gt;&gt;&amp; matrix) {&#10;    if(matrix.empty()) return 0;&#10;    int r = matrix.size(), c = matrix[0].size();&#10;    vector&lt;int&gt; heights(c, 0);&#10;    int maxArea = 0;&#10;    for(int i = 0; i &lt; r; i++) {&#10;        for(int j = 0; j &lt; c; j++) {&#10;            if(matrix[i][j] == &#x27;1&#x27;) heights[j]++;&#10;            else heights[j] = 0;&#10;        }&#10;        maxArea = max(maxArea, largestRectangleArea(heights));&#10;    }&#10;    return maxArea;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def maximalRectangle(matrix):&#10;    if not matrix: return 0&#10;    r, c = len(matrix), len(matrix[0])&#10;    heights = [0] * c&#10;    max_area = 0&#10;    def largestRectangleArea(h):&#10;        st = []&#10;        area = 0&#10;        h.append(0)&#10;        for i in range(len(h)):&#10;            while st and h[st[-1]] &gt;= h[i]:&#10;                height = h[st.pop()]&#10;                w = i if not st else i - st[-1] - 1&#10;                area = max(area, height * w)&#10;            st.append(i)&#10;        h.pop()&#10;        return area&#10;    for i in range(r):&#10;        for j in range(c):&#10;            if matrix[i][j] == &#x27;1&#x27;: heights[j] += 1&#10;            else: heights[j] = 0&#10;        max_area = max(max_area, largestRectangleArea(heights))&#10;    return max_area</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>94</td>
+      <td>Dp 94 Count Square Submatrices With All Ones<br><br></b> <a href='https://leetcode.com/problems/count-square-submatrices-with-all-ones/' target='_blank'>LeetCode 1277</a></td>
+      <td><b>Example 1:</b> 2D DP.</td>
+      <td><b>Time:</b> O(R * C)<br><b>Space:</b> O(R * C)</td>
+      <td>-</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Let `dp[i][j]` be the size of the largest square ending at `(i, j)`. If `matrix[i][j] == 1`, then `dp[i][j] = 1 + min({dp[i-1][j], dp[i][j-1], dp[i-1][j-1]})`. The total number of squares is the sum of all elements in the `dp` matrix.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">int countSquares(vector&lt;vector&lt;int&gt;&gt;&amp; matrix) {&#10;    int r = matrix.size(), c = matrix[0].size();&#10;    vector&lt;vector&lt;int&gt;&gt; dp(r, vector&lt;int&gt;(c, 0));&#10;    int ans = 0;&#10;    for(int i = 0; i &lt; r; i++) {&#10;        for(int j = 0; j &lt; c; j++) {&#10;            if(matrix[i][j] == 1) {&#10;                if(i == 0 || j == 0) dp[i][j] = 1;&#10;                else dp[i][j] = 1 + min({dp[i-1][j], dp[i][j-1], dp[i-1][j-1]});&#10;                ans += dp[i][j];&#10;            }&#10;        }&#10;    }&#10;    return ans;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def countSquares(matrix):&#10;    r, c = len(matrix), len(matrix[0])&#10;    dp = [[0] * c for _ in range(r)]&#10;    ans = 0&#10;    for i in range(r):&#10;        for j in range(c):&#10;            if matrix[i][j] == 1:&#10;                if i == 0 or j == 0: dp[i][j] = 1&#10;                else: dp[i][j] = 1 + min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1])&#10;                ans += dp[i][j]&#10;    return ans</code></pre></details></td>
     </tr>
   </tbody>
 </table>

@@ -45,7 +45,7 @@
     </tr>
     <tr>
       <td>4</td>
-      <td>Bit 05 Power Of Two<br><br></b> <a href='https://leetcode.com/problems/power-of-two/' target='_blank'>LeetCode 231</a></td>
+      <td>Bit 04 Power Of Two<br><br></b> <a href='https://leetcode.com/problems/power-of-two/' target='_blank'>LeetCode 231</a></td>
       <td><b>Example 1:</b> Input: N=16, Output: true<br><b>Example 2:</b> Input: N=3, Output: false<br><br><b>Note (Constraint):</b> -2<sup>31</sup> &le; N &le; 2<sup>31</sup> - 1</td>
       <td><b>Time:</b> O(log2(N)) (Trade-off)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -54,7 +54,7 @@
     </tr>
     <tr>
       <td>5</td>
-      <td>Bit 06 Count Set Bits<br><br></b> <a href='https://leetcode.com/problems/number-of-1-bits/' target='_blank'>LeetCode 191</a></td>
+      <td>Bit 05 Count Set Bits<br><br></b> <a href='https://leetcode.com/problems/number-of-1-bits/' target='_blank'>LeetCode 191</a></td>
       <td><b>Example 1:</b> Input: N=11 (1011), Output: 3<br><br><b>Note (Constraint):</b> 1 &le; N &le; 2<sup>31</sup> - 1</td>
       <td><b>Time:</b> O(32) &cong; O(1) (Trade-off)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -63,7 +63,7 @@
     </tr>
     <tr>
       <td>6</td>
-      <td>Bit 07 Minimum Bit Flips<br><br></b> <a href='https://leetcode.com/problems/minimum-bit-flips-to-convert-number/' target='_blank'>LeetCode 2220</a></td>
+      <td>Bit 06 Minimum Bit Flips<br><br></b> <a href='https://leetcode.com/problems/minimum-bit-flips-to-convert-number/' target='_blank'>LeetCode 2220</a></td>
       <td><b>Example 1:</b> Input: start=10 (1010), goal=7 (0111), Output: 3 flips<br><br><b>Note (Constraint):</b> 0 &le; start, goal &le; 10<sup>9</sup></td>
       <td><b>Time:</b> O(Set Bits) (Constraint)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -72,7 +72,7 @@
     </tr>
     <tr>
       <td>7</td>
-      <td>Bit 08 Single Number<br><br></b> <a href='https://leetcode.com/problems/single-number/' target='_blank'>LeetCode 136</a><br><br><b>Variants:</b><br>- What if elements are sorted? (Can use Binary Search `O(log N)` Time).<br>- What if elements are strictly positive? (Can use Array mapping if constraints allow).</td>
+      <td>Bit 07 Single Number<br><br></b> <a href='https://leetcode.com/problems/single-number/' target='_blank'>LeetCode 136</a><br><br><b>Variants:</b><br>- What if elements are sorted? (Can use Binary Search `O(log N)` Time).<br>- What if elements are strictly positive? (Can use Array mapping if constraints allow).</td>
       <td><b>Example 1:</b> Input: nums = [4,1,2,1,2], Output: 4<br><br><b>Note (Constraint):</b> 1 &le; N &le; 3 * 10<sup>4</sup><br>-3 * 10<sup>4</sup> &le; nums[i] &le; 3 * 10<sup>4</sup></td>
       <td><b>Time:</b> O(N) (Constraint)<br><b>Space:</b> O(N) (Trade-off)</td>
       <td><b>Data Structure:</b><br><code>std::unordered_map</code> / <code>dict</code></td>
@@ -99,7 +99,7 @@
     </tr>
     <tr>
       <td>10</td>
-      <td>Bm 16 Find The Original Array Of Prefix Xor<br><br></b> <a href='https://leetcode.com/problems/find-the-original-array-of-prefix-xor/' target='_blank'>LeetCode 2433</a></td>
+      <td>Bit 10 Find The Original Array Of Prefix Xor<br><br></b> <a href='https://leetcode.com/problems/find-the-original-array-of-prefix-xor/' target='_blank'>LeetCode 2433</a></td>
       <td><b>Example 1:</b> `pref = [5,2,0,3,1]`. Output: `[5,7,2,3,2]`.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -108,7 +108,7 @@
     </tr>
     <tr>
       <td>11</td>
-      <td>Bm 17 Maximum Xor For Each Query<br><br></b> <a href='https://leetcode.com/problems/maximum-xor-for-each-query/' target='_blank'>LeetCode 1829</a></td>
+      <td>Bit 11 Maximum Xor For Each Query<br><br></b> <a href='https://leetcode.com/problems/maximum-xor-for-each-query/' target='_blank'>LeetCode 1829</a></td>
       <td><b>Example 1:</b> `nums = [0,1,1,3], maximumBit = 2`. Output: `[0,3,2,3]`.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -117,7 +117,7 @@
     </tr>
     <tr>
       <td>12</td>
-      <td>Bm 18 Minimum Flips To Make A Or B Equal To C<br><br></b> <a href='https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/' target='_blank'>LeetCode 1318</a></td>
+      <td>Bit 12 Minimum Flips To Make A Or B Equal To C<br><br></b> <a href='https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/' target='_blank'>LeetCode 1318</a></td>
       <td><b>Example 1:</b> Bit by bit analysis.</td>
       <td><b>Time:</b> O(1) 32 bits<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -126,7 +126,7 @@
     </tr>
     <tr>
       <td>13</td>
-      <td>Bm 19 Number Of Steps To Reduce A Number To Zero<br><br></b> <a href='https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/' target='_blank'>LeetCode 1342</a></td>
+      <td>Bit 13 Number Of Steps To Reduce A Number To Zero<br><br></b> <a href='https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/' target='_blank'>LeetCode 1342</a></td>
       <td><b>Example 1:</b> Simulation.</td>
       <td><b>Time:</b> O(log N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -135,7 +135,7 @@
     </tr>
     <tr>
       <td>14</td>
-      <td>Bm 20 Decode Xored Array<br><br></b> <a href='https://leetcode.com/problems/decode-xored-array/' target='_blank'>LeetCode 1720</a></td>
+      <td>Bit 14 Decode Xored Array<br><br></b> <a href='https://leetcode.com/problems/decode-xored-array/' target='_blank'>LeetCode 1720</a></td>
       <td><b>Example 1:</b> Sequential XOR.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -144,7 +144,7 @@
     </tr>
     <tr>
       <td>15</td>
-      <td>Bm 21 Find The Longest Substring Containing Vowels In Even Counts<br><br></b> <a href='https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/' target='_blank'>LeetCode 1371</a></td>
+      <td>Bit 15 Find The Longest Substring Containing Vowels In Even Counts<br><br></b> <a href='https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts/' target='_blank'>LeetCode 1371</a></td>
       <td><b>Example 1:</b> Bitmask and hashmap.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(32) since only 5 bits used</td>
       <td><code>#include <unordered_map></code></td>
@@ -153,7 +153,7 @@
     </tr>
     <tr>
       <td>16</td>
-      <td>Bm 22 Subsets<br><br></b> <a href='https://leetcode.com/problems/subsets/' target='_blank'>LeetCode 78</a></td>
+      <td>Bit 16 Subsets<br><br></b> <a href='https://leetcode.com/problems/subsets/' target='_blank'>LeetCode 78</a></td>
       <td><b>Example 1:</b> Bitmasking technique.</td>
       <td><b>Time:</b> O(N * 2^N)<br><b>Space:</b> O(2^N * N)</td>
       <td>-</td>
@@ -162,7 +162,7 @@
     </tr>
     <tr>
       <td>17</td>
-      <td>Bm 23 Single Number Iii<br><br></b> <a href='https://leetcode.com/problems/single-number-iii/' target='_blank'>LeetCode 260</a></td>
+      <td>Bit 17 Single Number Iii<br><br></b> <a href='https://leetcode.com/problems/single-number-iii/' target='_blank'>LeetCode 260</a></td>
       <td><b>Example 1:</b> Grouping by rightmost set bit.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -171,7 +171,7 @@
     </tr>
     <tr>
       <td>18</td>
-      <td>Bm 24 Divide Two Integers<br><br></b> <a href='https://leetcode.com/problems/divide-two-integers/' target='_blank'>LeetCode 29</a></td>
+      <td>Bit 18 Divide Two Integers<br><br></b> <a href='https://leetcode.com/problems/divide-two-integers/' target='_blank'>LeetCode 29</a></td>
       <td><b>Example 1:</b> Bit shifting.</td>
       <td><b>Time:</b> O(log^2 N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -180,7 +180,7 @@
     </tr>
     <tr>
       <td>19</td>
-      <td>Bm 25 Xor Queries Of A Subarray<br><br></b> <a href='https://leetcode.com/problems/xor-queries-of-a-subarray/' target='_blank'>LeetCode 1310</a></td>
+      <td>Bit 19 Xor Queries Of A Subarray<br><br></b> <a href='https://leetcode.com/problems/xor-queries-of-a-subarray/' target='_blank'>LeetCode 1310</a></td>
       <td><b>Example 1:</b> Prefix XOR array.</td>
       <td><b>Time:</b> O(N + Q)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -189,7 +189,7 @@
     </tr>
     <tr>
       <td>20</td>
-      <td>Bm 20 Count Set Bits In An Integer<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/set-bits0143/1' target='_blank'>GFG</a></td>
+      <td>Bit 20 Count Set Bits In An Integer<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/set-bits0143/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Brian Kernighan's algorithm.</td>
       <td><b>Time:</b> O(log N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -198,7 +198,7 @@
     </tr>
     <tr>
       <td>21</td>
-      <td>Bm 21 Find The Two Non Repeating Elements In An Array Of Repeating Elements<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/finding-the-numbers0215/1' target='_blank'>GFG</a></td>
+      <td>Bit 21 Find The Two Non Repeating Elements In An Array Of Repeating Elements<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/finding-the-numbers0215/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> XOR and rightmost set bit.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -207,7 +207,7 @@
     </tr>
     <tr>
       <td>22</td>
-      <td>Bm 22 Count Number Of Bits To Be Flipped To Convert A To B<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/bit-difference-1587115620/1' target='_blank'>GFG</a></td>
+      <td>Bit 22 Count Number Of Bits To Be Flipped To Convert A To B<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/bit-difference-1587115620/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Count set bits in XOR.</td>
       <td><b>Time:</b> O(log(A^B))<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -216,7 +216,7 @@
     </tr>
     <tr>
       <td>23</td>
-      <td>Bm 23 Count Total Set Bits In All Numbers From 1 To N<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/count-total-set-bits-1587115620/1' target='_blank'>GFG</a></td>
+      <td>Bit 23 Count Total Set Bits In All Numbers From 1 To N<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/count-total-set-bits-1587115620/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Recursive approach based on largest power of 2.</td>
       <td><b>Time:</b> O(log N)<br><b>Space:</b> O(log N)</td>
       <td>-</td>
@@ -225,7 +225,7 @@
     </tr>
     <tr>
       <td>24</td>
-      <td>Bm 24 Program To Find Whether A No Is Power Of Two<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/power-of-2-1587115620/1' target='_blank'>GFG</a></td>
+      <td>Bit 24 Program To Find Whether A No Is Power Of Two<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/power-of-2-1587115620/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Bitwise AND.</td>
       <td><b>Time:</b> O(1)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -234,7 +234,7 @@
     </tr>
     <tr>
       <td>25</td>
-      <td>Bm 25 Find Position Of The Only Set Bit<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/find-position-of-set-bit3706/1' target='_blank'>GFG</a></td>
+      <td>Bit 25 Find Position Of The Only Set Bit<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/find-position-of-set-bit3706/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Log base 2.</td>
       <td><b>Time:</b> O(1)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -243,7 +243,7 @@
     </tr>
     <tr>
       <td>26</td>
-      <td>Bm 26 Copy Set Bits In A Range<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/copy-set-bits-in-range0623/1' target='_blank'>GFG</a></td>
+      <td>Bit 26 Copy Set Bits In A Range<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/copy-set-bits-in-range0623/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Masking.</td>
       <td><b>Time:</b> O(1)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -252,7 +252,7 @@
     </tr>
     <tr>
       <td>27</td>
-      <td>Bm 27 Divide Two Integers Without Using Multiplication Division And Mod Operator<br><br></b> <a href='https://leetcode.com/problems/divide-two-integers/' target='_blank'>LeetCode 29</a></td>
+      <td>Bit 27 Divide Two Integers Without Using Multiplication Division And Mod Operator<br><br></b> <a href='https://leetcode.com/problems/divide-two-integers/' target='_blank'>LeetCode 29</a></td>
       <td><b>Example 1:</b> Bit shifting.</td>
       <td><b>Time:</b> O(log N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -261,7 +261,7 @@
     </tr>
     <tr>
       <td>28</td>
-      <td>Bm 28 Calculate Square Of A Number Without Using And Pow<br><br></b> <a href='https://www.geeksforgeeks.org/calculate-square-of-a-number-without-using-and-pow/' target='_blank'>Article</a></td>
+      <td>Bit 28 Calculate Square Of A Number Without Using And Pow<br><br></b> <a href='https://www.geeksforgeeks.org/calculate-square-of-a-number-without-using-and-pow/' target='_blank'>Article</a></td>
       <td><b>Example 1:</b> Bit shifting and adding.</td>
       <td><b>Time:</b> O(log N)<br><b>Space:</b> O(log N)</td>
       <td>-</td>
@@ -270,7 +270,7 @@
     </tr>
     <tr>
       <td>29</td>
-      <td>Bm 29 Power Set<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/power-set4302/1' target='_blank'>GFG</a></td>
+      <td>Bit 29 Power Set<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/power-set4302/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Bit manipulation (0 to 2^N - 1).</td>
       <td><b>Time:</b> O(N * 2^N)<br><b>Space:</b> O(N * 2^N)</td>
       <td>-</td>
@@ -279,7 +279,7 @@
     </tr>
     <tr>
       <td>30</td>
-      <td>Bit 04 Copy Set Bits In Range<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/copy-set-bits-in-range0623/1' target='_blank'>GFG</a></td>
+      <td>Bit 30 Copy Set Bits In Range<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/copy-set-bits-in-range0623/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Masking.</td>
       <td><b>Time:</b> O(1)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -288,7 +288,7 @@
     </tr>
     <tr>
       <td>31</td>
-      <td>Bit 05 Divide Two Integers Without Using Multiplication Division And Mod Operator<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/division-without-using-multiplication-division-and-mod-operator/0' target='_blank'>GFG</a></td>
+      <td>Bit 31 Divide Two Integers Without Using Multiplication Division And Mod Operator<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/division-without-using-multiplication-division-and-mod-operator/0' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Bit shifts.</td>
       <td><b>Time:</b> O(log N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -297,7 +297,7 @@
     </tr>
     <tr>
       <td>32</td>
-      <td>Bit 06 Calculate Square Of A Number Without Using And Pow<br><br></b> <a href='https://www.geeksforgeeks.org/calculate-square-of-a-number-without-using-and-pow/' target='_blank'>GFG</a></td>
+      <td>Bit 32 Calculate Square Of A Number Without Using And Pow<br><br></b> <a href='https://www.geeksforgeeks.org/calculate-square-of-a-number-without-using-and-pow/' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Bit shifts and recursion.</td>
       <td><b>Time:</b> O(log N)<br><b>Space:</b> O(log N) recursion stack</td>
       <td>-</td>
@@ -306,7 +306,7 @@
     </tr>
     <tr>
       <td>33</td>
-      <td>Bit 07 Power Set<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/power-set4302/1' target='_blank'>GFG</a></td>
+      <td>Bit 33 Power Set<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/power-set4302/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Bit Manipulation.</td>
       <td><b>Time:</b> O(2^N * N)<br><b>Space:</b> O(2^N * N)</td>
       <td>-</td>
@@ -315,7 +315,7 @@
     </tr>
     <tr>
       <td>34</td>
-      <td>Bit 08 Find Position Of The Only Set Bit<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/find-position-of-set-bit3706/1' target='_blank'>GFG</a></td>
+      <td>Bit 34 Find Position Of The Only Set Bit<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/find-position-of-set-bit3706/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Log base 2.</td>
       <td><b>Time:</b> O(1)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -324,7 +324,7 @@
     </tr>
     <tr>
       <td>35</td>
-      <td>Bit 09 Power Of 2<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/power-of-2-1587115620/1' target='_blank'>GFG</a></td>
+      <td>Bit 35 Power Of 2<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/power-of-2-1587115620/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Bitwise AND.</td>
       <td><b>Time:</b> O(1)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -333,7 +333,7 @@
     </tr>
     <tr>
       <td>36</td>
-      <td>Bit 10 Bit Difference<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/bit-difference-1587115620/1' target='_blank'>GFG</a></td>
+      <td>Bit 36 Bit Difference<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/bit-difference-1587115620/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> XOR.</td>
       <td><b>Time:</b> O(1) or O(set bits)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -342,7 +342,7 @@
     </tr>
     <tr>
       <td>37</td>
-      <td>Bit 11 Single Number<br><br></b> <a href='https://leetcode.com/problems/single-number/' target='_blank'>LeetCode 136</a></td>
+      <td>Bit 37 Single Number<br><br></b> <a href='https://leetcode.com/problems/single-number/' target='_blank'>LeetCode 136</a></td>
       <td><b>Example 1:</b> XOR.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -351,7 +351,7 @@
     </tr>
     <tr>
       <td>38</td>
-      <td>Bit 12 Single Number Ii<br><br></b> <a href='https://leetcode.com/problems/single-number-ii/' target='_blank'>LeetCode 137</a></td>
+      <td>Bit 38 Single Number Ii<br><br></b> <a href='https://leetcode.com/problems/single-number-ii/' target='_blank'>LeetCode 137</a></td>
       <td><b>Example 1:</b> Ones and Twos.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -360,7 +360,7 @@
     </tr>
     <tr>
       <td>39</td>
-      <td>Bit 13 Single Number Iii<br><br></b> <a href='https://leetcode.com/problems/single-number-iii/' target='_blank'>LeetCode 260</a></td>
+      <td>Bit 39 Single Number Iii<br><br></b> <a href='https://leetcode.com/problems/single-number-iii/' target='_blank'>LeetCode 260</a></td>
       <td><b>Example 1:</b> Rightmost set bit.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>

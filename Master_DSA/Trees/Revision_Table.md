@@ -243,7 +243,7 @@
     </tr>
     <tr>
       <td>26</td>
-      <td>Tree 25 Construct Binary Tree From Preorder And Inorder Traversal<br><br></b> <a href='https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/' target='_blank'>LeetCode 105</a></td>
+      <td>Tree 26 Construct Binary Tree From Preorder And Inorder Traversal<br><br></b> <a href='https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/' target='_blank'>LeetCode 105</a></td>
       <td><b>Example 1:</b> Recursive construction.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
       <td><code>#include <unordered_map></code></td>
@@ -252,7 +252,7 @@
     </tr>
     <tr>
       <td>27</td>
-      <td>Tree 26 Construct Binary Tree From Inorder And Postorder Traversal<br><br></b> <a href='https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/' target='_blank'>LeetCode 106</a></td>
+      <td>Tree 27 Construct Binary Tree From Inorder And Postorder Traversal<br><br></b> <a href='https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/' target='_blank'>LeetCode 106</a></td>
       <td><b>Example 1:</b> Recursive construction.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
       <td><code>#include <unordered_map></code></td>
@@ -261,7 +261,7 @@
     </tr>
     <tr>
       <td>28</td>
-      <td>Tree 27 Serialize And Deserialize Binary Tree<br><br></b> <a href='https://leetcode.com/problems/serialize-and-deserialize-binary-tree/' target='_blank'>LeetCode 297</a></td>
+      <td>Tree 28 Serialize And Deserialize Binary Tree<br><br></b> <a href='https://leetcode.com/problems/serialize-and-deserialize-binary-tree/' target='_blank'>LeetCode 297</a></td>
       <td><b>Example 1:</b> String based tree.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
       <td><code>#include <queue>\n#include <sstream></code></td>
@@ -270,7 +270,7 @@
     </tr>
     <tr>
       <td>29</td>
-      <td>Tree 28 Flatten Binary Tree To Linked List<br><br></b> <a href='https://leetcode.com/problems/flatten-binary-tree-to-linked-list/' target='_blank'>LeetCode 114</a></td>
+      <td>Tree 29 Flatten Binary Tree To Linked List<br><br></b> <a href='https://leetcode.com/problems/flatten-binary-tree-to-linked-list/' target='_blank'>LeetCode 114</a></td>
       <td><b>Example 1:</b> In-place flatten.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -279,7 +279,7 @@
     </tr>
     <tr>
       <td>30</td>
-      <td>Tree 29 Validate Binary Search Tree<br><br></b> <a href='https://leetcode.com/problems/validate-binary-search-tree/' target='_blank'>LeetCode 98</a></td>
+      <td>Tree 30 Validate Binary Search Tree<br><br></b> <a href='https://leetcode.com/problems/validate-binary-search-tree/' target='_blank'>LeetCode 98</a></td>
       <td><b>Example 1:</b> Check valid ranges.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(H)</td>
       <td>-</td>
@@ -288,7 +288,7 @@
     </tr>
     <tr>
       <td>31</td>
-      <td>Tree 30 Kth Smallest Element In A Bst<br><br></b> <a href='https://leetcode.com/problems/kth-smallest-element-in-a-bst/' target='_blank'>LeetCode 230</a></td>
+      <td>Tree 31 Kth Smallest Element In A Bst<br><br></b> <a href='https://leetcode.com/problems/kth-smallest-element-in-a-bst/' target='_blank'>LeetCode 230</a></td>
       <td><b>Example 1:</b> Inorder traversal.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1) using Morris Traversal</td>
       <td>-</td>
@@ -297,7 +297,7 @@
     </tr>
     <tr>
       <td>32</td>
-      <td>Tree 31 Lowest Common Ancestor Of A Binary Search Tree<br><br></b> <a href='https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/' target='_blank'>LeetCode 235</a></td>
+      <td>Tree 32 Lowest Common Ancestor Of A Binary Search Tree<br><br></b> <a href='https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/' target='_blank'>LeetCode 235</a></td>
       <td><b>Example 1:</b> Exploit BST property.</td>
       <td><b>Time:</b> O(H)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -306,7 +306,7 @@
     </tr>
     <tr>
       <td>33</td>
-      <td>Tree 32 Insert Into A Binary Search Tree<br><br></b> <a href='https://leetcode.com/problems/insert-into-a-binary-search-tree/' target='_blank'>LeetCode 701</a></td>
+      <td>Tree 33 Insert Into A Binary Search Tree<br><br></b> <a href='https://leetcode.com/problems/insert-into-a-binary-search-tree/' target='_blank'>LeetCode 701</a></td>
       <td><b>Example 1:</b> Traverse and insert.</td>
       <td><b>Time:</b> O(H)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -315,7 +315,7 @@
     </tr>
     <tr>
       <td>34</td>
-      <td>Tree 33 Delete Node In A Bst<br><br></b> <a href='https://leetcode.com/problems/delete-node-in-a-bst/' target='_blank'>LeetCode 450</a></td>
+      <td>Tree 34 Delete Node In A Bst<br><br></b> <a href='https://leetcode.com/problems/delete-node-in-a-bst/' target='_blank'>LeetCode 450</a></td>
       <td><b>Example 1:</b> Locate and delete.</td>
       <td><b>Time:</b> O(H)<br><b>Space:</b> O(H) or O(1)</td>
       <td>-</td>
@@ -324,7 +324,7 @@
     </tr>
     <tr>
       <td>35</td>
-      <td>Tree 34 Inorder Successor In Bst<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/inorder-successor-in-bst/1' target='_blank'>GFG</a></td>
+      <td>Tree 35 Inorder Successor In Bst<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/inorder-successor-in-bst/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Find next greater.</td>
       <td><b>Time:</b> O(H)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -333,7 +333,7 @@
     </tr>
     <tr>
       <td>36</td>
-      <td>Tree 35 Two Sum Iv Input Is A Bst<br><br></b> <a href='https://leetcode.com/problems/two-sum-iv-input-is-a-bst/' target='_blank'>LeetCode 653</a></td>
+      <td>Tree 36 Two Sum Iv Input Is A Bst<br><br></b> <a href='https://leetcode.com/problems/two-sum-iv-input-is-a-bst/' target='_blank'>LeetCode 653</a></td>
       <td><b>Example 1:</b> BST Iterator two pointer.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(H)</td>
       <td>-</td>
@@ -342,7 +342,7 @@
     </tr>
     <tr>
       <td>37</td>
-      <td>Tree 36 Recover Binary Search Tree<br><br></b> <a href='https://leetcode.com/problems/recover-binary-search-tree/' target='_blank'>LeetCode 99</a></td>
+      <td>Tree 37 Recover Binary Search Tree<br><br></b> <a href='https://leetcode.com/problems/recover-binary-search-tree/' target='_blank'>LeetCode 99</a></td>
       <td><b>Example 1:</b> Inorder traversal tracking anomalies.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(H)</td>
       <td>-</td>
@@ -351,7 +351,7 @@
     </tr>
     <tr>
       <td>38</td>
-      <td>Tree 37 Largest Bst In Binary Tree<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/largest-bst/1' target='_blank'>GFG</a></td>
+      <td>Tree 38 Largest Bst In Binary Tree<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/largest-bst/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Bottom-up verification.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(H)</td>
       <td>-</td>
@@ -360,7 +360,7 @@
     </tr>
     <tr>
       <td>39</td>
-      <td>Tree 38 Binary Search Tree Iterator<br><br></b> <a href='https://leetcode.com/problems/binary-search-tree-iterator/' target='_blank'>LeetCode 173</a></td>
+      <td>Tree 39 Binary Search Tree Iterator<br><br></b> <a href='https://leetcode.com/problems/binary-search-tree-iterator/' target='_blank'>LeetCode 173</a></td>
       <td><b>Example 1:</b> Stack based partial inorder.</td>
       <td><b>Time:</b> O(1) average per call<br><b>Space:</b> O(H)</td>
       <td>-</td>
@@ -369,7 +369,7 @@
     </tr>
     <tr>
       <td>40</td>
-      <td>Tree 39 Maximum Sum Bst In Binary Tree<br><br></b> <a href='https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/' target='_blank'>LeetCode 1373</a></td>
+      <td>Tree 40 Maximum Sum Bst In Binary Tree<br><br></b> <a href='https://leetcode.com/problems/maximum-sum-bst-in-binary-tree/' target='_blank'>LeetCode 1373</a></td>
       <td><b>Example 1:</b> Similar to largest BST.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(H)</td>
       <td>-</td>
@@ -378,7 +378,7 @@
     </tr>
     <tr>
       <td>41</td>
-      <td>Tree 40 Kth Largest Element In A Bst<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/kth-largest-element-in-bst/1' target='_blank'>GFG</a></td>
+      <td>Tree 41 Kth Largest Element In A Bst<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/kth-largest-element-in-bst/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Reverse inorder traversal.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(H)</td>
       <td>-</td>
@@ -387,7 +387,7 @@
     </tr>
     <tr>
       <td>42</td>
-      <td>Tree 41 Predecessor And Successor In Bst<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/predecessor-and-successor/1' target='_blank'>GFG</a></td>
+      <td>Tree 42 Predecessor And Successor In Bst<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/predecessor-and-successor/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Search down the tree.</td>
       <td><b>Time:</b> O(H)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -396,7 +396,7 @@
     </tr>
     <tr>
       <td>43</td>
-      <td>Tree 42 Construct Bst From Preorder Traversal<br><br></b> <a href='https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/' target='_blank'>LeetCode 1008</a></td>
+      <td>Tree 43 Construct Bst From Preorder Traversal<br><br></b> <a href='https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/' target='_blank'>LeetCode 1008</a></td>
       <td><b>Example 1:</b> Upper bound tracking.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(H)</td>
       <td>-</td>
@@ -405,7 +405,7 @@
     </tr>
     <tr>
       <td>44</td>
-      <td>Tree 43 All Nodes Distance K In Binary Tree<br><br></b> <a href='https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/' target='_blank'>LeetCode 863</a></td>
+      <td>Tree 44 All Nodes Distance K In Binary Tree<br><br></b> <a href='https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/' target='_blank'>LeetCode 863</a></td>
       <td><b>Example 1:</b> Convert to graph or use parent pointers.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
       <td><code>#include <unordered_map>\n#include <queue>\n#include <unordered_set></code></td>
@@ -414,7 +414,7 @@
     </tr>
     <tr>
       <td>45</td>
-      <td>Tree 44 Amount Of Time For Binary Tree To Be Infected<br><br></b> <a href='https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/' target='_blank'>LeetCode 2385</a></td>
+      <td>Tree 45 Amount Of Time For Binary Tree To Be Infected<br><br></b> <a href='https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/' target='_blank'>LeetCode 2385</a></td>
       <td><b>Example 1:</b> Parent pointers and BFS.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -423,7 +423,7 @@
     </tr>
     <tr>
       <td>46</td>
-      <td>Tree 45 Count Complete Tree Nodes<br><br></b> <a href='https://leetcode.com/problems/count-complete-tree-nodes/' target='_blank'>LeetCode 222</a></td>
+      <td>Tree 46 Count Complete Tree Nodes<br><br></b> <a href='https://leetcode.com/problems/count-complete-tree-nodes/' target='_blank'>LeetCode 222</a></td>
       <td><b>Example 1:</b> Recursive with Height check.</td>
       <td><b>Time:</b> O(log^2 N)<br><b>Space:</b> O(log N)</td>
       <td>-</td>
@@ -432,7 +432,7 @@
     </tr>
     <tr>
       <td>47</td>
-      <td>Tree 46 Serialize And Deserialize Binary Tree<br><br></b> <a href='https://leetcode.com/problems/serialize-and-deserialize-binary-tree/' target='_blank'>LeetCode 297</a></td>
+      <td>Tree 47 Serialize And Deserialize Binary Tree<br><br></b> <a href='https://leetcode.com/problems/serialize-and-deserialize-binary-tree/' target='_blank'>LeetCode 297</a></td>
       <td><b>Example 1:</b> Level-order traversal (BFS) with a queue.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
       <td><code>#include <queue>\n#include <sstream></code></td>
@@ -441,7 +441,7 @@
     </tr>
     <tr>
       <td>48</td>
-      <td>Tree 47 Morris Inorder Traversal<br><br></b> <a href='https://leetcode.com/problems/binary-tree-inorder-traversal/' target='_blank'>LeetCode 94</a></td>
+      <td>Tree 48 Morris Inorder Traversal<br><br></b> <a href='https://leetcode.com/problems/binary-tree-inorder-traversal/' target='_blank'>LeetCode 94</a></td>
       <td><b>Example 1:</b> Threaded Binary Tree.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -450,7 +450,7 @@
     </tr>
     <tr>
       <td>49</td>
-      <td>Tree 48 Morris Preorder Traversal<br><br></b> <a href='https://leetcode.com/problems/binary-tree-preorder-traversal/' target='_blank'>LeetCode 144</a></td>
+      <td>Tree 49 Morris Preorder Traversal<br><br></b> <a href='https://leetcode.com/problems/binary-tree-preorder-traversal/' target='_blank'>LeetCode 144</a></td>
       <td><b>Example 1:</b> Threaded Binary Tree.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -459,7 +459,7 @@
     </tr>
     <tr>
       <td>50</td>
-      <td>Tree 49 Flatten Binary Tree To Linked List<br><br></b> <a href='https://leetcode.com/problems/flatten-binary-tree-to-linked-list/' target='_blank'>LeetCode 114</a></td>
+      <td>Tree 50 Flatten Binary Tree To Linked List<br><br></b> <a href='https://leetcode.com/problems/flatten-binary-tree-to-linked-list/' target='_blank'>LeetCode 114</a></td>
       <td><b>Example 1:</b> Reverse Postorder / Stack / Morris.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -468,7 +468,7 @@
     </tr>
     <tr>
       <td>51</td>
-      <td>Tree 50 Search In A Binary Search Tree<br><br></b> <a href='https://leetcode.com/problems/search-in-a-binary-search-tree/' target='_blank'>LeetCode 700</a></td>
+      <td>Tree 51 Search In A Binary Search Tree<br><br></b> <a href='https://leetcode.com/problems/search-in-a-binary-search-tree/' target='_blank'>LeetCode 700</a></td>
       <td><b>Example 1:</b> Iterative or Recursive.</td>
       <td><b>Time:</b> O(H)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -477,7 +477,7 @@
     </tr>
     <tr>
       <td>52</td>
-      <td>Tree 51 Find Minimum In Binary Search Tree<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-element-in-bst/1' target='_blank'>GFG</a></td>
+      <td>Tree 52 Find Minimum In Binary Search Tree<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-element-in-bst/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Leftmost node.</td>
       <td><b>Time:</b> O(H)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -486,7 +486,7 @@
     </tr>
     <tr>
       <td>53</td>
-      <td>Tree 52 Insert Into A Binary Search Tree<br><br></b> <a href='https://leetcode.com/problems/insert-into-a-binary-search-tree/' target='_blank'>LeetCode 701</a></td>
+      <td>Tree 53 Insert Into A Binary Search Tree<br><br></b> <a href='https://leetcode.com/problems/insert-into-a-binary-search-tree/' target='_blank'>LeetCode 701</a></td>
       <td><b>Example 1:</b> Iterative search and insert.</td>
       <td><b>Time:</b> O(H)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -495,7 +495,7 @@
     </tr>
     <tr>
       <td>54</td>
-      <td>Tree 53 Delete Node In A Bst<br><br></b> <a href='https://leetcode.com/problems/delete-node-in-a-bst/' target='_blank'>LeetCode 450</a></td>
+      <td>Tree 54 Delete Node In A Bst<br><br></b> <a href='https://leetcode.com/problems/delete-node-in-a-bst/' target='_blank'>LeetCode 450</a></td>
       <td><b>Example 1:</b> Find and Replace.</td>
       <td><b>Time:</b> O(H)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -504,7 +504,7 @@
     </tr>
     <tr>
       <td>55</td>
-      <td>Tree 54 Kth Smallest Element In A Bst<br><br></b> <a href='https://leetcode.com/problems/kth-smallest-element-in-a-bst/' target='_blank'>LeetCode 230</a></td>
+      <td>Tree 55 Kth Smallest Element In A Bst<br><br></b> <a href='https://leetcode.com/problems/kth-smallest-element-in-a-bst/' target='_blank'>LeetCode 230</a></td>
       <td><b>Example 1:</b> Inorder traversal.</td>
       <td><b>Time:</b> O(K) or O(N)<br><b>Space:</b> O(H) or O(1)</td>
       <td>-</td>
@@ -513,7 +513,7 @@
     </tr>
     <tr>
       <td>56</td>
-      <td>Tree 55 Validate Binary Search Tree<br><br></b> <a href='https://leetcode.com/problems/validate-binary-search-tree/' target='_blank'>LeetCode 98</a></td>
+      <td>Tree 56 Validate Binary Search Tree<br><br></b> <a href='https://leetcode.com/problems/validate-binary-search-tree/' target='_blank'>LeetCode 98</a></td>
       <td><b>Example 1:</b> Recursive with Range.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(H)</td>
       <td>-</td>
@@ -522,7 +522,7 @@
     </tr>
     <tr>
       <td>57</td>
-      <td>Tree 56 Lowest Common Ancestor Of A Binary Search Tree<br><br></b> <a href='https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/' target='_blank'>LeetCode 235</a></td>
+      <td>Tree 57 Lowest Common Ancestor Of A Binary Search Tree<br><br></b> <a href='https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/' target='_blank'>LeetCode 235</a></td>
       <td><b>Example 1:</b> Iterative Traversal based on BST property.</td>
       <td><b>Time:</b> O(H)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -531,7 +531,7 @@
     </tr>
     <tr>
       <td>58</td>
-      <td>Tree 57 Construct Binary Search Tree From Preorder Traversal<br><br></b> <a href='https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/' target='_blank'>LeetCode 1008</a></td>
+      <td>Tree 58 Construct Binary Search Tree From Preorder Traversal<br><br></b> <a href='https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/' target='_blank'>LeetCode 1008</a></td>
       <td><b>Example 1:</b> Recursive with upper bound.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(H)</td>
       <td>-</td>
@@ -540,7 +540,7 @@
     </tr>
     <tr>
       <td>59</td>
-      <td>Tree 58 Inorder Successor In Bst<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/populate-inorder-successor-for-all-nodes/1' target='_blank'>GFG</a></td>
+      <td>Tree 59 Inorder Successor In Bst<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/populate-inorder-successor-for-all-nodes/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Iterative search.</td>
       <td><b>Time:</b> O(H)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -549,7 +549,7 @@
     </tr>
     <tr>
       <td>60</td>
-      <td>Tree 59 Binary Search Tree Iterator<br><br></b> <a href='https://leetcode.com/problems/binary-search-tree-iterator/' target='_blank'>LeetCode 173</a></td>
+      <td>Tree 60 Binary Search Tree Iterator<br><br></b> <a href='https://leetcode.com/problems/binary-search-tree-iterator/' target='_blank'>LeetCode 173</a></td>
       <td><b>Example 1:</b> Stack based partial traversal.</td>
       <td><b>Time:</b> O(1) amortized for next/hasNext<br><b>Space:</b> O(H)</td>
       <td><code>#include <stack></code></td>
@@ -558,7 +558,7 @@
     </tr>
     <tr>
       <td>61</td>
-      <td>Tree 60 Two Sum Iv Input Is A Bst<br><br></b> <a href='https://leetcode.com/problems/two-sum-iv-input-is-a-bst/' target='_blank'>LeetCode 653</a></td>
+      <td>Tree 61 Two Sum Iv Input Is A Bst<br><br></b> <a href='https://leetcode.com/problems/two-sum-iv-input-is-a-bst/' target='_blank'>LeetCode 653</a></td>
       <td><b>Example 1:</b> Two Pointers using dual BST Iterators.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(H)</td>
       <td><code>#include <stack></code></td>
@@ -567,7 +567,7 @@
     </tr>
     <tr>
       <td>62</td>
-      <td>Tree 61 Recover Binary Search Tree<br><br></b> <a href='https://leetcode.com/problems/recover-binary-search-tree/' target='_blank'>LeetCode 99</a></td>
+      <td>Tree 62 Recover Binary Search Tree<br><br></b> <a href='https://leetcode.com/problems/recover-binary-search-tree/' target='_blank'>LeetCode 99</a></td>
       <td><b>Example 1:</b> Inorder Traversal looking for violations.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(H) or O(1) with Morris</td>
       <td>-</td>
@@ -576,7 +576,7 @@
     </tr>
     <tr>
       <td>63</td>
-      <td>Tree 62 Largest Bst<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/largest-bst/1' target='_blank'>GFG</a></td>
+      <td>Tree 63 Largest Bst<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/largest-bst/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Postorder Traversal returning a custom tuple.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(H)</td>
       <td>-</td>
@@ -585,7 +585,7 @@
     </tr>
     <tr>
       <td>64</td>
-      <td>Tree 63 Construct Binary Tree From String With Bracket Representation<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/construct-binary-tree-from-string-with-bracket-representation/1' target='_blank'>GFG</a></td>
+      <td>Tree 64 Construct Binary Tree From String With Bracket Representation<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/construct-binary-tree-from-string-with-bracket-representation/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Stack approach.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(H)</td>
       <td><code>#include <stack></code></td>
@@ -594,7 +594,7 @@
     </tr>
     <tr>
       <td>65</td>
-      <td>Tree 64 Transform To Sum Tree<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/transform-to-sum-tree/1' target='_blank'>GFG</a></td>
+      <td>Tree 65 Transform To Sum Tree<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/transform-to-sum-tree/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Postorder Traversal.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(H)</td>
       <td>-</td>
@@ -603,7 +603,7 @@
     </tr>
     <tr>
       <td>66</td>
-      <td>Tree 16 Zigzag Tree Traversal<br><br></b> <a href='https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/' target='_blank'>LeetCode 103</a></td>
+      <td>Tree 66 Zigzag Tree Traversal<br><br></b> <a href='https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/' target='_blank'>LeetCode 103</a></td>
       <td><b>Example 1:</b> Level order with alternating flag.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
       <td>Queue</td>
@@ -612,7 +612,7 @@
     </tr>
     <tr>
       <td>67</td>
-      <td>Tree 17 Check If A Binary Tree Is Balanced<br><br></b> <a href='https://leetcode.com/problems/balanced-binary-tree/' target='_blank'>LeetCode 110</a></td>
+      <td>Tree 67 Check If A Binary Tree Is Balanced<br><br></b> <a href='https://leetcode.com/problems/balanced-binary-tree/' target='_blank'>LeetCode 110</a></td>
       <td><b>Example 1:</b> DFS post-order.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(N) recursion stack</td>
       <td>-</td>
@@ -621,7 +621,7 @@
     </tr>
     <tr>
       <td>68</td>
-      <td>Tree 18 Diagonal Traversal Of Binary Tree<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/diagonal-traversal-of-binary-tree/1' target='_blank'>GFG</a></td>
+      <td>Tree 68 Diagonal Traversal Of Binary Tree<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/diagonal-traversal-of-binary-tree/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Queue based.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
       <td>Queue</td>
@@ -630,7 +630,7 @@
     </tr>
     <tr>
       <td>69</td>
-      <td>Tree 19 Boundary Traversal Of Binary Tree<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1' target='_blank'>GFG</a></td>
+      <td>Tree 69 Boundary Traversal Of Binary Tree<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/boundary-traversal-of-binary-tree/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Left boundary, then leaves, then right boundary.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -639,7 +639,7 @@
     </tr>
     <tr>
       <td>70</td>
-      <td>Tree 20 Construct Binary Tree From String With Bracket Representation<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/construct-binary-tree-from-string-with-bracket-representation/1' target='_blank'>GFG</a></td>
+      <td>Tree 70 Construct Binary Tree From String With Bracket Representation<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/construct-binary-tree-from-string-with-bracket-representation/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Recursion with index pointer.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -648,7 +648,7 @@
     </tr>
     <tr>
       <td>71</td>
-      <td>Tree 21 Convert Binary Tree Into Doubly Linked List<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/binary-tree-to-dll/1' target='_blank'>GFG</a></td>
+      <td>Tree 71 Convert Binary Tree Into Doubly Linked List<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/binary-tree-to-dll/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> DFS Inorder, maintaining a `prev` pointer.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(H)</td>
       <td>-</td>
@@ -657,7 +657,7 @@
     </tr>
     <tr>
       <td>72</td>
-      <td>Tree 22 Construct Tree From Inorder And Preorder V2<br><br></b> <a href='https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/' target='_blank'>LeetCode 105</a></td>
+      <td>Tree 72 Construct Tree From Inorder And Preorder V2<br><br></b> <a href='https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/' target='_blank'>LeetCode 105</a></td>
       <td><b>Example 1:</b> Map Inorder indices.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
       <td>Hash Map</td>
@@ -666,7 +666,7 @@
     </tr>
     <tr>
       <td>73</td>
-      <td>Tree 23 Check If Tree Is Isomorphic<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/check-if-tree-is-isomorphic/1' target='_blank'>GFG</a></td>
+      <td>Tree 73 Check If Tree Is Isomorphic<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/check-if-tree-is-isomorphic/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Check swapped and unswapped subtrees.</td>
       <td><b>Time:</b> O(min(M, N))<br><b>Space:</b> O(min(H1, H2))</td>
       <td>-</td>
@@ -675,7 +675,7 @@
     </tr>
     <tr>
       <td>74</td>
-      <td>Tree 24 Lowest Common Ancestor In A Binary Tree<br><br></b> <a href='https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/' target='_blank'>LeetCode 236</a></td>
+      <td>Tree 74 Lowest Common Ancestor In A Binary Tree<br><br></b> <a href='https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/' target='_blank'>LeetCode 236</a></td>
       <td><b>Example 1:</b> DFS.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -684,7 +684,7 @@
     </tr>
     <tr>
       <td>75</td>
-      <td>Tree 25 Min Distance Between Two Given Nodes Of A Binary Tree<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/min-distance-between-two-given-nodes-of-a-binary-tree/1' target='_blank'>GFG</a></td>
+      <td>Tree 75 Min Distance Between Two Given Nodes Of A Binary Tree<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/min-distance-between-two-given-nodes-of-a-binary-tree/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Find LCA, then distance from LCA to nodes.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(H)</td>
       <td>-</td>
@@ -693,7 +693,7 @@
     </tr>
     <tr>
       <td>76</td>
-      <td>Tree 26 Construct Binary Tree From String With Bracket Representation<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/construct-binary-tree-from-string-with-bracket-representation/1' target='_blank'>GFG</a></td>
+      <td>Tree 76 Construct Binary Tree From String With Bracket Representation<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/construct-binary-tree-from-string-with-bracket-representation/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Recursive approach.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -702,7 +702,7 @@
     </tr>
     <tr>
       <td>77</td>
-      <td>Tree 27 Binary Tree To Cdll<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/binary-tree-to-cdll/1' target='_blank'>GFG</a></td>
+      <td>Tree 77 Binary Tree To Cdll<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/binary-tree-to-cdll/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Inorder traversal.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(H)</td>
       <td>-</td>
@@ -711,7 +711,7 @@
     </tr>
     <tr>
       <td>78</td>
-      <td>Tree 28 Transform To Sum Tree<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/transform-to-sum-tree/1' target='_blank'>GFG</a></td>
+      <td>Tree 78 Transform To Sum Tree<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/transform-to-sum-tree/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Postorder traversal.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(H)</td>
       <td>-</td>
@@ -720,7 +720,7 @@
     </tr>
     <tr>
       <td>79</td>
-      <td>Tree 29 Construct Tree From Inorder And Preorder<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/construct-tree-1/1' target='_blank'>GFG</a></td>
+      <td>Tree 79 Construct Tree From Inorder And Preorder<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/construct-tree-1/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Hash map for fast search.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -729,7 +729,7 @@
     </tr>
     <tr>
       <td>80</td>
-      <td>Tree 30 Minimum Swap Required To Convert Binary Tree To Binary Search Tree<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-swap-required-to-convert-binary-tree-to-binary-search-tree/0' target='_blank'>GFG</a></td>
+      <td>Tree 80 Minimum Swap Required To Convert Binary Tree To Binary Search Tree<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-swap-required-to-convert-binary-tree-to-binary-search-tree/0' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Graph cycle detection on Inorder.</td>
       <td><b>Time:</b> O(N log N)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -738,7 +738,7 @@
     </tr>
     <tr>
       <td>81</td>
-      <td>Tree 31 Check If Binary Tree Is Sum Tree Or Not<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/sum-tree/1' target='_blank'>GFG</a></td>
+      <td>Tree 81 Check If Binary Tree Is Sum Tree Or Not<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/sum-tree/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Recursive check.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(H)</td>
       <td>-</td>
@@ -747,7 +747,7 @@
     </tr>
     <tr>
       <td>82</td>
-      <td>Tree 32 Check If All Leaf Nodes Are At Same Level Or Not<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/leaf-at-same-level/1' target='_blank'>GFG</a></td>
+      <td>Tree 82 Check If All Leaf Nodes Are At Same Level Or Not<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/leaf-at-same-level/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Recursive check with global variable.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(H)</td>
       <td>-</td>
@@ -756,7 +756,7 @@
     </tr>
     <tr>
       <td>83</td>
-      <td>Tree 33 Check If A Binary Tree Contains Duplicate Subtrees Of Size 2 Or More<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/duplicate-subtree-in-binary-tree/1' target='_blank'>GFG</a></td>
+      <td>Tree 83 Check If A Binary Tree Contains Duplicate Subtrees Of Size 2 Or More<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/duplicate-subtree-in-binary-tree/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> String serialization.</td>
       <td><b>Time:</b> O(N^2)<br><b>Space:</b> O(N)</td>
       <td>Hash Map</td>
@@ -765,7 +765,7 @@
     </tr>
     <tr>
       <td>84</td>
-      <td>Tree 34 Check If 2 Trees Are Mirror Or Not<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/check-mirror-in-n-ary-tree1528/1' target='_blank'>GFG</a></td>
+      <td>Tree 84 Check If 2 Trees Are Mirror Or Not<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/check-mirror-in-n-ary-tree1528/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Stack and Queue.</td>
       <td><b>Time:</b> O(E)<br><b>Space:</b> O(E)</td>
       <td>-</td>
@@ -774,12 +774,102 @@
     </tr>
     <tr>
       <td>85</td>
-      <td>Tree 35 Sum Of Nodes On The Longest Path From Root To Leaf Node<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/sum-of-the-longest-bloodline-of-a-tree/1' target='_blank'>GFG</a></td>
+      <td>Tree 85 Sum Of Nodes On The Longest Path From Root To Leaf Node<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/sum-of-the-longest-bloodline-of-a-tree/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> DFS.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(H)</td>
       <td>-</td>
       <td>-</td>
       <td><b>Explanation:</b> Use DFS. Keep track of the maximum length and the maximum sum. At each node, check if the current length is greater than max length. If so, update max length and max sum. If lengths are equal, update max sum if current sum is greater.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">void solve(Node* root, int sum, int&amp; maxSum, int len, int&amp; maxLen) {&#10;    if(!root) {&#10;        if(len &gt; maxLen) {&#10;            maxLen = len;&#10;            maxSum = sum;&#10;        } else if(len == maxLen) {&#10;            maxSum = max(sum, maxSum);&#10;        }&#10;        return;&#10;    }&#10;    sum = sum + root-&gt;data;&#10;    solve(root-&gt;left, sum, maxSum, len + 1, maxLen);&#10;    solve(root-&gt;right, sum, maxSum, len + 1, maxLen);&#10;}&#10;int sumOfLongRootToLeafPath(Node *root) {&#10;    int len = 0, maxLen = 0;&#10;    int sum = 0, maxSum = INT_MIN;&#10;    solve(root, sum, maxSum, len, maxLen);&#10;    return maxSum;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def sumOfLongRootToLeafPath(root):&#10;    maxLen = [0]&#10;    maxSum = [float(&#x27;-inf&#x27;)]&#10;    def solve(node, sum_val, length):&#10;        if not node:&#10;            if length &gt; maxLen[0]:&#10;                maxLen[0] = length&#10;                maxSum[0] = sum_val&#10;            elif length == maxLen[0]:&#10;                maxSum[0] = max(sum_val, maxSum[0])&#10;            return&#10;        sum_val += node.data&#10;        solve(node.left, sum_val, length + 1)&#10;        solve(node.right, sum_val, length + 1)&#10;    solve(root, 0, 0)&#10;    return maxSum[0] if maxSum[0] != float(&#x27;-inf&#x27;) else 0</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>86</td>
+      <td>Tree 86 Minimum Distance Between Two Given Nodes Of A Binary Tree<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/min-distance-between-two-given-nodes-of-a-binary-tree/1' target='_blank'>GFG</a></td>
+      <td><b>Example 1:</b> LCA + Distance calculation.</td>
+      <td><b>Time:</b> O(N)<br><b>Space:</b> O(H)</td>
+      <td>-</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Find the Lowest Common Ancestor (LCA) of the two nodes. Then find the distance from LCA to the first node and the distance from LCA to the second node. The total distance is the sum of these two distances.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">Node* lca(Node* root, int n1, int n2) {&#10;    if(!root || root-&gt;data == n1 || root-&gt;data == n2) return root;&#10;    Node* left = lca(root-&gt;left, n1, n2);&#10;    Node* right = lca(root-&gt;right, n1, n2);&#10;    if(left &amp;&amp; right) return root;&#10;    return left ? left : right;&#10;}&#10;int findDist(Node* root, int val, int dist) {&#10;    if(!root) return -1;&#10;    if(root-&gt;data == val) return dist;&#10;    int left = findDist(root-&gt;left, val, dist + 1);&#10;    if(left != -1) return left;&#10;    return findDist(root-&gt;right, val, dist + 1);&#10;}&#10;int findDist(Node* root, int a, int b) {&#10;    Node* lca_node = lca(root, a, b);&#10;    return findDist(lca_node, a, 0) + findDist(lca_node, b, 0);&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def lca(root, n1, n2):&#10;    if not root or root.data == n1 or root.data == n2: return root&#10;    left = lca(root.left, n1, n2)&#10;    right = lca(root.right, n1, n2)&#10;    if left and right: return root&#10;    return left if left else right&#10;def findDist(root, val, dist):&#10;    if not root: return -1&#10;    if root.data == val: return dist&#10;    left = findDist(root.left, val, dist + 1)&#10;    if left != -1: return left&#10;    return findDist(root.right, val, dist + 1)&#10;def findDistMain(root, a, b):&#10;    lca_node = lca(root, a, b)&#10;    return findDist(lca_node, a, 0) + findDist(lca_node, b, 0)</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>87</td>
+      <td>Tree 87 Kth Ancestor In A Tree<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/kth-ancestor-in-a-tree/1' target='_blank'>GFG</a></td>
+      <td><b>Example 1:</b> Recursive backtracking.</td>
+      <td><b>Time:</b> O(N)<br><b>Space:</b> O(H)</td>
+      <td>-</td>
+      <td>k > depth</td>
+      <td><b>Explanation:</b> Use a recursive function. If the target node is found, return it. As you return back up the call stack, decrement `k`. When `k` becomes 0, the current node is the kth ancestor.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">Node* solve(Node* root, int&amp; k, int node) {&#10;    if(!root) return NULL;&#10;    if(root-&gt;data == node) return root;&#10;    Node* left = solve(root-&gt;left, k, node);&#10;    Node* right = solve(root-&gt;right, k, node);&#10;    if(left || right) {&#10;        k--;&#10;        if(k == 0) {&#10;            k = INT_MAX;&#10;            return root;&#10;        }&#10;        return left ? left : right;&#10;    }&#10;    return NULL;&#10;}&#10;int kthAncestor(Node *root, int k, int node) {&#10;    Node* ans = solve(root, k, node);&#10;    if(!ans || ans-&gt;data == node) return -1;&#10;    return ans-&gt;data;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def kthAncestor(root, k, node):&#10;    ans_node = None&#10;    def solve(root):&#10;        nonlocal k, ans_node&#10;        if not root: return False&#10;        if root.data == node: return True&#10;        left = solve(root.left)&#10;        right = solve(root.right)&#10;        if left or right:&#10;            k -= 1&#10;            if k == 0:&#10;                ans_node = root&#10;                return False&#10;            return True&#10;        return False&#10;    solve(root)&#10;    return ans_node.data if ans_node else -1</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>88</td>
+      <td>Tree 88 Find All Duplicate Subtrees In A Binary Tree<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/duplicate-subtrees/1' target='_blank'>GFG</a></td>
+      <td><b>Example 1:</b> Serialization + Hash Map.</td>
+      <td><b>Time:</b> O(N^2)<br><b>Space:</b> O(N^2)</td>
+      <td>Hash Map</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Serialize each subtree into a string (e.g., using preorder traversal). Use a hash map to count the frequencies of these serialized strings. If a string appears exactly twice, add the root of that subtree to the result list.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">string solve(Node* root, unordered_map&lt;string, int&gt;&amp; m, vector&lt;Node*&gt;&amp; ans) {&#10;    if(!root) return &quot;N&quot;;&#10;    string s = to_string(root-&gt;data) + &quot;,&quot; + solve(root-&gt;left, m, ans) + &quot;,&quot; + solve(root-&gt;right, m, ans);&#10;    m[s]++;&#10;    if(m[s] == 2) ans.push_back(root);&#10;    return s;&#10;}&#10;vector&lt;Node*&gt; printAllDups(Node* root) {&#10;    unordered_map&lt;string, int&gt; m;&#10;    vector&lt;Node*&gt; ans;&#10;    solve(root, m, ans);&#10;    return ans;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def printAllDups(root):&#10;    m = {}&#10;    ans = []&#10;    def solve(node):&#10;        if not node: return &quot;N&quot;&#10;        s = str(node.data) + &quot;,&quot; + solve(node.left) + &quot;,&quot; + solve(node.right)&#10;        m[s] = m.get(s, 0) + 1&#10;        if m[s] == 2: ans.append(node)&#10;        return s&#10;    solve(root)&#10;    return ans</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>89</td>
+      <td>Tree 89 Maximum Depth Of Binary Tree<br><br></b> <a href='https://leetcode.com/problems/maximum-depth-of-binary-tree/' target='_blank'>LeetCode 104</a></td>
+      <td><b>Example 1:</b> Recursive DFS.</td>
+      <td><b>Time:</b> O(N)<br><b>Space:</b> O(H)</td>
+      <td>-</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Recursively find the maximum depth of the left subtree and the right subtree. The maximum depth of the tree is `1 + max(left_depth, right_depth)`.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">int maxDepth(TreeNode* root) {&#10;    if(!root) return 0;&#10;    return 1 + max(maxDepth(root-&gt;left), maxDepth(root-&gt;right));&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def maxDepth(root):&#10;    if not root: return 0&#10;    return 1 + max(maxDepth(root.left), maxDepth(root.right))</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>90</td>
+      <td>Tree 90 Balanced Binary Tree<br><br></b> <a href='https://leetcode.com/problems/balanced-binary-tree/' target='_blank'>LeetCode 110</a></td>
+      <td><b>Example 1:</b> Modified depth function.</td>
+      <td><b>Time:</b> O(N)<br><b>Space:</b> O(H)</td>
+      <td>-</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Modify the function that calculates the height of the tree. If at any node, the difference between the left and right subtree heights is greater than 1, or if any subtree is unbalanced, return -1. Otherwise, return the height.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">int checkHeight(TreeNode* root) {&#10;    if(!root) return 0;&#10;    int leftHeight = checkHeight(root-&gt;left);&#10;    if(leftHeight == -1) return -1;&#10;    int rightHeight = checkHeight(root-&gt;right);&#10;    if(rightHeight == -1) return -1;&#10;    if(abs(leftHeight - rightHeight) &gt; 1) return -1;&#10;    return max(leftHeight, rightHeight) + 1;&#10;}&#10;bool isBalanced(TreeNode* root) {&#10;    return checkHeight(root) != -1;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def isBalanced(root):&#10;    def checkHeight(node):&#10;        if not node: return 0&#10;        leftHeight = checkHeight(node.left)&#10;        if leftHeight == -1: return -1&#10;        rightHeight = checkHeight(node.right)&#10;        if rightHeight == -1: return -1&#10;        if abs(leftHeight - rightHeight) &gt; 1: return -1&#10;        return max(leftHeight, rightHeight) + 1&#10;    return checkHeight(root) != -1</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>91</td>
+      <td>Tree 91 Binary Tree Maximum Path Sum<br><br></b> <a href='https://leetcode.com/problems/binary-tree-maximum-path-sum/' target='_blank'>LeetCode 124</a></td>
+      <td><b>Example 1:</b> Postorder Traversal.</td>
+      <td><b>Time:</b> O(N)<br><b>Space:</b> O(H)</td>
+      <td>-</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Use a recursive postorder function. For each node, calculate the maximum path sum in its left and right subtrees (ignoring negative sums by taking max(0, sum)). Update the global `max_sum` with `node.val + left_sum + right_sum`. Return `node.val + max(left_sum, right_sum)` to be used by the parent.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">int maxPathDown(TreeNode* root, int&amp; maxi) {&#10;    if(!root) return 0;&#10;    int left = max(0, maxPathDown(root-&gt;left, maxi));&#10;    int right = max(0, maxPathDown(root-&gt;right, maxi));&#10;    maxi = max(maxi, root-&gt;val + left + right);&#10;    return root-&gt;val + max(left, right);&#10;}&#10;int maxPathSum(TreeNode* root) {&#10;    int maxi = INT_MIN;&#10;    maxPathDown(root, maxi);&#10;    return maxi;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def maxPathSum(root):&#10;    maxi = float(&#x27;-inf&#x27;)&#10;    def maxPathDown(node):&#10;        nonlocal maxi&#10;        if not node: return 0&#10;        left = max(0, maxPathDown(node.left))&#10;        right = max(0, maxPathDown(node.right))&#10;        maxi = max(maxi, node.val + left + right)&#10;        return node.val + max(left, right)&#10;    maxPathDown(root)&#10;    return maxi</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>92</td>
+      <td>Tree 92 Binary Tree Zigzag Level Order Traversal<br><br></b> <a href='https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/' target='_blank'>LeetCode 103</a></td>
+      <td><b>Example 1:</b> BFS with level flag.</td>
+      <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
+      <td>Queue</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Perform standard BFS using a queue. Maintain a boolean flag `leftToRight`. After processing a level, if `leftToRight` is false, reverse the current level's vector before adding it to the result. Toggle the flag for the next level.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">vector&lt;vector&lt;int&gt;&gt; zigzagLevelOrder(TreeNode* root) {&#10;    vector&lt;vector&lt;int&gt;&gt; ans;&#10;    if(!root) return ans;&#10;    queue&lt;TreeNode*&gt; q;&#10;    q.push(root);&#10;    bool leftToRight = true;&#10;    while(!q.empty()) {&#10;        int size = q.size();&#10;        vector&lt;int&gt; level(size);&#10;        for(int i = 0; i &lt; size; i++) {&#10;            TreeNode* node = q.front(); q.pop();&#10;            int index = leftToRight ? i : (size - 1 - i);&#10;            level[index] = node-&gt;val;&#10;            if(node-&gt;left) q.push(node-&gt;left);&#10;            if(node-&gt;right) q.push(node-&gt;right);&#10;        }&#10;        leftToRight = !leftToRight;&#10;        ans.push_back(level);&#10;    }&#10;    return ans;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">from collections import deque&#10;def zigzagLevelOrder(root):&#10;    ans = []&#10;    if not root: return ans&#10;    q = deque([root])&#10;    leftToRight = True&#10;    while q:&#10;        size = len(q)&#10;        level = [0] * size&#10;        for i in range(size):&#10;            node = q.popleft()&#10;            index = i if leftToRight else size - 1 - i&#10;            level[index] = node.val&#10;            if node.left: q.append(node.left)&#10;            if node.right: q.append(node.right)&#10;        leftToRight = not leftToRight&#10;        ans.append(level)&#10;    return ans</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>93</td>
+      <td>Tree 93 Vertical Order Traversal Of A Binary Tree<br><br></b> <a href='https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/' target='_blank'>LeetCode 987</a></td>
+      <td><b>Example 1:</b> BFS with coordinate map.</td>
+      <td><b>Time:</b> O(N log N)<br><b>Space:</b> O(N)</td>
+      <td>Queue, Map</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Use BFS to traverse the tree. Store coordinates `(x, y)` along with nodes in a queue. Use a nested map `map<int, map<int, multiset<int>>> nodes` to store nodes grouped by `x` (vertical level), then by `y` (horizontal level). `multiset` handles sorting when multiple nodes share the same coordinates.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">vector&lt;vector&lt;int&gt;&gt; verticalTraversal(TreeNode* root) {&#10;    map&lt;int, map&lt;int, multiset&lt;int&gt;&gt;&gt; nodes;&#10;    queue&lt;pair&lt;TreeNode*, pair&lt;int, int&gt;&gt;&gt; q;&#10;    if(root) q.push({root, {0, 0}});&#10;    while(!q.empty()) {&#10;        auto p = q.front(); q.pop();&#10;        TreeNode* node = p.first;&#10;        int x = p.second.first, y = p.second.second;&#10;        nodes[x][y].insert(node-&gt;val);&#10;        if(node-&gt;left) q.push({node-&gt;left, {x - 1, y + 1}});&#10;        if(node-&gt;right) q.push({node-&gt;right, {x + 1, y + 1}});&#10;    }&#10;    vector&lt;vector&lt;int&gt;&gt; ans;&#10;    for(auto p : nodes) {&#10;        vector&lt;int&gt; col;&#10;        for(auto q : p.second) {&#10;            col.insert(col.end(), q.second.begin(), q.second.end());&#10;        }&#10;        ans.push_back(col);&#10;    }&#10;    return ans;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">from collections import deque, defaultdict&#10;def verticalTraversal(root):&#10;    nodes = defaultdict(lambda: defaultdict(list))&#10;    q = deque([(root, 0, 0)])&#10;    while q:&#10;        node, x, y = q.popleft()&#10;        nodes[x][y].append(node.val)&#10;        if node.left: q.append((node.left, x - 1, y + 1))&#10;        if node.right: q.append((node.right, x + 1, y + 1))&#10;    ans = []&#10;    for x in sorted(nodes.keys()):&#10;        col = []&#10;        for y in sorted(nodes[x].keys()):&#10;            col.extend(sorted(nodes[x][y]))&#10;        ans.append(col)&#10;    return ans</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>94</td>
+      <td>Tree 94 Symmetric Tree<br><br></b> <a href='https://leetcode.com/problems/symmetric-tree/' target='_blank'>LeetCode 101</a></td>
+      <td><b>Example 1:</b> Recursive.</td>
+      <td><b>Time:</b> O(N)<br><b>Space:</b> O(H)</td>
+      <td>-</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Use a helper function `isMirror(left, right)`. The tree is symmetric if `root->left` and `root->right` are mirrors. Two trees are mirrors if their roots are equal and `left1->left` is mirror of `right1->right`, and `left1->right` is mirror of `right1->left`.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">bool isMirror(TreeNode* n1, TreeNode* n2) {&#10;    if(!n1 &amp;&amp; !n2) return true;&#10;    if(!n1 || !n2) return false;&#10;    return (n1-&gt;val == n2-&gt;val) &amp;&amp; isMirror(n1-&gt;left, n2-&gt;right) &amp;&amp; isMirror(n1-&gt;right, n2-&gt;left);&#10;}&#10;bool isSymmetric(TreeNode* root) {&#10;    if(!root) return true;&#10;    return isMirror(root-&gt;left, root-&gt;right);&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def isSymmetric(root):&#10;    def isMirror(n1, n2):&#10;        if not n1 and not n2: return True&#10;        if not n1 or not n2: return False&#10;        return (n1.val == n2.val) and isMirror(n1.left, n2.right) and isMirror(n1.right, n2.left)&#10;    if not root: return True&#10;    return isMirror(root.left, root.right)</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>95</td>
+      <td>Tree 95 Root To Node Path In Binary Tree<br><br></b> <a href='https://www.interviewbit.com/problems/path-to-given-node/' target='_blank'>InterviewBit</a></td>
+      <td><b>Example 1:</b> Recursive backtracking.</td>
+      <td><b>Time:</b> O(N)<br><b>Space:</b> O(H)</td>
+      <td>-</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Use recursion. Push current node to the path array. If it's the target node, return true. Recursively search left and right subtrees. If either returns true, return true. If not found in either, pop the current node from the path array and return false.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">bool getPath(TreeNode* root, vector&lt;int&gt;&amp; arr, int x) {&#10;    if(!root) return false;&#10;    arr.push_back(root-&gt;val);&#10;    if(root-&gt;val == x) return true;&#10;    if(getPath(root-&gt;left, arr, x) || getPath(root-&gt;right, arr, x)) return true;&#10;    arr.pop_back();&#10;    return false;&#10;}&#10;vector&lt;int&gt; solve(TreeNode* A, int B) {&#10;    vector&lt;int&gt; arr;&#10;    if(!A) return arr;&#10;    getPath(A, arr, B);&#10;    return arr;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def solve(A, B):&#10;    arr = []&#10;    def getPath(node, x):&#10;        if not node: return False&#10;        arr.append(node.val)&#10;        if node.val == x: return True&#10;        if getPath(node.left, x) or getPath(node.right, x): return True&#10;        arr.pop()&#10;        return False&#10;    if not A: return arr&#10;    getPath(A, B)&#10;    return arr</code></pre></details></td>
     </tr>
   </tbody>
 </table>

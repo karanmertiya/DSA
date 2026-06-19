@@ -90,7 +90,7 @@
     </tr>
     <tr>
       <td>9</td>
-      <td>Hash 04 Two Sum<br><br></b> <a href='https://leetcode.com/problems/two-sum/' target='_blank'>LeetCode 1</a></td>
+      <td>Hash 09 Two Sum<br><br></b> <a href='https://leetcode.com/problems/two-sum/' target='_blank'>LeetCode 1</a></td>
       <td><b>Example 1:</b> Input: nums = [2,7,11,15], target = 9, Output: [0,1]</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
       <td><code>std::unordered_map</code></td>
@@ -99,7 +99,7 @@
     </tr>
     <tr>
       <td>10</td>
-      <td>Hash 05 Group Anagrams<br><br></b> <a href='https://leetcode.com/problems/group-anagrams/' target='_blank'>LeetCode 49</a></td>
+      <td>Hash 10 Group Anagrams<br><br></b> <a href='https://leetcode.com/problems/group-anagrams/' target='_blank'>LeetCode 49</a></td>
       <td><b>Example 1:</b> Input: strs = ["eat","tea","tan","ate","nat","bat"], Output: [["bat"],["nat","tan"],["ate","eat","tea"]]</td>
       <td><b>Time:</b> O(N * K log K)<br><b>Space:</b> O(N * K)</td>
       <td><code>std::unordered_map</code>, <code>std::sort</code></td>
@@ -108,12 +108,102 @@
     </tr>
     <tr>
       <td>11</td>
-      <td>Hash 06 Longest Consecutive Sequence<br><br></b> <a href='https://leetcode.com/problems/longest-consecutive-sequence/' target='_blank'>LeetCode 128</a></td>
+      <td>Hash 11 Longest Consecutive Sequence<br><br></b> <a href='https://leetcode.com/problems/longest-consecutive-sequence/' target='_blank'>LeetCode 128</a></td>
       <td><b>Example 1:</b> Input: nums = [100,4,200,1,3,2], Output: 4 (The sequence is [1, 2, 3, 4])</td>
       <td><b>Time:</b> O(N) (Constraint)<br><b>Space:</b> O(N)</td>
       <td><code>std::unordered_set</code></td>
       <td><b>Duplicate Elements:</b> Handled automatically by the Set.</td>
       <td><b>Explanation:</b> Insert all elements into a Hash Set. Iterate through elements. If `num - 1` is NOT in the set, it's the start of a sequence. Count forwards.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">#include &lt;vector&gt;&#10;#include &lt;unordered_set&gt;&#10;#include &lt;algorithm&gt;&#10;int longestConsecutive(std::vector&lt;int&gt;&amp; nums) {&#10;    std::unordered_set&lt;int&gt; st(nums.begin(), nums.end());&#10;    int max_len = 0;&#10;    for(int num : st) {&#10;        if(st.find(num - 1) == st.end()) {&#10;            int curr_num = num;&#10;            int curr_len = 1;&#10;            while(st.find(curr_num + 1) != st.end()) {&#10;                curr_num++;&#10;                curr_len++;&#10;            }&#10;            max_len = std::max(max_len, curr_len);&#10;        }&#10;    }&#10;    return max_len;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def longestConsecutive(nums: list[int]) -&gt; int:&#10;    num_set = set(nums)&#10;    max_len = 0&#10;    for num in num_set:&#10;        if num - 1 not in num_set:&#10;            curr_num = num&#10;            curr_len = 1&#10;            while curr_num + 1 in num_set:&#10;                curr_num += 1&#10;                curr_len += 1&#10;            max_len = max(max_len, curr_len)&#10;    return max_len</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>Hash 12 Subarray With 0 Sum<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/subarray-with-0-sum-1587115621/1' target='_blank'>GFG</a></td>
+      <td><b>Example 1:</b> Hash Set.</td>
+      <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
+      <td>Hash Set</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Maintain the prefix sum. If the current prefix sum is 0, or if it has been seen before (stored in a Hash Set), then a subarray with 0 sum exists.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">bool subArrayExists(int arr[], int n) {&#10;    unordered_set&lt;int&gt; s;&#10;    int sum = 0;&#10;    for(int i = 0; i &lt; n; i++) {&#10;        sum += arr[i];&#10;        if(sum == 0 || s.find(sum) != s.end()) return true;&#10;        s.insert(sum);&#10;    }&#10;    return false;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def subArrayExists(arr, n):&#10;    s = set()&#10;    sum_val = 0&#10;    for num in arr:&#10;        sum_val += num&#10;        if sum_val == 0 or sum_val in s: return True&#10;        s.add(sum_val)&#10;    return False</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>Hash 13 Longest Subarray With 0 Sum<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/largest-subarray-with-0-sum/1' target='_blank'>GFG</a></td>
+      <td><b>Example 1:</b> Hash Map.</td>
+      <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
+      <td>Hash Map</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Maintain the prefix sum and a hash map storing the first occurrence index of each prefix sum. If sum is 0, length is `i+1`. If sum is in the map, length is `i - map[sum]`. Update max length.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">int maxLen(vector&lt;int&gt;&amp; A, int n) {&#10;    unordered_map&lt;int, int&gt; m;&#10;    int maxi = 0, sum = 0;&#10;    for(int i = 0; i &lt; n; i++) {&#10;        sum += A[i];&#10;        if(sum == 0) maxi = i + 1;&#10;        else {&#10;            if(m.find(sum) != m.end()) {&#10;                maxi = max(maxi, i - m[sum]);&#10;            } else {&#10;                m[sum] = i;&#10;            }&#10;        }&#10;    }&#10;    return maxi;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def maxLen(n, arr):&#10;    m = {}&#10;    maxi, sum_val = 0, 0&#10;    for i in range(n):&#10;        sum_val += arr[i]&#10;        if sum_val == 0: maxi = i + 1&#10;        else:&#10;            if sum_val in m:&#10;                maxi = max(maxi, i - m[sum_val])&#10;            else:&#10;                m[sum_val] = i&#10;    return maxi</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>Hash 14 Two Sum<br><br></b> <a href='https://leetcode.com/problems/two-sum/' target='_blank'>LeetCode 1</a></td>
+      <td><b>Example 1:</b> Hash Map.</td>
+      <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
+      <td>Hash Map</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Use a hash map to store `value -> index`. Iterate through array, check if `target - nums[i]` exists in map. If yes, return current index and mapped index. Else, store current value and index.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">vector&lt;int&gt; twoSum(vector&lt;int&gt;&amp; nums, int target) {&#10;    unordered_map&lt;int, int&gt; m;&#10;    for(int i = 0; i &lt; nums.size(); i++) {&#10;        if(m.find(target - nums[i]) != m.end()) {&#10;            return {m[target - nums[i]], i};&#10;        }&#10;        m[nums[i]] = i;&#10;    }&#10;    return {};&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def twoSum(nums, target):&#10;    m = {}&#10;    for i, num in enumerate(nums):&#10;        if target - num in m:&#10;            return [m[target - num], i]&#10;        m[num] = i&#10;    return []</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>Hash 15 Count Subarrays With Given Xor<br><br></b> <a href='https://www.interviewbit.com/problems/subarray-with-given-xor/' target='_blank'>InterviewBit</a></td>
+      <td><b>Example 1:</b> Hash Map.</td>
+      <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
+      <td>Hash Map</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Maintain prefix XOR. Use hash map to store prefix XOR frequencies. If current XOR is `xr`, we need a previous XOR `xr ^ B`. Add its frequency to count. Insert `xr` to map.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">int solve(vector&lt;int&gt; &amp;A, int B) {&#10;    unordered_map&lt;int, int&gt; m;&#10;    int xr = 0, count = 0;&#10;    for(int i = 0; i &lt; A.size(); i++) {&#10;        xr ^= A[i];&#10;        if(xr == B) count++;&#10;        if(m.find(xr ^ B) != m.end()) {&#10;            count += m[xr ^ B];&#10;        }&#10;        m[xr]++;&#10;    }&#10;    return count;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def solve(A, B):&#10;    m = {}&#10;    xr, count = 0, 0&#10;    for num in A:&#10;        xr ^= num&#10;        if xr == B: count += 1&#10;        if xr ^ B in m:&#10;            count += m[xr ^ B]&#10;        m[xr] = m.get(xr, 0) + 1&#10;    return count</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>Hash 16 Longest Consecutive Sequence<br><br></b> <a href='https://leetcode.com/problems/longest-consecutive-sequence/' target='_blank'>LeetCode 128</a></td>
+      <td><b>Example 1:</b> Hash Set.</td>
+      <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
+      <td>Hash Set</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Insert all elements into a hash set. Iterate through the set. If `x - 1` is not in the set, `x` is the start of a sequence. Count consecutive elements `x + 1`, `x + 2`... Update max length.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">int longestConsecutive(vector&lt;int&gt;&amp; nums) {&#10;    unordered_set&lt;int&gt; s(nums.begin(), nums.end());&#10;    int maxLen = 0;&#10;    for(int num : s) {&#10;        if(s.find(num - 1) == s.end()) {&#10;            int currNum = num;&#10;            int currLen = 1;&#10;            while(s.find(currNum + 1) != s.end()) {&#10;                currNum++;&#10;                currLen++;&#10;            }&#10;            maxLen = max(maxLen, currLen);&#10;        }&#10;    }&#10;    return maxLen;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def longestConsecutive(nums):&#10;    s = set(nums)&#10;    max_len = 0&#10;    for num in s:&#10;        if num - 1 not in s:&#10;            curr_num, curr_len = num, 1&#10;            while curr_num + 1 in s:&#10;                curr_num += 1&#10;                curr_len += 1&#10;            max_len = max(max_len, curr_len)&#10;    return max_len</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>Hash 17 4Sum<br><br></b> <a href='https://leetcode.com/problems/4sum/' target='_blank'>LeetCode 18</a></td>
+      <td><b>Example 1:</b> Sort + Two Pointers.</td>
+      <td><b>Time:</b> O(N^3)<br><b>Space:</b> O(1)</td>
+      <td>-</td>
+      <td>Integer overflow for sum</td>
+      <td><b>Explanation:</b> Sort array. Use nested loops for first two elements. Use two pointers for the remaining two. Skip duplicates to ensure unique quadruplets.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">vector&lt;vector&lt;int&gt;&gt; fourSum(vector&lt;int&gt;&amp; nums, int target) {&#10;    vector&lt;vector&lt;int&gt;&gt; ans;&#10;    sort(nums.begin(), nums.end());&#10;    int n = nums.size();&#10;    for(int i = 0; i &lt; n; i++) {&#10;        if(i &gt; 0 &amp;&amp; nums[i] == nums[i-1]) continue;&#10;        for(int j = i + 1; j &lt; n; j++) {&#10;            if(j &gt; i + 1 &amp;&amp; nums[j] == nums[j-1]) continue;&#10;            int low = j + 1, high = n - 1;&#10;            while(low &lt; high) {&#10;                long long sum = (long long)nums[i] + nums[j] + nums[low] + nums[high];&#10;                if(sum == target) {&#10;                    ans.push_back({nums[i], nums[j], nums[low], nums[high]});&#10;                    while(low &lt; high &amp;&amp; nums[low] == nums[low+1]) low++;&#10;                    while(low &lt; high &amp;&amp; nums[high] == nums[high-1]) high--;&#10;                    low++; high--;&#10;                } else if(sum &lt; target) low++;&#10;                else high--;&#10;            }&#10;        }&#10;    }&#10;    return ans;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def fourSum(nums, target):&#10;    nums.sort()&#10;    ans = []&#10;    n = len(nums)&#10;    for i in range(n):&#10;        if i &gt; 0 and nums[i] == nums[i-1]: continue&#10;        for j in range(i + 1, n):&#10;            if j &gt; i + 1 and nums[j] == nums[j-1]: continue&#10;            low, high = j + 1, n - 1&#10;            while low &lt; high:&#10;                total = nums[i] + nums[j] + nums[low] + nums[high]&#10;                if total == target:&#10;                    ans.append([nums[i], nums[j], nums[low], nums[high]])&#10;                    while low &lt; high and nums[low] == nums[low+1]: low += 1&#10;                    while low &lt; high and nums[high] == nums[high-1]: high -= 1&#10;                    low += 1; high -= 1&#10;                elif total &lt; target: low += 1&#10;                else: high -= 1&#10;    return ans</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>Hash 18 Sort Characters By Frequency<br><br></b> <a href='https://leetcode.com/problems/sort-characters-by-frequency/' target='_blank'>LeetCode 451</a></td>
+      <td><b>Example 1:</b> Hash Map + Priority Queue / Sorting.</td>
+      <td><b>Time:</b> O(N log K) where K is unique chars<br><b>Space:</b> O(K)</td>
+      <td>Hash Map</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Count frequencies using a hash map. Add pairs `(freq, char)` to a max heap or vector and sort. Reconstruct string.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">string frequencySort(string s) {&#10;    unordered_map&lt;char, int&gt; freq;&#10;    for(char c : s) freq[c]++;&#10;    vector&lt;pair&lt;int, char&gt;&gt; v;&#10;    for(auto it : freq) v.push_back({it.second, it.first});&#10;    sort(v.rbegin(), v.rend());&#10;    string ans = &quot;&quot;;&#10;    for(auto it : v) {&#10;        ans += string(it.first, it.second);&#10;    }&#10;    return ans;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">from collections import Counter&#10;def frequencySort(s):&#10;    counts = Counter(s)&#10;    return &quot;&quot;.join(char * count for char, count in counts.most_common())</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>Hash 19 Group Anagrams<br><br></b> <a href='https://leetcode.com/problems/group-anagrams/' target='_blank'>LeetCode 49</a></td>
+      <td><b>Example 1:</b> Hash Map with sorted string as key.</td>
+      <td><b>Time:</b> O(N * K log K) where K is max string length<br><b>Space:</b> O(N * K)</td>
+      <td>Hash Map</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Use a hash map. The key is the sorted version of the string (or a character count string), and the value is a list of original strings that match this key.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">vector&lt;vector&lt;string&gt;&gt; groupAnagrams(vector&lt;string&gt;&amp; strs) {&#10;    unordered_map&lt;string, vector&lt;string&gt;&gt; m;&#10;    for(string s : strs) {&#10;        string key = s;&#10;        sort(key.begin(), key.end());&#10;        m[key].push_back(s);&#10;    }&#10;    vector&lt;vector&lt;string&gt;&gt; ans;&#10;    for(auto it : m) ans.push_back(it.second);&#10;    return ans;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">from collections import defaultdict&#10;def groupAnagrams(strs):&#10;    m = defaultdict(list)&#10;    for s in strs:&#10;        m[tuple(sorted(s))].append(s)&#10;    return list(m.values())</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>Hash 20 Count Distinct Elements In Every Window<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/count-distinct-elements-in-every-window/1' target='_blank'>GFG</a></td>
+      <td><b>Example 1:</b> Sliding Window + Hash Map.</td>
+      <td><b>Time:</b> O(N)<br><b>Space:</b> O(K)</td>
+      <td>Hash Map</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Use a hash map to keep track of element frequencies in the window of size K. The number of distinct elements is the size of the hash map. As window slides, increment frequency of new element, decrement frequency of outgoing element. If frequency becomes 0, remove it from map.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">vector&lt;int&gt; countDistinct(int A[], int n, int k) {&#10;    unordered_map&lt;int, int&gt; m;&#10;    vector&lt;int&gt; ans;&#10;    for(int i = 0; i &lt; k; i++) m[A[i]]++;&#10;    ans.push_back(m.size());&#10;    for(int i = k; i &lt; n; i++) {&#10;        m[A[i - k]]--;&#10;        if(m[A[i - k]] == 0) m.erase(A[i - k]);&#10;        m[A[i]]++;&#10;        ans.push_back(m.size());&#10;    }&#10;    return ans;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def countDistinct(arr, n, k):&#10;    m = {}&#10;    ans = []&#10;    for i in range(k):&#10;        m[arr[i]] = m.get(arr[i], 0) + 1&#10;    ans.append(len(m))&#10;    for i in range(k, n):&#10;        m[arr[i - k]] -= 1&#10;        if m[arr[i - k]] == 0: del m[arr[i - k]]&#10;        m[arr[i]] = m.get(arr[i], 0) + 1&#10;        ans.append(len(m))&#10;    return ans</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>Hash 21 Design Hashset<br><br></b> <a href='https://leetcode.com/problems/design-hashset/' target='_blank'>LeetCode 705</a></td>
+      <td><b>Example 1:</b> Array of Linked Lists (Chaining).</td>
+      <td><b>Time:</b> O(1) average, O(N) worst case<br><b>Space:</b> O(N)</td>
+      <td>-</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Use a large array (e.g., size 10000) of linked lists or vectors. The hash function maps `key` to `key % 10000`. To add, if not present in the bucket, append it. To remove, find and erase. To contain, iterate through bucket.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">class MyHashSet {&#10;    vector&lt;list&lt;int&gt;&gt; buckets;&#10;    int size = 10000;&#10;public:&#10;    MyHashSet() {&#10;        buckets.resize(size);&#10;    }&#10;    void add(int key) {&#10;        int i = key % size;&#10;        auto it = find(buckets[i].begin(), buckets[i].end(), key);&#10;        if(it == buckets[i].end()) buckets[i].push_back(key);&#10;    }&#10;    void remove(int key) {&#10;        int i = key % size;&#10;        auto it = find(buckets[i].begin(), buckets[i].end(), key);&#10;        if(it != buckets[i].end()) buckets[i].erase(it);&#10;    }&#10;    bool contains(int key) {&#10;        int i = key % size;&#10;        auto it = find(buckets[i].begin(), buckets[i].end(), key);&#10;        return it != buckets[i].end();&#10;    }&#10;};</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">class MyHashSet:&#10;    def __init__(self):&#10;        self.size = 10000&#10;        self.buckets = [[] for _ in range(self.size)]&#10;    def add(self, key: int) -&gt; None:&#10;        i = key % self.size&#10;        if key not in self.buckets[i]:&#10;            self.buckets[i].append(key)&#10;    def remove(self, key: int) -&gt; None:&#10;        i = key % self.size&#10;        if key in self.buckets[i]:&#10;            self.buckets[i].remove(key)&#10;    def contains(self, key: int) -&gt; bool:&#10;        return key in self.buckets[key % self.size]</code></pre></details></td>
     </tr>
   </tbody>
 </table>

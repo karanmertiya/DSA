@@ -90,7 +90,7 @@
     </tr>
     <tr>
       <td>9</td>
-      <td>Str 9 Reverse A String<br><br></b> <a href='https://leetcode.com/problems/reverse-string/' target='_blank'>LeetCode 344</a></td>
+      <td>Str 09 Reverse A String<br><br></b> <a href='https://leetcode.com/problems/reverse-string/' target='_blank'>LeetCode 344</a></td>
       <td><b>Example 1:</b> Two pointers swap.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -180,7 +180,7 @@
     </tr>
     <tr>
       <td>19</td>
-      <td>Str 11 Split The Binary String Into Substrings With Equal Number Of 0S And 1S<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/split-the-binary-string-into-substrings-with-equal-number-of-0s-and-1s/1' target='_blank'>GFG</a></td>
+      <td>Str 19 Split The Binary String Into Substrings With Equal Number Of 0S And 1S<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/split-the-binary-string-into-substrings-with-equal-number-of-0s-and-1s/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Counter logic.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -189,7 +189,7 @@
     </tr>
     <tr>
       <td>20</td>
-      <td>Str 12 Word Wrap<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/word-wrap1646/1' target='_blank'>GFG</a></td>
+      <td>Str 20 Word Wrap<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/word-wrap1646/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> DP approach.</td>
       <td><b>Time:</b> O(N^2)<br><b>Space:</b> O(N)</td>
       <td>DP</td>
@@ -198,7 +198,7 @@
     </tr>
     <tr>
       <td>21</td>
-      <td>Str 13 Edit Distance<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/edit-distance3702/1' target='_blank'>GFG</a></td>
+      <td>Str 21 Edit Distance<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/edit-distance3702/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> DP Table.</td>
       <td><b>Time:</b> O(N * M)<br><b>Space:</b> O(N * M)</td>
       <td>DP</td>
@@ -207,7 +207,7 @@
     </tr>
     <tr>
       <td>22</td>
-      <td>Str 14 Next Permutation<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/next-permutation5226/1' target='_blank'>GFG</a></td>
+      <td>Str 22 Next Permutation<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/next-permutation5226/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Swap and Reverse.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -216,7 +216,7 @@
     </tr>
     <tr>
       <td>23</td>
-      <td>Str 15 Parenthesis Checker<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/parenthesis-checker2744/1' target='_blank'>GFG</a></td>
+      <td>Str 23 Parenthesis Checker<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/parenthesis-checker2744/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Stack approach.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
       <td>Stack</td>
@@ -225,7 +225,7 @@
     </tr>
     <tr>
       <td>24</td>
-      <td>Str 16 Word Break<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/word-break1352/1' target='_blank'>GFG</a></td>
+      <td>Str 24 Word Break<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/word-break1352/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> DP.</td>
       <td><b>Time:</b> O(N^2)<br><b>Space:</b> O(N)</td>
       <td>DP, Hash Set</td>
@@ -234,7 +234,7 @@
     </tr>
     <tr>
       <td>25</td>
-      <td>Str 17 Rabin Karp Algorithm<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/31272eef104840f7430ad9fd1d43b434a4b9596b/1' target='_blank'>GFG</a></td>
+      <td>Str 25 Rabin Karp Algorithm<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/31272eef104840f7430ad9fd1d43b434a4b9596b/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Rolling Hash.</td>
       <td><b>Time:</b> O(N + M)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -243,7 +243,7 @@
     </tr>
     <tr>
       <td>26</td>
-      <td>Str 18 Kmp Algorithm<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/search-pattern0205/1' target='_blank'>GFG</a></td>
+      <td>Str 26 Kmp Algorithm<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/search-pattern0205/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> LPS Array.</td>
       <td><b>Time:</b> O(N + M)<br><b>Space:</b> O(M)</td>
       <td>-</td>
@@ -252,7 +252,7 @@
     </tr>
     <tr>
       <td>27</td>
-      <td>Str 19 Convert A Sentence Into Its Equivalent Mobile Numeric Keypad Sequence<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/convert-a-sentence-into-its-equivalent-mobile-numeric-keypad-sequence0547/1' target='_blank'>GFG</a></td>
+      <td>Str 27 Convert A Sentence Into Its Equivalent Mobile Numeric Keypad Sequence<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/convert-a-sentence-into-its-equivalent-mobile-numeric-keypad-sequence0547/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Dictionary Mapping.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -261,7 +261,7 @@
     </tr>
     <tr>
       <td>28</td>
-      <td>Str 20 Count The Reversals<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/count-the-reversals0401/1' target='_blank'>GFG</a></td>
+      <td>Str 28 Count The Reversals<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/count-the-reversals0401/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Stack approach.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
       <td>Stack</td>
@@ -270,7 +270,7 @@
     </tr>
     <tr>
       <td>29</td>
-      <td>Str 21 Minimum Number Of Bracket Reversals Needed To Make An Expression Balanced<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/count-the-reversals0401/1' target='_blank'>GFG</a></td>
+      <td>Str 29 Minimum Number Of Bracket Reversals Needed To Make An Expression Balanced<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/count-the-reversals0401/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Stack logic.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
       <td>Stack</td>
@@ -279,7 +279,7 @@
     </tr>
     <tr>
       <td>30</td>
-      <td>Str 22 Count Palindromic Subsequences<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/count-palindromic-subsequences/1' target='_blank'>GFG</a></td>
+      <td>Str 30 Count Palindromic Subsequences<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/count-palindromic-subsequences/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Dynamic Programming.</td>
       <td><b>Time:</b> O(N^2)<br><b>Space:</b> O(N^2)</td>
       <td>DP</td>
@@ -288,7 +288,7 @@
     </tr>
     <tr>
       <td>31</td>
-      <td>Str 23 Count Of Number Of Given String In 2D Character Array<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/count-occurences-of-a-given-word-in-a-2-d-array/1' target='_blank'>GFG</a></td>
+      <td>Str 31 Count Of Number Of Given String In 2D Character Array<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/count-occurences-of-a-given-word-in-a-2-d-array/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> DFS.</td>
       <td><b>Time:</b> O(R * C * 4^L)<br><b>Space:</b> O(L)</td>
       <td>-</td>
@@ -297,7 +297,7 @@
     </tr>
     <tr>
       <td>32</td>
-      <td>Str 24 Search A Word In A 2D Grid Of Characters<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/find-the-string-in-grid0111/1' target='_blank'>GFG</a></td>
+      <td>Str 32 Search A Word In A 2D Grid Of Characters<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/find-the-string-in-grid0111/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> 8 Directions Loop.</td>
       <td><b>Time:</b> O(N * M * 8 * L)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -306,7 +306,7 @@
     </tr>
     <tr>
       <td>33</td>
-      <td>Str 25 Boyer Moore Algorithm For Pattern Searching<br><br></b> <a href='https://www.geeksforgeeks.org/boyer-moore-algorithm-for-pattern-searching/' target='_blank'>GFG</a></td>
+      <td>Str 33 Boyer Moore Algorithm For Pattern Searching<br><br></b> <a href='https://www.geeksforgeeks.org/boyer-moore-algorithm-for-pattern-searching/' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Bad Character Heuristic.</td>
       <td><b>Time:</b> O(N * M)<br><b>Space:</b> O(256)</td>
       <td>-</td>
@@ -315,7 +315,7 @@
     </tr>
     <tr>
       <td>34</td>
-      <td>Str 26 Roman Number To Integer<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/roman-number-to-integer3201/1' target='_blank'>GFG</a></td>
+      <td>Str 34 Roman Number To Integer<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/roman-number-to-integer3201/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Value mapping.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -324,7 +324,7 @@
     </tr>
     <tr>
       <td>35</td>
-      <td>Str 27 Longest Common Prefix<br><br></b> <a href='https://leetcode.com/problems/longest-common-prefix/' target='_blank'>LeetCode 14</a></td>
+      <td>Str 35 Longest Common Prefix<br><br></b> <a href='https://leetcode.com/problems/longest-common-prefix/' target='_blank'>LeetCode 14</a></td>
       <td><b>Example 1:</b> Sort array.</td>
       <td><b>Time:</b> O(N log N * M)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -333,7 +333,7 @@
     </tr>
     <tr>
       <td>36</td>
-      <td>Str 28 Number Of Flips To Make Binary String Alternate<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/min-number-of-flips3210/1' target='_blank'>GFG</a></td>
+      <td>Str 36 Number Of Flips To Make Binary String Alternate<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/min-number-of-flips3210/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Two target strings.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -342,7 +342,7 @@
     </tr>
     <tr>
       <td>37</td>
-      <td>Str 29 Find The First Repeated Word In String<br><br></b> <a href='https://www.geeksforgeeks.org/find-first-repeated-word-string/' target='_blank'>GFG</a></td>
+      <td>Str 37 Find The First Repeated Word In String<br><br></b> <a href='https://www.geeksforgeeks.org/find-first-repeated-word-string/' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> HashSet.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
       <td>Hash Set</td>
@@ -351,12 +351,102 @@
     </tr>
     <tr>
       <td>38</td>
-      <td>Str 30 Minimum Swaps For Bracket Balancing<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-swaps-for-bracket-balancing2704/1' target='_blank'>GFG</a></td>
+      <td>Str 38 Minimum Swaps For Bracket Balancing<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-swaps-for-bracket-balancing2704/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Track balance.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
       <td>-</td>
       <td><b>Explanation:</b> Keep track of the number of opening and closing brackets, and an `imbalance` counter. When encountering `[`, decrease imbalance. When encountering `]`, increase imbalance. The number of swaps is updated when an imbalance is found and we find the next `[`.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">int minimumNumberOfSwaps(string S){&#10;    int open = 0, close = 0, fault = 0, ans = 0;&#10;    for(int i = 0; i &lt; S.length(); i++) {&#10;        if(S[i] == &#x27;]&#x27;) {&#10;            close++;&#10;            fault = close - open;&#10;        } else {&#10;            open++;&#10;            if(fault &gt; 0) {&#10;                ans += fault;&#10;                fault--;&#10;            }&#10;        }&#10;    }&#10;    return ans;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def minimumNumberOfSwaps(S):&#10;    open_count = 0&#10;    close_count = 0&#10;    fault = 0&#10;    ans = 0&#10;    for char in S:&#10;        if char == &#x27;]&#x27;:&#10;            close_count += 1&#10;            fault = close_count - open_count&#10;        else:&#10;            open_count += 1&#10;            if fault &gt; 0:&#10;                ans += fault&#10;                fault -= 1&#10;    return ans</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>39</td>
+      <td>Str 39 Valid Palindrome<br><br></b> <a href='https://leetcode.com/problems/valid-palindrome/' target='_blank'>LeetCode 125</a></td>
+      <td><b>Example 1:</b> Two Pointers.</td>
+      <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
+      <td>-</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Use two pointers, `left` starting at 0 and `right` starting at `n-1`. Skip non-alphanumeric characters. Compare the characters at `left` and `right` after converting to lowercase. If they mismatch, return false.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">bool isPalindrome(string s) {&#10;    int left = 0, right = s.length() - 1;&#10;    while(left &lt; right) {&#10;        while(left &lt; right &amp;&amp; !isalnum(s[left])) left++;&#10;        while(left &lt; right &amp;&amp; !isalnum(s[right])) right--;&#10;        if(tolower(s[left]) != tolower(s[right])) return false;&#10;        left++; right--;&#10;    }&#10;    return true;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def isPalindrome(s):&#10;    left, right = 0, len(s) - 1&#10;    while left &lt; right:&#10;        while left &lt; right and not s[left].isalnum(): left += 1&#10;        while left &lt; right and not s[right].isalnum(): right -= 1&#10;        if s[left].lower() != s[right].lower(): return False&#10;        left += 1; right -= 1&#10;    return True</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>40</td>
+      <td>Str 40 Valid Anagram<br><br></b> <a href='https://leetcode.com/problems/valid-anagram/' target='_blank'>LeetCode 242</a></td>
+      <td><b>Example 1:</b> Frequency Array.</td>
+      <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
+      <td>-</td>
+      <td>-</td>
+      <td><b>Explanation:</b> If lengths differ, return false. Create an array of size 26. Increment counts for characters in `s` and decrement for characters in `t`. If all counts are 0, it's an anagram.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">bool isAnagram(string s, string t) {&#10;    if(s.length() != t.length()) return false;&#10;    vector&lt;int&gt; count(26, 0);&#10;    for(int i = 0; i &lt; s.length(); i++) {&#10;        count[s[i] - &#x27;a&#x27;]++;&#10;        count[t[i] - &#x27;a&#x27;]--;&#10;    }&#10;    for(int i = 0; i &lt; 26; i++) {&#10;        if(count[i] != 0) return false;&#10;    }&#10;    return true;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def isAnagram(s, t):&#10;    if len(s) != len(t): return False&#10;    count = [0] * 26&#10;    for char_s, char_t in zip(s, t):&#10;        count[ord(char_s) - ord(&#x27;a&#x27;)] += 1&#10;        count[ord(char_t) - ord(&#x27;a&#x27;)] -= 1&#10;    return all(c == 0 for c in count)</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>41</td>
+      <td>Str 41 Isomorphic Strings<br><br></b> <a href='https://leetcode.com/problems/isomorphic-strings/' target='_blank'>LeetCode 205</a></td>
+      <td><b>Example 1:</b> Hash Maps.</td>
+      <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
+      <td>-</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Use two arrays to map characters from `s` to `t` and `t` to `s`. If `s[i]` is mapped to a character other than `t[i]`, or `t[i]` is mapped to a character other than `s[i]`, return false. Else, create the mappings.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">bool isIsomorphic(string s, string t) {&#10;    vector&lt;int&gt; m1(256, -1), m2(256, -1);&#10;    for(int i = 0; i &lt; s.length(); i++) {&#10;        if(m1[s[i]] != m2[t[i]]) return false;&#10;        m1[s[i]] = i;&#10;        m2[t[i]] = i;&#10;    }&#10;    return true;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def isIsomorphic(s, t):&#10;    m1, m2 = [-1] * 256, [-1] * 256&#10;    for i in range(len(s)):&#10;        if m1[ord(s[i])] != m2[ord(t[i])]: return False&#10;        m1[ord(s[i])] = i&#10;        m2[ord(t[i])] = i&#10;    return True</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>42</td>
+      <td>Str 42 Reverse Words In A String<br><br></b> <a href='https://leetcode.com/problems/reverse-words-in-a-string/' target='_blank'>LeetCode 151</a></td>
+      <td><b>Example 1:</b> Two Pointers.</td>
+      <td><b>Time:</b> O(N)<br><b>Space:</b> O(N) for output string</td>
+      <td>-</td>
+      <td>Multiple spaces between words</td>
+      <td><b>Explanation:</b> Iterate from right to left. Find the end of a word, then the start of a word. Extract the word and append it to the result string along with a space. Finally, remove the trailing space.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">string reverseWords(string s) {&#10;    string result = &quot;&quot;;&#10;    int i = s.length() - 1;&#10;    while(i &gt;= 0) {&#10;        while(i &gt;= 0 &amp;&amp; s[i] == &#x27; &#x27;) i--;&#10;        if(i &lt; 0) break;&#10;        int j = i;&#10;        while(i &gt;= 0 &amp;&amp; s[i] != &#x27; &#x27;) i--;&#10;        result += s.substr(i + 1, j - i) + &quot; &quot;;&#10;    }&#10;    if(!result.empty()) result.pop_back();&#10;    return result;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def reverseWords(s):&#10;    return &quot; &quot;.join(s.split()[::-1])</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>43</td>
+      <td>Str 43 Rotate String<br><br></b> <a href='https://leetcode.com/problems/rotate-string/' target='_blank'>LeetCode 796</a></td>
+      <td><b>Example 1:</b> String Concatenation.</td>
+      <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
+      <td>-</td>
+      <td>-</td>
+      <td><b>Explanation:</b> If the lengths of `s` and `goal` are not equal, return false. Otherwise, concatenate `s` with itself (`s + s`). If `goal` is a substring of `s + s`, then it's a rotated string.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">bool rotateString(string s, string goal) {&#10;    if(s.length() != goal.length()) return false;&#10;    string doubleS = s + s;&#10;    return doubleS.find(goal) != string::npos;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def rotateString(s, goal):&#10;    if len(s) != len(goal): return False&#10;    return goal in (s + s)</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>44</td>
+      <td>Str 44 Largest Odd Number In String<br><br></b> <a href='https://leetcode.com/problems/largest-odd-number-in-string/' target='_blank'>LeetCode 1903</a></td>
+      <td><b>Example 1:</b> Iterate from right.</td>
+      <td><b>Time:</b> O(N)<br><b>Space:</b> O(1) excluding output</td>
+      <td>-</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Iterate from the end of the string. The first odd digit found marks the end of the largest odd integer (since picking all digits from index 0 to this odd digit yields the largest value). Return the substring `num[0..i]`. If no odd digit is found, return empty string.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">string largestOddNumber(string num) {&#10;    for(int i = num.length() - 1; i &gt;= 0; i--) {&#10;        if((num[i] - &#x27;0&#x27;) % 2 != 0) return num.substr(0, i + 1);&#10;    }&#10;    return &quot;&quot;;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def largestOddNumber(num):&#10;    for i in range(len(num) - 1, -1, -1):&#10;        if int(num[i]) % 2 != 0: return num[:i+1]&#10;    return &quot;&quot;</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>45</td>
+      <td>Str 45 Sort Characters By Frequency<br><br></b> <a href='https://leetcode.com/problems/sort-characters-by-frequency/' target='_blank'>LeetCode 451</a></td>
+      <td><b>Example 1:</b> Bucket Sort or Priority Queue.</td>
+      <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
+      <td>-</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Count frequencies using a map. Then, sort the map entries by frequency in descending order, or use a Max Heap, or use Bucket Sort (where index is frequency and value is a list of characters). Build the new string by appending each character `freq` times.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">string frequencySort(string s) {&#10;    unordered_map&lt;char, int&gt; freq;&#10;    for(char c : s) freq[c]++;&#10;    vector&lt;pair&lt;int, char&gt;&gt; v;&#10;    for(auto it : freq) v.push_back({it.second, it.first});&#10;    sort(v.rbegin(), v.rend());&#10;    string ans = &quot;&quot;;&#10;    for(auto it : v) {&#10;        ans += string(it.first, it.second);&#10;    }&#10;    return ans;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">from collections import Counter&#10;def frequencySort(s):&#10;    counts = Counter(s)&#10;    return &quot;&quot;.join(char * count for char, count in counts.most_common())</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>46</td>
+      <td>Str 46 Maximum Nesting Depth Of The Parentheses<br><br></b> <a href='https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/' target='_blank'>LeetCode 1614</a></td>
+      <td><b>Example 1:</b> Counter tracking.</td>
+      <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
+      <td>-</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Iterate through the string. Maintain a `current_depth` counter. If we see `(`, increment the counter and update `max_depth`. If we see `)`, decrement the counter. Ignore other characters.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">int maxDepth(string s) {&#10;    int maxD = 0, curD = 0;&#10;    for(char c : s) {&#10;        if(c == &#x27;(&#x27;) {&#10;            curD++;&#10;            maxD = max(maxD, curD);&#10;        } else if(c == &#x27;)&#x27;) {&#10;            curD--;&#10;        }&#10;    }&#10;    return maxD;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def maxDepth(s):&#10;    max_d = cur_d = 0&#10;    for c in s:&#10;        if c == &#x27;(&#x27;:&#10;            cur_d += 1&#10;            max_d = max(max_d, cur_d)&#10;        elif c == &#x27;)&#x27;:&#10;            cur_d -= 1&#10;    return max_d</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>47</td>
+      <td>Str 47 String To Integer Atoi<br><br></b> <a href='https://leetcode.com/problems/string-to-integer-atoi/' target='_blank'>LeetCode 8</a></td>
+      <td><b>Example 1:</b> Step-by-step parsing.</td>
+      <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
+      <td>-</td>
+      <td>Overflow/Underflow</td>
+      <td><b>Explanation:</b> 1. Ignore leading whitespaces. 2. Check for optional '+' or '-'. 3. Read digits until a non-digit or end of string. 4. Build the integer, checking for 32-bit integer overflow/underflow at each step.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">int myAtoi(string s) {&#10;    int i = 0, n = s.length(), sign = 1;&#10;    long long ans = 0;&#10;    while(i &lt; n &amp;&amp; s[i] == &#x27; &#x27;) i++;&#10;    if(i &lt; n &amp;&amp; (s[i] == &#x27;+&#x27; || s[i] == &#x27;-&#x27;)) {&#10;        sign = (s[i] == &#x27;-&#x27;) ? -1 : 1;&#10;        i++;&#10;    }&#10;    while(i &lt; n &amp;&amp; isdigit(s[i])) {&#10;        ans = ans * 10 + (s[i] - &#x27;0&#x27;);&#10;        if(sign == 1 &amp;&amp; ans &gt; INT_MAX) return INT_MAX;&#10;        if(sign == -1 &amp;&amp; -ans &lt; INT_MIN) return INT_MIN;&#10;        i++;&#10;    }&#10;    return sign * ans;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def myAtoi(s):&#10;    s = s.lstrip()&#10;    if not s: return 0&#10;    sign = -1 if s[0] == &#x27;-&#x27; else 1&#10;    if s[0] in [&#x27;-&#x27;, &#x27;+&#x27;]: s = s[1:]&#10;    ans = 0&#10;    for c in s:&#10;        if not c.isdigit(): break&#10;        ans = ans * 10 + int(c)&#10;    ans *= sign&#10;    ans = max(-2**31, min(ans, 2**31 - 1))&#10;    return ans</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>48</td>
+      <td>Str 48 Count And Say<br><br></b> <a href='https://leetcode.com/problems/count-and-say/' target='_blank'>LeetCode 38</a></td>
+      <td><b>Example 1:</b> Recursive/Iterative Generation.</td>
+      <td><b>Time:</b> O(N * max_len)<br><b>Space:</b> O(max_len)</td>
+      <td>-</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Start with "1". For `n-1` times, generate the next string by counting consecutive identical characters and appending `count` followed by the `character`.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">string countAndSay(int n) {&#10;    if(n == 1) return &quot;1&quot;;&#10;    string s = countAndSay(n - 1);&#10;    string res = &quot;&quot;;&#10;    int count = 1;&#10;    for(int i = 1; i &lt; s.length(); i++) {&#10;        if(s[i] == s[i-1]) count++;&#10;        else {&#10;            res += to_string(count) + s[i-1];&#10;            count = 1;&#10;        }&#10;    }&#10;    res += to_string(count) + s.back();&#10;    return res;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def countAndSay(n):&#10;    if n == 1: return &quot;1&quot;&#10;    s = countAndSay(n - 1)&#10;    res, count = &quot;&quot;, 1&#10;    for i in range(1, len(s)):&#10;        if s[i] == s[i-1]: count += 1&#10;        else:&#10;            res += str(count) + s[i-1]&#10;            count = 1&#10;    res += str(count) + s[-1]&#10;    return res</code></pre></details></td>
     </tr>
   </tbody>
 </table>

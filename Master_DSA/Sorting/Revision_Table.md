@@ -63,7 +63,7 @@
     </tr>
     <tr>
       <td>6</td>
-      <td>Sort 02 Merge Sort<br><br></b> <a href='https://leetcode.com/problems/sort-an-array/' target='_blank'>LeetCode 912</a></td>
+      <td>Sort 06 Merge Sort<br><br></b> <a href='https://leetcode.com/problems/sort-an-array/' target='_blank'>LeetCode 912</a></td>
       <td><b>Example 1:</b> Input: nums = [5,2,3,1], Output: [1,2,3,5]</td>
       <td><b>Time:</b> O(N log N)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -72,7 +72,7 @@
     </tr>
     <tr>
       <td>7</td>
-      <td>Sort 03 Quick Sort<br><br></b> <a href='https://leetcode.com/problems/sort-an-array/' target='_blank'>LeetCode 912</a></td>
+      <td>Sort 07 Quick Sort<br><br></b> <a href='https://leetcode.com/problems/sort-an-array/' target='_blank'>LeetCode 912</a></td>
       <td><b>Example 1:</b> Input: nums = [5,2,3,1], Output: [1,2,3,5]</td>
       <td><b>Time:</b> O(N log N) Avg, O(N<sup>2</sup>) Worst<br><b>Space:</b> O(log N)</td>
       <td><code>std::swap</code></td>

@@ -45,7 +45,7 @@
     </tr>
     <tr>
       <td>4</td>
-      <td>Heaps 04 Merge K Sorted Lists<br><br></b> <a href='https://leetcode.com/problems/merge-k-sorted-lists/' target='_blank'>LeetCode 23</a></td>
+      <td>Heap 04 Merge K Sorted Lists<br><br></b> <a href='https://leetcode.com/problems/merge-k-sorted-lists/' target='_blank'>LeetCode 23</a></td>
       <td><b>Example 1:</b> Input: lists=[[1,4,5],[1,3,4],[2,6]], Output: [1,1,2,3,4,4,5,6]</td>
       <td><b>Time:</b> O(N log K)<br><b>Space:</b> O(K)</td>
       <td><code>#include <queue></code></td>
@@ -54,7 +54,7 @@
     </tr>
     <tr>
       <td>5</td>
-      <td>Heap 06 Kth Largest Element In An Array<br><br></b> <a href='https://leetcode.com/problems/kth-largest-element-in-an-array/' target='_blank'>LeetCode 215</a></td>
+      <td>Heap 05 Kth Largest Element In An Array<br><br></b> <a href='https://leetcode.com/problems/kth-largest-element-in-an-array/' target='_blank'>LeetCode 215</a></td>
       <td><b>Example 1:</b> Input: nums = [3,2,1,5,6,4], k = 2. Output: 5</td>
       <td><b>Time:</b> O(N log K)<br><b>Space:</b> O(K)</td>
       <td><code>#include <queue></code></td>
@@ -63,7 +63,7 @@
     </tr>
     <tr>
       <td>6</td>
-      <td>Heap 07 Kth Smallest Element In A Sorted Matrix<br><br></b> <a href='https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/' target='_blank'>LeetCode 378</a></td>
+      <td>Heap 06 Kth Smallest Element In A Sorted Matrix<br><br></b> <a href='https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/' target='_blank'>LeetCode 378</a></td>
       <td><b>Example 1:</b> Binary search on range.</td>
       <td><b>Time:</b> O(N log(Max-Min))<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -72,7 +72,7 @@
     </tr>
     <tr>
       <td>7</td>
-      <td>Heap 08 Find Median From Data Stream<br><br></b> <a href='https://leetcode.com/problems/find-median-from-data-stream/' target='_blank'>LeetCode 295</a></td>
+      <td>Heap 07 Find Median From Data Stream<br><br></b> <a href='https://leetcode.com/problems/find-median-from-data-stream/' target='_blank'>LeetCode 295</a></td>
       <td><b>Example 1:</b> Two heaps.</td>
       <td><b>Time:</b> O(log N) add, O(1) find<br><b>Space:</b> O(N)</td>
       <td><code>#include <queue></code></td>
@@ -81,7 +81,7 @@
     </tr>
     <tr>
       <td>8</td>
-      <td>Heap 09 Merge K Sorted Lists<br><br></b> <a href='https://leetcode.com/problems/merge-k-sorted-lists/' target='_blank'>LeetCode 23</a></td>
+      <td>Heap 08 Merge K Sorted Lists<br><br></b> <a href='https://leetcode.com/problems/merge-k-sorted-lists/' target='_blank'>LeetCode 23</a></td>
       <td><b>Example 1:</b> Use Min-Heap.</td>
       <td><b>Time:</b> O(N log K)<br><b>Space:</b> O(K)</td>
       <td><code>#include <queue></code></td>
@@ -90,7 +90,7 @@
     </tr>
     <tr>
       <td>9</td>
-      <td>Heap 10 Top K Frequent Elements<br><br></b> <a href='https://leetcode.com/problems/top-k-frequent-elements/' target='_blank'>LeetCode 347</a></td>
+      <td>Heap 09 Top K Frequent Elements<br><br></b> <a href='https://leetcode.com/problems/top-k-frequent-elements/' target='_blank'>LeetCode 347</a></td>
       <td><b>Example 1:</b> Output: elements.</td>
       <td><b>Time:</b> O(N log K)<br><b>Space:</b> O(N)</td>
       <td><code>#include <unordered_map>\n#include <queue></code></td>
@@ -99,7 +99,7 @@
     </tr>
     <tr>
       <td>10</td>
-      <td>Heap 11 Sort Characters By Frequency<br><br></b> <a href='https://leetcode.com/problems/sort-characters-by-frequency/' target='_blank'>LeetCode 451</a></td>
+      <td>Heap 10 Sort Characters By Frequency<br><br></b> <a href='https://leetcode.com/problems/sort-characters-by-frequency/' target='_blank'>LeetCode 451</a></td>
       <td><b>Example 1:</b> `s = "tree"`. Output: `"eert"`.</td>
       <td><b>Time:</b> O(N log 26)<br><b>Space:</b> O(26)</td>
       <td><code>#include <unordered_map>\n#include <queue></code></td>
@@ -108,7 +108,7 @@
     </tr>
     <tr>
       <td>11</td>
-      <td>Heap 12 Replace Each Array Element By Its Corresponding Rank<br><br></b> <a href='https://leetcode.com/problems/rank-transform-of-an-array/' target='_blank'>LeetCode 1331</a></td>
+      <td>Heap 11 Replace Each Array Element By Its Corresponding Rank<br><br></b> <a href='https://leetcode.com/problems/rank-transform-of-an-array/' target='_blank'>LeetCode 1331</a></td>
       <td><b>Example 1:</b> Input: [40,10,20,30], Output: [4,1,2,3]</td>
       <td><b>Time:</b> O(N log N)<br><b>Space:</b> O(N)</td>
       <td><code>#include <unordered_map>\n#include <set></code></td>
@@ -117,7 +117,7 @@
     </tr>
     <tr>
       <td>12</td>
-      <td>Heap 13 Task Scheduler<br><br></b> <a href='https://leetcode.com/problems/task-scheduler/' target='_blank'>LeetCode 621</a></td>
+      <td>Heap 12 Task Scheduler<br><br></b> <a href='https://leetcode.com/problems/task-scheduler/' target='_blank'>LeetCode 621</a></td>
       <td><b>Example 1:</b> Greedy placement.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -126,7 +126,7 @@
     </tr>
     <tr>
       <td>13</td>
-      <td>Heap 14 Hand Of Straights<br><br></b> <a href='https://leetcode.com/problems/hand-of-straights/' target='_blank'>LeetCode 846</a></td>
+      <td>Heap 13 Hand Of Straights<br><br></b> <a href='https://leetcode.com/problems/hand-of-straights/' target='_blank'>LeetCode 846</a></td>
       <td><b>Example 1:</b> Form consecutive sequences.</td>
       <td><b>Time:</b> O(N log N)<br><b>Space:</b> O(N)</td>
       <td><code>#include <map></code></td>
@@ -135,7 +135,7 @@
     </tr>
     <tr>
       <td>14</td>
-      <td>Heap 15 Design Twitter<br><br></b> <a href='https://leetcode.com/problems/design-twitter/' target='_blank'>LeetCode 355</a></td>
+      <td>Heap 14 Design Twitter<br><br></b> <a href='https://leetcode.com/problems/design-twitter/' target='_blank'>LeetCode 355</a></td>
       <td><b>Example 1:</b> Object oriented design.</td>
       <td><b>Time:</b> O(N log 10)<br><b>Space:</b> O(U + T)</td>
       <td><code>#include <unordered_map>\n#include <unordered_set>\n#include <queue></code></td>
@@ -144,7 +144,7 @@
     </tr>
     <tr>
       <td>15</td>
-      <td>Heap 24 Kth Largest Element In A Stream<br><br></b> <a href='https://leetcode.com/problems/kth-largest-element-in-a-stream/' target='_blank'>LeetCode 703</a></td>
+      <td>Heap 15 Kth Largest Element In A Stream<br><br></b> <a href='https://leetcode.com/problems/kth-largest-element-in-a-stream/' target='_blank'>LeetCode 703</a></td>
       <td><b>Example 1:</b> Min-heap of size K.</td>
       <td><b>Time:</b> O(N log K) for init, O(log K) for add<br><b>Space:</b> O(K)</td>
       <td><code>#include <queue></code></td>
@@ -153,7 +153,7 @@
     </tr>
     <tr>
       <td>16</td>
-      <td>Heap 25 Kth Largest Element In An Array<br><br></b> <a href='https://leetcode.com/problems/kth-largest-element-in-an-array/' target='_blank'>LeetCode 215</a></td>
+      <td>Heap 16 Kth Largest Element In An Array<br><br></b> <a href='https://leetcode.com/problems/kth-largest-element-in-an-array/' target='_blank'>LeetCode 215</a></td>
       <td><b>Example 1:</b> Min-heap or Quickselect.</td>
       <td><b>Time:</b> O(N log K) Heap, O(N) avg Quickselect<br><b>Space:</b> O(K) Heap, O(1) Quickselect</td>
       <td><code>#include <queue></code></td>
@@ -162,7 +162,7 @@
     </tr>
     <tr>
       <td>17</td>
-      <td>Heap 26 K Closest Points To Origin<br><br></b> <a href='https://leetcode.com/problems/k-closest-points-to-origin/' target='_blank'>LeetCode 973</a></td>
+      <td>Heap 17 K Closest Points To Origin<br><br></b> <a href='https://leetcode.com/problems/k-closest-points-to-origin/' target='_blank'>LeetCode 973</a></td>
       <td><b>Example 1:</b> Max-heap of pairs.</td>
       <td><b>Time:</b> O(N log K)<br><b>Space:</b> O(K)</td>
       <td><code>#include <queue></code></td>
@@ -171,7 +171,7 @@
     </tr>
     <tr>
       <td>18</td>
-      <td>Heap 27 Top K Frequent Elements<br><br></b> <a href='https://leetcode.com/problems/top-k-frequent-elements/' target='_blank'>LeetCode 347</a></td>
+      <td>Heap 18 Top K Frequent Elements<br><br></b> <a href='https://leetcode.com/problems/top-k-frequent-elements/' target='_blank'>LeetCode 347</a></td>
       <td><b>Example 1:</b> Hash map + Min-heap or Bucket sort.</td>
       <td><b>Time:</b> O(N log K) Heap, O(N) Bucket Sort<br><b>Space:</b> O(N)</td>
       <td><code>#include <unordered_map>\n#include <queue></code></td>
@@ -180,7 +180,7 @@
     </tr>
     <tr>
       <td>19</td>
-      <td>Heap 28 Sort Characters By Frequency<br><br></b> <a href='https://leetcode.com/problems/sort-characters-by-frequency/' target='_blank'>LeetCode 451</a></td>
+      <td>Heap 19 Sort Characters By Frequency<br><br></b> <a href='https://leetcode.com/problems/sort-characters-by-frequency/' target='_blank'>LeetCode 451</a></td>
       <td><b>Example 1:</b> Hash map + Max-heap or Sort.</td>
       <td><b>Time:</b> O(N log M) where M is unique characters<br><b>Space:</b> O(M)</td>
       <td><code>#include <unordered_map>\n#include <queue></code></td>
@@ -189,7 +189,7 @@
     </tr>
     <tr>
       <td>20</td>
-      <td>Heap 29 Find Median From Data Stream<br><br></b> <a href='https://leetcode.com/problems/find-median-from-data-stream/' target='_blank'>LeetCode 295</a></td>
+      <td>Heap 20 Find Median From Data Stream<br><br></b> <a href='https://leetcode.com/problems/find-median-from-data-stream/' target='_blank'>LeetCode 295</a></td>
       <td><b>Example 1:</b> Two heaps (Max-heap for lower half, Min-heap for upper half).</td>
       <td><b>Time:</b> O(log N) add, O(1) find<br><b>Space:</b> O(N)</td>
       <td><code>#include <queue></code></td>
@@ -198,7 +198,7 @@
     </tr>
     <tr>
       <td>21</td>
-      <td>Heap 30 Merge K Sorted Lists<br><br></b> <a href='https://leetcode.com/problems/merge-k-sorted-lists/' target='_blank'>LeetCode 23</a></td>
+      <td>Heap 21 Merge K Sorted Lists<br><br></b> <a href='https://leetcode.com/problems/merge-k-sorted-lists/' target='_blank'>LeetCode 23</a></td>
       <td><b>Example 1:</b> Min-heap of list nodes.</td>
       <td><b>Time:</b> O(N log K)<br><b>Space:</b> O(K)</td>
       <td><code>#include <queue></code></td>
@@ -207,7 +207,7 @@
     </tr>
     <tr>
       <td>22</td>
-      <td>Heap 31 Task Scheduler<br><br></b> <a href='https://leetcode.com/problems/task-scheduler/' target='_blank'>LeetCode 621</a></td>
+      <td>Heap 22 Task Scheduler<br><br></b> <a href='https://leetcode.com/problems/task-scheduler/' target='_blank'>LeetCode 621</a></td>
       <td><b>Example 1:</b> Duplicate logic entry. See Greedy chapter.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -216,7 +216,7 @@
     </tr>
     <tr>
       <td>23</td>
-      <td>Heap 32 Design Twitter<br><br></b> <a href='https://leetcode.com/problems/design-twitter/' target='_blank'>LeetCode 355</a></td>
+      <td>Heap 23 Design Twitter<br><br></b> <a href='https://leetcode.com/problems/design-twitter/' target='_blank'>LeetCode 355</a></td>
       <td><b>Example 1:</b> Heap to merge multiple sorted lists.</td>
       <td><b>Time:</b> O(K log K) for feed where K is 10.<br><b>Space:</b> O(Total Tweets + Follow Relations)</td>
       <td><code>#include <unordered_map>\n#include <unordered_set>\n#include <queue></code></td>
@@ -225,7 +225,7 @@
     </tr>
     <tr>
       <td>24</td>
-      <td>Heap 33 Reorganize String<br><br></b> <a href='https://leetcode.com/problems/reorganize-string/' target='_blank'>LeetCode 767</a></td>
+      <td>Heap 24 Reorganize String<br><br></b> <a href='https://leetcode.com/problems/reorganize-string/' target='_blank'>LeetCode 767</a></td>
       <td><b>Example 1:</b> Duplicate logic entry. See Greedy chapter.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(26)</td>
       <td>-</td>
@@ -324,7 +324,7 @@
     </tr>
     <tr>
       <td>35</td>
-      <td>Heap 06 Kth Largest Element In A Stream<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/kth-largest-element-in-a-stream2220/1' target='_blank'>GFG</a></td>
+      <td>Heap 35 Kth Largest Element In A Stream<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/kth-largest-element-in-a-stream2220/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Min Heap.</td>
       <td><b>Time:</b> O(N log K)<br><b>Space:</b> O(K)</td>
       <td>Priority Queue</td>
@@ -333,7 +333,7 @@
     </tr>
     <tr>
       <td>36</td>
-      <td>Heap 07 Merge K Sorted Arrays<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/merge-k-sorted-arrays/1' target='_blank'>GFG</a></td>
+      <td>Heap 36 Merge K Sorted Arrays<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/merge-k-sorted-arrays/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Min Heap.</td>
       <td><b>Time:</b> O(K^2 log K)<br><b>Space:</b> O(K)</td>
       <td>Priority Queue</td>
@@ -342,7 +342,7 @@
     </tr>
     <tr>
       <td>37</td>
-      <td>Heap 08 Reorganize String<br><br></b> <a href='https://leetcode.com/problems/reorganize-string/' target='_blank'>LeetCode 767</a></td>
+      <td>Heap 37 Reorganize String<br><br></b> <a href='https://leetcode.com/problems/reorganize-string/' target='_blank'>LeetCode 767</a></td>
       <td><b>Example 1:</b> Max Heap for frequencies.</td>
       <td><b>Time:</b> O(N log A)<br><b>Space:</b> O(A)</td>
       <td>Priority Queue</td>
@@ -351,7 +351,7 @@
     </tr>
     <tr>
       <td>38</td>
-      <td>Heap 09 Find Median From Data Stream<br><br></b> <a href='https://leetcode.com/problems/find-median-from-data-stream/' target='_blank'>LeetCode 295</a></td>
+      <td>Heap 38 Find Median From Data Stream<br><br></b> <a href='https://leetcode.com/problems/find-median-from-data-stream/' target='_blank'>LeetCode 295</a></td>
       <td><b>Example 1:</b> Two Heaps.</td>
       <td><b>Time:</b> O(log N) add, O(1) find<br><b>Space:</b> O(N)</td>
       <td>Priority Queue</td>
@@ -360,7 +360,7 @@
     </tr>
     <tr>
       <td>39</td>
-      <td>Heap 10 Smallest Range Covering Elements From K Lists<br><br></b> <a href='https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/' target='_blank'>LeetCode 632</a></td>
+      <td>Heap 39 Smallest Range Covering Elements From K Lists<br><br></b> <a href='https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/' target='_blank'>LeetCode 632</a></td>
       <td><b>Example 1:</b> Min Heap.</td>
       <td><b>Time:</b> O(N log K)<br><b>Space:</b> O(K)</td>
       <td>Priority Queue</td>
@@ -369,7 +369,7 @@
     </tr>
     <tr>
       <td>40</td>
-      <td>Heap 11 Kth Smallest Element In A Sorted Matrix<br><br></b> <a href='https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/' target='_blank'>LeetCode 378</a></td>
+      <td>Heap 40 Kth Smallest Element In A Sorted Matrix<br><br></b> <a href='https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/' target='_blank'>LeetCode 378</a></td>
       <td><b>Example 1:</b> Min Heap.</td>
       <td><b>Time:</b> O(K log N)<br><b>Space:</b> O(N)</td>
       <td>Priority Queue</td>
@@ -378,7 +378,7 @@
     </tr>
     <tr>
       <td>41</td>
-      <td>Heap 12 Minimum Cost Of Ropes<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-cost-of-ropes-1587115620/1' target='_blank'>GFG</a></td>
+      <td>Heap 41 Minimum Cost Of Ropes<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-cost-of-ropes-1587115620/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Min Heap.</td>
       <td><b>Time:</b> O(N log N)<br><b>Space:</b> O(N)</td>
       <td>Priority Queue</td>
@@ -387,7 +387,7 @@
     </tr>
     <tr>
       <td>42</td>
-      <td>Heap 13 K Closest Points To Origin<br><br></b> <a href='https://leetcode.com/problems/k-closest-points-to-origin/' target='_blank'>LeetCode 973</a></td>
+      <td>Heap 42 K Closest Points To Origin<br><br></b> <a href='https://leetcode.com/problems/k-closest-points-to-origin/' target='_blank'>LeetCode 973</a></td>
       <td><b>Example 1:</b> Max Heap.</td>
       <td><b>Time:</b> O(N log K)<br><b>Space:</b> O(K)</td>
       <td>Priority Queue</td>
@@ -396,7 +396,7 @@
     </tr>
     <tr>
       <td>43</td>
-      <td>Heap 14 K Largest Elements<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/k-largest-elements4206/1' target='_blank'>GFG</a></td>
+      <td>Heap 43 K Largest Elements<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/k-largest-elements4206/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Min Heap.</td>
       <td><b>Time:</b> O(N log K)<br><b>Space:</b> O(K)</td>
       <td>Priority Queue</td>
@@ -405,7 +405,7 @@
     </tr>
     <tr>
       <td>44</td>
-      <td>Heap 15 Top K Frequent Elements<br><br></b> <a href='https://leetcode.com/problems/top-k-frequent-elements/' target='_blank'>LeetCode 347</a></td>
+      <td>Heap 44 Top K Frequent Elements<br><br></b> <a href='https://leetcode.com/problems/top-k-frequent-elements/' target='_blank'>LeetCode 347</a></td>
       <td><b>Example 1:</b> Min Heap with Frequencies.</td>
       <td><b>Time:</b> O(N log K)<br><b>Space:</b> O(N)</td>
       <td>Priority Queue, Hash Map</td>
@@ -414,7 +414,7 @@
     </tr>
     <tr>
       <td>45</td>
-      <td>Heaps 05 Kth Smallest Element<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/kth-smallest-element5635/1' target='_blank'>GFG</a></td>
+      <td>Heap 45 Kth Smallest Element<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/kth-smallest-element5635/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Max Heap.</td>
       <td><b>Time:</b> O(N log K)<br><b>Space:</b> O(K)</td>
       <td>Priority Queue</td>
@@ -423,7 +423,7 @@
     </tr>
     <tr>
       <td>46</td>
-      <td>Heaps 06 Kth Largest Element In A Stream<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/kth-largest-element-in-a-stream2220/1' target='_blank'>GFG</a></td>
+      <td>Heap 46 Kth Largest Element In A Stream<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/kth-largest-element-in-a-stream2220/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Min Heap.</td>
       <td><b>Time:</b> O(N log K)<br><b>Space:</b> O(K)</td>
       <td>Priority Queue</td>
@@ -432,7 +432,7 @@
     </tr>
     <tr>
       <td>47</td>
-      <td>Heaps 07 Merge Two Binary Max Heaps<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/merge-two-binary-max-heap0144/1' target='_blank'>GFG</a></td>
+      <td>Heap 47 Merge Two Binary Max Heaps<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/merge-two-binary-max-heap0144/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Append and Heapify.</td>
       <td><b>Time:</b> O(N + M)<br><b>Space:</b> O(N + M)</td>
       <td>-</td>
@@ -441,7 +441,7 @@
     </tr>
     <tr>
       <td>48</td>
-      <td>Heaps 08 Kth Largest Sum Contiguous Subarray<br><br></b> <a href='https://www.geeksforgeeks.org/k-th-largest-sum-contiguous-subarray/' target='_blank'>GFG</a></td>
+      <td>Heap 48 Kth Largest Sum Contiguous Subarray<br><br></b> <a href='https://www.geeksforgeeks.org/k-th-largest-sum-contiguous-subarray/' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Prefix sum + Min Heap.</td>
       <td><b>Time:</b> O(N^2 log K)<br><b>Space:</b> O(N + K)</td>
       <td>Priority Queue</td>
@@ -450,7 +450,7 @@
     </tr>
     <tr>
       <td>49</td>
-      <td>Heaps 09 Reorganize String<br><br></b> <a href='https://leetcode.com/problems/reorganize-string/' target='_blank'>LeetCode 767</a></td>
+      <td>Heap 49 Reorganize String<br><br></b> <a href='https://leetcode.com/problems/reorganize-string/' target='_blank'>LeetCode 767</a></td>
       <td><b>Example 1:</b> Max Heap.</td>
       <td><b>Time:</b> O(N log 26)<br><b>Space:</b> O(26)</td>
       <td>Priority Queue</td>
@@ -459,7 +459,7 @@
     </tr>
     <tr>
       <td>50</td>
-      <td>Heaps 10 Merge K Sorted Arrays<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/merge-k-sorted-arrays/1' target='_blank'>GFG</a></td>
+      <td>Heap 50 Merge K Sorted Arrays<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/merge-k-sorted-arrays/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Min Heap.</td>
       <td><b>Time:</b> O(K^2 log K)<br><b>Space:</b> O(K)</td>
       <td>Priority Queue</td>
@@ -468,7 +468,7 @@
     </tr>
     <tr>
       <td>51</td>
-      <td>Heaps 11 Smallest Range In K Lists<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/find-smallest-range-containing-elements-from-k-lists/1' target='_blank'>GFG</a></td>
+      <td>Heap 51 Smallest Range In K Lists<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/find-smallest-range-containing-elements-from-k-lists/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Min Heap + Sliding Window.</td>
       <td><b>Time:</b> O(N * K log K)<br><b>Space:</b> O(K)</td>
       <td>Priority Queue</td>
@@ -477,7 +477,7 @@
     </tr>
     <tr>
       <td>52</td>
-      <td>Heaps 12 Minimum Cost Of Ropes<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-cost-of-ropes-1587115620/1' target='_blank'>GFG</a></td>
+      <td>Heap 52 Minimum Cost Of Ropes<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-cost-of-ropes-1587115620/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Min Heap.</td>
       <td><b>Time:</b> O(N log N)<br><b>Space:</b> O(N)</td>
       <td>Priority Queue</td>
@@ -486,7 +486,7 @@
     </tr>
     <tr>
       <td>53</td>
-      <td>Heaps 13 Convert Bst To Min Heap<br><br></b> <a href='https://www.geeksforgeeks.org/convert-bst-min-heap/' target='_blank'>GFG</a></td>
+      <td>Heap 53 Convert Bst To Min Heap<br><br></b> <a href='https://www.geeksforgeeks.org/convert-bst-min-heap/' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Inorder + Preorder.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -495,7 +495,7 @@
     </tr>
     <tr>
       <td>54</td>
-      <td>Heaps 14 Check If A Binary Tree Is Heap<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/is-binary-tree-heap/1' target='_blank'>GFG</a></td>
+      <td>Heap 54 Check If A Binary Tree Is Heap<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/is-binary-tree-heap/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Recursion.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(H)</td>
       <td>-</td>

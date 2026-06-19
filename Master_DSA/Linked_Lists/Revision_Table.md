@@ -117,7 +117,7 @@
     </tr>
     <tr>
       <td>12</td>
-      <td>Ll 16 Rotate List<br><br></b> <a href='https://leetcode.com/problems/rotate-list/' target='_blank'>LeetCode 61</a></td>
+      <td>Ll 12 Rotate List<br><br></b> <a href='https://leetcode.com/problems/rotate-list/' target='_blank'>LeetCode 61</a></td>
       <td><b>Example 1:</b> Input: head = [1,2,3,4,5], k = 2, Output: [4,5,1,2,3]</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -126,7 +126,7 @@
     </tr>
     <tr>
       <td>13</td>
-      <td>Ll 17 Flattening A Linked List<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/flattening-a-linked-list/1' target='_blank'>GFG</a></td>
+      <td>Ll 13 Flattening A Linked List<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/flattening-a-linked-list/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Recursively merge.</td>
       <td><b>Time:</b> O(N * M)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -135,7 +135,7 @@
     </tr>
     <tr>
       <td>14</td>
-      <td>Ll 18 Sort A Linked List<br><br></b> <a href='https://leetcode.com/problems/sort-list/' target='_blank'>LeetCode 148</a></td>
+      <td>Ll 14 Sort A Linked List<br><br></b> <a href='https://leetcode.com/problems/sort-list/' target='_blank'>LeetCode 148</a></td>
       <td><b>Example 1:</b> Input: head = [4,2,1,3], Output: [1,2,3,4]</td>
       <td><b>Time:</b> O(N log N)<br><b>Space:</b> O(log N)</td>
       <td>-</td>
@@ -144,7 +144,7 @@
     </tr>
     <tr>
       <td>15</td>
-      <td>Ll 19 Find Pairs With Given Sum In Doubly Linked List<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/find-pairs-with-given-sum-in-doubly-linked-list/1' target='_blank'>GFG</a></td>
+      <td>Ll 15 Find Pairs With Given Sum In Doubly Linked List<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/find-pairs-with-given-sum-in-doubly-linked-list/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Two pointer approach.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -153,7 +153,7 @@
     </tr>
     <tr>
       <td>16</td>
-      <td>Ll 20 Remove Duplicates From Sorted Doubly Linked List<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/remove-duplicates-from-a-sorted-doubly-linked-list/1' target='_blank'>GFG</a></td>
+      <td>Ll 16 Remove Duplicates From Sorted Doubly Linked List<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/remove-duplicates-from-a-sorted-doubly-linked-list/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Skip duplicates.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -162,7 +162,7 @@
     </tr>
     <tr>
       <td>17</td>
-      <td>Ll 21 Reverse A Doubly Linked List<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/reverse-a-doubly-linked-list/1' target='_blank'>GFG</a></td>
+      <td>Ll 17 Reverse A Doubly Linked List<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/reverse-a-doubly-linked-list/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Swap prev and next.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -171,7 +171,7 @@
     </tr>
     <tr>
       <td>18</td>
-      <td>Ll 22 Delete All Occurrences Of A Key In Dll<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/delete-all-occurrences-of-a-given-key-in-a-doubly-linked-list/1' target='_blank'>GFG</a></td>
+      <td>Ll 18 Delete All Occurrences Of A Key In Dll<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/delete-all-occurrences-of-a-given-key-in-a-doubly-linked-list/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Update links.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -180,7 +180,7 @@
     </tr>
     <tr>
       <td>19</td>
-      <td>Ll 23 Swap Nodes In Pairs<br><br></b> <a href='https://leetcode.com/problems/swap-nodes-in-pairs/' target='_blank'>LeetCode 24</a></td>
+      <td>Ll 19 Swap Nodes In Pairs<br><br></b> <a href='https://leetcode.com/problems/swap-nodes-in-pairs/' target='_blank'>LeetCode 24</a></td>
       <td><b>Example 1:</b> Input: head = [1,2,3,4], Output: [2,1,4,3]</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -189,7 +189,7 @@
     </tr>
     <tr>
       <td>20</td>
-      <td>Ll 24 Odd Even Linked List<br><br></b> <a href='https://leetcode.com/problems/odd-even-linked-list/' target='_blank'>LeetCode 328</a></td>
+      <td>Ll 20 Odd Even Linked List<br><br></b> <a href='https://leetcode.com/problems/odd-even-linked-list/' target='_blank'>LeetCode 328</a></td>
       <td><b>Example 1:</b> Input: head = [1,2,3,4,5], Output: [1,3,5,2,4]</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -198,7 +198,7 @@
     </tr>
     <tr>
       <td>21</td>
-      <td>Ll 25 Split Linked List In Parts<br><br></b> <a href='https://leetcode.com/problems/split-linked-list-in-parts/' target='_blank'>LeetCode 725</a></td>
+      <td>Ll 21 Split Linked List In Parts<br><br></b> <a href='https://leetcode.com/problems/split-linked-list-in-parts/' target='_blank'>LeetCode 725</a></td>
       <td><b>Example 1:</b> Distribution math.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(K)</td>
       <td>-</td>
@@ -207,7 +207,7 @@
     </tr>
     <tr>
       <td>22</td>
-      <td>Ll 26 Reverse Nodes In K Group<br><br></b> <a href='https://leetcode.com/problems/reverse-nodes-in-k-group/' target='_blank'>LeetCode 25</a></td>
+      <td>Ll 22 Reverse Nodes In K Group<br><br></b> <a href='https://leetcode.com/problems/reverse-nodes-in-k-group/' target='_blank'>LeetCode 25</a></td>
       <td><b>Example 1:</b> Recursive/Iterative k-reverse.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -216,7 +216,7 @@
     </tr>
     <tr>
       <td>23</td>
-      <td>Ll 27 Rotate List<br><br></b> <a href='https://leetcode.com/problems/rotate-list/' target='_blank'>LeetCode 61</a></td>
+      <td>Ll 23 Rotate List<br><br></b> <a href='https://leetcode.com/problems/rotate-list/' target='_blank'>LeetCode 61</a></td>
       <td><b>Example 1:</b> Find tail and break.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -225,7 +225,7 @@
     </tr>
     <tr>
       <td>24</td>
-      <td>Ll 28 Flattening A Linked List<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/flattening-a-linked-list/1' target='_blank'>GFG</a></td>
+      <td>Ll 24 Flattening A Linked List<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/flattening-a-linked-list/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Merge two sorted lists bottom-up.</td>
       <td><b>Time:</b> O(N * M) total nodes<br><b>Space:</b> O(N) aux space for recursion</td>
       <td>-</td>
@@ -234,7 +234,7 @@
     </tr>
     <tr>
       <td>25</td>
-      <td>Ll 29 Copy List With Random Pointer<br><br></b> <a href='https://leetcode.com/problems/copy-list-with-random-pointer/' target='_blank'>LeetCode 138</a></td>
+      <td>Ll 25 Copy List With Random Pointer<br><br></b> <a href='https://leetcode.com/problems/copy-list-with-random-pointer/' target='_blank'>LeetCode 138</a></td>
       <td><b>Example 1:</b> Insert copies in-between.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -243,7 +243,7 @@
     </tr>
     <tr>
       <td>26</td>
-      <td>Ll 30 Add Two Numbers Ii<br><br></b> <a href='https://leetcode.com/problems/add-two-numbers-ii/' target='_blank'>LeetCode 445</a></td>
+      <td>Ll 26 Add Two Numbers Ii<br><br></b> <a href='https://leetcode.com/problems/add-two-numbers-ii/' target='_blank'>LeetCode 445</a></td>
       <td><b>Example 1:</b> Stack or reverse.</td>
       <td><b>Time:</b> O(N + M)<br><b>Space:</b> O(N + M)</td>
       <td><code>#include <stack></code></td>
@@ -252,7 +252,7 @@
     </tr>
     <tr>
       <td>27</td>
-      <td>Ll 31 Split Linked List In Parts<br><br></b> <a href='https://leetcode.com/problems/split-linked-list-in-parts/' target='_blank'>LeetCode 725</a></td>
+      <td>Ll 27 Split Linked List In Parts<br><br></b> <a href='https://leetcode.com/problems/split-linked-list-in-parts/' target='_blank'>LeetCode 725</a></td>
       <td><b>Example 1:</b> Calculate lengths.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(k)</td>
       <td>-</td>
@@ -261,7 +261,7 @@
     </tr>
     <tr>
       <td>28</td>
-      <td>Ll 32 Insertion Sort List<br><br></b> <a href='https://leetcode.com/problems/insertion-sort-list/' target='_blank'>LeetCode 147</a></td>
+      <td>Ll 28 Insertion Sort List<br><br></b> <a href='https://leetcode.com/problems/insertion-sort-list/' target='_blank'>LeetCode 147</a></td>
       <td><b>Example 1:</b> Dummy head.</td>
       <td><b>Time:</b> O(N^2)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -270,7 +270,7 @@
     </tr>
     <tr>
       <td>29</td>
-      <td>Ll 33 Sort List<br><br></b> <a href='https://leetcode.com/problems/sort-list/' target='_blank'>LeetCode 148</a></td>
+      <td>Ll 29 Sort List<br><br></b> <a href='https://leetcode.com/problems/sort-list/' target='_blank'>LeetCode 148</a></td>
       <td><b>Example 1:</b> Merge sort.</td>
       <td><b>Time:</b> O(N log N)<br><b>Space:</b> O(log N) due to recursion stack</td>
       <td>-</td>
@@ -279,7 +279,7 @@
     </tr>
     <tr>
       <td>30</td>
-      <td>Ll 34 Partition List<br><br></b> <a href='https://leetcode.com/problems/partition-list/' target='_blank'>LeetCode 86</a></td>
+      <td>Ll 30 Partition List<br><br></b> <a href='https://leetcode.com/problems/partition-list/' target='_blank'>LeetCode 86</a></td>
       <td><b>Example 1:</b> Two lists then join.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -288,7 +288,7 @@
     </tr>
     <tr>
       <td>31</td>
-      <td>Ll 35 Swap Nodes In Pairs<br><br></b> <a href='https://leetcode.com/problems/swap-nodes-in-pairs/' target='_blank'>LeetCode 24</a></td>
+      <td>Ll 31 Swap Nodes In Pairs<br><br></b> <a href='https://leetcode.com/problems/swap-nodes-in-pairs/' target='_blank'>LeetCode 24</a></td>
       <td><b>Example 1:</b> Iterative with dummy.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -297,7 +297,7 @@
     </tr>
     <tr>
       <td>32</td>
-      <td>Ll 36 Reverse Nodes In Even Length Groups<br><br></b> <a href='https://leetcode.com/problems/reverse-nodes-in-even-length-groups/' target='_blank'>LeetCode 2074</a></td>
+      <td>Ll 32 Reverse Nodes In Even Length Groups<br><br></b> <a href='https://leetcode.com/problems/reverse-nodes-in-even-length-groups/' target='_blank'>LeetCode 2074</a></td>
       <td><b>Example 1:</b> Group tracking.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -306,7 +306,7 @@
     </tr>
     <tr>
       <td>33</td>
-      <td>Ll 37 Swapping Nodes In A Linked List<br><br></b> <a href='https://leetcode.com/problems/swapping-nodes-in-a-linked-list/' target='_blank'>LeetCode 1721</a></td>
+      <td>Ll 33 Swapping Nodes In A Linked List<br><br></b> <a href='https://leetcode.com/problems/swapping-nodes-in-a-linked-list/' target='_blank'>LeetCode 1721</a></td>
       <td><b>Example 1:</b> Two passes or three pointers.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -315,7 +315,7 @@
     </tr>
     <tr>
       <td>34</td>
-      <td>Ll 38 Merge Nodes In Between Zeros<br><br></b> <a href='https://leetcode.com/problems/merge-nodes-in-between-zeros/' target='_blank'>LeetCode 2181</a></td>
+      <td>Ll 34 Merge Nodes In Between Zeros<br><br></b> <a href='https://leetcode.com/problems/merge-nodes-in-between-zeros/' target='_blank'>LeetCode 2181</a></td>
       <td><b>Example 1:</b> Accumulate and connect.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1) extra space if we modify in-place</td>
       <td>-</td>
@@ -324,7 +324,7 @@
     </tr>
     <tr>
       <td>35</td>
-      <td>Ll 39 Design Hashset<br><br></b> <a href='https://leetcode.com/problems/design-hashset/' target='_blank'>LeetCode 705</a></td>
+      <td>Ll 35 Design Hashset<br><br></b> <a href='https://leetcode.com/problems/design-hashset/' target='_blank'>LeetCode 705</a></td>
       <td><b>Example 1:</b> Array of Linked Lists.</td>
       <td><b>Time:</b> O(1) amortized<br><b>Space:</b> O(Number of elements)</td>
       <td>-</td>
@@ -333,7 +333,7 @@
     </tr>
     <tr>
       <td>36</td>
-      <td>Ll 40 Design Hashmap<br><br></b> <a href='https://leetcode.com/problems/design-hashmap/' target='_blank'>LeetCode 706</a></td>
+      <td>Ll 36 Design Hashmap<br><br></b> <a href='https://leetcode.com/problems/design-hashmap/' target='_blank'>LeetCode 706</a></td>
       <td><b>Example 1:</b> Array of Linked Lists with Key-Value pairs.</td>
       <td><b>Time:</b> O(1) amortized<br><b>Space:</b> O(Number of elements)</td>
       <td>-</td>
@@ -342,7 +342,7 @@
     </tr>
     <tr>
       <td>37</td>
-      <td>Ll 41 Design Browser History<br><br></b> <a href='https://leetcode.com/problems/design-browser-history/' target='_blank'>LeetCode 1472</a></td>
+      <td>Ll 37 Design Browser History<br><br></b> <a href='https://leetcode.com/problems/design-browser-history/' target='_blank'>LeetCode 1472</a></td>
       <td><b>Example 1:</b> Doubly Linked List.</td>
       <td><b>Time:</b> O(1) visit, O(steps) back/forward<br><b>Space:</b> O(N) for URLs</td>
       <td>-</td>
@@ -351,7 +351,7 @@
     </tr>
     <tr>
       <td>38</td>
-      <td>Ll 42 Lru Cache Ll<br><br></b> <a href='https://leetcode.com/problems/lru-cache/' target='_blank'>LeetCode 146</a></td>
+      <td>Ll 38 Lru Cache Ll<br><br></b> <a href='https://leetcode.com/problems/lru-cache/' target='_blank'>LeetCode 146</a></td>
       <td><b>Example 1:</b> Duplicate logic entry to ensure coverage.</td>
       <td><b>Time:</b> O(1)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -360,7 +360,7 @@
     </tr>
     <tr>
       <td>39</td>
-      <td>Ll 43 Lfu Cache Ll<br><br></b> <a href='https://leetcode.com/problems/lfu-cache/' target='_blank'>LeetCode 460</a></td>
+      <td>Ll 39 Lfu Cache Ll<br><br></b> <a href='https://leetcode.com/problems/lfu-cache/' target='_blank'>LeetCode 460</a></td>
       <td><b>Example 1:</b> Duplicate logic entry to ensure coverage.</td>
       <td><b>Time:</b> O(1)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -369,7 +369,7 @@
     </tr>
     <tr>
       <td>40</td>
-      <td>Ll 44 All Oone Data Structure<br><br></b> <a href='https://leetcode.com/problems/all-oone-data-structure/' target='_blank'>LeetCode 432</a></td>
+      <td>Ll 40 All Oone Data Structure<br><br></b> <a href='https://leetcode.com/problems/all-oone-data-structure/' target='_blank'>LeetCode 432</a></td>
       <td><b>Example 1:</b> Doubly linked list of frequency buckets.</td>
       <td><b>Time:</b> O(1) amortized<br><b>Space:</b> O(N)</td>
       <td><code>#include <unordered_set>\n#include <unordered_map></code></td>
@@ -378,7 +378,7 @@
     </tr>
     <tr>
       <td>41</td>
-      <td>Ll 45 Flatten A Multilevel Doubly Linked List<br><br></b> <a href='https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/' target='_blank'>LeetCode 430</a></td>
+      <td>Ll 41 Flatten A Multilevel Doubly Linked List<br><br></b> <a href='https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/' target='_blank'>LeetCode 430</a></td>
       <td><b>Example 1:</b> DFS / Recursion.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -468,7 +468,7 @@
     </tr>
     <tr>
       <td>51</td>
-      <td>Ll 19 Split A Circular Linked List Into Two Halves<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/split-a-circular-linked-list-into-two-halves/1' target='_blank'>GFG</a></td>
+      <td>Ll 51 Split A Circular Linked List Into Two Halves<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/split-a-circular-linked-list-into-two-halves/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Slow and Fast Pointer.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -477,7 +477,7 @@
     </tr>
     <tr>
       <td>52</td>
-      <td>Ll 20 Check If Circular Linked List<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/circular-linked-list/1' target='_blank'>GFG</a></td>
+      <td>Ll 52 Check If Circular Linked List<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/circular-linked-list/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Traverse to head.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -486,7 +486,7 @@
     </tr>
     <tr>
       <td>53</td>
-      <td>Ll 21 Count Triplets In A Sorted Doubly Linked List Whose Sum Is Equal To Given Value X<br><br></b> <a href='https://www.geeksforgeeks.org/count-triplets-sorted-doubly-linked-list-whose-sum-equal-given-value-x/' target='_blank'>GFG</a></td>
+      <td>Ll 53 Count Triplets In A Sorted Doubly Linked List Whose Sum Is Equal To Given Value X<br><br></b> <a href='https://www.geeksforgeeks.org/count-triplets-sorted-doubly-linked-list-whose-sum-equal-given-value-x/' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Two Pointers.</td>
       <td><b>Time:</b> O(N^2)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -495,7 +495,7 @@
     </tr>
     <tr>
       <td>54</td>
-      <td>Ll 22 Sort A K Sorted Doubly Linked List<br><br></b> <a href='https://www.geeksforgeeks.org/sort-k-sorted-doubly-linked-list/' target='_blank'>GFG</a></td>
+      <td>Ll 54 Sort A K Sorted Doubly Linked List<br><br></b> <a href='https://www.geeksforgeeks.org/sort-k-sorted-doubly-linked-list/' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Min Heap.</td>
       <td><b>Time:</b> O(N log K)<br><b>Space:</b> O(K)</td>
       <td>Priority Queue</td>
@@ -504,7 +504,7 @@
     </tr>
     <tr>
       <td>55</td>
-      <td>Ll 23 Rotate Doubly Linked List By N Nodes<br><br></b> <a href='https://www.geeksforgeeks.org/rotate-doubly-linked-list-n-nodes/' target='_blank'>GFG</a></td>
+      <td>Ll 55 Rotate Doubly Linked List By N Nodes<br><br></b> <a href='https://www.geeksforgeeks.org/rotate-doubly-linked-list-n-nodes/' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Traverse and link.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -513,7 +513,7 @@
     </tr>
     <tr>
       <td>56</td>
-      <td>Ll 24 Reverse A Doubly Linked List In Groups Of Given Size<br><br></b> <a href='https://www.geeksforgeeks.org/reverse-doubly-linked-list-groups-given-size/' target='_blank'>GFG</a></td>
+      <td>Ll 56 Reverse A Doubly Linked List In Groups Of Given Size<br><br></b> <a href='https://www.geeksforgeeks.org/reverse-doubly-linked-list-groups-given-size/' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Recursion.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(N/K) recursion stack</td>
       <td>-</td>
@@ -522,7 +522,7 @@
     </tr>
     <tr>
       <td>57</td>
-      <td>Ll 25 Can We Reverse A Linked List In Less Than On<br><br></b> N/A</td>
+      <td>Ll 57 Can We Reverse A Linked List In Less Than On<br><br></b> N/A</td>
       <td><b>Example 1:</b> Theoretical Question.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -531,7 +531,7 @@
     </tr>
     <tr>
       <td>58</td>
-      <td>Ll 26 Find The First Node Of Loop In Linked List<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/find-the-first-node-of-loop-in-linked-list--170645/1' target='_blank'>GFG</a></td>
+      <td>Ll 58 Find The First Node Of Loop In Linked List<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/find-the-first-node-of-loop-in-linked-list--170645/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Floyd's Cycle Detection.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -540,7 +540,7 @@
     </tr>
     <tr>
       <td>59</td>
-      <td>Ll 27 Multiply Two Linked Lists<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/multiply-two-linked-lists/1' target='_blank'>GFG</a></td>
+      <td>Ll 59 Multiply Two Linked Lists<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/multiply-two-linked-lists/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Form numbers.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -549,7 +549,7 @@
     </tr>
     <tr>
       <td>60</td>
-      <td>Ll 28 Delete Nodes Having Greater Value On Right<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/delete-nodes-having-greater-value-on-right/1' target='_blank'>GFG</a></td>
+      <td>Ll 60 Delete Nodes Having Greater Value On Right<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/delete-nodes-having-greater-value-on-right/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Reverse and filter.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -558,7 +558,7 @@
     </tr>
     <tr>
       <td>61</td>
-      <td>Ll 29 Reverse A Linked List In Groups Of Given Size<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1' target='_blank'>GFG</a></td>
+      <td>Ll 61 Reverse A Linked List In Groups Of Given Size<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/reverse-a-linked-list-in-groups-of-given-size/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Recursive approach.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(N/k) recursive stack</td>
       <td>-</td>
@@ -567,7 +567,7 @@
     </tr>
     <tr>
       <td>62</td>
-      <td>Ll 30 Detect Loop In Linked List<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/detect-loop-in-linked-list/1' target='_blank'>GFG</a></td>
+      <td>Ll 62 Detect Loop In Linked List<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/detect-loop-in-linked-list/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Floyd's Cycle Detection.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -576,7 +576,7 @@
     </tr>
     <tr>
       <td>63</td>
-      <td>Ll 31 Remove Loop In Linked List<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/remove-loop-in-linked-list/1' target='_blank'>GFG</a></td>
+      <td>Ll 63 Remove Loop In Linked List<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/remove-loop-in-linked-list/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Floyd's Cycle Detection + Loop removal.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -585,7 +585,7 @@
     </tr>
     <tr>
       <td>64</td>
-      <td>Ll 32 Find First Node Of Loop In A Linked List<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/find-the-first-node-of-loop-in-linked-list--170645/1' target='_blank'>GFG</a></td>
+      <td>Ll 64 Find First Node Of Loop In A Linked List<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/find-the-first-node-of-loop-in-linked-list--170645/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Floyd's Cycle Detection.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -594,7 +594,7 @@
     </tr>
     <tr>
       <td>65</td>
-      <td>Ll 33 Remove Duplicates From An Unsorted Linked List<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/remove-duplicates-from-an-unsorted-linked-list/1' target='_blank'>GFG</a></td>
+      <td>Ll 65 Remove Duplicates From An Unsorted Linked List<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/remove-duplicates-from-an-unsorted-linked-list/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Hash set.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
       <td>Hash Set</td>
@@ -603,7 +603,7 @@
     </tr>
     <tr>
       <td>66</td>
-      <td>Ll 34 Move Last Element To Front Of A Given Linked List<br><br></b> <a href='https://www.geeksforgeeks.org/move-last-element-to-front-of-a-given-linked-list/' target='_blank'>GFG</a></td>
+      <td>Ll 66 Move Last Element To Front Of A Given Linked List<br><br></b> <a href='https://www.geeksforgeeks.org/move-last-element-to-front-of-a-given-linked-list/' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Two Pointers.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -612,7 +612,7 @@
     </tr>
     <tr>
       <td>67</td>
-      <td>Ll 35 Add 1 To A Number Represented As Linked List<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/add-1-to-a-number-represented-as-linked-list/1' target='_blank'>GFG</a></td>
+      <td>Ll 67 Add 1 To A Number Represented As Linked List<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/add-1-to-a-number-represented-as-linked-list/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Reverse, Add, Reverse.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -621,7 +621,7 @@
     </tr>
     <tr>
       <td>68</td>
-      <td>Ll 36 Add Two Numbers Represented By Linked Lists<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/add-two-numbers-represented-by-linked-lists/1' target='_blank'>GFG</a></td>
+      <td>Ll 68 Add Two Numbers Represented By Linked Lists<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/add-two-numbers-represented-by-linked-lists/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Reverse, Add, Reverse.</td>
       <td><b>Time:</b> O(max(N, M))<br><b>Space:</b> O(max(N, M))</td>
       <td>-</td>
@@ -630,7 +630,7 @@
     </tr>
     <tr>
       <td>69</td>
-      <td>Ll 37 Intersection Of Two Sorted Linked Lists<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/intersection-of-two-sorted-linked-lists/1' target='_blank'>GFG</a></td>
+      <td>Ll 69 Intersection Of Two Sorted Linked Lists<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/intersection-of-two-sorted-linked-lists/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Two Pointers.</td>
       <td><b>Time:</b> O(N + M)<br><b>Space:</b> O(N + M)</td>
       <td>-</td>
@@ -639,7 +639,7 @@
     </tr>
     <tr>
       <td>70</td>
-      <td>Ll 38 Intersection Point In Y Shaped Linked Lists<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/intersection-point-in-y-shapped-linked-lists/1' target='_blank'>GFG</a></td>
+      <td>Ll 70 Intersection Point In Y Shaped Linked Lists<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/intersection-point-in-y-shapped-linked-lists/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Two Pointers.</td>
       <td><b>Time:</b> O(N + M)<br><b>Space:</b> O(1)</td>
       <td>-</td>

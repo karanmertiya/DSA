@@ -45,7 +45,7 @@
     </tr>
     <tr>
       <td>4</td>
-      <td>Rec 02 Subsets<br><br></b> <a href='https://leetcode.com/problems/subsets/' target='_blank'>LeetCode 78</a></td>
+      <td>Rec 04 Subsets<br><br></b> <a href='https://leetcode.com/problems/subsets/' target='_blank'>LeetCode 78</a></td>
       <td><b>Example 1:</b> Input: nums = [1,2,3], Output: [[],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]]</td>
       <td><b>Time:</b> O(2<sup>N</sup> * N)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -54,7 +54,7 @@
     </tr>
     <tr>
       <td>5</td>
-      <td>Rec 03 Permutations<br><br></b> <a href='https://leetcode.com/problems/permutations/' target='_blank'>LeetCode 46</a></td>
+      <td>Rec 05 Permutations<br><br></b> <a href='https://leetcode.com/problems/permutations/' target='_blank'>LeetCode 46</a></td>
       <td><b>Example 1:</b> Input: nums = [1,2,3], Output: [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]</td>
       <td><b>Time:</b> O(N! * N)<br><b>Space:</b> O(N)</td>
       <td><code>std::swap</code></td>
@@ -261,7 +261,7 @@
     </tr>
     <tr>
       <td>28</td>
-      <td>Recursion 27 N Queens Ii<br><br></b> <a href='https://leetcode.com/problems/n-queens-ii/' target='_blank'>LeetCode 52</a></td>
+      <td>Rec 28 N Queens Ii<br><br></b> <a href='https://leetcode.com/problems/n-queens-ii/' target='_blank'>LeetCode 52</a></td>
       <td><b>Example 1:</b> Backtracking with hashing.</td>
       <td><b>Time:</b> O(N!)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -270,7 +270,7 @@
     </tr>
     <tr>
       <td>29</td>
-      <td>Recursion 28 Sudoku Solver<br><br></b> <a href='https://leetcode.com/problems/sudoku-solver/' target='_blank'>LeetCode 37</a></td>
+      <td>Rec 29 Sudoku Solver<br><br></b> <a href='https://leetcode.com/problems/sudoku-solver/' target='_blank'>LeetCode 37</a></td>
       <td><b>Example 1:</b> Backtracking.</td>
       <td><b>Time:</b> O(9^(n*n))<br><b>Space:</b> O(1) excluding recursion stack</td>
       <td>-</td>
@@ -279,7 +279,7 @@
     </tr>
     <tr>
       <td>30</td>
-      <td>Recursion 29 Word Search<br><br></b> <a href='https://leetcode.com/problems/word-search/' target='_blank'>LeetCode 79</a></td>
+      <td>Rec 30 Word Search<br><br></b> <a href='https://leetcode.com/problems/word-search/' target='_blank'>LeetCode 79</a></td>
       <td><b>Example 1:</b> Backtracking DFS.</td>
       <td><b>Time:</b> O(N * M * 4^L)<br><b>Space:</b> O(L) recursion stack</td>
       <td>-</td>
@@ -288,7 +288,7 @@
     </tr>
     <tr>
       <td>31</td>
-      <td>Recursion 30 Palindrome Partitioning<br><br></b> <a href='https://leetcode.com/problems/palindrome-partitioning/' target='_blank'>LeetCode 131</a></td>
+      <td>Rec 31 Palindrome Partitioning<br><br></b> <a href='https://leetcode.com/problems/palindrome-partitioning/' target='_blank'>LeetCode 131</a></td>
       <td><b>Example 1:</b> Backtracking.</td>
       <td><b>Time:</b> O(N * 2^N)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -297,7 +297,7 @@
     </tr>
     <tr>
       <td>32</td>
-      <td>Recursion 31 Rat In A Maze Problem I<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/rat-in-a-maze-problem/1' target='_blank'>GFG</a></td>
+      <td>Rec 32 Rat In A Maze Problem I<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/rat-in-a-maze-problem/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Backtracking DFS.</td>
       <td><b>Time:</b> O(4^(N*N))<br><b>Space:</b> O(N*N)</td>
       <td>-</td>
@@ -306,7 +306,7 @@
     </tr>
     <tr>
       <td>33</td>
-      <td>Recursion 32 Word Break Ii<br><br></b> <a href='https://leetcode.com/problems/word-break-ii/' target='_blank'>LeetCode 140</a></td>
+      <td>Rec 33 Word Break Ii<br><br></b> <a href='https://leetcode.com/problems/word-break-ii/' target='_blank'>LeetCode 140</a></td>
       <td><b>Example 1:</b> Backtracking with Memoization (optional, but good for optimization).</td>
       <td><b>Time:</b> O(N * 2^N)<br><b>Space:</b> O(N * 2^N)</td>
       <td><code>#include <unordered_set></code></td>
@@ -315,7 +315,7 @@
     </tr>
     <tr>
       <td>34</td>
-      <td>Recursion 33 M Coloring Problem<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/m-coloring-problem-1587115620/1' target='_blank'>GFG</a></td>
+      <td>Rec 34 M Coloring Problem<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/m-coloring-problem-1587115620/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Backtracking.</td>
       <td><b>Time:</b> O(M^N)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -324,7 +324,7 @@
     </tr>
     <tr>
       <td>35</td>
-      <td>Recursion 34 Expression Add Operators<br><br></b> <a href='https://leetcode.com/problems/expression-add-operators/' target='_blank'>LeetCode 282</a></td>
+      <td>Rec 35 Expression Add Operators<br><br></b> <a href='https://leetcode.com/problems/expression-add-operators/' target='_blank'>LeetCode 282</a></td>
       <td><b>Example 1:</b> Backtracking with value and previous operand tracking.</td>
       <td><b>Time:</b> O(4^N)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -333,7 +333,7 @@
     </tr>
     <tr>
       <td>36</td>
-      <td>Recursion 35 K Th Symbol In Grammar<br><br></b> <a href='https://leetcode.com/problems/k-th-symbol-in-grammar/' target='_blank'>LeetCode 779</a></td>
+      <td>Rec 36 K Th Symbol In Grammar<br><br></b> <a href='https://leetcode.com/problems/k-th-symbol-in-grammar/' target='_blank'>LeetCode 779</a></td>
       <td><b>Example 1:</b> Recursive division.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -342,7 +342,7 @@
     </tr>
     <tr>
       <td>37</td>
-      <td>Recursion 36 Beautiful Arrangement<br><br></b> <a href='https://leetcode.com/problems/beautiful-arrangement/' target='_blank'>LeetCode 526</a></td>
+      <td>Rec 37 Beautiful Arrangement<br><br></b> <a href='https://leetcode.com/problems/beautiful-arrangement/' target='_blank'>LeetCode 526</a></td>
       <td><b>Example 1:</b> Backtracking.</td>
       <td><b>Time:</b> O(K) where K is number of valid permutations<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -441,7 +441,7 @@
     </tr>
     <tr>
       <td>48</td>
-      <td>Backtracking 09 Find Shortest Safe Route In A Path With Landmines<br><br></b> <a href='https://www.geeksforgeeks.org/find-shortest-safe-route-in-a-path-with-landmines/' target='_blank'>GFG</a></td>
+      <td>Rec 48 Find Shortest Safe Route In A Path With Landmines<br><br></b> <a href='https://www.geeksforgeeks.org/find-shortest-safe-route-in-a-path-with-landmines/' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> BFS or Backtracking.</td>
       <td><b>Time:</b> O(R * C)<br><b>Space:</b> O(R * C)</td>
       <td>-</td>
@@ -450,7 +450,7 @@
     </tr>
     <tr>
       <td>49</td>
-      <td>Backtracking 10 Combinational Sum<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/combination-sum-1587115620/1' target='_blank'>GFG</a></td>
+      <td>Rec 49 Combinational Sum<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/combination-sum-1587115620/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Backtracking.</td>
       <td><b>Time:</b> O(2^N * K)<br><b>Space:</b> O(K * X)</td>
       <td>-</td>
@@ -459,7 +459,7 @@
     </tr>
     <tr>
       <td>50</td>
-      <td>Backtracking 11 Find Maximum Number Possible By Doing At Most K Swaps<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/largest-number-in-k-swaps-1587115620/1' target='_blank'>GFG</a></td>
+      <td>Rec 50 Find Maximum Number Possible By Doing At Most K Swaps<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/largest-number-in-k-swaps-1587115620/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Backtracking.</td>
       <td><b>Time:</b> O(N! / (N-K)!)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -468,7 +468,7 @@
     </tr>
     <tr>
       <td>51</td>
-      <td>Backtracking 12 Print All Permutations Of A String<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/permutations-of-a-given-string2041/1' target='_blank'>GFG</a></td>
+      <td>Rec 51 Print All Permutations Of A String<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/permutations-of-a-given-string2041/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Swap based backtracking.</td>
       <td><b>Time:</b> O(N! * N)<br><b>Space:</b> O(N!)</td>
       <td>-</td>
@@ -477,7 +477,7 @@
     </tr>
     <tr>
       <td>52</td>
-      <td>Backtracking 13 Find If There Is A Path Of More Than K Length From A Source<br><br></b> <a href='https://www.geeksforgeeks.org/find-if-there-is-a-path-of-more-than-k-length-from-a-source/' target='_blank'>GFG</a></td>
+      <td>Rec 52 Find If There Is A Path Of More Than K Length From A Source<br><br></b> <a href='https://www.geeksforgeeks.org/find-if-there-is-a-path-of-more-than-k-length-from-a-source/' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> DFS Backtracking.</td>
       <td><b>Time:</b> O(V!)<br><b>Space:</b> O(V)</td>
       <td>-</td>
@@ -486,7 +486,7 @@
     </tr>
     <tr>
       <td>53</td>
-      <td>Backtracking 14 Longest Possible Route In A Matrix With Hurdles<br><br></b> <a href='https://www.geeksforgeeks.org/longest-possible-route-in-a-matrix-with-hurdles/' target='_blank'>GFG</a></td>
+      <td>Rec 53 Longest Possible Route In A Matrix With Hurdles<br><br></b> <a href='https://www.geeksforgeeks.org/longest-possible-route-in-a-matrix-with-hurdles/' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Backtracking.</td>
       <td><b>Time:</b> O(4^(M*N))<br><b>Space:</b> O(M*N)</td>
       <td>-</td>
@@ -495,7 +495,7 @@
     </tr>
     <tr>
       <td>54</td>
-      <td>Backtracking 15 Print All Possible Paths From Top Left To Bottom Right Of A Mxn Matrix<br><br></b> <a href='https://www.geeksforgeeks.org/print-all-possible-paths-from-top-left-to-bottom-right-of-a-mxn-matrix/' target='_blank'>GFG</a></td>
+      <td>Rec 54 Print All Possible Paths From Top Left To Bottom Right Of A Mxn Matrix<br><br></b> <a href='https://www.geeksforgeeks.org/print-all-possible-paths-from-top-left-to-bottom-right-of-a-mxn-matrix/' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> DFS.</td>
       <td><b>Time:</b> O(2^(M+N))<br><b>Space:</b> O(M+N)</td>
       <td>-</td>
@@ -504,7 +504,7 @@
     </tr>
     <tr>
       <td>55</td>
-      <td>Backtracking 16 Partition Of A Set Into K Subsets With Equal Sum<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/partition-array-to-k-subsets/1' target='_blank'>GFG</a></td>
+      <td>Rec 55 Partition Of A Set Into K Subsets With Equal Sum<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/partition-array-to-k-subsets/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Backtracking with tracking subset sum.</td>
       <td><b>Time:</b> O(K^N)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -513,7 +513,7 @@
     </tr>
     <tr>
       <td>56</td>
-      <td>Backtracking 17 Find All Possible Palindromic Partitions Of A String<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/find-all-possible-palindromic-partitions-of-a-string/1' target='_blank'>GFG</a></td>
+      <td>Rec 56 Find All Possible Palindromic Partitions Of A String<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/find-all-possible-palindromic-partitions-of-a-string/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Backtracking.</td>
       <td><b>Time:</b> O(2^N * N)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -522,7 +522,7 @@
     </tr>
     <tr>
       <td>57</td>
-      <td>Backtracking 18 Word Break Problem Using Backtracking<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/word-break-part-23249/1' target='_blank'>GFG</a></td>
+      <td>Rec 57 Word Break Problem Using Backtracking<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/word-break-part-23249/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Backtracking.</td>
       <td><b>Time:</b> O(2^N)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -531,7 +531,7 @@
     </tr>
     <tr>
       <td>58</td>
-      <td>Rec 01 Print 1 To N Without Loop<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/print-1-to-n-without-using-loops-1587115620/1' target='_blank'>GFG</a></td>
+      <td>Rec 58 Print 1 To N Without Loop<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/print-1-to-n-without-using-loops-1587115620/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Recursion.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -540,7 +540,7 @@
     </tr>
     <tr>
       <td>59</td>
-      <td>Rec 02 Print N To 1 Without Loop<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/print-n-to-1-without-loop/1' target='_blank'>GFG</a></td>
+      <td>Rec 59 Print N To 1 Without Loop<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/print-n-to-1-without-loop/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Recursion.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -549,7 +549,7 @@
     </tr>
     <tr>
       <td>60</td>
-      <td>Rec 03 Sum Of First N Terms<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/sum-of-first-n-terms5843/1' target='_blank'>GFG</a></td>
+      <td>Rec 60 Sum Of First N Terms<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/sum-of-first-n-terms5843/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Math or Recursion.</td>
       <td><b>Time:</b> O(1) Math, O(N) Recursion<br><b>Space:</b> O(1) Math, O(N) Recursion</td>
       <td>-</td>
@@ -558,7 +558,7 @@
     </tr>
     <tr>
       <td>61</td>
-      <td>Rec 04 Find All Factorial Numbers Less Than Or Equal To N<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/find-all-factorial-numbers-less-than-or-equal-to-n3548/1' target='_blank'>GFG</a></td>
+      <td>Rec 61 Find All Factorial Numbers Less Than Or Equal To N<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/find-all-factorial-numbers-less-than-or-equal-to-n3548/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Recursion.</td>
       <td><b>Time:</b> O(K) where K! <= N<br><b>Space:</b> O(K)</td>
       <td>-</td>
@@ -567,7 +567,7 @@
     </tr>
     <tr>
       <td>62</td>
-      <td>Rec 05 Reverse An Array<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/reverse-an-array/0' target='_blank'>GFG</a></td>
+      <td>Rec 62 Reverse An Array<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/reverse-an-array/0' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Recursion with two pointers.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(N) recursive stack</td>
       <td>-</td>
@@ -576,7 +576,7 @@
     </tr>
     <tr>
       <td>63</td>
-      <td>Rec 06 Check If A String Is Palindrome<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/palindrome-string0817/1' target='_blank'>GFG</a></td>
+      <td>Rec 63 Check If A String Is Palindrome<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/palindrome-string0817/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Recursion.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -585,7 +585,7 @@
     </tr>
     <tr>
       <td>64</td>
-      <td>Rec 07 Fibonacci Number<br><br></b> <a href='https://leetcode.com/problems/fibonacci-number/' target='_blank'>LeetCode 509</a></td>
+      <td>Rec 64 Fibonacci Number<br><br></b> <a href='https://leetcode.com/problems/fibonacci-number/' target='_blank'>LeetCode 509</a></td>
       <td><b>Example 1:</b> Base Case.</td>
       <td><b>Time:</b> O(2^N)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -594,7 +594,7 @@
     </tr>
     <tr>
       <td>65</td>
-      <td>Rec 08 Pow X N<br><br></b> <a href='https://leetcode.com/problems/powx-n/' target='_blank'>LeetCode 50</a></td>
+      <td>Rec 65 Pow X N<br><br></b> <a href='https://leetcode.com/problems/powx-n/' target='_blank'>LeetCode 50</a></td>
       <td><b>Example 1:</b> Binary Exponentiation.</td>
       <td><b>Time:</b> O(log N)<br><b>Space:</b> O(log N) recursive stack</td>
       <td>-</td>
@@ -603,7 +603,7 @@
     </tr>
     <tr>
       <td>66</td>
-      <td>Rec 09 Count Good Numbers<br><br></b> <a href='https://leetcode.com/problems/count-good-numbers/' target='_blank'>LeetCode 1922</a></td>
+      <td>Rec 66 Count Good Numbers<br><br></b> <a href='https://leetcode.com/problems/count-good-numbers/' target='_blank'>LeetCode 1922</a></td>
       <td><b>Example 1:</b> Modular Exponentiation.</td>
       <td><b>Time:</b> O(log N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -612,7 +612,7 @@
     </tr>
     <tr>
       <td>67</td>
-      <td>Rec 10 Sort A Stack Using Recursion<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/sort-a-stack/1' target='_blank'>GFG</a></td>
+      <td>Rec 67 Sort A Stack Using Recursion<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/sort-a-stack/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Recursive sort and insert.</td>
       <td><b>Time:</b> O(N^2)<br><b>Space:</b> O(N)</td>
       <td>Stack</td>

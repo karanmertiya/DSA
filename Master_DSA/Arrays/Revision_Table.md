@@ -297,7 +297,7 @@
     </tr>
     <tr>
       <td>32</td>
-      <td>Arr 21 Merge Intervals<br><br></b> <a href='https://leetcode.com/problems/merge-intervals/' target='_blank'>LeetCode 56</a></td>
+      <td>Arr 32 Merge Intervals<br><br></b> <a href='https://leetcode.com/problems/merge-intervals/' target='_blank'>LeetCode 56</a></td>
       <td><b>Example 1:</b> Input: intervals = [[1,3],[2,6],[8,10],[15,18]], Output: [[1,6],[8,10],[15,18]]</td>
       <td><b>Time:</b> O(N log N)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -306,7 +306,7 @@
     </tr>
     <tr>
       <td>33</td>
-      <td>Arr 22 Next Permutation<br><br></b> <a href='https://leetcode.com/problems/next-permutation/' target='_blank'>LeetCode 31</a></td>
+      <td>Arr 33 Next Permutation<br><br></b> <a href='https://leetcode.com/problems/next-permutation/' target='_blank'>LeetCode 31</a></td>
       <td><b>Example 1:</b> Input: nums = [1,2,3], Output: [1,3,2]</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -315,7 +315,7 @@
     </tr>
     <tr>
       <td>34</td>
-      <td>Arr 23 Count Inversions<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/inversion-of-array-1587115620/1' target='_blank'>GFG</a></td>
+      <td>Arr 34 Count Inversions<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/inversion-of-array-1587115620/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Input: N = 5, arr[] = {2, 4, 1, 3, 5}, Output: 3</td>
       <td><b>Time:</b> O(N log N)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -324,7 +324,7 @@
     </tr>
     <tr>
       <td>35</td>
-      <td>Arr 24 Reverse Pairs<br><br></b> <a href='https://leetcode.com/problems/reverse-pairs/' target='_blank'>LeetCode 493</a></td>
+      <td>Arr 35 Reverse Pairs<br><br></b> <a href='https://leetcode.com/problems/reverse-pairs/' target='_blank'>LeetCode 493</a></td>
       <td><b>Example 1:</b> Input: nums = [1,3,2,3,1], Output: 2</td>
       <td><b>Time:</b> O(N log N)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -333,7 +333,7 @@
     </tr>
     <tr>
       <td>36</td>
-      <td>Arr 25 Maximum Product Subarray<br><br></b> <a href='https://leetcode.com/problems/maximum-product-subarray/' target='_blank'>LeetCode 152</a></td>
+      <td>Arr 36 Maximum Product Subarray<br><br></b> <a href='https://leetcode.com/problems/maximum-product-subarray/' target='_blank'>LeetCode 152</a></td>
       <td><b>Example 1:</b> Input: nums = [2,3,-2,4], Output: 6</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -342,7 +342,7 @@
     </tr>
     <tr>
       <td>37</td>
-      <td>Arr 26 Majority Element Ii<br><br></b> <a href='https://leetcode.com/problems/majority-element-ii/' target='_blank'>LeetCode 229</a></td>
+      <td>Arr 37 Majority Element Ii<br><br></b> <a href='https://leetcode.com/problems/majority-element-ii/' target='_blank'>LeetCode 229</a></td>
       <td><b>Example 1:</b> Input: nums = [3,2,3], Output: [3]</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -351,7 +351,7 @@
     </tr>
     <tr>
       <td>38</td>
-      <td>Arr 27 Grid Unique Paths<br><br></b> <a href='https://leetcode.com/problems/unique-paths/' target='_blank'>LeetCode 62</a></td>
+      <td>Arr 38 Grid Unique Paths<br><br></b> <a href='https://leetcode.com/problems/unique-paths/' target='_blank'>LeetCode 62</a></td>
       <td><b>Example 1:</b> Input: m = 3, n = 7, Output: 28</td>
       <td><b>Time:</b> O(m-1)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -360,7 +360,7 @@
     </tr>
     <tr>
       <td>39</td>
-      <td>Arr 28 Search A 2D Matrix<br><br></b> <a href='https://leetcode.com/problems/search-a-2d-matrix/' target='_blank'>LeetCode 74</a></td>
+      <td>Arr 39 Search A 2D Matrix<br><br></b> <a href='https://leetcode.com/problems/search-a-2d-matrix/' target='_blank'>LeetCode 74</a></td>
       <td><b>Example 1:</b> Input: matrix = [[1,3,5,7],[10,11,16,20],[23,30,34,60]], target = 3, Output: true</td>
       <td><b>Time:</b> O(log(m * n))<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -369,7 +369,7 @@
     </tr>
     <tr>
       <td>40</td>
-      <td>Arr 29 Pow X N<br><br></b> <a href='https://leetcode.com/problems/powx-n/' target='_blank'>LeetCode 50</a></td>
+      <td>Arr 40 Pow X N<br><br></b> <a href='https://leetcode.com/problems/powx-n/' target='_blank'>LeetCode 50</a></td>
       <td><b>Example 1:</b> Input: x = 2.00000, n = 10, Output: 1024.00000</td>
       <td><b>Time:</b> O(log N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -378,7 +378,7 @@
     </tr>
     <tr>
       <td>41</td>
-      <td>Arr 30 Find The Duplicate Number<br><br></b> <a href='https://leetcode.com/problems/find-the-duplicate-number/' target='_blank'>LeetCode 287</a></td>
+      <td>Arr 41 Find The Duplicate Number<br><br></b> <a href='https://leetcode.com/problems/find-the-duplicate-number/' target='_blank'>LeetCode 287</a></td>
       <td><b>Example 1:</b> Input: nums = [1,3,4,2,2], Output: 2</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -387,7 +387,7 @@
     </tr>
     <tr>
       <td>42</td>
-      <td>Array 43 Minimum Number Of Jumps<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1' target='_blank'>GFG</a></td>
+      <td>Arr 42 Minimum Number Of Jumps<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-number-of-jumps-1587115620/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Greedy tracking bounds.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -396,7 +396,7 @@
     </tr>
     <tr>
       <td>43</td>
-      <td>Array 44 Find Duplicate In An Array Of N 1 Integers<br><br></b> <a href='https://leetcode.com/problems/find-the-duplicate-number/' target='_blank'>LeetCode 287</a></td>
+      <td>Arr 43 Find Duplicate In An Array Of N 1 Integers<br><br></b> <a href='https://leetcode.com/problems/find-the-duplicate-number/' target='_blank'>LeetCode 287</a></td>
       <td><b>Example 1:</b> Floyd's cycle finding.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -405,7 +405,7 @@
     </tr>
     <tr>
       <td>44</td>
-      <td>Array 45 Merge Two Sorted Arrays Without Extra Space<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/merge-two-sorted-arrays-1587115620/1' target='_blank'>GFG</a></td>
+      <td>Arr 44 Merge Two Sorted Arrays Without Extra Space<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/merge-two-sorted-arrays-1587115620/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Gap method (Shell sort idea).</td>
       <td><b>Time:</b> O((N + M) log(N + M))<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -414,7 +414,7 @@
     </tr>
     <tr>
       <td>45</td>
-      <td>Array 46 Kadanes Algorithm<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1' target='_blank'>GFG</a></td>
+      <td>Arr 45 Kadanes Algorithm<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/kadanes-algorithm-1587115620/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Keep tracking current sum.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -423,7 +423,7 @@
     </tr>
     <tr>
       <td>46</td>
-      <td>Array 47 Merge Intervals<br><br></b> <a href='https://leetcode.com/problems/merge-intervals/' target='_blank'>LeetCode 56</a></td>
+      <td>Arr 46 Merge Intervals<br><br></b> <a href='https://leetcode.com/problems/merge-intervals/' target='_blank'>LeetCode 56</a></td>
       <td><b>Example 1:</b> Sort and merge.</td>
       <td><b>Time:</b> O(N log N)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -432,7 +432,7 @@
     </tr>
     <tr>
       <td>47</td>
-      <td>Array 48 Next Permutation<br><br></b> <a href='https://leetcode.com/problems/next-permutation/' target='_blank'>LeetCode 31</a></td>
+      <td>Arr 47 Next Permutation<br><br></b> <a href='https://leetcode.com/problems/next-permutation/' target='_blank'>LeetCode 31</a></td>
       <td><b>Example 1:</b> From right to left.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -441,7 +441,7 @@
     </tr>
     <tr>
       <td>48</td>
-      <td>Array 49 Count Inversions<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/inversion-of-array-1587115620/1' target='_blank'>GFG</a></td>
+      <td>Arr 48 Count Inversions<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/inversion-of-array-1587115620/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Merge Sort.</td>
       <td><b>Time:</b> O(N log N)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -450,7 +450,7 @@
     </tr>
     <tr>
       <td>49</td>
-      <td>Array 50 Best Time To Buy And Sell Stock<br><br></b> <a href='https://leetcode.com/problems/best-time-to-buy-and-sell-stock/' target='_blank'>LeetCode 121</a></td>
+      <td>Arr 49 Best Time To Buy And Sell Stock<br><br></b> <a href='https://leetcode.com/problems/best-time-to-buy-and-sell-stock/' target='_blank'>LeetCode 121</a></td>
       <td><b>Example 1:</b> Keep track of minimum.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -459,7 +459,7 @@
     </tr>
     <tr>
       <td>50</td>
-      <td>Array 51 Count Pairs With Given Sum<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/count-pairs-with-given-sum5022/1' target='_blank'>GFG</a></td>
+      <td>Arr 50 Count Pairs With Given Sum<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/count-pairs-with-given-sum5022/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Hash Map.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
       <td><code>#include <unordered_map></code></td>
@@ -468,7 +468,7 @@
     </tr>
     <tr>
       <td>51</td>
-      <td>Array 52 Common Elements In Three Sorted Arrays<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/common-elements1132/1' target='_blank'>GFG</a></td>
+      <td>Arr 51 Common Elements In Three Sorted Arrays<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/common-elements1132/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Three pointers.</td>
       <td><b>Time:</b> O(N1 + N2 + N3)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -477,7 +477,7 @@
     </tr>
     <tr>
       <td>52</td>
-      <td>Arr 36 Rearrange Array Alternately<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/rearrange-array-alternately-1587115620/1' target='_blank'>GFG</a></td>
+      <td>Arr 52 Rearrange Array Alternately<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/rearrange-array-alternately-1587115620/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Math-based encoding O(1) space.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -486,7 +486,7 @@
     </tr>
     <tr>
       <td>53</td>
-      <td>Arr 37 Count Inversions<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/inversion-of-array-1587115620/1' target='_blank'>GFG</a></td>
+      <td>Arr 53 Count Inversions<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/inversion-of-array-1587115620/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Modified Merge Sort.</td>
       <td><b>Time:</b> O(N log N)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -495,7 +495,7 @@
     </tr>
     <tr>
       <td>54</td>
-      <td>Arr 38 Find All Pairs On Integer Array Whose Sum Is Equal To Given Number<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/count-pairs-with-given-sum5022/1' target='_blank'>GFG</a></td>
+      <td>Arr 54 Find All Pairs On Integer Array Whose Sum Is Equal To Given Number<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/count-pairs-with-given-sum5022/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Frequency Map.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
       <td>Hash Map</td>
@@ -504,7 +504,7 @@
     </tr>
     <tr>
       <td>55</td>
-      <td>Arr 39 Find Common Elements In Three Sorted Arrays<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/common-elements1132/1' target='_blank'>GFG</a></td>
+      <td>Arr 55 Find Common Elements In Three Sorted Arrays<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/common-elements1132/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> 3 Pointers.</td>
       <td><b>Time:</b> O(N1 + N2 + N3)<br><b>Space:</b> O(1) extra space</td>
       <td>-</td>
@@ -513,7 +513,7 @@
     </tr>
     <tr>
       <td>56</td>
-      <td>Arr 40 Rearrange Array In Alternating Positive And Negative Items<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/array-of-alternate-ve-and--ve-nos1401/1' target='_blank'>GFG</a></td>
+      <td>Arr 56 Rearrange Array In Alternating Positive And Negative Items<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/array-of-alternate-ve-and--ve-nos1401/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Extra Space Array.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -522,7 +522,7 @@
     </tr>
     <tr>
       <td>57</td>
-      <td>Arr 41 Subarray With 0 Sum<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/subarray-with-0-sum-1587115621/1' target='_blank'>GFG</a></td>
+      <td>Arr 57 Subarray With 0 Sum<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/subarray-with-0-sum-1587115621/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Prefix Sum with HashSet.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
       <td>Hash Set</td>
@@ -531,7 +531,7 @@
     </tr>
     <tr>
       <td>58</td>
-      <td>Arr 42 Factorial Of A Large Number<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/factorials-of-large-numbers2508/1' target='_blank'>GFG</a></td>
+      <td>Arr 58 Factorial Of A Large Number<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/factorials-of-large-numbers2508/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Array based multiplication.</td>
       <td><b>Time:</b> O(N^2)<br><b>Space:</b> O(N log(N!))</td>
       <td>-</td>
@@ -540,7 +540,7 @@
     </tr>
     <tr>
       <td>59</td>
-      <td>Arr 43 Maximum Product Subarray<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/maximum-product-subarray3604/1' target='_blank'>GFG</a></td>
+      <td>Arr 59 Maximum Product Subarray<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/maximum-product-subarray3604/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Prefix and Suffix iteration.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -549,7 +549,7 @@
     </tr>
     <tr>
       <td>60</td>
-      <td>Arr 44 Longest Consecutive Subsequence<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/longest-consecutive-subsequence2449/1' target='_blank'>GFG</a></td>
+      <td>Arr 60 Longest Consecutive Subsequence<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/longest-consecutive-subsequence2449/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Hash Set.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
       <td>Hash Set</td>
@@ -558,7 +558,7 @@
     </tr>
     <tr>
       <td>61</td>
-      <td>Arr 45 Minimum Swaps And K Together<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-swaps-required-to-bring-all-elements-less-than-or-equal-to-k-together4847/1' target='_blank'>GFG</a></td>
+      <td>Arr 61 Minimum Swaps And K Together<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-swaps-required-to-bring-all-elements-less-than-or-equal-to-k-together4847/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Sliding Window.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -567,7 +567,7 @@
     </tr>
     <tr>
       <td>62</td>
-      <td>Greedy 05 Fractional Knapsack<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1' target='_blank'>GFG</a></td>
+      <td>Arr 62 Fractional Knapsack<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Sort by value/weight ratio.</td>
       <td><b>Time:</b> O(N log N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -576,7 +576,7 @@
     </tr>
     <tr>
       <td>63</td>
-      <td>Greedy 06 Choose And Swap<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/choose-and-swap0531/1' target='_blank'>GFG</a></td>
+      <td>Arr 63 Choose And Swap<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/choose-and-swap0531/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Track first occurrences.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -585,7 +585,7 @@
     </tr>
     <tr>
       <td>64</td>
-      <td>Greedy 07 Maximum Trains For Which Stoppage Can Be Provided<br><br></b> <a href='https://www.geeksforgeeks.org/maximum-trains-stoppage-can-provided/' target='_blank'>GFG</a></td>
+      <td>Arr 64 Maximum Trains For Which Stoppage Can Be Provided<br><br></b> <a href='https://www.geeksforgeeks.org/maximum-trains-stoppage-can-provided/' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Activity Selection on each platform.</td>
       <td><b>Time:</b> O(N log N)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -594,7 +594,7 @@
     </tr>
     <tr>
       <td>65</td>
-      <td>Greedy 08 Minimum Platforms<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-platforms-1587115620/1' target='_blank'>GFG</a></td>
+      <td>Arr 65 Minimum Platforms<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-platforms-1587115620/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Sort arrival and departure times separately.</td>
       <td><b>Time:</b> O(N log N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -603,7 +603,7 @@
     </tr>
     <tr>
       <td>66</td>
-      <td>Greedy 09 Buy Maximum Stocks If I Stocks Can Be Bought On I Th Day<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/buy-maximum-stocks-if-i-stocks-can-be-bought-on-i-th-day/1' target='_blank'>GFG</a></td>
+      <td>Arr 66 Buy Maximum Stocks If I Stocks Can Be Bought On I Th Day<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/buy-maximum-stocks-if-i-stocks-can-be-bought-on-i-th-day/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Sort by price.</td>
       <td><b>Time:</b> O(N log N)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -612,7 +612,7 @@
     </tr>
     <tr>
       <td>67</td>
-      <td>Greedy 10 Shop In Candy Store<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/shop-in-candy-store1145/1' target='_blank'>GFG</a></td>
+      <td>Arr 67 Shop In Candy Store<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/shop-in-candy-store1145/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Sort and pick from ends.</td>
       <td><b>Time:</b> O(N log N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -621,7 +621,7 @@
     </tr>
     <tr>
       <td>68</td>
-      <td>Greedy 11 Minimize Cash Flow Among A Given Set Of Friends Who Have Borrowed Money From Each Other<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimize-cash-flow/0' target='_blank'>GFG</a></td>
+      <td>Arr 68 Minimize Cash Flow Among A Given Set Of Friends Who Have Borrowed Money From Each Other<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimize-cash-flow/0' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Net amounts.</td>
       <td><b>Time:</b> O(N^2)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -630,7 +630,7 @@
     </tr>
     <tr>
       <td>69</td>
-      <td>Greedy 12 Minimum Cost To Cut A Board Into Squares<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-cost-to-cut-a-board-into-squares/1' target='_blank'>GFG</a></td>
+      <td>Arr 69 Minimum Cost To Cut A Board Into Squares<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-cost-to-cut-a-board-into-squares/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Sort costs.</td>
       <td><b>Time:</b> O(M log M + N log N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -639,7 +639,7 @@
     </tr>
     <tr>
       <td>70</td>
-      <td>Greedy 13 Survival On Island<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/check-if-it-is-possible-to-survive-on-island4922/1' target='_blank'>GFG</a></td>
+      <td>Arr 70 Survival On Island<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/check-if-it-is-possible-to-survive-on-island4922/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Math.</td>
       <td><b>Time:</b> O(1)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -648,7 +648,7 @@
     </tr>
     <tr>
       <td>71</td>
-      <td>Greedy 14 Maximum Meetings In One Room<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/maximum-meetings-in-one-room/1' target='_blank'>GFG</a></td>
+      <td>Arr 71 Maximum Meetings In One Room<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/maximum-meetings-in-one-room/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Activity Selection.</td>
       <td><b>Time:</b> O(N log N)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -657,7 +657,7 @@
     </tr>
     <tr>
       <td>72</td>
-      <td>Arr 46 Trapping Rain Water<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/trapping-rain-water-1587115621/1' target='_blank'>GFG</a></td>
+      <td>Arr 72 Trapping Rain Water<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/trapping-rain-water-1587115621/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Two Pointers.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -666,7 +666,7 @@
     </tr>
     <tr>
       <td>73</td>
-      <td>Arr 47 Chocolate Distribution Problem<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/chocolate-distribution-problem3825/1' target='_blank'>GFG</a></td>
+      <td>Arr 73 Chocolate Distribution Problem<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/chocolate-distribution-problem3825/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Sort and Slide.</td>
       <td><b>Time:</b> O(N log N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -675,7 +675,7 @@
     </tr>
     <tr>
       <td>74</td>
-      <td>Arr 48 Smallest Subarray With Sum Greater Than X<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/smallest-subarray-with-sum-greater-than-x5651/1' target='_blank'>GFG</a></td>
+      <td>Arr 74 Smallest Subarray With Sum Greater Than X<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/smallest-subarray-with-sum-greater-than-x5651/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Sliding Window.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -684,7 +684,7 @@
     </tr>
     <tr>
       <td>75</td>
-      <td>Arr 49 Three Way Partitioning<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/three-way-partitioning/1' target='_blank'>GFG</a></td>
+      <td>Arr 75 Three Way Partitioning<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/three-way-partitioning/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Dutch National Flag algorithm.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -693,7 +693,7 @@
     </tr>
     <tr>
       <td>76</td>
-      <td>Arr 50 Minimum Swaps And K Together<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-swaps-required-to-bring-all-elements-less-than-or-equal-to-k-together4847/1' target='_blank'>GFG</a></td>
+      <td>Arr 76 Minimum Swaps And K Together<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-swaps-required-to-bring-all-elements-less-than-or-equal-to-k-together4847/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Sliding Window.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -702,7 +702,7 @@
     </tr>
     <tr>
       <td>77</td>
-      <td>Arr 51 Palindromic Array<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/palindromic-array-1587115620/1' target='_blank'>GFG</a></td>
+      <td>Arr 77 Palindromic Array<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/palindromic-array-1587115620/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Check individual numbers.</td>
       <td><b>Time:</b> O(N * d)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -711,7 +711,7 @@
     </tr>
     <tr>
       <td>78</td>
-      <td>Arr 52 Find The Median<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/find-the-median0527/1' target='_blank'>GFG</a></td>
+      <td>Arr 78 Find The Median<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/find-the-median0527/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Sort array.</td>
       <td><b>Time:</b> O(N log N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -720,7 +720,7 @@
     </tr>
     <tr>
       <td>79</td>
-      <td>Arr 53 Median Of Two Sorted Arrays Of Different Sizes<br><br></b> <a href='https://leetcode.com/problems/median-of-two-sorted-arrays/' target='_blank'>LeetCode 4</a></td>
+      <td>Arr 79 Median Of Two Sorted Arrays Of Different Sizes<br><br></b> <a href='https://leetcode.com/problems/median-of-two-sorted-arrays/' target='_blank'>LeetCode 4</a></td>
       <td><b>Example 1:</b> Binary Search.</td>
       <td><b>Time:</b> O(log(min(N, M)))<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -729,7 +729,7 @@
     </tr>
     <tr>
       <td>80</td>
-      <td>Arr 54 Count More Than N K Occurences<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/count-element-occurences/1' target='_blank'>GFG</a></td>
+      <td>Arr 80 Count More Than N K Occurences<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/count-element-occurences/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> HashMap.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
       <td>Hash Map</td>
@@ -738,12 +738,102 @@
     </tr>
     <tr>
       <td>81</td>
-      <td>Arr 55 Find Maximum Product Subarray<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/maximum-product-subarray3604/1' target='_blank'>GFG</a></td>
+      <td>Arr 81 Find Maximum Product Subarray<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/maximum-product-subarray3604/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Prefix and suffix loop.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
       <td>Zero in array</td>
       <td><b>Explanation:</b> Iterate from left to right calculating prefix product, and from right to left calculating suffix product. If either is 0, reset it to 1. Track the max across all steps.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">long long maxProduct(vector&lt;int&gt; arr, int n) {&#10;    long long max_prod = INT_MIN;&#10;    long long pref = 1, suff = 1;&#10;    for(int i = 0; i &lt; n; i++) {&#10;        if(pref == 0) pref = 1;&#10;        if(suff == 0) suff = 1;&#10;        pref *= arr[i];&#10;        suff *= arr[n - i - 1];&#10;        max_prod = max({max_prod, pref, suff});&#10;    }&#10;    return max_prod;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def maxProduct(arr, n):&#10;    max_prod = float(&#x27;-inf&#x27;)&#10;    pref, suff = 1, 1&#10;    for i in range(n):&#10;        if pref == 0: pref = 1&#10;        if suff == 0: suff = 1&#10;        pref *= arr[i]&#10;        suff *= arr[n - i - 1]&#10;        max_prod = max(max_prod, pref, suff)&#10;    return max_prod</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>82</td>
+      <td>Arr 82 Find The Missing Number<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/missing-number-in-array1416/1' target='_blank'>GFG</a></td>
+      <td><b>Example 1:</b> Sum formula.</td>
+      <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
+      <td>-</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Calculate the sum of first N natural numbers using `N*(N+1)/2`. Subtract the sum of all elements in the array from it. The result is the missing number.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">int missingNumber(vector&lt;int&gt;&amp; array, int n) {&#10;    long long sum = 0;&#10;    for(int i = 0; i &lt; n - 1; i++) sum += array[i];&#10;    long long expectedSum = (long long)n * (n + 1) / 2;&#10;    return expectedSum - sum;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def missingNumber(array, n):&#10;    return n * (n + 1) // 2 - sum(array)</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>83</td>
+      <td>Arr 83 Max Sum In Sub Arrays<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/max-sum-in-sub-arrays0824/1' target='_blank'>GFG</a></td>
+      <td><b>Example 1:</b> Adjacent pairs sum.</td>
+      <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
+      <td>-</td>
+      <td>-</td>
+      <td><b>Explanation:</b> The maximum sum of two smallest elements in any subarray will always be the maximum sum of adjacent elements. So, just iterate and find the max of `arr[i] + arr[i+1]`.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">long long pairWithMaxSum(long long arr[], long long N) {&#10;    long long maxi = 0;&#10;    for(long long i = 0; i &lt; N - 1; i++) {&#10;        maxi = max(maxi, arr[i] + arr[i+1]);&#10;    }&#10;    return maxi;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def pairWithMaxSum(arr, N):&#10;    maxi = 0&#10;    for i in range(N - 1):&#10;        maxi = max(maxi, arr[i] + arr[i+1])&#10;    return maxi</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>84</td>
+      <td>Arr 84 Longest Subarray With Sum K Positives<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1' target='_blank'>GFG</a></td>
+      <td><b>Example 1:</b> Sliding Window / Two Pointers.</td>
+      <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
+      <td>-</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Since all elements are positive, use two pointers (sliding window). Expand `right` and add to sum. If sum > K, shrink `left` and subtract from sum. If sum == K, update max length.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">int lenOfLongSubarr(int A[],  int N, int K) {&#10;    int left = 0, right = 0;&#10;    long long sum = 0;&#10;    int maxLen = 0;&#10;    while(right &lt; N) {&#10;        sum += A[right];&#10;        while(sum &gt; K &amp;&amp; left &lt;= right) {&#10;            sum -= A[left];&#10;            left++;&#10;        }&#10;        if(sum == K) maxLen = max(maxLen, right - left + 1);&#10;        right++;&#10;    }&#10;    return maxLen;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def lenOfLongSubarr(A, N, K):&#10;    left, sum_val, max_len = 0, 0, 0&#10;    for right in range(N):&#10;        sum_val += A[right]&#10;        while sum_val &gt; K and left &lt;= right:&#10;            sum_val -= A[left]&#10;            left += 1&#10;        if sum_val == K:&#10;            max_len = max(max_len, right - left + 1)&#10;    return max_len</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>85</td>
+      <td>Arr 85 Longest Subarray With Sum K Positives And Negatives<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1' target='_blank'>GFG</a></td>
+      <td><b>Example 1:</b> Hash Map.</td>
+      <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
+      <td>Hash Map</td>
+      <td>Zeroes and negatives</td>
+      <td><b>Explanation:</b> Use a hash map to store the first occurrence of each prefix sum. While iterating, if `current_sum == K`, max length is `i+1`. If `current_sum - K` exists in the hash map, update max length with `i - map[current_sum - K]`. If `current_sum` is not in map, insert it.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">int lenOfLongSubarr(int A[],  int N, int K) {&#10;    unordered_map&lt;long long, int&gt; preSumMap;&#10;    long long sum = 0;&#10;    int maxLen = 0;&#10;    for(int i = 0; i &lt; N; i++) {&#10;        sum += A[i];&#10;        if(sum == K) maxLen = max(maxLen, i + 1);&#10;        long long rem = sum - K;&#10;        if(preSumMap.find(rem) != preSumMap.end()) {&#10;            maxLen = max(maxLen, i - preSumMap[rem]);&#10;        }&#10;        if(preSumMap.find(sum) == preSumMap.end()) {&#10;            preSumMap[sum] = i;&#10;        }&#10;    }&#10;    return maxLen;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def lenOfLongSubarr(A, N, K):&#10;    preSumMap = {}&#10;    sum_val = 0&#10;    max_len = 0&#10;    for i in range(N):&#10;        sum_val += A[i]&#10;        if sum_val == K: max_len = max(max_len, i + 1)&#10;        rem = sum_val - K&#10;        if rem in preSumMap:&#10;            max_len = max(max_len, i - preSumMap[rem])&#10;        if sum_val not in preSumMap:&#10;            preSumMap[sum_val] = i&#10;    return max_len</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>86</td>
+      <td>Arr 86 Majority Element Ii<br><br></b> <a href='https://leetcode.com/problems/majority-element-ii/' target='_blank'>LeetCode 229</a></td>
+      <td><b>Example 1:</b> Extended Boyer Moore's Voting Algorithm.</td>
+      <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
+      <td>-</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Since at most two elements can appear more than n/3 times, maintain two potential candidates (`num1`, `num2`) and their counts. Iterate through the array updating candidates and counts. After finding the candidates, iterate again to count their actual occurrences and check if they exceed n/3.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">vector&lt;int&gt; majorityElement(vector&lt;int&gt;&amp; nums) {&#10;    int num1 = -1, num2 = -1, c1 = 0, c2 = 0;&#10;    for(int x : nums) {&#10;        if(x == num1) c1++;&#10;        else if(x == num2) c2++;&#10;        else if(c1 == 0) { num1 = x; c1 = 1; }&#10;        else if(c2 == 0) { num2 = x; c2 = 1; }&#10;        else { c1--; c2--; }&#10;    }&#10;    vector&lt;int&gt; ans;&#10;    c1 = 0; c2 = 0;&#10;    for(int x : nums) {&#10;        if(x == num1) c1++;&#10;        else if(x == num2) c2++;&#10;    }&#10;    if(c1 &gt; nums.size() / 3) ans.push_back(num1);&#10;    if(c2 &gt; nums.size() / 3) ans.push_back(num2);&#10;    return ans;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def majorityElement(nums):&#10;    num1, num2, c1, c2 = -1, -1, 0, 0&#10;    for x in nums:&#10;        if x == num1: c1 += 1&#10;        elif x == num2: c2 += 1&#10;        elif c1 == 0: num1, c1 = x, 1&#10;        elif c2 == 0: num2, c2 = x, 1&#10;        else: c1 -= 1; c2 -= 1&#10;    ans = []&#10;    c1, c2 = 0, 0&#10;    for x in nums:&#10;        if x == num1: c1 += 1&#10;        elif x == num2: c2 += 1&#10;    if c1 &gt; len(nums) // 3: ans.append(num1)&#10;    if c2 &gt; len(nums) // 3: ans.append(num2)&#10;    return ans</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>87</td>
+      <td>Arr 87 3Sum<br><br></b> <a href='https://leetcode.com/problems/3sum/' target='_blank'>LeetCode 15</a></td>
+      <td><b>Example 1:</b> Sort + Two Pointers.</td>
+      <td><b>Time:</b> O(N^2)<br><b>Space:</b> O(1) excluding output</td>
+      <td>-</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Sort the array. Fix the first element `nums[i]`. Use two pointers (`left = i+1`, `right = n-1`) to find the remaining two elements that sum to `-nums[i]`. Skip duplicates for `i`, `left`, and `right` to ensure unique triplets.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">vector&lt;vector&lt;int&gt;&gt; threeSum(vector&lt;int&gt;&amp; nums) {&#10;    vector&lt;vector&lt;int&gt;&gt; ans;&#10;    sort(nums.begin(), nums.end());&#10;    int n = nums.size();&#10;    for(int i = 0; i &lt; n - 2; i++) {&#10;        if(i == 0 || (i &gt; 0 &amp;&amp; nums[i] != nums[i-1])) {&#10;            int low = i + 1, high = n - 1, sum = 0 - nums[i];&#10;            while(low &lt; high) {&#10;                if(nums[low] + nums[high] == sum) {&#10;                    ans.push_back({nums[i], nums[low], nums[high]});&#10;                    while(low &lt; high &amp;&amp; nums[low] == nums[low+1]) low++;&#10;                    while(low &lt; high &amp;&amp; nums[high] == nums[high-1]) high--;&#10;                    low++; high--;&#10;                } else if(nums[low] + nums[high] &lt; sum) low++;&#10;                else high--;&#10;            }&#10;        }&#10;    }&#10;    return ans;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def threeSum(nums):&#10;    nums.sort()&#10;    ans = []&#10;    n = len(nums)&#10;    for i in range(n - 2):&#10;        if i == 0 or nums[i] != nums[i-1]:&#10;            low, high, target = i + 1, n - 1, -nums[i]&#10;            while low &lt; high:&#10;                if nums[low] + nums[high] == target:&#10;                    ans.append([nums[i], nums[low], nums[high]])&#10;                    while low &lt; high and nums[low] == nums[low+1]: low += 1&#10;                    while low &lt; high and nums[high] == nums[high-1]: high -= 1&#10;                    low += 1&#10;                    high -= 1&#10;                elif nums[low] + nums[high] &lt; target: low += 1&#10;                else: high -= 1&#10;    return ans</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>88</td>
+      <td>Arr 88 4Sum<br><br></b> <a href='https://leetcode.com/problems/4sum/' target='_blank'>LeetCode 18</a></td>
+      <td><b>Example 1:</b> Sort + Two Pointers.</td>
+      <td><b>Time:</b> O(N^3)<br><b>Space:</b> O(1) excluding output</td>
+      <td>-</td>
+      <td>Integer overflow during sum</td>
+      <td><b>Explanation:</b> Sort the array. Fix the first two elements using nested loops (`i` and `j`). Then use two pointers (`left` and `right`) to find the remaining two elements that sum up to `target - nums[i] - nums[j]`. Skip duplicates for all 4 variables.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">vector&lt;vector&lt;int&gt;&gt; fourSum(vector&lt;int&gt;&amp; nums, int target) {&#10;    vector&lt;vector&lt;int&gt;&gt; ans;&#10;    sort(nums.begin(), nums.end());&#10;    int n = nums.size();&#10;    for(int i = 0; i &lt; n; i++) {&#10;        if(i &gt; 0 &amp;&amp; nums[i] == nums[i-1]) continue;&#10;        for(int j = i + 1; j &lt; n; j++) {&#10;            if(j &gt; i + 1 &amp;&amp; nums[j] == nums[j-1]) continue;&#10;            int low = j + 1, high = n - 1;&#10;            while(low &lt; high) {&#10;                long long sum = (long long)nums[i] + nums[j] + nums[low] + nums[high];&#10;                if(sum == target) {&#10;                    ans.push_back({nums[i], nums[j], nums[low], nums[high]});&#10;                    while(low &lt; high &amp;&amp; nums[low] == nums[low+1]) low++;&#10;                    while(low &lt; high &amp;&amp; nums[high] == nums[high-1]) high--;&#10;                    low++; high--;&#10;                } else if(sum &lt; target) low++;&#10;                else high--;&#10;            }&#10;        }&#10;    }&#10;    return ans;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def fourSum(nums, target):&#10;    nums.sort()&#10;    ans = []&#10;    n = len(nums)&#10;    for i in range(n):&#10;        if i &gt; 0 and nums[i] == nums[i-1]: continue&#10;        for j in range(i + 1, n):&#10;            if j &gt; i + 1 and nums[j] == nums[j-1]: continue&#10;            low, high = j + 1, n - 1&#10;            while low &lt; high:&#10;                total = nums[i] + nums[j] + nums[low] + nums[high]&#10;                if total == target:&#10;                    ans.append([nums[i], nums[j], nums[low], nums[high]])&#10;                    while low &lt; high and nums[low] == nums[low+1]: low += 1&#10;                    while low &lt; high and nums[high] == nums[high-1]: high -= 1&#10;                    low += 1; high -= 1&#10;                elif total &lt; target: low += 1&#10;                else: high -= 1&#10;    return ans</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>89</td>
+      <td>Arr 89 Subarray With Given Xor<br><br></b> <a href='https://www.interviewbit.com/problems/subarray-with-given-xor/' target='_blank'>InterviewBit</a></td>
+      <td><b>Example 1:</b> Hash Map.</td>
+      <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
+      <td>Hash Map</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Maintain the prefix XOR. Use a hash map to store the frequency of each prefix XOR. If current prefix XOR is `xr`, we want to find if there was a previous prefix XOR `xr ^ B`. If so, add its frequency to the count. Then add the current `xr` to the map.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">int solve(vector&lt;int&gt; &amp;A, int B) {&#10;    unordered_map&lt;int, int&gt; freq;&#10;    int count = 0, xr = 0;&#10;    for(int i = 0; i &lt; A.size(); i++) {&#10;        xr = xr ^ A[i];&#10;        if(xr == B) count++;&#10;        if(freq.find(xr ^ B) != freq.end()) {&#10;            count += freq[xr ^ B];&#10;        }&#10;        freq[xr]++;&#10;    }&#10;    return count;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def solve(A, B):&#10;    freq = {}&#10;    count = 0&#10;    xr = 0&#10;    for num in A:&#10;        xr ^= num&#10;        if xr == B: count += 1&#10;        if (xr ^ B) in freq:&#10;            count += freq[xr ^ B]&#10;        freq[xr] = freq.get(xr, 0) + 1&#10;    return count</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>90</td>
+      <td>Arr 90 Merge Intervals<br><br></b> <a href='https://leetcode.com/problems/merge-intervals/' target='_blank'>LeetCode 56</a></td>
+      <td><b>Example 1:</b> Sort and Merge.</td>
+      <td><b>Time:</b> O(N log N)<br><b>Space:</b> O(N)</td>
+      <td>-</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Sort the intervals by their start times. Iterate through them. If the result list is empty or the current interval's start is > the last interval's end, append it. Otherwise, update the last interval's end to the maximum of its end and current end.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">vector&lt;vector&lt;int&gt;&gt; merge(vector&lt;vector&lt;int&gt;&gt;&amp; intervals) {&#10;    sort(intervals.begin(), intervals.end());&#10;    vector&lt;vector&lt;int&gt;&gt; merged;&#10;    for(auto interval : intervals) {&#10;        if(merged.empty() || merged.back()[1] &lt; interval[0]) {&#10;            merged.push_back(interval);&#10;        } else {&#10;            merged.back()[1] = max(merged.back()[1], interval[1]);&#10;        }&#10;    }&#10;    return merged;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def merge(intervals):&#10;    intervals.sort(key=lambda x: x[0])&#10;    merged = []&#10;    for interval in intervals:&#10;        if not merged or merged[-1][1] &lt; interval[0]:&#10;            merged.append(interval)&#10;        else:&#10;            merged[-1][1] = max(merged[-1][1], interval[1])&#10;    return merged</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>91</td>
+      <td>Arr 91 Merge Sorted Array Without Extra Space<br><br></b> <a href='https://leetcode.com/problems/merge-sorted-array/' target='_blank'>LeetCode 88</a></td>
+      <td><b>Example 1:</b> Two pointers from end.</td>
+      <td><b>Time:</b> O(M + N)<br><b>Space:</b> O(1)</td>
+      <td>-</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Since `nums1` has enough space at the end, use three pointers: `p1` at the end of valid elements in `nums1` (m-1), `p2` at the end of `nums2` (n-1), and `p` at the very end of `nums1` (m+n-1). Compare elements at `p1` and `p2`, put the larger one at `p`, and decrement pointers.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">void merge(vector&lt;int&gt;&amp; nums1, int m, vector&lt;int&gt;&amp; nums2, int n) {&#10;    int p1 = m - 1, p2 = n - 1, p = m + n - 1;&#10;    while(p1 &gt;= 0 &amp;&amp; p2 &gt;= 0) {&#10;        if(nums1[p1] &gt; nums2[p2]) nums1[p--] = nums1[p1--];&#10;        else nums1[p--] = nums2[p2--];&#10;    }&#10;    while(p2 &gt;= 0) nums1[p--] = nums2[p2--];&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def merge(nums1, m, nums2, n):&#10;    p1, p2, p = m - 1, n - 1, m + n - 1&#10;    while p1 &gt;= 0 and p2 &gt;= 0:&#10;        if nums1[p1] &gt; nums2[p2]:&#10;            nums1[p] = nums1[p1]&#10;            p1 -= 1&#10;        else:&#10;            nums1[p] = nums2[p2]&#10;            p2 -= 1&#10;        p -= 1&#10;    while p2 &gt;= 0:&#10;        nums1[p] = nums2[p2]&#10;        p -= 1&#10;        p2 -= 1</code></pre></details></td>
     </tr>
   </tbody>
 </table>

@@ -90,7 +90,7 @@
     </tr>
     <tr>
       <td>9</td>
-      <td>Bs 07 Median Of Two Sorted Arrays<br><br></b> <a href='https://leetcode.com/problems/median-of-two-sorted-arrays/' target='_blank'>LeetCode 4</a></td>
+      <td>Bs 09 Median Of Two Sorted Arrays<br><br></b> <a href='https://leetcode.com/problems/median-of-two-sorted-arrays/' target='_blank'>LeetCode 4</a></td>
       <td><b>Example 1:</b> Input: nums1 = [1,3], nums2 = [2], Output: 2.00000</td>
       <td><b>Time:</b> O(log(min(m, n)))<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -99,7 +99,7 @@
     </tr>
     <tr>
       <td>10</td>
-      <td>Bs 08 Allocate Minimum Number Of Pages<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1' target='_blank'>GFG</a></td>
+      <td>Bs 10 Allocate Minimum Number Of Pages<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Input: N=4, A=[12,34,67,90], M=2, Output: 113</td>
       <td><b>Time:</b> O(N * log(sum(A) - max(A)))<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -108,7 +108,7 @@
     </tr>
     <tr>
       <td>11</td>
-      <td>Bs 10 Kth Element Of Two Sorted Arrays<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array1317/1' target='_blank'>GFG</a></td>
+      <td>Bs 11 Kth Element Of Two Sorted Arrays<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array1317/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Input: arr1 = [2, 3, 6, 7, 9], arr2 = [1, 4, 8, 10], k = 5, Output: 6</td>
       <td><b>Time:</b> O(log(min(n, m)))<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -117,7 +117,7 @@
     </tr>
     <tr>
       <td>12</td>
-      <td>Bs 11 Find Minimum In Rotated Sorted Array<br><br></b> <a href='https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/' target='_blank'>LeetCode 153</a></td>
+      <td>Bs 12 Find Minimum In Rotated Sorted Array<br><br></b> <a href='https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/' target='_blank'>LeetCode 153</a></td>
       <td><b>Example 1:</b> Input: nums = [3,4,5,1,2], Output: 1</td>
       <td><b>Time:</b> O(log N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -126,7 +126,7 @@
     </tr>
     <tr>
       <td>13</td>
-      <td>Bs 12 Search In Rotated Sorted Array<br><br></b> <a href='https://leetcode.com/problems/search-in-rotated-sorted-array/' target='_blank'>LeetCode 33</a></td>
+      <td>Bs 13 Search In Rotated Sorted Array<br><br></b> <a href='https://leetcode.com/problems/search-in-rotated-sorted-array/' target='_blank'>LeetCode 33</a></td>
       <td><b>Example 1:</b> Input: nums = [4,5,6,7,0,1,2], target = 0, Output: 4</td>
       <td><b>Time:</b> O(log N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -135,7 +135,7 @@
     </tr>
     <tr>
       <td>14</td>
-      <td>Bs 13 Search In Rotated Sorted Array Ii<br><br></b> <a href='https://leetcode.com/problems/search-in-rotated-sorted-array-ii/' target='_blank'>LeetCode 81</a></td>
+      <td>Bs 14 Search In Rotated Sorted Array Ii<br><br></b> <a href='https://leetcode.com/problems/search-in-rotated-sorted-array-ii/' target='_blank'>LeetCode 81</a></td>
       <td><b>Example 1:</b> Input: nums = [2,5,6,0,0,1,2], target = 0, Output: true</td>
       <td><b>Time:</b> O(log N) average, O(N) worst case<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -144,7 +144,7 @@
     </tr>
     <tr>
       <td>15</td>
-      <td>Bs 14 Find Peak Element<br><br></b> <a href='https://leetcode.com/problems/find-peak-element/' target='_blank'>LeetCode 162</a></td>
+      <td>Bs 15 Find Peak Element<br><br></b> <a href='https://leetcode.com/problems/find-peak-element/' target='_blank'>LeetCode 162</a></td>
       <td><b>Example 1:</b> Input: nums = [1,2,3,1], Output: 2</td>
       <td><b>Time:</b> O(log N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -153,7 +153,7 @@
     </tr>
     <tr>
       <td>16</td>
-      <td>Bs 15 Find First And Last Position Of Element In Sorted Array<br><br></b> <a href='https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/' target='_blank'>LeetCode 34</a></td>
+      <td>Bs 16 Find First And Last Position Of Element In Sorted Array<br><br></b> <a href='https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/' target='_blank'>LeetCode 34</a></td>
       <td><b>Example 1:</b> Input: nums = [5,7,7,8,8,10], target = 8, Output: [3,4]</td>
       <td><b>Time:</b> O(log N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -162,7 +162,7 @@
     </tr>
     <tr>
       <td>17</td>
-      <td>Bs 16 Koko Eating Bananas<br><br></b> <a href='https://leetcode.com/problems/koko-eating-bananas/' target='_blank'>LeetCode 875</a></td>
+      <td>Bs 17 Koko Eating Bananas<br><br></b> <a href='https://leetcode.com/problems/koko-eating-bananas/' target='_blank'>LeetCode 875</a></td>
       <td><b>Example 1:</b> Input: piles = [3,6,7,11], h = 8, Output: 4</td>
       <td><b>Time:</b> O(N log(max(P)))<br><b>Space:</b> O(1)</td>
       <td><code>#include <math.h></code></td>
@@ -171,7 +171,7 @@
     </tr>
     <tr>
       <td>18</td>
-      <td>Bs 17 Minimum Days To Make M Bouquets<br><br></b> <a href='https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/' target='_blank'>LeetCode 1482</a></td>
+      <td>Bs 18 Minimum Days To Make M Bouquets<br><br></b> <a href='https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/' target='_blank'>LeetCode 1482</a></td>
       <td><b>Example 1:</b> Find day threshold.</td>
       <td><b>Time:</b> O(N log(maxD - minD))<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -180,7 +180,7 @@
     </tr>
     <tr>
       <td>19</td>
-      <td>Bs 18 Find The Smallest Divisor Given A Threshold<br><br></b> <a href='https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/' target='_blank'>LeetCode 1283</a></td>
+      <td>Bs 19 Find The Smallest Divisor Given A Threshold<br><br></b> <a href='https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/' target='_blank'>LeetCode 1283</a></td>
       <td><b>Example 1:</b> Summing ceils.</td>
       <td><b>Time:</b> O(N log(max(nums)))<br><b>Space:</b> O(1)</td>
       <td><code>#include <math.h></code></td>
@@ -189,7 +189,7 @@
     </tr>
     <tr>
       <td>20</td>
-      <td>Bs 19 Capacity To Ship Packages Within D Days<br><br></b> <a href='https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/' target='_blank'>LeetCode 1011</a></td>
+      <td>Bs 20 Capacity To Ship Packages Within D Days<br><br></b> <a href='https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/' target='_blank'>LeetCode 1011</a></td>
       <td><b>Example 1:</b> Find ship capacity.</td>
       <td><b>Time:</b> O(N log(sum - max))<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -198,7 +198,7 @@
     </tr>
     <tr>
       <td>21</td>
-      <td>Bs 25 Minimum Number Of Days To Make M Bouquets<br><br></b> <a href='https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/' target='_blank'>LeetCode 1482</a></td>
+      <td>Bs 21 Minimum Number Of Days To Make M Bouquets<br><br></b> <a href='https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/' target='_blank'>LeetCode 1482</a></td>
       <td><b>Example 1:</b> Binary search on answer.</td>
       <td><b>Time:</b> O(N log(Max-Min))<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -207,7 +207,7 @@
     </tr>
     <tr>
       <td>22</td>
-      <td>Bs 26 Find The Smallest Divisor Given A Threshold<br><br></b> <a href='https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/' target='_blank'>LeetCode 1283</a></td>
+      <td>Bs 22 Find The Smallest Divisor Given A Threshold<br><br></b> <a href='https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/' target='_blank'>LeetCode 1283</a></td>
       <td><b>Example 1:</b> Binary search divisor.</td>
       <td><b>Time:</b> O(N log(Max))<br><b>Space:</b> O(1)</td>
       <td><code>#include <cmath></code></td>
@@ -216,7 +216,7 @@
     </tr>
     <tr>
       <td>23</td>
-      <td>Bs 27 Capacity To Ship Packages Within D Days<br><br></b> <a href='https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/' target='_blank'>LeetCode 1011</a></td>
+      <td>Bs 23 Capacity To Ship Packages Within D Days<br><br></b> <a href='https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/' target='_blank'>LeetCode 1011</a></td>
       <td><b>Example 1:</b> Binary search capacity.</td>
       <td><b>Time:</b> O(N log(Sum-Max))<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -225,7 +225,7 @@
     </tr>
     <tr>
       <td>24</td>
-      <td>Bs 28 Kth Missing Positive Number<br><br></b> <a href='https://leetcode.com/problems/kth-missing-positive-number/' target='_blank'>LeetCode 1539</a></td>
+      <td>Bs 24 Kth Missing Positive Number<br><br></b> <a href='https://leetcode.com/problems/kth-missing-positive-number/' target='_blank'>LeetCode 1539</a></td>
       <td><b>Example 1:</b> Calculate missing.</td>
       <td><b>Time:</b> O(log N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -234,7 +234,7 @@
     </tr>
     <tr>
       <td>25</td>
-      <td>Bs 29 Aggressive Cows<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/aggressive-cows/0' target='_blank'>GFG</a></td>
+      <td>Bs 25 Aggressive Cows<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/aggressive-cows/0' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Minimax binary search.</td>
       <td><b>Time:</b> O(N log N + N log(Max-Min))<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -243,7 +243,7 @@
     </tr>
     <tr>
       <td>26</td>
-      <td>Bs 30 Allocate Books<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1' target='_blank'>GFG</a></td>
+      <td>Bs 26 Allocate Books<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/allocate-minimum-number-of-pages0937/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Minimizing max pages.</td>
       <td><b>Time:</b> O(N log(Sum-Max))<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -252,7 +252,7 @@
     </tr>
     <tr>
       <td>27</td>
-      <td>Bs 31 Split Array Largest Sum<br><br></b> <a href='https://leetcode.com/problems/split-array-largest-sum/' target='_blank'>LeetCode 410</a></td>
+      <td>Bs 27 Split Array Largest Sum<br><br></b> <a href='https://leetcode.com/problems/split-array-largest-sum/' target='_blank'>LeetCode 410</a></td>
       <td><b>Example 1:</b> Equivalent to allocate books.</td>
       <td><b>Time:</b> O(N log(Sum-Max))<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -261,7 +261,7 @@
     </tr>
     <tr>
       <td>28</td>
-      <td>Bs 32 Painters Partition Problem<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/the-painters-partition-problem1535/1' target='_blank'>GFG</a></td>
+      <td>Bs 28 Painters Partition Problem<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/the-painters-partition-problem1535/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Minimax identical to book allocation.</td>
       <td><b>Time:</b> O(N log(Sum-Max))<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -270,7 +270,7 @@
     </tr>
     <tr>
       <td>29</td>
-      <td>Bs 33 Minimize Max Distance To Gas Station<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimize-max-distance-to-gas-station/1' target='_blank'>GFG</a></td>
+      <td>Bs 29 Minimize Max Distance To Gas Station<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimize-max-distance-to-gas-station/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Double binary search.</td>
       <td><b>Time:</b> O(N log(MaxDist / 1e-6))<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -279,7 +279,7 @@
     </tr>
     <tr>
       <td>30</td>
-      <td>Bs 34 Median Of Two Sorted Arrays<br><br></b> <a href='https://leetcode.com/problems/median-of-two-sorted-arrays/' target='_blank'>LeetCode 4</a></td>
+      <td>Bs 30 Median Of Two Sorted Arrays<br><br></b> <a href='https://leetcode.com/problems/median-of-two-sorted-arrays/' target='_blank'>LeetCode 4</a></td>
       <td><b>Example 1:</b> Input: nums1 = [1,3], nums2 = [2], Output: 2.0</td>
       <td><b>Time:</b> O(log(min(N, M)))<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -288,7 +288,7 @@
     </tr>
     <tr>
       <td>31</td>
-      <td>Bs 35 Median Of Two Sorted Arrays<br><br></b> <a href='https://leetcode.com/problems/median-of-two-sorted-arrays/' target='_blank'>LeetCode 4</a></td>
+      <td>Bs 31 Median Of Two Sorted Arrays<br><br></b> <a href='https://leetcode.com/problems/median-of-two-sorted-arrays/' target='_blank'>LeetCode 4</a></td>
       <td><b>Example 1:</b> Binary search on smaller array.</td>
       <td><b>Time:</b> O(log(min(N, M)))<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -297,7 +297,7 @@
     </tr>
     <tr>
       <td>32</td>
-      <td>Bs 36 Kth Element Of Two Sorted Arrays<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array1317/1' target='_blank'>GFG</a></td>
+      <td>Bs 32 Kth Element Of Two Sorted Arrays<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array1317/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Generalization of median.</td>
       <td><b>Time:</b> O(log(min(N, M, K)))<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -306,7 +306,7 @@
     </tr>
     <tr>
       <td>33</td>
-      <td>Bs 37 Search In A 2D Matrix Ii<br><br></b> <a href='https://leetcode.com/problems/search-a-2d-matrix-ii/' target='_blank'>LeetCode 240</a></td>
+      <td>Bs 33 Search In A 2D Matrix Ii<br><br></b> <a href='https://leetcode.com/problems/search-a-2d-matrix-ii/' target='_blank'>LeetCode 240</a></td>
       <td><b>Example 1:</b> Start from top right.</td>
       <td><b>Time:</b> O(N + M)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -315,7 +315,7 @@
     </tr>
     <tr>
       <td>34</td>
-      <td>Bs 38 Find A Peak Element Ii<br><br></b> <a href='https://leetcode.com/problems/find-a-peak-element-ii/' target='_blank'>LeetCode 1901</a></td>
+      <td>Bs 34 Find A Peak Element Ii<br><br></b> <a href='https://leetcode.com/problems/find-a-peak-element-ii/' target='_blank'>LeetCode 1901</a></td>
       <td><b>Example 1:</b> Binary search on columns.</td>
       <td><b>Time:</b> O(N log M)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -324,7 +324,7 @@
     </tr>
     <tr>
       <td>35</td>
-      <td>Bs 39 Matrix Median<br><br></b> <a href='https://www.interviewbit.com/problems/matrix-median/' target='_blank'>InterviewBit</a></td>
+      <td>Bs 35 Matrix Median<br><br></b> <a href='https://www.interviewbit.com/problems/matrix-median/' target='_blank'>InterviewBit</a></td>
       <td><b>Example 1:</b> Binary search on answer range.</td>
       <td><b>Time:</b> O(32 * N log M)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -333,7 +333,7 @@
     </tr>
     <tr>
       <td>36</td>
-      <td>Bs 40 Kth Smallest Number In Multiplication Table<br><br></b> <a href='https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/' target='_blank'>LeetCode 668</a></td>
+      <td>Bs 36 Kth Smallest Number In Multiplication Table<br><br></b> <a href='https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/' target='_blank'>LeetCode 668</a></td>
       <td><b>Example 1:</b> Binary Search on answer.</td>
       <td><b>Time:</b> O(m * log(m*n))<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -342,7 +342,7 @@
     </tr>
     <tr>
       <td>37</td>
-      <td>Bs 41 Find K Th Smallest Pair Distance<br><br></b> <a href='https://leetcode.com/problems/find-k-th-smallest-pair-distance/' target='_blank'>LeetCode 719</a></td>
+      <td>Bs 37 Find K Th Smallest Pair Distance<br><br></b> <a href='https://leetcode.com/problems/find-k-th-smallest-pair-distance/' target='_blank'>LeetCode 719</a></td>
       <td><b>Example 1:</b> Sort and binary search on distance.</td>
       <td><b>Time:</b> O(N log N + N log(max_dist))<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -351,7 +351,7 @@
     </tr>
     <tr>
       <td>38</td>
-      <td>Bs 42 Split Array Largest Sum<br><br></b> <a href='https://leetcode.com/problems/split-array-largest-sum/' target='_blank'>LeetCode 410</a></td>
+      <td>Bs 38 Split Array Largest Sum<br><br></b> <a href='https://leetcode.com/problems/split-array-largest-sum/' target='_blank'>LeetCode 410</a></td>
       <td><b>Example 1:</b> Binary search on answer.</td>
       <td><b>Time:</b> O(N log(sum - max))<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -360,7 +360,7 @@
     </tr>
     <tr>
       <td>39</td>
-      <td>Bs 43 Minimum Number Of Days To Make M Bouquets<br><br></b> <a href='https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/' target='_blank'>LeetCode 1482</a></td>
+      <td>Bs 39 Minimum Number Of Days To Make M Bouquets<br><br></b> <a href='https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/' target='_blank'>LeetCode 1482</a></td>
       <td><b>Example 1:</b> Binary search on days.</td>
       <td><b>Time:</b> O(N log(max_day))<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -369,7 +369,7 @@
     </tr>
     <tr>
       <td>40</td>
-      <td>Bs 44 Capacity To Ship Packages Within D Days<br><br></b> <a href='https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/' target='_blank'>LeetCode 1011</a></td>
+      <td>Bs 40 Capacity To Ship Packages Within D Days<br><br></b> <a href='https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/' target='_blank'>LeetCode 1011</a></td>
       <td><b>Example 1:</b> Same as split array.</td>
       <td><b>Time:</b> O(N log(sum - max))<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -468,7 +468,7 @@
     </tr>
     <tr>
       <td>51</td>
-      <td>Bs 09 Search In Rotated Sorted Array<br><br></b> <a href='https://leetcode.com/problems/search-in-rotated-sorted-array/' target='_blank'>LeetCode 33</a></td>
+      <td>Bs 51 Search In Rotated Sorted Array<br><br></b> <a href='https://leetcode.com/problems/search-in-rotated-sorted-array/' target='_blank'>LeetCode 33</a></td>
       <td><b>Example 1:</b> Binary Search.</td>
       <td><b>Time:</b> O(log N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -477,7 +477,7 @@
     </tr>
     <tr>
       <td>52</td>
-      <td>Bs 10 Find First And Last Position Of Element In Sorted Array<br><br></b> <a href='https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/' target='_blank'>LeetCode 34</a></td>
+      <td>Bs 52 Find First And Last Position Of Element In Sorted Array<br><br></b> <a href='https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/' target='_blank'>LeetCode 34</a></td>
       <td><b>Example 1:</b> Two Binary Searches.</td>
       <td><b>Time:</b> O(log N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -486,7 +486,7 @@
     </tr>
     <tr>
       <td>53</td>
-      <td>Bs 11 Value Equal To Index Value<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/value-equal-to-index-value1330/1' target='_blank'>GFG</a></td>
+      <td>Bs 53 Value Equal To Index Value<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/value-equal-to-index-value1330/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Linear scan.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -495,7 +495,7 @@
     </tr>
     <tr>
       <td>54</td>
-      <td>Bs 12 Count Squares<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/count-squares3649/1' target='_blank'>GFG</a></td>
+      <td>Bs 54 Count Squares<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/count-squares3649/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Square root.</td>
       <td><b>Time:</b> O(1)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -504,7 +504,7 @@
     </tr>
     <tr>
       <td>55</td>
-      <td>Bs 13 Middle Of Three<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/middle-of-three2926/1' target='_blank'>GFG</a></td>
+      <td>Bs 55 Middle Of Three<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/middle-of-three2926/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Simple if-else.</td>
       <td><b>Time:</b> O(1)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -513,7 +513,7 @@
     </tr>
     <tr>
       <td>56</td>
-      <td>Bs 14 Find Missing And Repeating<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/find-missing-and-repeating2512/1' target='_blank'>GFG</a></td>
+      <td>Bs 56 Find Missing And Repeating<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/find-missing-and-repeating2512/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Math or XOR.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -522,7 +522,7 @@
     </tr>
     <tr>
       <td>57</td>
-      <td>Bs 15 Majority Element<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/majority-element-1587115620/1' target='_blank'>GFG</a></td>
+      <td>Bs 57 Majority Element<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/majority-element-1587115620/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Moore's Voting Algorithm.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -531,7 +531,7 @@
     </tr>
     <tr>
       <td>58</td>
-      <td>Bs 16 Searching In An Array Where Adjacent Differ By At Most K<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/searching-in-an-array-where-adjacent-differ-by-at-most-k0456/1' target='_blank'>GFG</a></td>
+      <td>Bs 58 Searching In An Array Where Adjacent Differ By At Most K<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/searching-in-an-array-where-adjacent-differ-by-at-most-k0456/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Jump Search.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -540,7 +540,7 @@
     </tr>
     <tr>
       <td>59</td>
-      <td>Bs 17 Find A Pair With The Given Difference<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/find-pair-given-difference1559/1' target='_blank'>GFG</a></td>
+      <td>Bs 59 Find A Pair With The Given Difference<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/find-pair-given-difference1559/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Sort and two pointers.</td>
       <td><b>Time:</b> O(L log L)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -549,12 +549,102 @@
     </tr>
     <tr>
       <td>60</td>
-      <td>Bs 18 Find Four Elements That Sum To A Given Value<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/find-all-four-sum-numbers1732/1' target='_blank'>GFG</a></td>
+      <td>Bs 60 Find Four Elements That Sum To A Given Value<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/find-all-four-sum-numbers1732/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Two loops and two pointers.</td>
       <td><b>Time:</b> O(N^3)<br><b>Space:</b> O(1)</td>
       <td>-</td>
       <td>-</td>
       <td><b>Explanation:</b> Sort the array. Use two nested loops for the first two elements. Then use two pointers for the remaining two elements to find the target sum. Skip duplicates at all levels.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">vector&lt;vector&lt;int&gt;&gt; fourSum(vector&lt;int&gt; &amp;arr, int k) {&#10;    vector&lt;vector&lt;int&gt;&gt; ans;&#10;    int n = arr.size();&#10;    sort(arr.begin(), arr.end());&#10;    for(int i = 0; i &lt; n; i++) {&#10;        if(i &gt; 0 &amp;&amp; arr[i] == arr[i-1]) continue;&#10;        for(int j = i + 1; j &lt; n; j++) {&#10;            if(j &gt; i + 1 &amp;&amp; arr[j] == arr[j-1]) continue;&#10;            int left = j + 1, right = n - 1;&#10;            while(left &lt; right) {&#10;                long long sum = (long long)arr[i] + arr[j] + arr[left] + arr[right];&#10;                if(sum == k) {&#10;                    ans.push_back({arr[i], arr[j], arr[left], arr[right]});&#10;                    left++; right--;&#10;                    while(left &lt; right &amp;&amp; arr[left] == arr[left-1]) left++;&#10;                    while(left &lt; right &amp;&amp; arr[right] == arr[right+1]) right--;&#10;                } else if(sum &lt; k) left++;&#10;                else right--;&#10;            }&#10;        }&#10;    }&#10;    return ans;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def fourSum(arr, k):&#10;    ans = []&#10;    n = len(arr)&#10;    arr.sort()&#10;    for i in range(n):&#10;        if i &gt; 0 and arr[i] == arr[i-1]: continue&#10;        for j in range(i + 1, n):&#10;            if j &gt; i + 1 and arr[j] == arr[j-1]: continue&#10;            left, right = j + 1, n - 1&#10;            while left &lt; right:&#10;                total = arr[i] + arr[j] + arr[left] + arr[right]&#10;                if total == k:&#10;                    ans.append([arr[i], arr[j], arr[left], arr[right]])&#10;                    left += 1; right -= 1&#10;                    while left &lt; right and arr[left] == arr[left-1]: left += 1&#10;                    while left &lt; right and arr[right] == arr[right+1]: right -= 1&#10;                elif total &lt; k: left += 1&#10;                else: right -= 1&#10;    return ans</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>61</td>
+      <td>Bs 61 Median Of Two Sorted Arrays<br><br></b> <a href='https://leetcode.com/problems/median-of-two-sorted-arrays/' target='_blank'>LeetCode 4</a></td>
+      <td><b>Example 1:</b> Binary Search on smaller array.</td>
+      <td><b>Time:</b> O(log(min(M, N)))<br><b>Space:</b> O(1)</td>
+      <td>-</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Ensure `nums1` is the smaller array. Do binary search on `nums1` to find a partition such that the left half has `(m+n+1)/2` elements. Calculate the maximums of left halves and minimums of right halves. If `maxLeft1 <= minRight2` and `maxLeft2 <= minRight1`, the partition is correct. The median depends on whether `m+n` is even or odd.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">double findMedianSortedArrays(vector&lt;int&gt;&amp; nums1, vector&lt;int&gt;&amp; nums2) {&#10;    if(nums2.size() &lt; nums1.size()) return findMedianSortedArrays(nums2, nums1);&#10;    int n1 = nums1.size(), n2 = nums2.size();&#10;    int low = 0, high = n1;&#10;    while(low &lt;= high) {&#10;        int cut1 = (low + high) &gt;&gt; 1;&#10;        int cut2 = (n1 + n2 + 1) / 2 - cut1;&#10;        int left1 = cut1 == 0 ? INT_MIN : nums1[cut1 - 1];&#10;        int left2 = cut2 == 0 ? INT_MIN : nums2[cut2 - 1];&#10;        int right1 = cut1 == n1 ? INT_MAX : nums1[cut1];&#10;        int right2 = cut2 == n2 ? INT_MAX : nums2[cut2];&#10;        if(left1 &lt;= right2 &amp;&amp; left2 &lt;= right1) {&#10;            if((n1 + n2) % 2 == 0)&#10;                return (max(left1, left2) + min(right1, right2)) / 2.0;&#10;            else&#10;                return max(left1, left2);&#10;        } else if(left1 &gt; right2) {&#10;            high = cut1 - 1;&#10;        } else {&#10;            low = cut1 + 1;&#10;        }&#10;    }&#10;    return 0.0;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def findMedianSortedArrays(nums1, nums2):&#10;    if len(nums1) &gt; len(nums2): return findMedianSortedArrays(nums2, nums1)&#10;    n1, n2 = len(nums1), len(nums2)&#10;    low, high = 0, n1&#10;    while low &lt;= high:&#10;        cut1 = (low + high) // 2&#10;        cut2 = (n1 + n2 + 1) // 2 - cut1&#10;        left1 = float(&#x27;-inf&#x27;) if cut1 == 0 else nums1[cut1 - 1]&#10;        left2 = float(&#x27;-inf&#x27;) if cut2 == 0 else nums2[cut2 - 1]&#10;        right1 = float(&#x27;inf&#x27;) if cut1 == n1 else nums1[cut1]&#10;        right2 = float(&#x27;inf&#x27;) if cut2 == n2 else nums2[cut2]&#10;        if left1 &lt;= right2 and left2 &lt;= right1:&#10;            if (n1 + n2) % 2 == 0:&#10;                return (max(left1, left2) + min(right1, right2)) / 2.0&#10;            else:&#10;                return max(left1, left2)&#10;        elif left1 &gt; right2:&#10;            high = cut1 - 1&#10;        else:&#10;            low = cut1 + 1&#10;    return 0.0</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>62</td>
+      <td>Bs 62 Kth Element Of Two Sorted Arrays<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array1317/1' target='_blank'>GFG</a></td>
+      <td><b>Example 1:</b> Binary Search on smaller array.</td>
+      <td><b>Time:</b> O(log(min(N, M)))<br><b>Space:</b> O(1)</td>
+      <td>-</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Similar to median of two sorted arrays. Do binary search on the smaller array for a partition such that the total number of elements on the left side is `k`. Ensure `cut1` is between `max(0, k-m)` and `min(k, n)`.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">int kthElement(int arr1[], int arr2[], int n, int m, int k) {&#10;    if(n &gt; m) return kthElement(arr2, arr1, m, n, k);&#10;    int low = max(0, k - m), high = min(k, n);&#10;    while(low &lt;= high) {&#10;        int cut1 = (low + high) &gt;&gt; 1;&#10;        int cut2 = k - cut1;&#10;        int l1 = cut1 == 0 ? INT_MIN : arr1[cut1 - 1];&#10;        int l2 = cut2 == 0 ? INT_MIN : arr2[cut2 - 1];&#10;        int r1 = cut1 == n ? INT_MAX : arr1[cut1];&#10;        int r2 = cut2 == m ? INT_MAX : arr2[cut2];&#10;        if(l1 &lt;= r2 &amp;&amp; l2 &lt;= r1) {&#10;            return max(l1, l2);&#10;        } else if(l1 &gt; r2) {&#10;            high = cut1 - 1;&#10;        } else {&#10;            low = cut1 + 1;&#10;        }&#10;    }&#10;    return 1;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def kthElement(arr1, arr2, n, m, k):&#10;    if n &gt; m: return kthElement(arr2, arr1, m, n, k)&#10;    low = max(0, k - m)&#10;    high = min(k, n)&#10;    while low &lt;= high:&#10;        cut1 = (low + high) // 2&#10;        cut2 = k - cut1&#10;        l1 = float(&#x27;-inf&#x27;) if cut1 == 0 else arr1[cut1 - 1]&#10;        l2 = float(&#x27;-inf&#x27;) if cut2 == 0 else arr2[cut2 - 1]&#10;        r1 = float(&#x27;inf&#x27;) if cut1 == n else arr1[cut1]&#10;        r2 = float(&#x27;inf&#x27;) if cut2 == m else arr2[cut2]&#10;        if l1 &lt;= r2 and l2 &lt;= r1:&#10;            return max(l1, l2)&#10;        elif l1 &gt; r2:&#10;            high = cut1 - 1&#10;        else:&#10;            low = cut1 + 1&#10;    return 1</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>63</td>
+      <td>Bs 63 Find Nth Root Of M<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/find-nth-root-of-m5843/1' target='_blank'>GFG</a></td>
+      <td><b>Example 1:</b> Binary Search.</td>
+      <td><b>Time:</b> O(N * log M)<br><b>Space:</b> O(1)</td>
+      <td>-</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Search space is `[1, m]`. Check `mid^n`. Since `mid^n` can overflow, use a custom power function that returns 1 if `mid^n == m`, 0 if `< m`, and 2 if `> m`. Adjust `low` and `high` accordingly.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">int func(int mid, int n, int m) {&#10;    long long ans = 1;&#10;    for(int i = 1; i &lt;= n; i++) {&#10;        ans *= mid;&#10;        if(ans &gt; m) return 2;&#10;    }&#10;    if(ans == m) return 1;&#10;    return 0;&#10;}&#10;int NthRoot(int n, int m) {&#10;    int low = 1, high = m;&#10;    while(low &lt;= high) {&#10;        int mid = (low + high) / 2;&#10;        int midN = func(mid, n, m);&#10;        if(midN == 1) return mid;&#10;        else if(midN == 0) low = mid + 1;&#10;        else high = mid - 1;&#10;    }&#10;    return -1;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def NthRoot(n, m):&#10;    def func(mid, n, m):&#10;        ans = 1&#10;        for _ in range(n):&#10;            ans *= mid&#10;            if ans &gt; m: return 2&#10;        if ans == m: return 1&#10;        return 0&#10;    low, high = 1, m&#10;    while low &lt;= high:&#10;        mid = (low + high) // 2&#10;        midN = func(mid, n, m)&#10;        if midN == 1: return mid&#10;        elif midN == 0: low = mid + 1&#10;        else: high = mid - 1&#10;    return -1</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>64</td>
+      <td>Bs 64 Koko Eating Bananas<br><br></b> <a href='https://leetcode.com/problems/koko-eating-bananas/' target='_blank'>LeetCode 875</a></td>
+      <td><b>Example 1:</b> Binary Search on answer.</td>
+      <td><b>Time:</b> O(N log(max(piles)))<br><b>Space:</b> O(1)</td>
+      <td>-</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Search space for speed `k` is `[1, max(piles)]`. For a chosen `mid` speed, calculate the total hours needed. If `total_hours <= h`, this `mid` is a possible answer, search left for smaller speed. Else search right.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">long long calculateTotalHours(vector&lt;int&gt;&amp; v, int hourly) {&#10;    long long totalH = 0;&#10;    for(int i = 0; i &lt; v.size(); i++) {&#10;        totalH += ceil((double)(v[i]) / (double)(hourly));&#10;    }&#10;    return totalH;&#10;}&#10;int minEatingSpeed(vector&lt;int&gt;&amp; piles, int h) {&#10;    int low = 1, high = *max_element(piles.begin(), piles.end());&#10;    while(low &lt;= high) {&#10;        int mid = low + (high - low) / 2;&#10;        long long totalH = calculateTotalHours(piles, mid);&#10;        if(totalH &lt;= h) {&#10;            high = mid - 1;&#10;        } else {&#10;            low = mid + 1;&#10;        }&#10;    }&#10;    return low;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">import math&#10;def minEatingSpeed(piles, h):&#10;    def calculateTotalHours(hourly):&#10;        return sum(math.ceil(p / hourly) for p in piles)&#10;    low, high = 1, max(piles)&#10;    while low &lt;= high:&#10;        mid = (low + high) // 2&#10;        if calculateTotalHours(mid) &lt;= h:&#10;            high = mid - 1&#10;        else:&#10;            low = mid + 1&#10;    return low</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>65</td>
+      <td>Bs 65 Minimum Days To Make M Bouquets<br><br></b> <a href='https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/' target='_blank'>LeetCode 1482</a></td>
+      <td><b>Example 1:</b> Binary Search on answer.</td>
+      <td><b>Time:</b> O(N log(max-min))<br><b>Space:</b> O(1)</td>
+      <td>-</td>
+      <td>-</td>
+      <td><b>Explanation:</b> If `m * k > n`, return -1. Search space for days is `[min(bloomDay), max(bloomDay)]`. For a `mid` day, count consecutive flowers that have bloomed (`bloomDay[i] <= mid`). If consecutive count reaches `k`, increment bouquet count. If `bouquets >= m`, move `high = mid - 1`, else `low = mid + 1`.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">bool possible(vector&lt;int&gt;&amp; arr, int day, int m, int k) {&#10;    int n = arr.size(), cnt = 0, noOfB = 0;&#10;    for(int i = 0; i &lt; n; i++) {&#10;        if(arr[i] &lt;= day) cnt++;&#10;        else {&#10;            noOfB += (cnt / k);&#10;            cnt = 0;&#10;        }&#10;    }&#10;    noOfB += (cnt / k);&#10;    return noOfB &gt;= m;&#10;}&#10;int minDays(vector&lt;int&gt;&amp; bloomDay, int m, int k) {&#10;    long long val = m * 1ll * k * 1ll;&#10;    int n = bloomDay.size();&#10;    if(val &gt; n) return -1;&#10;    int mini = INT_MAX, maxi = INT_MIN;&#10;    for(int i = 0; i &lt; n; i++) {&#10;        mini = min(mini, bloomDay[i]);&#10;        maxi = max(maxi, bloomDay[i]);&#10;    }&#10;    int low = mini, high = maxi;&#10;    while(low &lt;= high) {&#10;        int mid = low + (high - low) / 2;&#10;        if(possible(bloomDay, mid, m, k)) high = mid - 1;&#10;        else low = mid + 1;&#10;    }&#10;    return low;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def minDays(bloomDay, m, k):&#10;    n = len(bloomDay)&#10;    if m * k &gt; n: return -1&#10;    def possible(day):&#10;        cnt = 0&#10;        noOfB = 0&#10;        for bd in bloomDay:&#10;            if bd &lt;= day: cnt += 1&#10;            else:&#10;                noOfB += cnt // k&#10;                cnt = 0&#10;        noOfB += cnt // k&#10;        return noOfB &gt;= m&#10;    low, high = min(bloomDay), max(bloomDay)&#10;    while low &lt;= high:&#10;        mid = (low + high) // 2&#10;        if possible(mid): high = mid - 1&#10;        else: low = mid + 1&#10;    return low</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>66</td>
+      <td>Bs 66 Find The Smallest Divisor Given A Threshold<br><br></b> <a href='https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/' target='_blank'>LeetCode 1283</a></td>
+      <td><b>Example 1:</b> Binary Search on answer.</td>
+      <td><b>Time:</b> O(N log(max))<br><b>Space:</b> O(1)</td>
+      <td>-</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Search space for divisor is `[1, max(nums)]`. For a `mid` divisor, compute the sum of `ceil(nums[i] / mid)`. If sum is `<= threshold`, search left (`high = mid - 1`). Else, search right.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">int sumByD(vector&lt;int&gt;&amp; arr, int div) {&#10;    int sum = 0;&#10;    for(int i = 0; i &lt; arr.size(); i++) {&#10;        sum += ceil((double)(arr[i]) / (double)(div));&#10;    }&#10;    return sum;&#10;}&#10;int smallestDivisor(vector&lt;int&gt;&amp; nums, int threshold) {&#10;    int low = 1, high = *max_element(nums.begin(), nums.end());&#10;    while(low &lt;= high) {&#10;        int mid = (low + high) / 2;&#10;        if(sumByD(nums, mid) &lt;= threshold) high = mid - 1;&#10;        else low = mid + 1;&#10;    }&#10;    return low;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">import math&#10;def smallestDivisor(nums, threshold):&#10;    def sumByD(div):&#10;        return sum(math.ceil(num / div) for num in nums)&#10;    low, high = 1, max(nums)&#10;    while low &lt;= high:&#10;        mid = (low + high) // 2&#10;        if sumByD(mid) &lt;= threshold: high = mid - 1&#10;        else: low = mid + 1&#10;    return low</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>67</td>
+      <td>Bs 67 Capacity To Ship Packages Within D Days<br><br></b> <a href='https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/' target='_blank'>LeetCode 1011</a></td>
+      <td><b>Example 1:</b> Binary Search on answer.</td>
+      <td><b>Time:</b> O(N log(sum - max))<br><b>Space:</b> O(1)</td>
+      <td>-</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Search space is `[max(weights), sum(weights)]`. For a `mid` capacity, simulate loading the ship. If day count exceeds `days`, capacity is too small (`low = mid + 1`). Otherwise, try for a smaller capacity (`high = mid - 1`).<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">int findDays(vector&lt;int&gt;&amp; weights, int cap) {&#10;    int days = 1, load = 0;&#10;    for(int i = 0; i &lt; weights.size(); i++) {&#10;        if(load + weights[i] &gt; cap) {&#10;            days++;&#10;            load = weights[i];&#10;        } else {&#10;            load += weights[i];&#10;        }&#10;    }&#10;    return days;&#10;}&#10;int shipWithinDays(vector&lt;int&gt;&amp; weights, int days) {&#10;    int low = *max_element(weights.begin(), weights.end());&#10;    int high = 0;&#10;    for(int w : weights) high += w;&#10;    while(low &lt;= high) {&#10;        int mid = (low + high) / 2;&#10;        if(findDays(weights, mid) &lt;= days) high = mid - 1;&#10;        else low = mid + 1;&#10;    }&#10;    return low;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def shipWithinDays(weights, days):&#10;    def findDays(cap):&#10;        d, load = 1, 0&#10;        for w in weights:&#10;            if load + w &gt; cap:&#10;                d += 1&#10;                load = w&#10;            else:&#10;                load += w&#10;        return d&#10;    low, high = max(weights), sum(weights)&#10;    while low &lt;= high:&#10;        mid = (low + high) // 2&#10;        if findDays(mid) &lt;= days: high = mid - 1&#10;        else: low = mid + 1&#10;    return low</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>68</td>
+      <td>Bs 68 Kth Missing Positive Number<br><br></b> <a href='https://leetcode.com/problems/kth-missing-positive-number/' target='_blank'>LeetCode 1539</a></td>
+      <td><b>Example 1:</b> Binary Search.</td>
+      <td><b>Time:</b> O(log N)<br><b>Space:</b> O(1)</td>
+      <td>-</td>
+      <td>-</td>
+      <td><b>Explanation:</b> At any index `i`, the number of missing elements before `arr[i]` is `arr[i] - (i + 1)`. Use binary search to find the index where the number of missing elements becomes `>= k`. The answer will be `low + k`.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">int findKthPositive(vector&lt;int&gt;&amp; arr, int k) {&#10;    int low = 0, high = arr.size() - 1;&#10;    while(low &lt;= high) {&#10;        int mid = (low + high) / 2;&#10;        int missing = arr[mid] - (mid + 1);&#10;        if(missing &lt; k) low = mid + 1;&#10;        else high = mid - 1;&#10;    }&#10;    return low + k;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def findKthPositive(arr, k):&#10;    low, high = 0, len(arr) - 1&#10;    while low &lt;= high:&#10;        mid = (low + high) // 2&#10;        missing = arr[mid] - (mid + 1)&#10;        if missing &lt; k: low = mid + 1&#10;        else: high = mid - 1&#10;    return low + k</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>69</td>
+      <td>Bs 69 Split Array Largest Sum<br><br></b> <a href='https://leetcode.com/problems/split-array-largest-sum/' target='_blank'>LeetCode 410</a></td>
+      <td><b>Example 1:</b> Binary Search on answer.</td>
+      <td><b>Time:</b> O(N log(sum - max))<br><b>Space:</b> O(1)</td>
+      <td>-</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Search space is `[max(nums), sum(nums)]`. For a `mid` maximum sum, count the subarrays needed. If `count <= k`, `mid` is possible, search left. Else, search right. This is identical to the Painter's Partition or Book Allocation problem.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">int countSubarrays(vector&lt;int&gt;&amp; a, int maxSum) {&#10;    int partitions = 1, currentSum = 0;&#10;    for(int i = 0; i &lt; a.size(); i++) {&#10;        if(currentSum + a[i] &lt;= maxSum) {&#10;            currentSum += a[i];&#10;        } else {&#10;            partitions++;&#10;            currentSum = a[i];&#10;        }&#10;    }&#10;    return partitions;&#10;}&#10;int splitArray(vector&lt;int&gt;&amp; nums, int k) {&#10;    int low = *max_element(nums.begin(), nums.end());&#10;    int high = 0;&#10;    for(int n : nums) high += n;&#10;    while(low &lt;= high) {&#10;        int mid = (low + high) / 2;&#10;        int partitions = countSubarrays(nums, mid);&#10;        if(partitions &gt; k) low = mid + 1;&#10;        else high = mid - 1;&#10;    }&#10;    return low;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def splitArray(nums, k):&#10;    def countSubarrays(maxSum):&#10;        partitions, currentSum = 1, 0&#10;        for num in nums:&#10;            if currentSum + num &lt;= maxSum:&#10;                currentSum += num&#10;            else:&#10;                partitions += 1&#10;                currentSum = num&#10;        return partitions&#10;    low, high = max(nums), sum(nums)&#10;    while low &lt;= high:&#10;        mid = (low + high) // 2&#10;        if countSubarrays(mid) &gt; k: low = mid + 1&#10;        else: high = mid - 1&#10;    return low</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>70</td>
+      <td>Bs 70 Row With Max 1S<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/row-with-max-1s0023/1' target='_blank'>GFG</a></td>
+      <td><b>Example 1:</b> Lower Bound per row.</td>
+      <td><b>Time:</b> O(N log M)<br><b>Space:</b> O(1)</td>
+      <td>-</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Since rows are sorted, use binary search (`lower_bound` of 1) to find the first index of 1 in each row. The number of 1s is `m - index`. Keep track of the row with the maximum 1s.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">int lowerBound(vector&lt;int&gt; arr, int n, int x) {&#10;    int low = 0, high = n - 1, ans = n;&#10;    while(low &lt;= high) {&#10;        int mid = (low + high) / 2;&#10;        if(arr[mid] &gt;= x) {&#10;            ans = mid;&#10;            high = mid - 1;&#10;        } else {&#10;            low = mid + 1;&#10;        }&#10;    }&#10;    return ans;&#10;}&#10;int rowWithMax1s(vector&lt;vector&lt;int&gt;&gt; arr, int n, int m) {&#10;    int max_cnt = 0, index = -1;&#10;    for(int i = 0; i &lt; n; i++) {&#10;        int cnt_ones = m - lowerBound(arr[i], m, 1);&#10;        if(cnt_ones &gt; max_cnt) {&#10;            max_cnt = cnt_ones;&#10;            index = i;&#10;        }&#10;    }&#10;    return index;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def rowWithMax1s(arr, n, m):&#10;    def lowerBound(a, m, x):&#10;        low, high, ans = 0, m - 1, m&#10;        while low &lt;= high:&#10;            mid = (low + high) // 2&#10;            if a[mid] &gt;= x:&#10;                ans = mid&#10;                high = mid - 1&#10;            else:&#10;                low = mid + 1&#10;        return ans&#10;    max_cnt = 0&#10;    index = -1&#10;    for i in range(n):&#10;        cnt_ones = m - lowerBound(arr[i], m, 1)&#10;        if cnt_ones &gt; max_cnt:&#10;            max_cnt = cnt_ones&#10;            index = i&#10;    return index</code></pre></details></td>
     </tr>
   </tbody>
 </table>

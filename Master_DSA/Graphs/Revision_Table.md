@@ -54,7 +54,7 @@
     </tr>
     <tr>
       <td>5</td>
-      <td>Graph 06 Dijkstras Algorithm<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1' target='_blank'>GFG</a></td>
+      <td>Graph 05 Dijkstras Algorithm<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Source = 0, Output: distances array.</td>
       <td><b>Time:</b> O(E log V)<br><b>Space:</b> O(V)</td>
       <td><code>#include &lt;queue&gt;</code></td>
@@ -63,7 +63,7 @@
     </tr>
     <tr>
       <td>6</td>
-      <td>Graph 07 Topological Sort<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/topological-sort/1' target='_blank'>GFG</a></td>
+      <td>Graph 06 Topological Sort<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/topological-sort/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Input: V = 4, adj = [[], [0], [0], [0]], Output: valid topological sort.</td>
       <td><b>Time:</b> O(V + E)<br><b>Space:</b> O(V)</td>
       <td><code>#include &lt;queue&gt;</code></td>
@@ -72,7 +72,7 @@
     </tr>
     <tr>
       <td>7</td>
-      <td>Graph 08 Number Of Islands<br><br></b> <a href='https://leetcode.com/problems/number-of-islands/' target='_blank'>LeetCode 200</a></td>
+      <td>Graph 07 Number Of Islands<br><br></b> <a href='https://leetcode.com/problems/number-of-islands/' target='_blank'>LeetCode 200</a></td>
       <td><b>Example 1:</b> Input: grid=[['1','1','0','0','0'],...], Output: 1</td>
       <td><b>Time:</b> O(N * M)<br><b>Space:</b> O(N * M) auxiliary</td>
       <td>-</td>
@@ -81,7 +81,7 @@
     </tr>
     <tr>
       <td>8</td>
-      <td>Graph 09 Course Schedule<br><br></b> <a href='https://leetcode.com/problems/course-schedule/' target='_blank'>LeetCode 207</a></td>
+      <td>Graph 08 Course Schedule<br><br></b> <a href='https://leetcode.com/problems/course-schedule/' target='_blank'>LeetCode 207</a></td>
       <td><b>Example 1:</b> Input: numCourses = 2, prerequisites = [[1,0]], Output: true</td>
       <td><b>Time:</b> O(V + E)<br><b>Space:</b> O(V + E)</td>
       <td>-</td>
@@ -90,7 +90,7 @@
     </tr>
     <tr>
       <td>9</td>
-      <td>Graph 10 Bellman Ford<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/distance-from-the-source-bellman-ford-algorithm/0' target='_blank'>GFG</a></td>
+      <td>Graph 09 Bellman Ford<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/distance-from-the-source-bellman-ford-algorithm/0' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Input: V=3, S=0, Edges=[[0,1,5],[1,2,-2],[2,1,-3]], Output: [-1]</td>
       <td><b>Time:</b> O(V * E)<br><b>Space:</b> O(V)</td>
       <td>-</td>
@@ -99,7 +99,7 @@
     </tr>
     <tr>
       <td>10</td>
-      <td>Graph 11 Floyd Warshall<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1' target='_blank'>GFG</a></td>
+      <td>Graph 10 Floyd Warshall<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Output: Shortest paths for all pairs (i, j).</td>
       <td><b>Time:</b> O(V^3)<br><b>Space:</b> O(1) in-place</td>
       <td>-</td>
@@ -108,7 +108,7 @@
     </tr>
     <tr>
       <td>11</td>
-      <td>Graph 12 Mst Prims<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1' target='_blank'>GFG</a></td>
+      <td>Graph 11 Mst Prims<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Return the scalar sum of the MST.</td>
       <td><b>Time:</b> O(E log V)<br><b>Space:</b> O(E + V)</td>
       <td><code>#include <queue></code></td>
@@ -117,7 +117,7 @@
     </tr>
     <tr>
       <td>12</td>
-      <td>Graph 13 Strongly Connected Components Kosaraju<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1' target='_blank'>GFG</a></td>
+      <td>Graph 12 Strongly Connected Components Kosaraju<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Return an integer count.</td>
       <td><b>Time:</b> O(V + E)<br><b>Space:</b> O(V + E)</td>
       <td><code>#include <stack></code></td>
@@ -126,7 +126,7 @@
     </tr>
     <tr>
       <td>13</td>
-      <td>Graph 14 Topological Sort Dfs<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/topological-sort/1' target='_blank'>GFG</a></td>
+      <td>Graph 13 Topological Sort Dfs<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/topological-sort/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Return array.</td>
       <td><b>Time:</b> O(V + E)<br><b>Space:</b> O(V)</td>
       <td><code>#include <stack></code></td>
@@ -135,7 +135,7 @@
     </tr>
     <tr>
       <td>14</td>
-      <td>Graph 15 Kahn Algorithm Bfs<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/topological-sort/1' target='_blank'>GFG</a></td>
+      <td>Graph 14 Kahn Algorithm Bfs<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/topological-sort/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Kahn's.</td>
       <td><b>Time:</b> O(V + E)<br><b>Space:</b> O(V)</td>
       <td><code>#include <queue></code></td>
@@ -144,7 +144,7 @@
     </tr>
     <tr>
       <td>15</td>
-      <td>Graph 16 Detect Cycle Directed Bfs<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1' target='_blank'>GFG</a></td>
+      <td>Graph 15 Detect Cycle Directed Bfs<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Return true if cycle exists.</td>
       <td><b>Time:</b> O(V + E)<br><b>Space:</b> O(V)</td>
       <td>-</td>
@@ -153,7 +153,7 @@
     </tr>
     <tr>
       <td>16</td>
-      <td>Graph 17 Bipartite Graph Dfs<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/bipartite-graph/1' target='_blank'>GFG</a></td>
+      <td>Graph 16 Bipartite Graph Dfs<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/bipartite-graph/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Return true/false.</td>
       <td><b>Time:</b> O(V + E)<br><b>Space:</b> O(V)</td>
       <td>-</td>
@@ -162,7 +162,7 @@
     </tr>
     <tr>
       <td>17</td>
-      <td>Graph 18 Alien Dictionary<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/alien-dictionary/1' target='_blank'>GFG</a></td>
+      <td>Graph 17 Alien Dictionary<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/alien-dictionary/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> words = ['baa', 'abcd', 'abca', 'cab', 'cad'], K = 4, Output: 'bdac'</td>
       <td><b>Time:</b> O(N * Len + K + E)<br><b>Space:</b> O(K + E)</td>
       <td>-</td>
@@ -171,7 +171,7 @@
     </tr>
     <tr>
       <td>18</td>
-      <td>Graph 19 Shortest Path In Directed Acyclic Graph<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/shortest-path-in-undirected-graph/1' target='_blank'>GFG</a></td>
+      <td>Graph 18 Shortest Path In Directed Acyclic Graph<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/shortest-path-in-undirected-graph/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Topo Sort.</td>
       <td><b>Time:</b> O(V + E)<br><b>Space:</b> O(V + E)</td>
       <td>-</td>
@@ -180,7 +180,7 @@
     </tr>
     <tr>
       <td>19</td>
-      <td>Graph 20 Shortest Path In Undirected Graph With Unit Distance<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/shortest-path-in-undirected-graph-having-unit-distance/1' target='_blank'>GFG</a></td>
+      <td>Graph 19 Shortest Path In Undirected Graph With Unit Distance<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/shortest-path-in-undirected-graph-having-unit-distance/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> BFS approach.</td>
       <td><b>Time:</b> O(V + E)<br><b>Space:</b> O(V + E)</td>
       <td><code>#include <queue></code></td>
@@ -189,7 +189,7 @@
     </tr>
     <tr>
       <td>20</td>
-      <td>Graph 21 Dijkstras Algorithm<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1' target='_blank'>GFG</a></td>
+      <td>Graph 20 Dijkstras Algorithm<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> PQ based Dijkstra.</td>
       <td><b>Time:</b> O(E log V)<br><b>Space:</b> O(V)</td>
       <td><code>#include <queue></code></td>
@@ -198,7 +198,7 @@
     </tr>
     <tr>
       <td>21</td>
-      <td>Graph 22 Bellman Ford Algorithm<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/distance-from-the-source-bellman-ford-algorithm/0' target='_blank'>GFG</a></td>
+      <td>Graph 21 Bellman Ford Algorithm<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/distance-from-the-source-bellman-ford-algorithm/0' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Detect negative cycle.</td>
       <td><b>Time:</b> O(V * E)<br><b>Space:</b> O(V)</td>
       <td>-</td>
@@ -207,7 +207,7 @@
     </tr>
     <tr>
       <td>22</td>
-      <td>Graph 23 Floyd Warshall Algorithm<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1' target='_blank'>GFG</a></td>
+      <td>Graph 22 Floyd Warshall Algorithm<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/implementing-floyd-warshall2042/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> All pairs shortest path.</td>
       <td><b>Time:</b> O(V^3)<br><b>Space:</b> O(V^2) or O(1) if in-place</td>
       <td>-</td>
@@ -216,7 +216,7 @@
     </tr>
     <tr>
       <td>23</td>
-      <td>Graph 24 Minimum Spanning Tree<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1' target='_blank'>GFG</a></td>
+      <td>Graph 23 Minimum Spanning Tree<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Kruskal or Prim's.</td>
       <td><b>Time:</b> O(E log V)<br><b>Space:</b> O(V)</td>
       <td><code>#include <queue></code></td>
@@ -225,7 +225,7 @@
     </tr>
     <tr>
       <td>24</td>
-      <td>Graph 25 Prims Algorithm<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1' target='_blank'>GFG</a></td>
+      <td>Graph 24 Prims Algorithm<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> MST.</td>
       <td><b>Time:</b> O(E log V)<br><b>Space:</b> O(V)</td>
       <td><code>#include <queue></code></td>
@@ -234,7 +234,7 @@
     </tr>
     <tr>
       <td>25</td>
-      <td>Graph 26 Kruskals Algorithm<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1' target='_blank'>GFG</a></td>
+      <td>Graph 25 Kruskals Algorithm<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> DSU approach.</td>
       <td><b>Time:</b> O(E log E + E * alpha)<br><b>Space:</b> O(V + E)</td>
       <td>-</td>
@@ -243,7 +243,7 @@
     </tr>
     <tr>
       <td>26</td>
-      <td>Graph 27 Strongly Connected Components Kosarajus Algorithm<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1' target='_blank'>GFG</a></td>
+      <td>Graph 26 Strongly Connected Components Kosarajus Algorithm<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Reverse graph.</td>
       <td><b>Time:</b> O(V + E)<br><b>Space:</b> O(V + E)</td>
       <td>-</td>
@@ -252,7 +252,7 @@
     </tr>
     <tr>
       <td>27</td>
-      <td>Graph 28 Bridges In Graph<br><br></b> <a href='https://leetcode.com/problems/critical-connections-in-a-network/' target='_blank'>LeetCode 1192</a></td>
+      <td>Graph 27 Bridges In Graph<br><br></b> <a href='https://leetcode.com/problems/critical-connections-in-a-network/' target='_blank'>LeetCode 1192</a></td>
       <td><b>Example 1:</b> Tarjan's algorithm.</td>
       <td><b>Time:</b> O(V + E)<br><b>Space:</b> O(V + E)</td>
       <td>-</td>
@@ -261,7 +261,7 @@
     </tr>
     <tr>
       <td>28</td>
-      <td>Graph 29 Articulation Point I<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/articulation-point-1/1' target='_blank'>GFG</a></td>
+      <td>Graph 28 Articulation Point I<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/articulation-point-1/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Tarjan's algorithm with discovery times.</td>
       <td><b>Time:</b> O(V + E)<br><b>Space:</b> O(V)</td>
       <td>-</td>
@@ -270,7 +270,7 @@
     </tr>
     <tr>
       <td>29</td>
-      <td>Graph 30 Number Of Provinces Dsu<br><br></b> <a href='https://leetcode.com/problems/number-of-provinces/' target='_blank'>LeetCode 547</a></td>
+      <td>Graph 29 Number Of Provinces Dsu<br><br></b> <a href='https://leetcode.com/problems/number-of-provinces/' target='_blank'>LeetCode 547</a></td>
       <td><b>Example 1:</b> Connect elements, count unique parents.</td>
       <td><b>Time:</b> O(N^2 * alpha(N))<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -279,7 +279,7 @@
     </tr>
     <tr>
       <td>30</td>
-      <td>Graph 31 Accounts Merge<br><br></b> <a href='https://leetcode.com/problems/accounts-merge/' target='_blank'>LeetCode 721</a></td>
+      <td>Graph 30 Accounts Merge<br><br></b> <a href='https://leetcode.com/problems/accounts-merge/' target='_blank'>LeetCode 721</a></td>
       <td><b>Example 1:</b> DSU on accounts using emails.</td>
       <td><b>Time:</b> O(N log N * alpha(N)) where N is total emails<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -288,7 +288,7 @@
     </tr>
     <tr>
       <td>31</td>
-      <td>Graph 32 Number Of Operations To Make Network Connected<br><br></b> <a href='https://leetcode.com/problems/number-of-operations-to-make-network-connected/' target='_blank'>LeetCode 1319</a></td>
+      <td>Graph 31 Number Of Operations To Make Network Connected<br><br></b> <a href='https://leetcode.com/problems/number-of-operations-to-make-network-connected/' target='_blank'>LeetCode 1319</a></td>
       <td><b>Example 1:</b> Extra edges and connected components.</td>
       <td><b>Time:</b> O(E * alpha(N))<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -297,7 +297,7 @@
     </tr>
     <tr>
       <td>32</td>
-      <td>Graph 33 Most Stones Removed With Same Row Or Column<br><br></b> <a href='https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/' target='_blank'>LeetCode 947</a></td>
+      <td>Graph 32 Most Stones Removed With Same Row Or Column<br><br></b> <a href='https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/' target='_blank'>LeetCode 947</a></td>
       <td><b>Example 1:</b> Treat rows and columns as nodes.</td>
       <td><b>Time:</b> O(N * alpha(N))<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -306,7 +306,7 @@
     </tr>
     <tr>
       <td>33</td>
-      <td>Graph 34 Making A Large Island<br><br></b> <a href='https://leetcode.com/problems/making-a-large-island/' target='_blank'>LeetCode 827</a></td>
+      <td>Graph 33 Making A Large Island<br><br></b> <a href='https://leetcode.com/problems/making-a-large-island/' target='_blank'>LeetCode 827</a></td>
       <td><b>Example 1:</b> Component sizes with DSU.</td>
       <td><b>Time:</b> O(N^2)<br><b>Space:</b> O(N^2)</td>
       <td>-</td>
@@ -315,7 +315,7 @@
     </tr>
     <tr>
       <td>34</td>
-      <td>Graph 35 Swim In Rising Water<br><br></b> <a href='https://leetcode.com/problems/swim-in-rising-water/' target='_blank'>LeetCode 778</a></td>
+      <td>Graph 34 Swim In Rising Water<br><br></b> <a href='https://leetcode.com/problems/swim-in-rising-water/' target='_blank'>LeetCode 778</a></td>
       <td><b>Example 1:</b> Dijkstra-like or Binary Search + BFS.</td>
       <td><b>Time:</b> O(N^2 log N)<br><b>Space:</b> O(N^2)</td>
       <td>-</td>
@@ -324,7 +324,7 @@
     </tr>
     <tr>
       <td>35</td>
-      <td>Graph 36 Word Ladder I<br><br></b> <a href='https://leetcode.com/problems/word-ladder/' target='_blank'>LeetCode 127</a></td>
+      <td>Graph 35 Word Ladder I<br><br></b> <a href='https://leetcode.com/problems/word-ladder/' target='_blank'>LeetCode 127</a></td>
       <td><b>Example 1:</b> BFS level by level.</td>
       <td><b>Time:</b> O(N * M * 26) where N is words, M is word length<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -333,7 +333,7 @@
     </tr>
     <tr>
       <td>36</td>
-      <td>Graph 37 Word Ladder Ii<br><br></b> <a href='https://leetcode.com/problems/word-ladder-ii/' target='_blank'>LeetCode 126</a></td>
+      <td>Graph 36 Word Ladder Ii<br><br></b> <a href='https://leetcode.com/problems/word-ladder-ii/' target='_blank'>LeetCode 126</a></td>
       <td><b>Example 1:</b> BFS for distance, DFS for paths.</td>
       <td><b>Time:</b> O(V + E + Paths)<br><b>Space:</b> O(V + E)</td>
       <td>-</td>
@@ -342,7 +342,7 @@
     </tr>
     <tr>
       <td>37</td>
-      <td>Graph 38 Network Delay Time<br><br></b> <a href='https://leetcode.com/problems/network-delay-time/' target='_blank'>LeetCode 743</a></td>
+      <td>Graph 37 Network Delay Time<br><br></b> <a href='https://leetcode.com/problems/network-delay-time/' target='_blank'>LeetCode 743</a></td>
       <td><b>Example 1:</b> Dijkstra's to find max shortest path.</td>
       <td><b>Time:</b> O(E log V)<br><b>Space:</b> O(V + E)</td>
       <td>-</td>
@@ -351,7 +351,7 @@
     </tr>
     <tr>
       <td>38</td>
-      <td>Graph 39 Cheapest Flights Within K Stops<br><br></b> <a href='https://leetcode.com/problems/cheapest-flights-within-k-stops/' target='_blank'>LeetCode 787</a></td>
+      <td>Graph 38 Cheapest Flights Within K Stops<br><br></b> <a href='https://leetcode.com/problems/cheapest-flights-within-k-stops/' target='_blank'>LeetCode 787</a></td>
       <td><b>Example 1:</b> Dijkstra's with Stops / BFS.</td>
       <td><b>Time:</b> O(E)<br><b>Space:</b> O(N + E)</td>
       <td><code>#include <queue></code></td>
@@ -360,7 +360,7 @@
     </tr>
     <tr>
       <td>39</td>
-      <td>Graph 40 Minimum Multiplications To Reach End<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-multiplications-to-reach-end/1' target='_blank'>GFG</a></td>
+      <td>Graph 39 Minimum Multiplications To Reach End<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-multiplications-to-reach-end/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> BFS / Dijkstra's with unit weights.</td>
       <td><b>Time:</b> O(100000 * N)<br><b>Space:</b> O(100000)</td>
       <td><code>#include <queue></code></td>
@@ -369,7 +369,7 @@
     </tr>
     <tr>
       <td>40</td>
-      <td>Graph 41 Number Of Ways To Arrive At Destination<br><br></b> <a href='https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/' target='_blank'>LeetCode 1976</a></td>
+      <td>Graph 40 Number Of Ways To Arrive At Destination<br><br></b> <a href='https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/' target='_blank'>LeetCode 1976</a></td>
       <td><b>Example 1:</b> Dijkstra's with Ways Count.</td>
       <td><b>Time:</b> O(E log V)<br><b>Space:</b> O(V + E)</td>
       <td><code>#include <queue></code></td>
@@ -378,7 +378,7 @@
     </tr>
     <tr>
       <td>41</td>
-      <td>Graph 42 Find The City With The Smallest Number Of Neighbors At A Threshold Distance<br><br></b> <a href='https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/' target='_blank'>LeetCode 1334</a></td>
+      <td>Graph 41 Find The City With The Smallest Number Of Neighbors At A Threshold Distance<br><br></b> <a href='https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/' target='_blank'>LeetCode 1334</a></td>
       <td><b>Example 1:</b> Floyd-Warshall Algorithm.</td>
       <td><b>Time:</b> O(V^3)<br><b>Space:</b> O(V^2)</td>
       <td>-</td>
@@ -387,7 +387,7 @@
     </tr>
     <tr>
       <td>42</td>
-      <td>Graph 43 Minimum Spanning Tree Prim<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1' target='_blank'>GFG</a></td>
+      <td>Graph 42 Minimum Spanning Tree Prim<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Prim's Algorithm using Min-Heap.</td>
       <td><b>Time:</b> O(E log V)<br><b>Space:</b> O(E + V)</td>
       <td><code>#include <queue></code></td>
@@ -396,7 +396,7 @@
     </tr>
     <tr>
       <td>43</td>
-      <td>Graph 44 Kruskals Minimum Spanning Tree Algorithm<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1' target='_blank'>GFG</a></td>
+      <td>Graph 43 Kruskals Minimum Spanning Tree Algorithm<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Disjoint Set / Union Find.</td>
       <td><b>Time:</b> O(E log E)<br><b>Space:</b> O(E + V)</td>
       <td>-</td>
@@ -405,7 +405,7 @@
     </tr>
     <tr>
       <td>44</td>
-      <td>Graph 45 Number Of Provinces Disjoint Set<br><br></b> <a href='https://leetcode.com/problems/number-of-provinces/' target='_blank'>LeetCode 547</a></td>
+      <td>Graph 44 Number Of Provinces Disjoint Set<br><br></b> <a href='https://leetcode.com/problems/number-of-provinces/' target='_blank'>LeetCode 547</a></td>
       <td><b>Example 1:</b> Counting Unique Parents in DSU.</td>
       <td><b>Time:</b> O(V^2 * alpha)<br><b>Space:</b> O(V)</td>
       <td>-</td>
@@ -414,7 +414,7 @@
     </tr>
     <tr>
       <td>45</td>
-      <td>Graph 46 Number Of Operations To Make Network Connected<br><br></b> <a href='https://leetcode.com/problems/number-of-operations-to-make-network-connected/' target='_blank'>LeetCode 1319</a></td>
+      <td>Graph 45 Number Of Operations To Make Network Connected<br><br></b> <a href='https://leetcode.com/problems/number-of-operations-to-make-network-connected/' target='_blank'>LeetCode 1319</a></td>
       <td><b>Example 1:</b> Count Extra Edges using DSU.</td>
       <td><b>Time:</b> O(E * alpha)<br><b>Space:</b> O(V)</td>
       <td>-</td>
@@ -423,7 +423,7 @@
     </tr>
     <tr>
       <td>46</td>
-      <td>Graph 47 Most Stones Removed With Same Row Or Column<br><br></b> <a href='https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/' target='_blank'>LeetCode 947</a></td>
+      <td>Graph 46 Most Stones Removed With Same Row Or Column<br><br></b> <a href='https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/' target='_blank'>LeetCode 947</a></td>
       <td><b>Example 1:</b> DSU on Rows and Columns.</td>
       <td><b>Time:</b> O(N * alpha)<br><b>Space:</b> O(Max(Row, Col))</td>
       <td>-</td>
@@ -432,7 +432,7 @@
     </tr>
     <tr>
       <td>47</td>
-      <td>Graph 48 Accounts Merge<br><br></b> <a href='https://leetcode.com/problems/accounts-merge/' target='_blank'>LeetCode 721</a></td>
+      <td>Graph 47 Accounts Merge<br><br></b> <a href='https://leetcode.com/problems/accounts-merge/' target='_blank'>LeetCode 721</a></td>
       <td><b>Example 1:</b> Map Emails to IDs, DSU on IDs.</td>
       <td><b>Time:</b> O(N * M * log(N * M)) where N=accounts, M=max emails<br><b>Space:</b> O(N * M)</td>
       <td><code>#include <unordered_map></code></td>
@@ -441,7 +441,7 @@
     </tr>
     <tr>
       <td>48</td>
-      <td>Graph 49 Network Delay Time<br><br></b> <a href='https://leetcode.com/problems/network-delay-time/' target='_blank'>LeetCode 743</a></td>
+      <td>Graph 48 Network Delay Time<br><br></b> <a href='https://leetcode.com/problems/network-delay-time/' target='_blank'>LeetCode 743</a></td>
       <td><b>Example 1:</b> Dijkstra's Algorithm.</td>
       <td><b>Time:</b> O(E log V)<br><b>Space:</b> O(N + E)</td>
       <td><code>#include <queue></code></td>
@@ -450,7 +450,7 @@
     </tr>
     <tr>
       <td>49</td>
-      <td>Graph 50 Find Eventual Safe States<br><br></b> <a href='https://leetcode.com/problems/find-eventual-safe-states/' target='_blank'>LeetCode 802</a></td>
+      <td>Graph 49 Find Eventual Safe States<br><br></b> <a href='https://leetcode.com/problems/find-eventual-safe-states/' target='_blank'>LeetCode 802</a></td>
       <td><b>Example 1:</b> Topological Sort using Kahn's Algorithm on reversed graph.</td>
       <td><b>Time:</b> O(V + E)<br><b>Space:</b> O(V + E)</td>
       <td><code>#include <queue></code></td>
@@ -459,7 +459,7 @@
     </tr>
     <tr>
       <td>50</td>
-      <td>Graph 51 Word Ladder<br><br></b> <a href='https://leetcode.com/problems/word-ladder/' target='_blank'>LeetCode 127</a></td>
+      <td>Graph 50 Word Ladder<br><br></b> <a href='https://leetcode.com/problems/word-ladder/' target='_blank'>LeetCode 127</a></td>
       <td><b>Example 1:</b> BFS Shortest Path.</td>
       <td><b>Time:</b> O(N * L * 26) where L is word length<br><b>Space:</b> O(N)</td>
       <td><code>#include <queue>\n#include <unordered_set></code></td>
@@ -468,7 +468,7 @@
     </tr>
     <tr>
       <td>51</td>
-      <td>Graph 52 Word Ladder Ii<br><br></b> <a href='https://leetcode.com/problems/word-ladder-ii/' target='_blank'>LeetCode 126</a></td>
+      <td>Graph 51 Word Ladder Ii<br><br></b> <a href='https://leetcode.com/problems/word-ladder-ii/' target='_blank'>LeetCode 126</a></td>
       <td><b>Example 1:</b> BFS to find shortest path map + DFS to backtrack paths.</td>
       <td><b>Time:</b> O(N * L * 26 + Paths)<br><b>Space:</b> O(N * L)</td>
       <td><code>#include <queue>\n#include <unordered_set>\n#include <unordered_map></code></td>
@@ -477,7 +477,7 @@
     </tr>
     <tr>
       <td>52</td>
-      <td>Graph 53 Making A Large Island<br><br></b> <a href='https://leetcode.com/problems/making-a-large-island/' target='_blank'>LeetCode 827</a></td>
+      <td>Graph 52 Making A Large Island<br><br></b> <a href='https://leetcode.com/problems/making-a-large-island/' target='_blank'>LeetCode 827</a></td>
       <td><b>Example 1:</b> Disjoint Set / Union Find.</td>
       <td><b>Time:</b> O(N^2)<br><b>Space:</b> O(N^2)</td>
       <td>-</td>
@@ -486,7 +486,7 @@
     </tr>
     <tr>
       <td>53</td>
-      <td>Graph 54 Swim In Rising Water<br><br></b> <a href='https://leetcode.com/problems/swim-in-rising-water/' target='_blank'>LeetCode 778</a></td>
+      <td>Graph 53 Swim In Rising Water<br><br></b> <a href='https://leetcode.com/problems/swim-in-rising-water/' target='_blank'>LeetCode 778</a></td>
       <td><b>Example 1:</b> Dijkstra's Algorithm with Max Path Edge.</td>
       <td><b>Time:</b> O(N^2 log N)<br><b>Space:</b> O(N^2)</td>
       <td><code>#include <queue></code></td>
@@ -495,7 +495,7 @@
     </tr>
     <tr>
       <td>54</td>
-      <td>Graph 55 As Far From Land As Possible<br><br></b> <a href='https://leetcode.com/problems/as-far-from-land-as-possible/' target='_blank'>LeetCode 1162</a></td>
+      <td>Graph 54 As Far From Land As Possible<br><br></b> <a href='https://leetcode.com/problems/as-far-from-land-as-possible/' target='_blank'>LeetCode 1162</a></td>
       <td><b>Example 1:</b> Multi-source BFS.</td>
       <td><b>Time:</b> O(N^2)<br><b>Space:</b> O(N^2)</td>
       <td><code>#include <queue></code></td>
@@ -504,7 +504,7 @@
     </tr>
     <tr>
       <td>55</td>
-      <td>Graph 56 Find Closest Node To Given Two Nodes<br><br></b> <a href='https://leetcode.com/problems/find-closest-node-to-given-two-nodes/' target='_blank'>LeetCode 2359</a></td>
+      <td>Graph 55 Find Closest Node To Given Two Nodes<br><br></b> <a href='https://leetcode.com/problems/find-closest-node-to-given-two-nodes/' target='_blank'>LeetCode 2359</a></td>
       <td><b>Example 1:</b> Two BFS traversals.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
       <td><code>#include <queue></code></td>
@@ -513,7 +513,7 @@
     </tr>
     <tr>
       <td>56</td>
-      <td>Graph 57 Minimum Score Of A Path Between Two Cities<br><br></b> <a href='https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/' target='_blank'>LeetCode 2492</a></td>
+      <td>Graph 56 Minimum Score Of A Path Between Two Cities<br><br></b> <a href='https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/' target='_blank'>LeetCode 2492</a></td>
       <td><b>Example 1:</b> BFS / DSU to find min edge in component.</td>
       <td><b>Time:</b> O(V + E)<br><b>Space:</b> O(V + E)</td>
       <td><code>#include <queue></code></td>
@@ -522,7 +522,7 @@
     </tr>
     <tr>
       <td>57</td>
-      <td>Graph 58 Shortest Bridge<br><br></b> <a href='https://leetcode.com/problems/shortest-bridge/' target='_blank'>LeetCode 934</a></td>
+      <td>Graph 57 Shortest Bridge<br><br></b> <a href='https://leetcode.com/problems/shortest-bridge/' target='_blank'>LeetCode 934</a></td>
       <td><b>Example 1:</b> DFS + BFS.</td>
       <td><b>Time:</b> O(N^2)<br><b>Space:</b> O(N^2)</td>
       <td><code>#include <queue></code></td>
@@ -531,7 +531,7 @@
     </tr>
     <tr>
       <td>58</td>
-      <td>Graph 14 Detect Cycle In A Directed Graph<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1' target='_blank'>GFG</a></td>
+      <td>Graph 58 Detect Cycle In A Directed Graph<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> DFS with pathVisited.</td>
       <td><b>Time:</b> O(V + E)<br><b>Space:</b> O(V)</td>
       <td>-</td>
@@ -540,7 +540,7 @@
     </tr>
     <tr>
       <td>59</td>
-      <td>Graph 15 Topological Sort Bfs Kahn<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/topological-sort/1' target='_blank'>GFG</a></td>
+      <td>Graph 59 Topological Sort Bfs Kahn<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/topological-sort/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Indegree based BFS.</td>
       <td><b>Time:</b> O(V + E)<br><b>Space:</b> O(V)</td>
       <td>Queue</td>
@@ -549,7 +549,7 @@
     </tr>
     <tr>
       <td>60</td>
-      <td>Graph 16 Topological Sort Dfs<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/topological-sort/1' target='_blank'>GFG</a></td>
+      <td>Graph 60 Topological Sort Dfs<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/topological-sort/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> DFS + Stack.</td>
       <td><b>Time:</b> O(V + E)<br><b>Space:</b> O(V)</td>
       <td>Stack</td>
@@ -558,7 +558,7 @@
     </tr>
     <tr>
       <td>61</td>
-      <td>Graph 17 Minimum Time Taken By Each Job To Be Completed Given By A Directed Acyclic Graph<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-time-taken-by-each-job-to-be-completed-given-by-a-directed-acyclic-graph/1' target='_blank'>GFG</a></td>
+      <td>Graph 61 Minimum Time Taken By Each Job To Be Completed Given By A Directed Acyclic Graph<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-time-taken-by-each-job-to-be-completed-given-by-a-directed-acyclic-graph/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Modified Kahn's Algorithm.</td>
       <td><b>Time:</b> O(V + E)<br><b>Space:</b> O(V)</td>
       <td>Queue</td>
@@ -567,7 +567,7 @@
     </tr>
     <tr>
       <td>62</td>
-      <td>Graph 18 Find Whether It Is Possible To Finish All Tasks Or Not From Given Dependencies<br><br></b> <a href='https://leetcode.com/problems/course-schedule/' target='_blank'>LeetCode 207</a></td>
+      <td>Graph 62 Find Whether It Is Possible To Finish All Tasks Or Not From Given Dependencies<br><br></b> <a href='https://leetcode.com/problems/course-schedule/' target='_blank'>LeetCode 207</a></td>
       <td><b>Example 1:</b> Detect cycle using Kahn's algorithm.</td>
       <td><b>Time:</b> O(V + E)<br><b>Space:</b> O(V + E)</td>
       <td>-</td>
@@ -576,7 +576,7 @@
     </tr>
     <tr>
       <td>63</td>
-      <td>Graph 19 Find The Number Of Islands<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/find-the-number-of-islands/1' target='_blank'>GFG</a></td>
+      <td>Graph 63 Find The Number Of Islands<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/find-the-number-of-islands/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> DFS or BFS.</td>
       <td><b>Time:</b> O(N * M)<br><b>Space:</b> O(N * M) worst case stack</td>
       <td>-</td>
@@ -585,7 +585,7 @@
     </tr>
     <tr>
       <td>64</td>
-      <td>Graph 20 Alien Dictionary<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/alien-dictionary/1' target='_blank'>GFG</a></td>
+      <td>Graph 64 Alien Dictionary<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/alien-dictionary/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Topological Sort on Characters.</td>
       <td><b>Time:</b> O(N * length of words + K)<br><b>Space:</b> O(K)</td>
       <td>-</td>
@@ -594,7 +594,7 @@
     </tr>
     <tr>
       <td>65</td>
-      <td>Graph 21 Kruskals Algorithm<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1' target='_blank'>GFG</a></td>
+      <td>Graph 65 Kruskals Algorithm<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Disjoint Set Union.</td>
       <td><b>Time:</b> O(E log E)<br><b>Space:</b> O(V + E)</td>
       <td>Disjoint Set</td>
@@ -603,7 +603,7 @@
     </tr>
     <tr>
       <td>66</td>
-      <td>Graph 22 Dijkstra Algorithm<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1' target='_blank'>GFG</a></td>
+      <td>Graph 66 Dijkstra Algorithm<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Priority Queue / Min Heap.</td>
       <td><b>Time:</b> O(E log V)<br><b>Space:</b> O(V + E)</td>
       <td>Priority Queue</td>
@@ -612,7 +612,7 @@
     </tr>
     <tr>
       <td>67</td>
-      <td>Graph 23 Bipartite Graph<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/bipartite-graph/1' target='_blank'>GFG</a></td>
+      <td>Graph 67 Bipartite Graph<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/bipartite-graph/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Graph Coloring (BFS).</td>
       <td><b>Time:</b> O(V + E)<br><b>Space:</b> O(V)</td>
       <td>-</td>
@@ -621,7 +621,7 @@
     </tr>
     <tr>
       <td>68</td>
-      <td>Graph 14 Detect Negative Cycle In A Graph<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/negative-weight-cycle3504/1' target='_blank'>GFG</a></td>
+      <td>Graph 68 Detect Negative Cycle In A Graph<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/negative-weight-cycle3504/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Bellman Ford variant.</td>
       <td><b>Time:</b> O(V * E)<br><b>Space:</b> O(V)</td>
       <td>-</td>
@@ -630,7 +630,7 @@
     </tr>
     <tr>
       <td>69</td>
-      <td>Graph 15 Find Bridge In A Graph<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/bridge-edge-in-graph/1' target='_blank'>GFG</a></td>
+      <td>Graph 69 Find Bridge In A Graph<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/bridge-edge-in-graph/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Tarjan's Algorithm / DFS.</td>
       <td><b>Time:</b> O(V + E)<br><b>Space:</b> O(V)</td>
       <td>-</td>
@@ -639,7 +639,7 @@
     </tr>
     <tr>
       <td>70</td>
-      <td>Graph 16 Strongly Connected Components Kosaraju<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1' target='_blank'>GFG</a></td>
+      <td>Graph 70 Strongly Connected Components Kosaraju<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Kosaraju's Algorithm.</td>
       <td><b>Time:</b> O(V + E)<br><b>Space:</b> O(V + E)</td>
       <td>-</td>
@@ -648,7 +648,7 @@
     </tr>
     <tr>
       <td>71</td>
-      <td>Graph 17 Bipartite Graph<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/bipartite-graph/1' target='_blank'>GFG</a></td>
+      <td>Graph 71 Bipartite Graph<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/bipartite-graph/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Graph Coloring (BFS).</td>
       <td><b>Time:</b> O(V + E)<br><b>Space:</b> O(V)</td>
       <td>-</td>
@@ -657,7 +657,7 @@
     </tr>
     <tr>
       <td>72</td>
-      <td>Graph 18 Word Ladder<br><br></b> <a href='https://leetcode.com/problems/word-ladder/' target='_blank'>LeetCode 127</a></td>
+      <td>Graph 72 Word Ladder<br><br></b> <a href='https://leetcode.com/problems/word-ladder/' target='_blank'>LeetCode 127</a></td>
       <td><b>Example 1:</b> BFS level order.</td>
       <td><b>Time:</b> O(N * M * 26)<br><b>Space:</b> O(N * M)</td>
       <td>-</td>
@@ -666,7 +666,7 @@
     </tr>
     <tr>
       <td>73</td>
-      <td>Graph 19 Dijkstras Algorithm<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1' target='_blank'>GFG</a></td>
+      <td>Graph 73 Dijkstras Algorithm<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Priority Queue.</td>
       <td><b>Time:</b> O(E log V)<br><b>Space:</b> O(V)</td>
       <td>Priority Queue</td>
@@ -675,7 +675,7 @@
     </tr>
     <tr>
       <td>74</td>
-      <td>Graph 20 Alien Dictionary V2<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/alien-dictionary/1' target='_blank'>GFG</a></td>
+      <td>Graph 74 Alien Dictionary V2<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/alien-dictionary/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Topological Sort.</td>
       <td><b>Time:</b> O(N * L + K)<br><b>Space:</b> O(K)</td>
       <td>-</td>
@@ -684,7 +684,7 @@
     </tr>
     <tr>
       <td>75</td>
-      <td>Graph 21 Kruskals Algorithm V2<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1' target='_blank'>GFG</a></td>
+      <td>Graph 75 Kruskals Algorithm V2<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Disjoint Set + Sort edges.</td>
       <td><b>Time:</b> O(E log E)<br><b>Space:</b> O(V + E)</td>
       <td>Disjoint Set</td>
@@ -693,7 +693,7 @@
     </tr>
     <tr>
       <td>76</td>
-      <td>Graph 22 Number Of Islands<br><br></b> <a href='https://leetcode.com/problems/number-of-islands/' target='_blank'>LeetCode 200</a></td>
+      <td>Graph 76 Number Of Islands<br><br></b> <a href='https://leetcode.com/problems/number-of-islands/' target='_blank'>LeetCode 200</a></td>
       <td><b>Example 1:</b> DFS.</td>
       <td><b>Time:</b> O(M * N)<br><b>Space:</b> O(M * N)</td>
       <td>-</td>
@@ -702,7 +702,7 @@
     </tr>
     <tr>
       <td>77</td>
-      <td>Graph 23 Minimum Spanning Tree<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1' target='_blank'>GFG</a></td>
+      <td>Graph 77 Minimum Spanning Tree<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-spanning-tree/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Prim's Algorithm.</td>
       <td><b>Time:</b> O(E log V)<br><b>Space:</b> O(V + E)</td>
       <td>Priority Queue</td>
