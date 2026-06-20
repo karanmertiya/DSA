@@ -7,5 +7,5 @@ Given an array of integers A of size N and an integer M. A[i] denotes the number
 <b>Example 1:</b> Input: N=4, A=[12,34,67,90], M=2, Output: 113
 
 ## Tags
-- Striver_A_Z
 - Love_Babbar
+- Striver_A_Z

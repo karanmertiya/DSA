@@ -7,5 +7,5 @@ Given the head of a singly linked list and an integer k, split the linked list i
 <b>Example 1:</b> Distribution math.
 
 ## Tags
-- Striver_A_Z
 - Love_Babbar
+- Striver_A_Z

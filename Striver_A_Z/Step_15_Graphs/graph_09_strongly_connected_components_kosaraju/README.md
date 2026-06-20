@@ -8,6 +8,6 @@ Given a Directed Graph with V vertices and E edges, Find the number of strongly 
 
 ## Tags
 - Striver_A_Z
-- SDE_Sheet
-- Apna_College
 - Love_Babbar
+- Apna_College
+- SDE_Sheet

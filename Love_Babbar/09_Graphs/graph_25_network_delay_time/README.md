@@ -7,5 +7,5 @@ You are given a network of n nodes, labeled from 1 to n. You are also given time
 <b>Example 1:</b> Dijkstra's to find max shortest path.
 
 ## Tags
-- Striver_A_Z
 - Love_Babbar
+- Striver_A_Z

@@ -7,5 +7,5 @@ Given a root node reference of a BST and a key, delete the node with the given k
 <b>Example 1:</b> Locate and delete.
 
 ## Tags
-- Striver_A_Z
 - Love_Babbar
+- Striver_A_Z

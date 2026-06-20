@@ -7,6 +7,6 @@ Given an integer array nums, return the number of reverse pairs. A reverse pair 
 <b>Example 1:</b> Input: nums = [1,3,2,3,1], Output: 2
 
 ## Tags
+- Love_Babbar
 - Striver_A_Z
 - SDE_Sheet
-- Love_Babbar

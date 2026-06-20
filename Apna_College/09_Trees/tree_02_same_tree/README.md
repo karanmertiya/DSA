@@ -7,7 +7,7 @@ Restored problem.<br><br><b>🔗 Practice:</b> <a href='https://leetcode.com/pro
 <b>Example 1:</b> Input: p = [1,2,3], q = [1,2,3], Output: true
 
 ## Tags
+- Love_Babbar
 - Striver_A_Z
 - Apna_College
 - SDE_Sheet
-- Love_Babbar

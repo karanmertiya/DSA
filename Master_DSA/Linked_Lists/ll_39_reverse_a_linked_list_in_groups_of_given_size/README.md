@@ -8,5 +8,5 @@ Given a linked list of size N. The task is to reverse every k nodes (where k is 
 
 ## Tags
 - Striver_A_Z
-- SDE_Sheet
 - Love_Babbar
+- SDE_Sheet

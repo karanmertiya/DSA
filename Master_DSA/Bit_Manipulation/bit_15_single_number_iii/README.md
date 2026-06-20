@@ -7,5 +7,5 @@ Given an integer array nums, in which exactly two elements appear only once and 
 <b>Example 1:</b> Grouping by rightmost set bit.
 
 ## Tags
-- Striver_A_Z
 - Love_Babbar
+- Striver_A_Z

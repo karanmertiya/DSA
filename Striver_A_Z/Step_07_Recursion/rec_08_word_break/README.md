@@ -7,7 +7,7 @@ Given a string s and a dictionary of strings wordDict, return true if s can be s
 <b>Example 1:</b> Input: s = 'leetcode', wordDict = ['leet','code'], Output: true
 
 ## Tags
-- Striver_A_Z
-- SDE_Sheet
-- Apna_College
 - Love_Babbar
+- Striver_A_Z
+- Apna_College
+- SDE_Sheet

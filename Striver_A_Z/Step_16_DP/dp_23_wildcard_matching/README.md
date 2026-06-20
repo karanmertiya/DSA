@@ -7,5 +7,5 @@ Given an input string (s) and a pattern (p), implement wildcard pattern matching
 <b>Example 1:</b> 2D DP.
 
 ## Tags
-- Striver_A_Z
 - Love_Babbar
+- Striver_A_Z

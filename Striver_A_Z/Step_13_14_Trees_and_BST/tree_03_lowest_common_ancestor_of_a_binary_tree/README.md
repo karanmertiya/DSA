@@ -7,7 +7,7 @@ Restored problem.<br><br><b>🔗 Practice:</b> <a href='https://leetcode.com/pro
 <b>Example 1:</b> Input: root = [3,5,1,6,2,0,8,null,null,7,4], p = 5, q = 1, Output: 3
 
 ## Tags
-- Striver_A_Z
-- SDE_Sheet
-- Apna_College
 - Love_Babbar
+- Striver_A_Z
+- Apna_College
+- SDE_Sheet

@@ -7,5 +7,5 @@ Given an array representing the lengths of boards, and an integer k representing
 <b>Example 1:</b> Minimax identical to book allocation.
 
 ## Tags
-- Striver_A_Z
 - Love_Babbar
+- Striver_A_Z

@@ -7,6 +7,6 @@ Given two sorted arrays array1 and array2 of size m and n respectively. Find the
 <b>Example 1:</b> Binary Search.
 
 ## Tags
+- Love_Babbar
 - Striver_A_Z
 - SDE_Sheet
-- Love_Babbar

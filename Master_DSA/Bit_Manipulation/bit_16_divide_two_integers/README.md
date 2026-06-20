@@ -7,5 +7,5 @@ Given two integers dividend and divisor, divide two integers without using multi
 <b>Example 1:</b> Bit shifting.
 
 ## Tags
-- Striver_A_Z
 - Love_Babbar
+- Striver_A_Z

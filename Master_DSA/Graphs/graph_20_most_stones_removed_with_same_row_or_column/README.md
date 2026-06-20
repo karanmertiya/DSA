@@ -7,5 +7,5 @@ On a 2D plane, we place n stones at some integer coordinate points. Each coordin
 <b>Example 1:</b> Treat rows and columns as nodes.
 
 ## Tags
-- Striver_A_Z
 - Love_Babbar
+- Striver_A_Z

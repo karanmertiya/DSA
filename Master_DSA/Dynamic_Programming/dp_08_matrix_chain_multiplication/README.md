@@ -8,6 +8,6 @@ Given a sequence of matrices, find the most efficient way to multiply these matr
 
 ## Tags
 - Striver_A_Z
-- SDE_Sheet
-- Apna_College
 - Love_Babbar
+- Apna_College
+- SDE_Sheet

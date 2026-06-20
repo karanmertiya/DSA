@@ -7,6 +7,6 @@ Given an array of integers heights representing the histogram's bar height where
 <b>Example 1:</b> Input: heights = [2,1,5,6,2,3], Output: 10
 
 ## Tags
+- Love_Babbar
 - Striver_A_Z
 - SDE_Sheet
-- Love_Babbar

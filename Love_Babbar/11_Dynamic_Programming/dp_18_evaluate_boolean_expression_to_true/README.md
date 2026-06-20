@@ -7,5 +7,5 @@ Given a boolean expression with following symbols: T (True), F (False) and opera
 <b>Example 1:</b> MCM DP pattern.
 
 ## Tags
-- Striver_A_Z
 - Love_Babbar
+- Striver_A_Z

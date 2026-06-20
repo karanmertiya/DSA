@@ -8,5 +8,5 @@ Given a string A and a dictionary of n words B, find out if A can be segmented i
 
 ## Tags
 - Striver_A_Z
-- SDE_Sheet
 - Love_Babbar
+- SDE_Sheet

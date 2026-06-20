@@ -7,5 +7,5 @@ Given an integer n, return the number of trailing zeroes in n!.<br><br><b>🔗 P
 <b>Example 1:</b> Counting 5s.
 
 ## Tags
-- SDE_Sheet
 - Love_Babbar
+- SDE_Sheet

@@ -8,5 +8,5 @@ Given an array of integers A and an integer B. Find the total number of subarray
 
 ## Tags
 - Striver_A_Z
-- SDE_Sheet
 - Love_Babbar
+- SDE_Sheet

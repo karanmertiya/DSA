@@ -7,5 +7,5 @@ You are given an array prices where prices[i] is the price of a given stock on t
 <b>Example 1:</b> 3D DP / State Machine.
 
 ## Tags
-- Striver_A_Z
 - Love_Babbar
+- Striver_A_Z

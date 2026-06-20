@@ -7,5 +7,5 @@ Given a linked list, swap every two adjacent nodes and return its head. You must
 <b>Example 1:</b> Input: head = [1,2,3,4], Output: [2,1,4,3]
 
 ## Tags
-- Striver_A_Z
 - Love_Babbar
+- Striver_A_Z

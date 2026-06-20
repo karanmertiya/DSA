@@ -7,5 +7,5 @@ Given a characters array tasks, representing the tasks a CPU needs to do, and a 
 <b>Example 1:</b> Greedy placement.
 
 ## Tags
-- Striver_A_Z
 - Love_Babbar
+- Striver_A_Z

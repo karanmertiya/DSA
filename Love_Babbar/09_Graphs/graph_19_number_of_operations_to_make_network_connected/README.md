@@ -7,5 +7,5 @@ There are n computers numbered from 0 to n - 1 connected by ethernet cables conn
 <b>Example 1:</b> Extra edges and connected components.
 
 ## Tags
-- Striver_A_Z
 - Love_Babbar
+- Striver_A_Z

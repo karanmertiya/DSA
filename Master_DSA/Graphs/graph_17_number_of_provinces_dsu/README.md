@@ -7,5 +7,5 @@ There are n cities. Some of them are connected, while some are not. If city a is
 <b>Example 1:</b> Connect elements, count unique parents.
 
 ## Tags
-- Striver_A_Z
 - Love_Babbar
+- Striver_A_Z

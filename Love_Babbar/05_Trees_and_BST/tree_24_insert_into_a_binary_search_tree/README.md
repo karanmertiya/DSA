@@ -7,5 +7,5 @@ You are given the root node of a binary search tree (BST) and a value to insert 
 <b>Example 1:</b> Traverse and insert.
 
 ## Tags
-- Striver_A_Z
 - Love_Babbar
+- Striver_A_Z

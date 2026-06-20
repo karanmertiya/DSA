@@ -7,5 +7,5 @@ Given the root of a binary tree, flatten the tree into a 'linked list'. The righ
 <b>Example 1:</b> In-place flatten.
 
 ## Tags
-- Striver_A_Z
 - Love_Babbar
+- Striver_A_Z

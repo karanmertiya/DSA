@@ -7,5 +7,5 @@ Given an input stream arr[] of n integers. Find the Kth largest element for each
 <b>Example 1:</b> Min-Heap of size K.
 
 ## Tags
-- Striver_A_Z
 - Love_Babbar
+- Striver_A_Z

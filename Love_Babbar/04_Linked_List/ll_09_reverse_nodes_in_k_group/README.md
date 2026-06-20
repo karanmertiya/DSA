@@ -8,6 +8,6 @@ Given the head of a linked list, reverse the nodes of the list k at a time, and 
 
 ## Tags
 - Striver_A_Z
-- SDE_Sheet
-- Apna_College
 - Love_Babbar
+- Apna_College
+- SDE_Sheet

@@ -7,5 +7,5 @@ Given a list of accounts where each element accounts[i] is a list of strings, wh
 <b>Example 1:</b> DSU on accounts using emails.
 
 ## Tags
-- Striver_A_Z
 - Love_Babbar
+- Striver_A_Z

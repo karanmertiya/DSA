@@ -7,5 +7,5 @@ Find all the shortest transformation sequences from beginWord to endWord.<br><br
 <b>Example 1:</b> BFS for distance, DFS for paths.
 
 ## Tags
-- Striver_A_Z
 - Love_Babbar
+- Striver_A_Z

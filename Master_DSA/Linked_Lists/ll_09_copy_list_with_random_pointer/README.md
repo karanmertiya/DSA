@@ -7,5 +7,5 @@ A linked list of length n is given such that each node contains an additional ra
 <b>Example 1:</b> Return a deep copy.
 
 ## Tags
-- Striver_A_Z
 - Love_Babbar
+- Striver_A_Z

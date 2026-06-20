@@ -7,5 +7,5 @@ Given two integer arrays inorder and postorder where inorder is the inorder trav
 <b>Example 1:</b> Input: inorder = [9,3,15,20,7], postorder = [9,15,7,20,3], Output: [3,9,20,null,null,15,7]
 
 ## Tags
-- Striver_A_Z
 - Love_Babbar
+- Striver_A_Z

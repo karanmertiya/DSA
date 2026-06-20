@@ -7,5 +7,5 @@ Given an array of points where points[i] = [xi, yi] represents a point on the X-
 <b>Example 1:</b> Max-heap of pairs.
 
 ## Tags
-- Striver_A_Z
 - Love_Babbar
+- Striver_A_Z

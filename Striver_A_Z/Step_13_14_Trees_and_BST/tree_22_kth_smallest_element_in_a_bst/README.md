@@ -7,5 +7,5 @@ Given the root of a binary search tree, and an integer k, return the kth smalles
 <b>Example 1:</b> Inorder traversal.
 
 ## Tags
-- Striver_A_Z
 - Love_Babbar
+- Striver_A_Z

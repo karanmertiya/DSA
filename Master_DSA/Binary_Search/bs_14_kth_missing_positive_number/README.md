@@ -7,5 +7,5 @@ Given an array arr of positive integers sorted in a strictly increasing order, a
 <b>Example 1:</b> Calculate missing.
 
 ## Tags
-- Striver_A_Z
 - Love_Babbar
+- Striver_A_Z

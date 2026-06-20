@@ -7,5 +7,5 @@ Given a string s, rearrange the characters of s so that any two adjacent charact
 <b>Example 1:</b> Duplicate logic entry. See Greedy chapter.
 
 ## Tags
-- Striver_A_Z
 - Love_Babbar
+- Striver_A_Z

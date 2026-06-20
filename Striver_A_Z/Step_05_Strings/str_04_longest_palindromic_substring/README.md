@@ -7,7 +7,7 @@ Restored problem.<br><br><b>🔗 Practice:</b> <a href='https://leetcode.com/pro
 <b>Example 1:</b> Input: s = "babad", Output: "bab"
 
 ## Tags
+- Love_Babbar
 - Striver_A_Z
 - Apna_College
 - SDE_Sheet
-- Love_Babbar

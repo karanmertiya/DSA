@@ -7,7 +7,7 @@ Restored problem.<br><br><b>🔗 Practice:</b> <a href='https://leetcode.com/pro
 <b>Example 1:</b> Input: lists = [[1,4,5],[1,3,4],[2,6]], Output: [1,1,2,3,4,4,5,6]
 
 ## Tags
-- Striver_A_Z
-- SDE_Sheet
-- Apna_College
 - Love_Babbar
+- Striver_A_Z
+- Apna_College
+- SDE_Sheet

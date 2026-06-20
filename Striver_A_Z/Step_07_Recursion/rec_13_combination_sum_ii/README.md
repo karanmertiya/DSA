@@ -7,5 +7,5 @@ Given a collection of candidate numbers (candidates) and a target number (target
 <b>Example 1:</b> Return unique combinations.
 
 ## Tags
-- Striver_A_Z
 - Love_Babbar
+- Striver_A_Z

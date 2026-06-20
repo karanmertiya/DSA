@@ -7,7 +7,7 @@ Restored problem.<br><br><b>🔗 Practice:</b> <a href='https://leetcode.com/pro
 <b>Example 1:</b> Input: intersectVal = 8, listA = [4,1,8,4,5], listB = [5,6,1,8,4,5], skipA = 2, skipB = 3, Output: Intersected at '8'
 
 ## Tags
+- Love_Babbar
 - Striver_A_Z
 - Apna_College
 - SDE_Sheet
-- Love_Babbar
