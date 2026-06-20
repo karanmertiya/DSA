@@ -1,16 +1,16 @@
-# Time Complexity: O(2^N * N)
-# Space Complexity: O(2^N * N)
-# Explanation: Iterate from 1 to `2^N - 1`. For each number, treat its binary representation as a mask to pick characters from the string. Sort the resulting list of subsequences.
+# Time Complexity: O(N * 2^N)
+# Space Complexity: O(N * 2^N)
+# Explanation: Iterate from 1 to `(1 << n) - 1`. For each number, its binary representation indicates which characters of the string to include. Example: 011 means include 1st and 2nd char.
 
-def AllPossibleStrings(s):
+def AllPossibleStrings(s: str) -> List[str]:
     n = len(s)
-    ans = []
+    res = []
     for i in range(1, 1 << n):
         sub = ""
         for j in range(n):
             if i & (1 << j):
                 sub += s[j]
-        ans.append(sub)
-    ans.sort()
-    return ans
+        res.append(sub)
+    res.sort()
+    return res
 

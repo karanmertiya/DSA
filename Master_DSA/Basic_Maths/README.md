@@ -13,9 +13,23 @@ No special data structures needed, but precision and mathematical libraries are 
 #include <numeric>   // For std::gcd, std::lcm (C++17)
 
 int main() {
+    // Basic Operations
     int a = 12, b = 18;
     int g = std::gcd(a, b);
-    long long overflow_safe = 1LL * a * b; // Multiply with 1LL to prevent int overflow
+    
+    // Overflow Prevention
+    long long overflow_safe = 1LL * a * b; // Multiply with 1LL
+    
+    // Modulo Arithmetic
+    int mod = 1e9 + 7;
+    int ans = (1LL * a * b) % mod;
+    
+    // Digit Extraction (Crucial for palindromes/Armstrong numbers)
+    int n = 123;
+    while(n > 0) {
+        int last_digit = n % 10;
+        n /= 10;
+    }
 }
 ```
 </details>
@@ -30,6 +44,22 @@ a, b = 12, 18
 g = math.gcd(a, b)
 l = math.lcm(a, b) # Python 3.9+
 sq = math.isqrt(25) # Integer square root
+
+# Modulo Arithmetic
+mod = 10**9 + 7
+ans = (a * b) % mod
+
+# Digit Extraction
+n = 123
+# String method (easy in Python)
+for digit in str(n):
+    d = int(digit)
+    
+# Math method (if negative numbers exist, use abs(n))
+n = abs(n)
+while n > 0:
+    last_digit = n % 10
+    n //= 10
 ```
 </details>
 

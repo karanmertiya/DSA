@@ -1,15 +1,15 @@
 # Time Complexity: O(N)
-# Space Complexity: O(H)
-# Explanation: Modify the standard Height of Binary Tree DFS. Compute left height and right height. At each node, the diameter passing through it is `left + right`. Track the max.
+# Space Complexity: O(N)
+# Explanation: Modify the Height/Depth algorithm. Calculate `left_depth + right_depth` at every node to find max diameter, while returning standard height.
 
-def diameterOfBinaryTree(root: Optional[TreeNode]) -> int:
-    diameter = [0]
+def diameterOfBinaryTree(root: TreeNode) -> int:
+    max_d = [0]
     def height(node):
         if not node: return 0
-        lh = height(node.left)
-        rh = height(node.right)
-        diameter[0] = max(diameter[0], lh + rh)
-        return 1 + max(lh, rh)
+        left = height(node.left)
+        right = height(node.right)
+        max_d[0] = max(max_d[0], left + right)
+        return 1 + max(left, right)
     height(root)
-    return diameter[0]
+    return max_d[0]
 

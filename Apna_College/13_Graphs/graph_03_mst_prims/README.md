@@ -8,6 +8,6 @@ Given a weighted, undirected and connected graph of V vertices and E edges. Find
 
 ## Tags
 - Striver_A_Z
-- Love_Babbar
 - SDE_Sheet
 - Apna_College
+- Love_Babbar

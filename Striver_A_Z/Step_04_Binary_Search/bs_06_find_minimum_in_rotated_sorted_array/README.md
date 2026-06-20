@@ -8,6 +8,6 @@ Suppose an array of length n sorted in ascending order is rotated between 1 and 
 
 ## Tags
 - Striver_A_Z
-- Love_Babbar
-- SDE_Sheet
 - Apna_College
+- SDE_Sheet
+- Love_Babbar

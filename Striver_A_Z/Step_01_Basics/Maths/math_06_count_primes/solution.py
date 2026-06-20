@@ -1,14 +1,14 @@
 # Time Complexity: O(N log(log N))
 # Space Complexity: O(N)
-# Explanation: Use the Sieve of Eratosthenes. Create a boolean array of size `n` initialized to true. Set indices 0 and 1 to false. Iterate from `p=2` to `sqrt(n)`. If `p` is prime, mark all its multiples starting from `p*p` as false. Count the remaining true values.
+# Explanation: Use the Sieve of Eratosthenes. Initialize a boolean array of size `n` with `true`. Mark `0` and `1` as `false`. For each `i` from `2` to `sqrt(n)`, if `i` is prime, mark its multiples as `false` starting from `i*i`. Finally, count the number of `true`s.
 
-def countPrimes(n):
+def countPrimes(n: int) -> int:
     if n <= 2: return 0
-    is_prime = [True] * n
-    is_prime[0] = is_prime[1] = False
-    for i in range(2, int(n**0.5) + 1):
-        if is_prime[i]:
-            for j in range(i*i, n, i):
-                is_prime[j] = False
-    return sum(is_prime)
+    isPrime = [True] * n
+    isPrime[0] = isPrime[1] = False
+    for i in range(2, int(n ** 0.5) + 1):
+        if isPrime[i]:
+            for j in range(i * i, n, i):
+                isPrime[j] = False
+    return sum(isPrime)
 

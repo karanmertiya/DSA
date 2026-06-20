@@ -3,7 +3,7 @@
 The most foundational data structure. Arrays are contiguous memory blocks. The main challenge in array problems is reducing the time complexity from `O(N^2)` brute-force loops to `O(N)` single passes.
 
 ## 🛠️ Dependencies & Prerequisites
-You must be completely fluent in dynamic arrays and basic traversal.
+You must be completely fluent in dynamic arrays, index mapping, and multi-dimensional traversal.
 
 <details><summary><b>C++ Syntax & Setup</b></summary>
 
@@ -12,18 +12,35 @@ You must be completely fluent in dynamic arrays and basic traversal.
 #include <algorithm> // for std::sort, std::reverse, std::max
 
 int main() {
-    // Initialization
+    // 1D Arrays
     std::vector<int> arr = {1, 2, 3, 4, 5};
-    std::vector<int> zeroes(10, 0); // Size 10, all 0s
+    int N = arr.size();
     
-    // Core Methods
-    int size = arr.size();
+    // Accessing & Iterating (1D)
+    for(int i = 0; i < N; i++) {
+        int curr = arr[i];
+    }
+    
+    // Range-based for loop (Read-Only)
+    for(int val : arr) { /* do something */ }
+    // Range-based for loop (Modifiable)
+    for(int& val : arr) { val *= 2; }
+    
+    // 2D Arrays (Matrix)
+    int rows = 3, cols = 4;
+    std::vector<vector<int>> matrix(rows, vector<int>(cols, 0));
+    
+    // Accessing & Iterating (2D)
+    for(int r = 0; r < rows; r++) {
+        for(int c = 0; c < cols; c++) {
+            int cell = matrix[r][c];
+        }
+    }
+    
+    // Useful Methods
     arr.push_back(6); // O(1)
     arr.pop_back();   // O(1)
-    
-    // Sorting & Reversing
     std::sort(arr.begin(), arr.end());
-    std::reverse(arr.begin(), arr.end());
 }
 ```
 </details>
@@ -31,20 +48,32 @@ int main() {
 <details><summary><b>Python Syntax & Setup</b></summary>
 
 ```python
-# Initialization
+# 1D Arrays
 arr = [1, 2, 3, 4, 5]
-zeroes = [0] * 10 # Size 10, all 0s
+N = len(arr)
 
-# Core Methods
-n = len(arr)
-arr.append(6) # O(1)
-arr.pop()     # O(1)
+# Accessing & Iterating (1D)
+for i in range(N):
+    curr = arr[i]
 
-# Sorting & Reversing
-arr.sort() # In-place O(N log N)
-sorted_arr = sorted(arr) # Returns new list
-arr.reverse() # In-place
-reversed_arr = arr[::-1] # Slicing
+# Enumerate (Index and Value simultaneously)
+for i, val in enumerate(arr):
+    print(f"Index {i} has value {val}")
+
+# 2D Arrays (Matrix)
+rows, cols = 3, 4
+# CORRECT 2D initialization (DO NOT USE [[0]*cols]*rows)
+matrix = [[0 for _ in range(cols)] for _ in range(rows)]
+
+# Accessing & Iterating (2D)
+for r in range(rows):
+    for c in range(cols):
+        cell = matrix[r][c]
+
+# Slicing (Deep copying subsets)
+copy_arr = arr[:]
+first_half = arr[:N//2]
+reversed_arr = arr[::-1]
 ```
 </details>
 

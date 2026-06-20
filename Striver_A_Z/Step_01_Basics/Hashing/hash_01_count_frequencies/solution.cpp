@@ -2,20 +2,5 @@
 // Space Complexity: O(N) (Trade-off)
 // Explanation: Use two nested loops to count occurrences. Mark visited elements to avoid recounting.
 
-#include <vector>
-#include <iostream>
-
-void countFreqBrute(std::vector<int>& arr) {
-    std::vector<bool> visited(arr.size(), false);
-    for(int i=0; i<arr.size(); i++) {
-        if(visited[i]) continue;
-        int count = 1;
-        for(int j=i+1; j<arr.size(); j++) {
-            if(arr[i] == arr[j]) {
-                visited[j] = true;
-                count++;
-            }
-        }
-    }
-}
+#include <vector>\n#include <iostream>\n\n#include <unordered_map>\nvoid countFreq(std::vector<int>& arr) {\n    std::unordered_map<int, int> freq;\n    for(int num : arr) {\n        freq[num]++;\n    }\n    for(auto it : freq) {\n        std::cout << it.first << \" \" << it.second << \"\\n\";\n    }\n}
 

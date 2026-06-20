@@ -18,7 +18,16 @@
   <tbody>
     <tr>
       <td>1</td>
-      <td>Bit 01 Swap Two Numbers<br><br></b> <a href='https://www.geeksforgeeks.org/problems/swap-two-numbers3844/1' target='_blank'>GeeksforGeeks</a></td>
+      <td>Math 01 Power Of Two<br><br></b> <a href='https://leetcode.com/problems/power-of-two/' target='_blank'>LeetCode 231</a></td>
+      <td><b>Example 1:</b> Bit Manipulation.</td>
+      <td><b>Time:</b> O(1)<br><b>Space:</b> O(1)</td>
+      <td>-</td>
+      <td>-</td>
+      <td><b>Explanation:</b> If a number is a power of two, it has exactly one bit set in its binary representation. The expression `n & (n - 1)` clears the lowest set bit. Thus, if `n > 0` and `(n & (n - 1)) == 0`, it is a power of two.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">bool isPowerOfTwo(int n) {&#10;    return n &gt; 0 &amp;&amp; (n &amp; (n - 1)) == 0;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def isPowerOfTwo(n: int) -&gt; bool:&#10;    return n &gt; 0 and (n &amp; (n - 1)) == 0</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Bit 02 Swap Two Numbers<br><br></b> <a href='https://www.geeksforgeeks.org/problems/swap-two-numbers3844/1' target='_blank'>GeeksforGeeks</a></td>
       <td><b>Example 1:</b> Input: a=5, b=7, Output: a=7, b=5<br><br><b>Note (Constraint):</b> 1 &le; a, b &le; 10<sup>9</sup></td>
       <td><b>Time:</b> O(1)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -26,8 +35,8 @@
       <td><b>Explanation:</b> Use basic arithmetic (addition and subtraction) to swap.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">void swapArithmetic(int &amp;a, int &amp;b) {&#10;    // Edge Case: Can overflow for massive 32-bit integers&#10;    a = a + b;&#10;    b = a - b;&#10;    a = a - b;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def swap_arithmetic(a: int, b: int) -&gt; tuple:&#10;    a = a + b&#10;    b = a - b&#10;    a = a - b&#10;    return a, b</code></pre></details></td>
     </tr>
     <tr>
-      <td>2</td>
-      <td>Bit 02 Check Ith Bit Set<br><br></b> <a href='https://www.geeksforgeeks.org/problems/check-whether-k-th-bit-is-set-or-not-1587115620/1' target='_blank'>GeeksforGeeks</a></td>
+      <td>3</td>
+      <td>Bit 03 Check Ith Bit Set<br><br></b> <a href='https://www.geeksforgeeks.org/problems/check-whether-k-th-bit-is-set-or-not-1587115620/1' target='_blank'>GeeksforGeeks</a></td>
       <td><b>Example 1:</b> Input: N=4 (100 in binary), i=2, Output: true<br><br><b>Note (Constraint):</b> 1 &le; N &le; 10<sup>9</sup>, 0 &le; i &le; 31</td>
       <td><b>Time:</b> O(1)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -35,22 +44,13 @@
       <td><b>Explanation:</b> Right shift N by i times and check if the least significant bit is 1.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">bool checkKthBitRightShift(int n, int k) {&#10;    return ((n &gt;&gt; k) &amp; 1) != 0;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def check_kth_bit_right_shift(n: int, k: int) -&gt; bool:&#10;    return ((n &gt;&gt; k) &amp; 1) != 0</code></pre></details></td>
     </tr>
     <tr>
-      <td>3</td>
-      <td>Bit 03 Operations Set Clear Toggle<br><br></b> <a href='https://www.geeksforgeeks.org/problems/bit-manipulation-1666686020/1' target='_blank'>GeeksforGeeks</a></td>
+      <td>4</td>
+      <td>Bit 04 Operations Set Clear Toggle<br><br></b> <a href='https://www.geeksforgeeks.org/problems/bit-manipulation-1666686020/1' target='_blank'>GeeksforGeeks</a></td>
       <td><b>Example 1:</b> N=70, i=3 -> Set:78, Clear:62, Toggle:78<br><br><b>Note (Constraint):</b> 1 &le; N &le; 10<sup>9</sup></td>
       <td><b>Time:</b> O(1) (Constraint)<br><b>Space:</b> O(1)</td>
       <td>-</td>
       <td><b>Shift Overflow:</b> `1LL` used strictly to prevent overflow beyond 31 bits.</td>
       <td><b>Explanation:</b> Use OR (`|`) to set, AND with NOT (`& ~`) to clear, and XOR (`^`) to toggle.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">#include &lt;vector&gt;&#10;#include &lt;iostream&gt;&#10;&#10;std::vector&lt;long long&gt; bitOperations(long long n, int i) {&#10;    long long setBit = n | (1LL &lt;&lt; i);&#10;    long long clearBit = n &amp; ~(1LL &lt;&lt; i);&#10;    long long toggleBit = n ^ (1LL &lt;&lt; i);&#10;    return {setBit, clearBit, toggleBit};&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def bit_operations(n: int, i: int) -&gt; list:&#10;    set_bit = n | (1 &lt;&lt; i)&#10;    clear_bit = n &amp; ~(1 &lt;&lt; i)&#10;    toggle_bit = n ^ (1 &lt;&lt; i)&#10;    return [set_bit, clear_bit, toggle_bit]</code></pre></details></td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>Bit 04 Power Of Two<br><br></b> <a href='https://leetcode.com/problems/power-of-two/' target='_blank'>LeetCode 231</a></td>
-      <td><b>Example 1:</b> Input: N=16, Output: true<br><b>Example 2:</b> Input: N=3, Output: false<br><br><b>Note (Constraint):</b> -2<sup>31</sup> &le; N &le; 2<sup>31</sup> - 1</td>
-      <td><b>Time:</b> O(log2(N)) (Trade-off)<br><b>Space:</b> O(1)</td>
-      <td>-</td>
-      <td><b>Zero/Negative Handle:</b> Powers of 2 must be strictly positive.</td>
-      <td><b>Explanation:</b> Iteratively divide by 2. If it ever yields an odd number > 1, it is not a power of 2.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">bool isPowerOfTwoBrute(int n) {&#10;    if (n &lt;= 0) return false;&#10;    while(n % 2 == 0) {&#10;        n /= 2;&#10;    }&#10;    return n == 1;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def is_power_of_two_brute(n: int) -&gt; bool:&#10;    if n &lt;= 0: return False&#10;    while n % 2 == 0:&#10;        n //= 2&#10;    return n == 1</code></pre></details></td>
     </tr>
     <tr>
       <td>5</td>
@@ -59,7 +59,7 @@
       <td><b>Time:</b> O(32) &cong; O(1) (Trade-off)<br><b>Space:</b> O(1)</td>
       <td>-</td>
       <td><b>Static Loop Iterations:</b> Loop always runs 32 times regardless of number size.</td>
-      <td><b>Explanation:</b> Iterate through all 32 bits and check if each is set.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">int hammingWeightBrute(uint32_t n) {&#10;    int count = 0;&#10;    for(int i=0; i&lt;32; i++) {&#10;        if((n &gt;&gt; i) &amp; 1) {&#10;            count++;&#10;        }&#10;    }&#10;    return count;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def hamming_weight_brute(n: int) -&gt; int:&#10;    count = 0&#10;    for i in range(32):&#10;        if (n &gt;&gt; i) &amp; 1:&#10;            count += 1&#10;    return count</code></pre></details></td>
+      <td><b>Explanation:</b> Iterate through all 32 bits and check if each is set.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">int hammingWeight(uint32_t n) {&#10;    int count = 0;&#10;    while (n) {&#10;        n &amp;= (n - 1);&#10;        count++;&#10;    }&#10;    return count;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def hamming_weight(n: int) -&gt; int:&#10;    count = 0&#10;    while n:&#10;        n &amp;= (n - 1)&#10;        count += 1&#10;    return count</code></pre></details></td>
     </tr>
     <tr>
       <td>6</td>
@@ -77,7 +77,7 @@
       <td><b>Time:</b> O(N) (Constraint)<br><b>Space:</b> O(N) (Trade-off)</td>
       <td><b>Data Structure:</b><br><code>std::unordered_map</code> / <code>dict</code></td>
       <td><b>Memory Heavy:</b> Fails optimal space constraint due to dynamic hash mapping allocation.</td>
-      <td><b>Explanation:</b> Use a Hash Map to count occurrences. Return the element with count 1.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">#include &lt;vector&gt;&#10;#include &lt;unordered_map&gt;&#10;&#10;int singleNumberBrute(std::vector&lt;int&gt;&amp; nums) {&#10;    std::unordered_map&lt;int, int&gt; freq;&#10;    for(int num : nums) freq[num]++;&#10;    for(auto it : freq) {&#10;        if(it.second == 1) return it.first;&#10;    }&#10;    return -1;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def single_number_brute(nums: list[int]) -&gt; int:&#10;    freq = {}&#10;    for num in nums:&#10;        freq[num] = freq.get(num, 0) + 1&#10;    for num, count in freq.items():&#10;        if count == 1:&#10;            return num&#10;    return -1</code></pre></details></td>
+      <td><b>Explanation:</b> Use a Hash Map to count occurrences. Return the element with count 1.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">#include &lt;vector&gt;&#10;&#10;int singleNumber(std::vector&lt;int&gt;&amp; nums) {&#10;    int ans = 0;&#10;    for(int num : nums) {&#10;        ans ^= num;&#10;    }&#10;    return ans;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def single_number(nums: list[int]) -&gt; int:&#10;    ans = 0&#10;    for num in nums:&#10;        ans ^= num&#10;    return ans</code></pre></details></td>
     </tr>
     <tr>
       <td>8</td>
@@ -153,16 +153,7 @@
     </tr>
     <tr>
       <td>16</td>
-      <td>Bit 16 Subsets<br><br></b> <a href='https://leetcode.com/problems/subsets/' target='_blank'>LeetCode 78</a></td>
-      <td><b>Example 1:</b> Bitmasking technique.</td>
-      <td><b>Time:</b> O(N * 2^N)<br><b>Space:</b> O(2^N * N)</td>
-      <td>-</td>
-      <td>-</td>
-      <td><b>Explanation:</b> Iterate from `0` to `2^N - 1`. If the `j`th bit is set in `i`, include `nums[j]` in the current subset.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">vector&lt;vector&lt;int&gt;&gt; subsets(vector&lt;int&gt;&amp; nums) {&#10;    int n = nums.size();&#10;    int subsetCount = 1 &lt;&lt; n;&#10;    vector&lt;vector&lt;int&gt;&gt; ans;&#10;    for(int i=0; i&lt;subsetCount; i++) {&#10;        vector&lt;int&gt; sub;&#10;        for(int j=0; j&lt;n; j++) {&#10;            if(i &amp; (1 &lt;&lt; j)) sub.push_back(nums[j]);&#10;        }&#10;        ans.push_back(sub);&#10;    }&#10;    return ans;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def subsets(nums: List[int]) -&gt; List[List[int]]:&#10;    n = len(nums)&#10;    ans = []&#10;    for i in range(1 &lt;&lt; n):&#10;        sub = []&#10;        for j in range(n):&#10;            if i &amp; (1 &lt;&lt; j):&#10;                sub.append(nums[j])&#10;        ans.append(sub)&#10;    return ans</code></pre></details></td>
-    </tr>
-    <tr>
-      <td>17</td>
-      <td>Bit 17 Single Number Iii<br><br></b> <a href='https://leetcode.com/problems/single-number-iii/' target='_blank'>LeetCode 260</a></td>
+      <td>Bit 16 Single Number Iii<br><br></b> <a href='https://leetcode.com/problems/single-number-iii/' target='_blank'>LeetCode 260</a></td>
       <td><b>Example 1:</b> Grouping by rightmost set bit.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -170,8 +161,8 @@
       <td><b>Explanation:</b> XOR all elements to get `x ^ y`. Find the rightmost set bit in this XOR result. This bit distinguishes `x` and `y`. Iterate through array again, divide numbers into two groups based on this bit, and XOR each group. The results are `x` and `y`.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">vector&lt;int&gt; singleNumber(vector&lt;int&gt;&amp; nums) {&#10;    long long xor_all = 0;&#10;    for(int n : nums) xor_all ^= n;&#10;    long long rightmost_set_bit = xor_all &amp; -xor_all;&#10;    int x = 0, y = 0;&#10;    for(int n : nums) {&#10;        if(n &amp; rightmost_set_bit) x ^= n;&#10;        else y ^= n;&#10;    }&#10;    return {x, y};&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def singleNumber(nums: List[int]) -&gt; List[int]:&#10;    xor_all = 0&#10;    for n in nums: xor_all ^= n&#10;    rightmost_set_bit = xor_all &amp; -xor_all&#10;    x, y = 0, 0&#10;    for n in nums:&#10;        if n &amp; rightmost_set_bit: x ^= n&#10;        else: y ^= n&#10;    return [x, y]</code></pre></details></td>
     </tr>
     <tr>
-      <td>18</td>
-      <td>Bit 18 Divide Two Integers<br><br></b> <a href='https://leetcode.com/problems/divide-two-integers/' target='_blank'>LeetCode 29</a></td>
+      <td>17</td>
+      <td>Bit 17 Divide Two Integers<br><br></b> <a href='https://leetcode.com/problems/divide-two-integers/' target='_blank'>LeetCode 29</a></td>
       <td><b>Example 1:</b> Bit shifting.</td>
       <td><b>Time:</b> O(log^2 N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -179,8 +170,8 @@
       <td><b>Explanation:</b> Use left shift to find the largest multiple of divisor that fits into dividend. Subtract it and add the shifted value to quotient. Repeat until dividend < divisor.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">int divide(int dividend, int divisor) {&#10;    if(dividend == INT_MIN &amp;&amp; divisor == -1) return INT_MAX;&#10;    long long n = abs(dividend), d = abs(divisor), quotient = 0;&#10;    bool sign = (dividend &lt; 0) == (divisor &lt; 0);&#10;    while(n &gt;= d) {&#10;        long long temp = d, multiple = 1;&#10;        while(n &gt;= (temp &lt;&lt; 1)) {&#10;            temp &lt;&lt;= 1;&#10;            multiple &lt;&lt;= 1;&#10;        }&#10;        n -= temp;&#10;        quotient += multiple;&#10;    }&#10;    return sign ? quotient : -quotient;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def divide(dividend: int, divisor: int) -&gt; int:&#10;    if dividend == -2147483648 and divisor == -1: return 2147483647&#10;    n, d = abs(dividend), abs(divisor)&#10;    sign = (dividend &lt; 0) == (divisor &lt; 0)&#10;    quotient = 0&#10;    while n &gt;= d:&#10;        temp, multiple = d, 1&#10;        while n &gt;= (temp &lt;&lt; 1):&#10;            temp &lt;&lt;= 1&#10;            multiple &lt;&lt;= 1&#10;        n -= temp&#10;        quotient += multiple&#10;    return quotient if sign else -quotient</code></pre></details></td>
     </tr>
     <tr>
-      <td>19</td>
-      <td>Bit 19 Xor Queries Of A Subarray<br><br></b> <a href='https://leetcode.com/problems/xor-queries-of-a-subarray/' target='_blank'>LeetCode 1310</a></td>
+      <td>18</td>
+      <td>Bit 18 Xor Queries Of A Subarray<br><br></b> <a href='https://leetcode.com/problems/xor-queries-of-a-subarray/' target='_blank'>LeetCode 1310</a></td>
       <td><b>Example 1:</b> Prefix XOR array.</td>
       <td><b>Time:</b> O(N + Q)<br><b>Space:</b> O(N)</td>
       <td>-</td>
@@ -188,8 +179,35 @@
       <td><b>Explanation:</b> Create a prefix XOR array. Query answer for `[L, R]` is `prefix[R] ^ prefix[L-1]`. If `L == 0`, answer is `prefix[R]`.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">vector&lt;int&gt; xorQueries(vector&lt;int&gt;&amp; arr, vector&lt;vector&lt;int&gt;&gt;&amp; queries) {&#10;    vector&lt;int&gt; pref(arr.size());&#10;    pref[0] = arr[0];&#10;    for(int i=1; i&lt;arr.size(); i++) pref[i] = pref[i-1] ^ arr[i];&#10;    vector&lt;int&gt; ans;&#10;    for(auto q : queries) {&#10;        if(q[0] == 0) ans.push_back(pref[q[1]]);&#10;        else ans.push_back(pref[q[1]] ^ pref[q[0]-1]);&#10;    }&#10;    return ans;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def xorQueries(arr: List[int], queries: List[List[int]]) -&gt; List[int]:&#10;    pref = [0] * len(arr)&#10;    pref[0] = arr[0]&#10;    for i in range(1, len(arr)):&#10;        pref[i] = pref[i-1] ^ arr[i]&#10;    ans = []&#10;    for l, r in queries:&#10;        if l == 0: ans.append(pref[r])&#10;        else: ans.append(pref[r] ^ pref[l-1])&#10;    return ans</code></pre></details></td>
     </tr>
     <tr>
+      <td>19</td>
+      <td>Bit 19 Count Number Of Bits To Be Flipped To Convert A To B<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/bit-difference-1587115620/1' target='_blank'>GFG</a></td>
+      <td><b>Example 1:</b> Count set bits in XOR.</td>
+      <td><b>Time:</b> O(log(A^B))<br><b>Space:</b> O(1)</td>
+      <td>-</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Take the XOR of A and B (`A ^ B`). The number of set bits in the result is the number of bits that need to be flipped. Use Brian Kernighan's algorithm to count.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">int countBitsFlip(int a, int b){&#10;    int n = a ^ b;&#10;    int count = 0;&#10;    while(n &gt; 0) {&#10;        n = n &amp; (n - 1);&#10;        count++;&#10;    }&#10;    return count;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def countBitsFlip(a: int, b: int) -&gt; int:&#10;    n = a ^ b&#10;    count = 0&#10;    while n &gt; 0:&#10;        n &amp;= (n - 1)&#10;        count += 1&#10;    return count</code></pre></details></td>
+    </tr>
+    <tr>
       <td>20</td>
-      <td>Bit 20 Divide Two Integers Without Using Multiplication Division And Mod Operator<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/division-without-using-multiplication-division-and-mod-operator/0' target='_blank'>GFG</a></td>
+      <td>Bit 20 Program To Find Whether A No Is Power Of Two<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/power-of-2-1587115620/1' target='_blank'>GFG</a></td>
+      <td><b>Example 1:</b> Bitwise AND.</td>
+      <td><b>Time:</b> O(1)<br><b>Space:</b> O(1)</td>
+      <td>-</td>
+      <td>-</td>
+      <td><b>Explanation:</b> If `N` is a power of 2, it has only 1 set bit. `N & (N - 1)` unsets the rightmost set bit. So if `N` is a power of 2, `N & (N - 1)` will be 0.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">bool isPowerofTwo(long long n){&#10;    if(n == 0) return false;&#10;    return (n &amp; (n - 1)) == 0;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def isPowerofTwo(n: int) -&gt; bool:&#10;    if n == 0: return False&#10;    return (n &amp; (n - 1)) == 0</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>Bit 21 Power Set<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/power-set4302/1' target='_blank'>GFG</a></td>
+      <td><b>Example 1:</b> Bit manipulation (0 to 2^N - 1).</td>
+      <td><b>Time:</b> O(N * 2^N)<br><b>Space:</b> O(N * 2^N)</td>
+      <td>-</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Iterate from 1 to `(1 << n) - 1`. For each number, its binary representation indicates which characters of the string to include. Example: 011 means include 1st and 2nd char.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">vector&lt;string&gt; AllPossibleStrings(string s){&#10;    int n = s.length();&#10;    vector&lt;string&gt; res;&#10;    for(int i = 1; i &lt; (1 &lt;&lt; n); i++) {&#10;        string sub = &quot;&quot;;&#10;        for(int j = 0; j &lt; n; j++) {&#10;            if(i &amp; (1 &lt;&lt; j)) sub += s[j];&#10;        }&#10;        res.push_back(sub);&#10;    }&#10;    sort(res.begin(), res.end());&#10;    return res;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def AllPossibleStrings(s: str) -&gt; List[str]:&#10;    n = len(s)&#10;    res = []&#10;    for i in range(1, 1 &lt;&lt; n):&#10;        sub = &quot;&quot;&#10;        for j in range(n):&#10;            if i &amp; (1 &lt;&lt; j):&#10;                sub += s[j]&#10;        res.append(sub)&#10;    res.sort()&#10;    return res</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>Bit 22 Divide Two Integers Without Using Multiplication Division And Mod Operator<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/division-without-using-multiplication-division-and-mod-operator/0' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Bit shifts.</td>
       <td><b>Time:</b> O(log N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -197,58 +215,13 @@
       <td><b>Explanation:</b> Determine the sign. Work with absolute values. Keep shifting the divisor left (multiplying by 2) until it's greater than the dividend. The shift amount `i` means the divisor can be multiplied by `2^i`. Subtract `(divisor << i)` from dividend, add `2^i` to quotient. Repeat until dividend < divisor.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">long long divide(long long dividend, long long divisor) {&#10;    int sign = ((dividend &lt; 0) ^ (divisor &lt; 0)) ? -1 : 1;&#10;    dividend = abs(dividend);&#10;    divisor = abs(divisor);&#10;    long long quotient = 0, temp = 0;&#10;    for(int i = 31; i &gt;= 0; i--) {&#10;        if(temp + (divisor &lt;&lt; i) &lt;= dividend) {&#10;            temp += divisor &lt;&lt; i;&#10;            quotient |= 1LL &lt;&lt; i;&#10;        }&#10;    }&#10;    return sign * quotient;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def divide(dividend, divisor):&#10;    sign = -1 if ((dividend &lt; 0) ^ (divisor &lt; 0)) else 1&#10;    dividend, divisor = abs(dividend), abs(divisor)&#10;    quotient = 0&#10;    temp = 0&#10;    for i in range(31, -1, -1):&#10;        if temp + (divisor &lt;&lt; i) &lt;= dividend:&#10;            temp += divisor &lt;&lt; i&#10;            quotient |= 1 &lt;&lt; i&#10;    res = sign * quotient&#10;    if res &gt; 2147483647: return 2147483647&#10;    if res &lt; -2147483648: return -2147483648&#10;    return res</code></pre></details></td>
     </tr>
     <tr>
-      <td>21</td>
-      <td>Bit 21 Power Set<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/power-set4302/1' target='_blank'>GFG</a></td>
-      <td><b>Example 1:</b> Bit Manipulation.</td>
-      <td><b>Time:</b> O(2^N * N)<br><b>Space:</b> O(2^N * N)</td>
-      <td>-</td>
-      <td>-</td>
-      <td><b>Explanation:</b> Iterate from 1 to `2^N - 1`. For each number, treat its binary representation as a mask to pick characters from the string. Sort the resulting list of subsequences.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">vector&lt;string&gt; AllPossibleStrings(string s){&#10;    int n = s.length();&#10;    vector&lt;string&gt; ans;&#10;    for(int i = 1; i &lt; (1 &lt;&lt; n); i++) {&#10;        string sub = &quot;&quot;;&#10;        for(int j = 0; j &lt; n; j++) {&#10;            if(i &amp; (1 &lt;&lt; j)) sub += s[j];&#10;        }&#10;        ans.push_back(sub);&#10;    }&#10;    sort(ans.begin(), ans.end());&#10;    return ans;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def AllPossibleStrings(s):&#10;    n = len(s)&#10;    ans = []&#10;    for i in range(1, 1 &lt;&lt; n):&#10;        sub = &quot;&quot;&#10;        for j in range(n):&#10;            if i &amp; (1 &lt;&lt; j):&#10;                sub += s[j]&#10;        ans.append(sub)&#10;    ans.sort()&#10;    return ans</code></pre></details></td>
-    </tr>
-    <tr>
-      <td>22</td>
-      <td>Bit 22 Power Of 2<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/power-of-2-1587115620/1' target='_blank'>GFG</a></td>
-      <td><b>Example 1:</b> Bitwise AND.</td>
-      <td><b>Time:</b> O(1)<br><b>Space:</b> O(1)</td>
-      <td>-</td>
-      <td>-</td>
-      <td><b>Explanation:</b> If a number N is a power of 2, it has only one set bit. Thus `N & (N - 1)` will be 0. We also check if N > 0.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">bool isPowerofTwo(long long n){&#10;    if(n == 0) return false;&#10;    return (n &amp; (n - 1)) == 0;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def isPowerofTwo(n):&#10;    if n == 0: return False&#10;    return (n &amp; (n - 1)) == 0</code></pre></details></td>
-    </tr>
-    <tr>
       <td>23</td>
-      <td>Bit 23 Bit Difference<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/bit-difference-1587115620/1' target='_blank'>GFG</a></td>
-      <td><b>Example 1:</b> XOR.</td>
-      <td><b>Time:</b> O(1) or O(set bits)<br><b>Space:</b> O(1)</td>
-      <td>-</td>
-      <td>-</td>
-      <td><b>Explanation:</b> The XOR of A and B will have set bits only at positions where A and B differ. Thus, we just need to count the set bits in `A ^ B`.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">int countBitsFlip(int a, int b){&#10;    int n = a ^ b;&#10;    int count = 0;&#10;    while(n) {&#10;        count++;&#10;        n = n &amp; (n - 1);&#10;    }&#10;    return count;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def countBitsFlip(a, b):&#10;    n = a ^ b&#10;    count = 0&#10;    while n:&#10;        count += 1&#10;        n &amp;= (n - 1)&#10;    return count</code></pre></details></td>
-    </tr>
-    <tr>
-      <td>24</td>
-      <td>Bit 24 Single Number<br><br></b> <a href='https://leetcode.com/problems/single-number/' target='_blank'>LeetCode 136</a></td>
-      <td><b>Example 1:</b> XOR.</td>
-      <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
-      <td>-</td>
-      <td>-</td>
-      <td><b>Explanation:</b> XORing a number with itself gives 0. Thus, XORing all numbers in the array will cancel out all the numbers that appear twice, leaving only the single number.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">int singleNumber(vector&lt;int&gt;&amp; nums) {&#10;    int ans = 0;&#10;    for(int num : nums) ans ^= num;&#10;    return ans;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def singleNumber(nums):&#10;    ans = 0&#10;    for num in nums:&#10;        ans ^= num&#10;    return ans</code></pre></details></td>
-    </tr>
-    <tr>
-      <td>25</td>
-      <td>Bit 25 Single Number Ii<br><br></b> <a href='https://leetcode.com/problems/single-number-ii/' target='_blank'>LeetCode 137</a></td>
+      <td>Bit 23 Single Number Ii<br><br></b> <a href='https://leetcode.com/problems/single-number-ii/' target='_blank'>LeetCode 137</a></td>
       <td><b>Example 1:</b> Ones and Twos.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
       <td>-</td>
       <td><b>Explanation:</b> Maintain two variables, `ones` and `twos`. `ones` keeps track of bits appearing once, `twos` tracks bits appearing twice. When a bit appears a third time, it is cleared from both. Update logic: `ones = (ones ^ num) & ~twos`, `twos = (twos ^ num) & ~ones`.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">int singleNumber(vector&lt;int&gt;&amp; nums) {&#10;    int ones = 0, twos = 0;&#10;    for(int num : nums) {&#10;        ones = (ones ^ num) &amp; ~twos;&#10;        twos = (twos ^ num) &amp; ~ones;&#10;    }&#10;    return ones;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def singleNumber(nums):&#10;    ones, twos = 0, 0&#10;    for num in nums:&#10;        ones = (ones ^ num) &amp; ~twos&#10;        twos = (twos ^ num) &amp; ~ones&#10;    return ones</code></pre></details></td>
-    </tr>
-    <tr>
-      <td>26</td>
-      <td>Bit 26 Single Number Iii<br><br></b> <a href='https://leetcode.com/problems/single-number-iii/' target='_blank'>LeetCode 260</a></td>
-      <td><b>Example 1:</b> Rightmost set bit.</td>
-      <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
-      <td>-</td>
-      <td>-</td>
-      <td><b>Explanation:</b> XOR all elements to get `A ^ B`. The rightmost set bit in `A ^ B` means A and B differ at this bit. Use this bit to partition the array into two groups and XOR elements in each group. The results are A and B.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">vector&lt;int&gt; singleNumber(vector&lt;int&gt;&amp; nums) {&#10;    long long XOR = 0;&#10;    for(int num : nums) XOR ^= num;&#10;    int rightmost_set_bit = XOR &amp; ~(XOR - 1);&#10;    int b1 = 0, b2 = 0;&#10;    for(int num : nums) {&#10;        if(num &amp; rightmost_set_bit) b1 ^= num;&#10;        else b2 ^= num;&#10;    }&#10;    return {b1, b2};&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def singleNumber(nums):&#10;    XOR = 0&#10;    for num in nums: XOR ^= num&#10;    rightmost_set_bit = XOR &amp; ~(XOR - 1)&#10;    b1, b2 = 0, 0&#10;    for num in nums:&#10;        if num &amp; rightmost_set_bit:&#10;            b1 ^= num&#10;        else:&#10;            b2 ^= num&#10;    return [b1, b2]</code></pre></details></td>
     </tr>
   </tbody>
 </table>

@@ -7,4 +7,6 @@ Given an integer n, return true if it is a power of two. Otherwise, return false
 <b>Example 1:</b> Bit Manipulation.
 
 ## Tags
+- Striver_A_Z
+- SDE_Sheet
 - Love_Babbar

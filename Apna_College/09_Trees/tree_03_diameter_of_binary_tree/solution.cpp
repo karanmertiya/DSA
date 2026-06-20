@@ -1,17 +1,17 @@
 // Time Complexity: O(N)
-// Space Complexity: O(H)
-// Explanation: Modify the standard Height of Binary Tree DFS. Compute left height and right height. At each node, the diameter passing through it is `left + right`. Track the max.
+// Space Complexity: O(N)
+// Explanation: Modify the Height/Depth algorithm. Calculate `left_depth + right_depth` at every node to find max diameter, while returning standard height.
 
-int diameterOfBinaryTree(TreeNode* root) {
-    int diameter = 0;
-    height(root, diameter);
-    return diameter;
-}
-int height(TreeNode* node, int& diameter) {
+int height(TreeNode* node, int& max_d) {
     if(!node) return 0;
-    int lh = height(node->left, diameter);
-    int rh = height(node->right, diameter);
-    diameter = max(diameter, lh + rh);
-    return 1 + max(lh, rh);
+    int left = height(node->left, max_d);
+    int right = height(node->right, max_d);
+    max_d = std::max(max_d, left + right);
+    return 1 + std::max(left, right);
+}
+int diameterOfBinaryTree(TreeNode* root) {
+    int max_d = 0;
+    height(root, max_d);
+    return max_d;
 }
 

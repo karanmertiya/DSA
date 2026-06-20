@@ -18,16 +18,25 @@
   <tbody>
     <tr>
       <td>1</td>
-      <td>Hash 01 Count Frequencies<br><br></b> <a href='https://www.geeksforgeeks.org/problems/frequency-of-array-elements-1587115620/1' target='_blank'>GeeksforGeeks</a></td>
+      <td>Arr 01 Subarray With 0 Sum<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/subarray-with-0-sum-1587115621/1' target='_blank'>GFG</a></td>
+      <td><b>Example 1:</b> Prefix Sum with HashSet.</td>
+      <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
+      <td>Hash Set</td>
+      <td>-</td>
+      <td><b>Explanation:</b> Iterate through the array and calculate the prefix sum. If the prefix sum is 0 or it already exists in a hash set, it means a subarray with sum 0 exists.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">bool subArrayExists(int arr[], int n) {&#10;    unordered_set&lt;int&gt; sumSet;&#10;    int sum = 0;&#10;    for(int i = 0; i &lt; n; i++) {&#10;        sum += arr[i];&#10;        if(sum == 0 || sumSet.find(sum) != sumSet.end()) return true;&#10;        sumSet.insert(sum);&#10;    }&#10;    return false;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def subArrayExists(arr, n):&#10;    sumSet = set()&#10;    curr_sum = 0&#10;    for num in arr:&#10;        curr_sum += num&#10;        if curr_sum == 0 or curr_sum in sumSet:&#10;            return True&#10;        sumSet.add(curr_sum)&#10;    return False</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Hash 02 Count Frequencies<br><br></b> <a href='https://www.geeksforgeeks.org/problems/frequency-of-array-elements-1587115620/1' target='_blank'>GeeksforGeeks</a></td>
       <td><b>Example 1:</b> Input: arr = [10, 5, 10, 15, 10, 5], Output: 10->3, 5->2, 15->1<br><br><b>Note (Constraint):</b> 1 &le; N &le; 10<sup>5</sup></td>
       <td><b>Time:</b> O(N<sup>2</sup>) (Trade-off)<br><b>Space:</b> O(N) (Trade-off)</td>
       <td>-</td>
       <td><b>Marking Checked:</b> Requires mutating array or extra boolean array to track checked elements.</td>
-      <td><b>Explanation:</b> Use two nested loops to count occurrences. Mark visited elements to avoid recounting.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">#include &lt;vector&gt;&#10;#include &lt;iostream&gt;&#10;&#10;void countFreqBrute(std::vector&lt;int&gt;&amp; arr) {&#10;    std::vector&lt;bool&gt; visited(arr.size(), false);&#10;    for(int i=0; i&lt;arr.size(); i++) {&#10;        if(visited[i]) continue;&#10;        int count = 1;&#10;        for(int j=i+1; j&lt;arr.size(); j++) {&#10;            if(arr[i] == arr[j]) {&#10;                visited[j] = true;&#10;                count++;&#10;            }&#10;        }&#10;    }&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def count_freq_brute(arr: list[int]) -&gt; None:&#10;    visited = [False] * len(arr)&#10;    for i in range(len(arr)):&#10;        if visited[i]: continue&#10;        count = 1&#10;        for j in range(i+1, len(arr)):&#10;            if arr[i] == arr[j]:&#10;                visited[j] = True&#10;                count += 1</code></pre></details></td>
+      <td><b>Explanation:</b> Use two nested loops to count occurrences. Mark visited elements to avoid recounting.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">#include &lt;vector&gt;\n#include &lt;iostream&gt;\n\n#include &lt;unordered_map&gt;\nvoid countFreq(std::vector&lt;int&gt;&amp; arr) {\n    std::unordered_map&lt;int, int&gt; freq;\n    for(int num : arr) {\n        freq[num]++;\n    }\n    for(auto it : freq) {\n        std::cout &lt;&lt; it.first &lt;&lt; \&quot; \&quot; &lt;&lt; it.second &lt;&lt; \&quot;\\n\&quot;;\n    }\n}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def count_freq(arr: list[int]) -&gt; None:\n    freq = {}\n    for num in arr:\n        freq[num] = freq.get(num, 0) + 1\n    for key, val in freq.items():\n        print(f&#x27;{key} {val}&#x27;)</code></pre></details></td>
     </tr>
     <tr>
-      <td>2</td>
-      <td>Hash 02 Highest Lowest Frequency<br><br></b> <a href='https://leetcode.com/problems/sort-array-by-increasing-frequency/' target='_blank'>LeetCode 1636</a></td>
+      <td>3</td>
+      <td>Hash 03 Highest Lowest Frequency<br><br></b> <a href='https://leetcode.com/problems/sort-array-by-increasing-frequency/' target='_blank'>LeetCode 1636</a></td>
       <td><b>Example 1:</b> Input: arr = [10, 5, 10, 15, 10, 5], Output: Highest=10, Lowest=15<br><br><b>Note (Constraint):</b> 1 &le; N &le; 10<sup>5</sup></td>
       <td><b>Time:</b> O(N) (Constraint)<br><b>Space:</b> O(N) (Trade-off)</td>
       <td><code>std::unordered_map</code></td>
@@ -35,8 +44,8 @@
       <td><b>Explanation:</b> Build a frequency map, then iterate through the map to find the max and min frequencies.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">#include &lt;vector&gt;&#10;#include &lt;unordered_map&gt;&#10;#include &lt;climits&gt;&#10;#include &lt;algorithm&gt;&#10;&#10;void findHighLowFreq(std::vector&lt;int&gt;&amp; arr) {&#10;    std::unordered_map&lt;int, int&gt; freq;&#10;    for(int num : arr) freq[num]++;&#10;    &#10;    int max_f = 0, min_f = INT_MAX;&#10;    int max_ele = 0, min_ele = 0;&#10;    &#10;    for(auto it : freq) {&#10;        if(it.second &gt; max_f) { max_f = it.second; max_ele = it.first; }&#10;        if(it.second &lt; min_f) { min_f = it.second; min_ele = it.first; }&#10;    }&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def find_high_low_freq(arr: list[int]) -&gt; tuple:&#10;    freq = {}&#10;    for num in arr:&#10;        freq[num] = freq.get(num, 0) + 1&#10;    &#10;    max_f, min_f = 0, float(&#x27;inf&#x27;)&#10;    max_ele, min_ele = 0, 0&#10;    &#10;    for ele, count in freq.items():&#10;        if count &gt; max_f:&#10;            max_f, max_ele = count, ele&#10;        if count &lt; min_f:&#10;            min_f, min_ele = count, ele&#10;    return max_ele, min_ele</code></pre></details></td>
     </tr>
     <tr>
-      <td>3</td>
-      <td>Hash 03 Intersection Of Two Arrays<br><br></b> <a href='https://leetcode.com/problems/intersection-of-two-arrays/' target='_blank'>LeetCode 349</a></td>
+      <td>4</td>
+      <td>Hash 04 Intersection Of Two Arrays<br><br></b> <a href='https://leetcode.com/problems/intersection-of-two-arrays/' target='_blank'>LeetCode 349</a></td>
       <td><b>Example 1:</b> Input: nums1 = [1,2,2,1], nums2 = [2,2], Output: [2]<br><br><b>Note (Constraint):</b> 1 &le; N, M &le; 1000</td>
       <td><b>Time:</b> O(N + M) (Constraint)<br><b>Space:</b> O(N) (Trade-off)</td>
       <td><code>std::unordered_set</code> / <code>set()</code></td>
@@ -44,8 +53,8 @@
       <td><b>Explanation:</b> Store elements of the first array in a Hash Set, then iterate over the second array to find matches.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">#include &lt;vector&gt;&#10;#include &lt;unordered_set&gt;&#10;&#10;std::vector&lt;int&gt; intersection(std::vector&lt;int&gt;&amp; nums1, std::vector&lt;int&gt;&amp; nums2) {&#10;    std::unordered_set&lt;int&gt; s(nums1.begin(), nums1.end());&#10;    std::vector&lt;int&gt; res;&#10;    for(int num : nums2) {&#10;        if(s.find(num) != s.end()) {&#10;            res.push_back(num);&#10;            s.erase(num); // Ensure uniqueness&#10;        }&#10;    }&#10;    return res;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def intersection(nums1: list[int], nums2: list[int]) -&gt; list[int]:&#10;    set1 = set(nums1)&#10;    res = []&#10;    for num in nums2:&#10;        if num in set1:&#10;            res.append(num)&#10;            set1.remove(num) # Ensure uniqueness&#10;    return res</code></pre></details></td>
     </tr>
     <tr>
-      <td>4</td>
-      <td>Hash 04 Union Of Two Arrays<br><br></b> <a href='https://www.geeksforgeeks.org/problems/union-of-two-arrays3538/1' target='_blank'>GeeksforGeeks</a></td>
+      <td>5</td>
+      <td>Hash 05 Union Of Two Arrays<br><br></b> <a href='https://www.geeksforgeeks.org/problems/union-of-two-arrays3538/1' target='_blank'>GeeksforGeeks</a></td>
       <td><b>Example 1:</b> Input: a = [1, 2, 3], b = [2, 3, 4], Output: [1, 2, 3, 4]<br><br><b>Note (Constraint):</b> Arrays may not be sorted.</td>
       <td><b>Time:</b> O(N + M) (Constraint)<br><b>Space:</b> O(N + M) (Trade-off)</td>
       <td><code>std::unordered_set</code> / <code>set()</code></td>
@@ -53,8 +62,8 @@
       <td><b>Explanation:</b> Insert all elements from both arrays into a Hash Set. The Set natively drops duplicates.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">#include &lt;vector&gt;&#10;#include &lt;unordered_set&gt;&#10;&#10;std::vector&lt;int&gt; findUnion(std::vector&lt;int&gt;&amp; a, std::vector&lt;int&gt;&amp; b) {&#10;    std::unordered_set&lt;int&gt; s;&#10;    for(int num : a) s.insert(num);&#10;    for(int num : b) s.insert(num);&#10;    &#10;    std::vector&lt;int&gt; res(s.begin(), s.end());&#10;    return res;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def find_union(a: list[int], b: list[int]) -&gt; list[int]:&#10;    # Set union operator implicitly merges and drops duplicates&#10;    s = set(a) | set(b)&#10;    return list(s)</code></pre></details></td>
     </tr>
     <tr>
-      <td>5</td>
-      <td>Hash 05 Subarray With 0 Sum<br><br></b> <a href='https://www.geeksforgeeks.org/problems/subarray-with-0-sum-1587115621/1' target='_blank'>GeeksforGeeks</a></td>
+      <td>6</td>
+      <td>Hash 06 Subarray With 0 Sum<br><br></b> <a href='https://www.geeksforgeeks.org/problems/subarray-with-0-sum-1587115621/1' target='_blank'>GeeksforGeeks</a></td>
       <td><b>Example 1:</b> Input: arr = [4, 2, -3, 1, 6], Output: true (2, -3, 1)<br><br><b>Note (Constraint):</b> Array contains positive and negative integers.</td>
       <td><b>Time:</b> O(N) (Constraint)<br><b>Space:</b> O(N) (Trade-off)</td>
       <td><code>std::unordered_set</code></td>
@@ -62,8 +71,8 @@
       <td><b>Explanation:</b> Use a Prefix Sum and a Hash Set. If a prefix sum repeats, or equals 0, a 0-sum subarray exists between the identical prefix sums.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">#include &lt;vector&gt;&#10;#include &lt;unordered_set&gt;&#10;&#10;bool hasZeroSumSubarray(std::vector&lt;int&gt;&amp; arr) {&#10;    std::unordered_set&lt;int&gt; prefix_sums;&#10;    int sum = 0;&#10;    for(int num : arr) {&#10;        sum += num;&#10;        if(sum == 0 || prefix_sums.find(sum) != prefix_sums.end()) {&#10;            return true;&#10;        }&#10;        prefix_sums.insert(sum);&#10;    }&#10;    return false;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def has_zero_sum_subarray(arr: list[int]) -&gt; bool:&#10;    prefix_sums = set()&#10;    curr_sum = 0&#10;    for num in arr:&#10;        curr_sum += num&#10;        if curr_sum == 0 or curr_sum in prefix_sums:&#10;            return True&#10;        prefix_sums.add(curr_sum)&#10;    return False</code></pre></details></td>
     </tr>
     <tr>
-      <td>6</td>
-      <td>Hash 06 Subarray Sum Equals K<br><br></b> <a href='https://leetcode.com/problems/subarray-sum-equals-k/' target='_blank'>LeetCode 560</a></td>
+      <td>7</td>
+      <td>Hash 07 Subarray Sum Equals K<br><br></b> <a href='https://leetcode.com/problems/subarray-sum-equals-k/' target='_blank'>LeetCode 560</a></td>
       <td><b>Example 1:</b> Input: nums = [1,1,1], k = 2, Output: 2<br><br><b>Note (Constraint):</b> Negative numbers allowed, preventing pure Sliding Window approaches.</td>
       <td><b>Time:</b> O(N) (Constraint)<br><b>Space:</b> O(N) (Trade-off)</td>
       <td><code>std::unordered_map</code></td>
@@ -71,8 +80,8 @@
       <td><b>Explanation:</b> Maintain a Hash Map of `prefix_sum` -> `frequency`. If `curr_sum - k` exists in the map, add its frequency to the count.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">#include &lt;vector&gt;&#10;#include &lt;unordered_map&gt;&#10;&#10;int subarraySum(std::vector&lt;int&gt;&amp; nums, int k) {&#10;    std::unordered_map&lt;int, int&gt; prefix_freq;&#10;    prefix_freq[0] = 1; // Base case for subarrays starting at index 0&#10;    &#10;    int count = 0, sum = 0;&#10;    for(int num : nums) {&#10;        sum += num;&#10;        int remove = sum - k;&#10;        if(prefix_freq.find(remove) != prefix_freq.end()) {&#10;            count += prefix_freq[remove];&#10;        }&#10;        prefix_freq[sum]++;&#10;    }&#10;    return count;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def subarray_sum(nums: list[int], k: int) -&gt; int:&#10;    prefix_freq = {0: 1}&#10;    count = 0&#10;    curr_sum = 0&#10;    for num in nums:&#10;        curr_sum += num&#10;        remove = curr_sum - k&#10;        if remove in prefix_freq:&#10;            count += prefix_freq[remove]&#10;        prefix_freq[curr_sum] = prefix_freq.get(curr_sum, 0) + 1&#10;    return count</code></pre></details></td>
     </tr>
     <tr>
-      <td>7</td>
-      <td>Hash 07 Longest Subarray With 0 Sum<br><br></b> <a href='https://www.geeksforgeeks.org/problems/largest-subarray-with-0-sum/1' target='_blank'>GeeksforGeeks</a></td>
+      <td>8</td>
+      <td>Hash 08 Longest Subarray With 0 Sum<br><br></b> <a href='https://www.geeksforgeeks.org/problems/largest-subarray-with-0-sum/1' target='_blank'>GeeksforGeeks</a></td>
       <td><b>Example 1:</b> Input: arr = [15,-2,2,-8,1,7,10,23], Output: 5<br><br><b>Note (Constraint):</b> 1 &le; N &le; 10<sup>5</sup></td>
       <td><b>Time:</b> O(N) (Constraint)<br><b>Space:</b> O(N) (Trade-off)</td>
       <td><code>std::unordered_map</code></td>
@@ -80,8 +89,8 @@
       <td><b>Explanation:</b> Store `prefix_sum` -> `index` in Hash Map. If sum repeats, calculate distance `i - hash[sum]`.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">#include &lt;vector&gt;&#10;#include &lt;unordered_map&gt;&#10;#include &lt;algorithm&gt;&#10;&#10;int maxLen(std::vector&lt;int&gt;&amp; arr) {&#10;    std::unordered_map&lt;int, int&gt; prefix_index;&#10;    int max_len = 0, sum = 0;&#10;    for(int i = 0; i &lt; arr.size(); i++) {&#10;        sum += arr[i];&#10;        if(sum == 0) {&#10;            max_len = i + 1;&#10;        } else if(prefix_index.find(sum) != prefix_index.end()) {&#10;            max_len = std::max(max_len, i - prefix_index[sum]);&#10;        } else {&#10;            prefix_index[sum] = i; // Store only first occurrence&#10;        }&#10;    }&#10;    return max_len;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def max_len(arr: list[int]) -&gt; int:&#10;    prefix_index = {}&#10;    max_len = sum = 0&#10;    for i, num in enumerate(arr):&#10;        sum += num&#10;        if sum == 0:&#10;            max_len = i + 1&#10;        elif sum in prefix_index:&#10;            max_len = max(max_len, i - prefix_index[sum])&#10;        else:&#10;            prefix_index[sum] = i&#10;    return max_len</code></pre></details></td>
     </tr>
     <tr>
-      <td>8</td>
-      <td>Hash 08 Longest Subarray With Sum K<br><br></b> <a href='https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1' target='_blank'>GeeksforGeeks</a></td>
+      <td>9</td>
+      <td>Hash 09 Longest Subarray With Sum K<br><br></b> <a href='https://www.geeksforgeeks.org/problems/longest-sub-array-with-sum-k0809/1' target='_blank'>GeeksforGeeks</a></td>
       <td><b>Example 1:</b> Input: arr = [10, 5, 2, 7, 1, 9], k = 15, Output: 4<br><br><b>Note (Constraint):</b> 1 &le; N &le; 10<sup>5</sup></td>
       <td><b>Time:</b> O(N) (Constraint)<br><b>Space:</b> O(N) (Trade-off)</td>
       <td><code>std::unordered_map</code></td>
@@ -89,8 +98,8 @@
       <td><b>Explanation:</b> Prefix Sum Map storing indices. Check if `sum - K` exists in map and calculate index difference.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">#include &lt;vector&gt;&#10;#include &lt;unordered_map&gt;&#10;#include &lt;algorithm&gt;&#10;&#10;int lenOfLongSubarr(std::vector&lt;int&gt;&amp; arr, int k) {&#10;    std::unordered_map&lt;long long, int&gt; prefix_index;&#10;    int max_len = 0;&#10;    long long sum = 0;&#10;    for(int i = 0; i &lt; arr.size(); i++) {&#10;        sum += arr[i];&#10;        if(sum == k) {&#10;            max_len = i + 1;&#10;        }&#10;        long long needed = sum - k;&#10;        if(prefix_index.find(needed) != prefix_index.end()) {&#10;            max_len = std::max(max_len, i - prefix_index[needed]);&#10;        }&#10;        if(prefix_index.find(sum) == prefix_index.end()) {&#10;            prefix_index[sum] = i;&#10;        }&#10;    }&#10;    return max_len;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def len_of_long_subarr(arr: list[int], k: int) -&gt; int:&#10;    prefix_index = {}&#10;    max_len = sum = 0&#10;    for i, num in enumerate(arr):&#10;        sum += num&#10;        if sum == k:&#10;            max_len = i + 1&#10;        needed = sum - k&#10;        if needed in prefix_index:&#10;            max_len = max(max_len, i - prefix_index[needed])&#10;        if sum not in prefix_index:&#10;            prefix_index[sum] = i&#10;    return max_len</code></pre></details></td>
     </tr>
     <tr>
-      <td>9</td>
-      <td>Hash 09 Two Sum<br><br></b> <a href='https://leetcode.com/problems/two-sum/' target='_blank'>LeetCode 1</a></td>
+      <td>10</td>
+      <td>Hash 10 Two Sum<br><br></b> <a href='https://leetcode.com/problems/two-sum/' target='_blank'>LeetCode 1</a></td>
       <td><b>Example 1:</b> Input: nums = [2,7,11,15], target = 9, Output: [0,1]</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
       <td><code>std::unordered_map</code></td>
@@ -98,8 +107,8 @@
       <td><b>Explanation:</b> Iterate while storing numbers and their indices in a hash map. Check if `target - num` already exists.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">#include &lt;vector&gt;&#10;#include &lt;unordered_map&gt;&#10;std::vector&lt;int&gt; twoSum(std::vector&lt;int&gt;&amp; nums, int target) {&#10;    std::unordered_map&lt;int, int&gt; mpp;&#10;    for(int i = 0; i &lt; nums.size(); i++) {&#10;        int needed = target - nums[i];&#10;        if(mpp.find(needed) != mpp.end()) {&#10;            return {mpp[needed], i};&#10;        }&#10;        mpp[nums[i]] = i;&#10;    }&#10;    return {};&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def twoSum(nums: list[int], target: int) -&gt; list[int]:&#10;    mpp = {}&#10;    for i, num in enumerate(nums):&#10;        needed = target - num&#10;        if needed in mpp:&#10;            return [mpp[needed], i]&#10;        mpp[num] = i&#10;    return []</code></pre></details></td>
     </tr>
     <tr>
-      <td>10</td>
-      <td>Hash 10 Group Anagrams<br><br></b> <a href='https://leetcode.com/problems/group-anagrams/' target='_blank'>LeetCode 49</a></td>
+      <td>11</td>
+      <td>Hash 11 Group Anagrams<br><br></b> <a href='https://leetcode.com/problems/group-anagrams/' target='_blank'>LeetCode 49</a></td>
       <td><b>Example 1:</b> Input: strs = ["eat","tea","tan","ate","nat","bat"], Output: [["bat"],["nat","tan"],["ate","eat","tea"]]</td>
       <td><b>Time:</b> O(N * K log K)<br><b>Space:</b> O(N * K)</td>
       <td><code>std::unordered_map</code>, <code>std::sort</code></td>
@@ -107,22 +116,13 @@
       <td><b>Explanation:</b> Use a hash map where the key is the sorted version of the string, and the value is a list of anagrams.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">#include &lt;vector&gt;&#10;#include &lt;string&gt;&#10;#include &lt;unordered_map&gt;&#10;#include &lt;algorithm&gt;&#10;std::vector&lt;std::vector&lt;std::string&gt;&gt; groupAnagrams(std::vector&lt;std::string&gt;&amp; strs) {&#10;    std::unordered_map&lt;std::string, std::vector&lt;std::string&gt;&gt; mpp;&#10;    for(std::string s : strs) {&#10;        std::string key = s;&#10;        std::sort(key.begin(), key.end());&#10;        mpp[key].push_back(s);&#10;    }&#10;    std::vector&lt;std::vector&lt;std::string&gt;&gt; ans;&#10;    for(auto it : mpp) {&#10;        ans.push_back(it.second);&#10;    }&#10;    return ans;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">from collections import defaultdict&#10;def groupAnagrams(strs: list[str]) -&gt; list[list[str]]:&#10;    mpp = defaultdict(list)&#10;    for s in strs:&#10;        mpp[tuple(sorted(s))].append(s)&#10;    return list(mpp.values())</code></pre></details></td>
     </tr>
     <tr>
-      <td>11</td>
-      <td>Hash 11 Longest Consecutive Sequence<br><br></b> <a href='https://leetcode.com/problems/longest-consecutive-sequence/' target='_blank'>LeetCode 128</a></td>
+      <td>12</td>
+      <td>Hash 12 Longest Consecutive Sequence<br><br></b> <a href='https://leetcode.com/problems/longest-consecutive-sequence/' target='_blank'>LeetCode 128</a></td>
       <td><b>Example 1:</b> Input: nums = [100,4,200,1,3,2], Output: 4 (The sequence is [1, 2, 3, 4])</td>
       <td><b>Time:</b> O(N) (Constraint)<br><b>Space:</b> O(N)</td>
       <td><code>std::unordered_set</code></td>
       <td><b>Duplicate Elements:</b> Handled automatically by the Set.</td>
       <td><b>Explanation:</b> Insert all elements into a Hash Set. Iterate through elements. If `num - 1` is NOT in the set, it's the start of a sequence. Count forwards.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">#include &lt;vector&gt;&#10;#include &lt;unordered_set&gt;&#10;#include &lt;algorithm&gt;&#10;int longestConsecutive(std::vector&lt;int&gt;&amp; nums) {&#10;    std::unordered_set&lt;int&gt; st(nums.begin(), nums.end());&#10;    int max_len = 0;&#10;    for(int num : st) {&#10;        if(st.find(num - 1) == st.end()) {&#10;            int curr_num = num;&#10;            int curr_len = 1;&#10;            while(st.find(curr_num + 1) != st.end()) {&#10;                curr_num++;&#10;                curr_len++;&#10;            }&#10;            max_len = std::max(max_len, curr_len);&#10;        }&#10;    }&#10;    return max_len;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def longestConsecutive(nums: list[int]) -&gt; int:&#10;    num_set = set(nums)&#10;    max_len = 0&#10;    for num in num_set:&#10;        if num - 1 not in num_set:&#10;            curr_num = num&#10;            curr_len = 1&#10;            while curr_num + 1 in num_set:&#10;                curr_num += 1&#10;                curr_len += 1&#10;            max_len = max(max_len, curr_len)&#10;    return max_len</code></pre></details></td>
-    </tr>
-    <tr>
-      <td>12</td>
-      <td>Hash 12 Subarray With 0 Sum<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/subarray-with-0-sum-1587115621/1' target='_blank'>GFG</a></td>
-      <td><b>Example 1:</b> Hash Set.</td>
-      <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
-      <td>Hash Set</td>
-      <td>-</td>
-      <td><b>Explanation:</b> Maintain the prefix sum. If the current prefix sum is 0, or if it has been seen before (stored in a Hash Set), then a subarray with 0 sum exists.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">bool subArrayExists(int arr[], int n) {&#10;    unordered_set&lt;int&gt; s;&#10;    int sum = 0;&#10;    for(int i = 0; i &lt; n; i++) {&#10;        sum += arr[i];&#10;        if(sum == 0 || s.find(sum) != s.end()) return true;&#10;        s.insert(sum);&#10;    }&#10;    return false;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def subArrayExists(arr, n):&#10;    s = set()&#10;    sum_val = 0&#10;    for num in arr:&#10;        sum_val += num&#10;        if sum_val == 0 or sum_val in s: return True&#10;        s.add(sum_val)&#10;    return False</code></pre></details></td>
     </tr>
     <tr>
       <td>13</td>
@@ -132,42 +132,6 @@
       <td>Hash Map</td>
       <td>-</td>
       <td><b>Explanation:</b> Maintain the prefix sum and a hash map storing the first occurrence index of each prefix sum. If sum is 0, length is `i+1`. If sum is in the map, length is `i - map[sum]`. Update max length.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">int maxLen(vector&lt;int&gt;&amp; A, int n) {&#10;    unordered_map&lt;int, int&gt; m;&#10;    int maxi = 0, sum = 0;&#10;    for(int i = 0; i &lt; n; i++) {&#10;        sum += A[i];&#10;        if(sum == 0) maxi = i + 1;&#10;        else {&#10;            if(m.find(sum) != m.end()) {&#10;                maxi = max(maxi, i - m[sum]);&#10;            } else {&#10;                m[sum] = i;&#10;            }&#10;        }&#10;    }&#10;    return maxi;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def maxLen(n, arr):&#10;    m = {}&#10;    maxi, sum_val = 0, 0&#10;    for i in range(n):&#10;        sum_val += arr[i]&#10;        if sum_val == 0: maxi = i + 1&#10;        else:&#10;            if sum_val in m:&#10;                maxi = max(maxi, i - m[sum_val])&#10;            else:&#10;                m[sum_val] = i&#10;    return maxi</code></pre></details></td>
-    </tr>
-    <tr>
-      <td>14</td>
-      <td>Hash 14 Two Sum<br><br></b> <a href='https://leetcode.com/problems/two-sum/' target='_blank'>LeetCode 1</a></td>
-      <td><b>Example 1:</b> Hash Map.</td>
-      <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
-      <td>Hash Map</td>
-      <td>-</td>
-      <td><b>Explanation:</b> Use a hash map to store `value -> index`. Iterate through array, check if `target - nums[i]` exists in map. If yes, return current index and mapped index. Else, store current value and index.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">vector&lt;int&gt; twoSum(vector&lt;int&gt;&amp; nums, int target) {&#10;    unordered_map&lt;int, int&gt; m;&#10;    for(int i = 0; i &lt; nums.size(); i++) {&#10;        if(m.find(target - nums[i]) != m.end()) {&#10;            return {m[target - nums[i]], i};&#10;        }&#10;        m[nums[i]] = i;&#10;    }&#10;    return {};&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def twoSum(nums, target):&#10;    m = {}&#10;    for i, num in enumerate(nums):&#10;        if target - num in m:&#10;            return [m[target - num], i]&#10;        m[num] = i&#10;    return []</code></pre></details></td>
-    </tr>
-    <tr>
-      <td>15</td>
-      <td>Hash 15 Count Subarrays With Given Xor<br><br></b> <a href='https://www.interviewbit.com/problems/subarray-with-given-xor/' target='_blank'>InterviewBit</a></td>
-      <td><b>Example 1:</b> Hash Map.</td>
-      <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
-      <td>Hash Map</td>
-      <td>-</td>
-      <td><b>Explanation:</b> Maintain prefix XOR. Use hash map to store prefix XOR frequencies. If current XOR is `xr`, we need a previous XOR `xr ^ B`. Add its frequency to count. Insert `xr` to map.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">int solve(vector&lt;int&gt; &amp;A, int B) {&#10;    unordered_map&lt;int, int&gt; m;&#10;    int xr = 0, count = 0;&#10;    for(int i = 0; i &lt; A.size(); i++) {&#10;        xr ^= A[i];&#10;        if(xr == B) count++;&#10;        if(m.find(xr ^ B) != m.end()) {&#10;            count += m[xr ^ B];&#10;        }&#10;        m[xr]++;&#10;    }&#10;    return count;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def solve(A, B):&#10;    m = {}&#10;    xr, count = 0, 0&#10;    for num in A:&#10;        xr ^= num&#10;        if xr == B: count += 1&#10;        if xr ^ B in m:&#10;            count += m[xr ^ B]&#10;        m[xr] = m.get(xr, 0) + 1&#10;    return count</code></pre></details></td>
-    </tr>
-    <tr>
-      <td>16</td>
-      <td>Hash 16 Longest Consecutive Sequence<br><br></b> <a href='https://leetcode.com/problems/longest-consecutive-sequence/' target='_blank'>LeetCode 128</a></td>
-      <td><b>Example 1:</b> Hash Set.</td>
-      <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
-      <td>Hash Set</td>
-      <td>-</td>
-      <td><b>Explanation:</b> Insert all elements into a hash set. Iterate through the set. If `x - 1` is not in the set, `x` is the start of a sequence. Count consecutive elements `x + 1`, `x + 2`... Update max length.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">int longestConsecutive(vector&lt;int&gt;&amp; nums) {&#10;    unordered_set&lt;int&gt; s(nums.begin(), nums.end());&#10;    int maxLen = 0;&#10;    for(int num : s) {&#10;        if(s.find(num - 1) == s.end()) {&#10;            int currNum = num;&#10;            int currLen = 1;&#10;            while(s.find(currNum + 1) != s.end()) {&#10;                currNum++;&#10;                currLen++;&#10;            }&#10;            maxLen = max(maxLen, currLen);&#10;        }&#10;    }&#10;    return maxLen;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def longestConsecutive(nums):&#10;    s = set(nums)&#10;    max_len = 0&#10;    for num in s:&#10;        if num - 1 not in s:&#10;            curr_num, curr_len = num, 1&#10;            while curr_num + 1 in s:&#10;                curr_num += 1&#10;                curr_len += 1&#10;            max_len = max(max_len, curr_len)&#10;    return max_len</code></pre></details></td>
-    </tr>
-    <tr>
-      <td>17</td>
-      <td>Hash 17 4Sum<br><br></b> <a href='https://leetcode.com/problems/4sum/' target='_blank'>LeetCode 18</a></td>
-      <td><b>Example 1:</b> Sort + Two Pointers.</td>
-      <td><b>Time:</b> O(N^3)<br><b>Space:</b> O(1)</td>
-      <td>-</td>
-      <td>Integer overflow for sum</td>
-      <td><b>Explanation:</b> Sort array. Use nested loops for first two elements. Use two pointers for the remaining two. Skip duplicates to ensure unique quadruplets.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">vector&lt;vector&lt;int&gt;&gt; fourSum(vector&lt;int&gt;&amp; nums, int target) {&#10;    vector&lt;vector&lt;int&gt;&gt; ans;&#10;    sort(nums.begin(), nums.end());&#10;    int n = nums.size();&#10;    for(int i = 0; i &lt; n; i++) {&#10;        if(i &gt; 0 &amp;&amp; nums[i] == nums[i-1]) continue;&#10;        for(int j = i + 1; j &lt; n; j++) {&#10;            if(j &gt; i + 1 &amp;&amp; nums[j] == nums[j-1]) continue;&#10;            int low = j + 1, high = n - 1;&#10;            while(low &lt; high) {&#10;                long long sum = (long long)nums[i] + nums[j] + nums[low] + nums[high];&#10;                if(sum == target) {&#10;                    ans.push_back({nums[i], nums[j], nums[low], nums[high]});&#10;                    while(low &lt; high &amp;&amp; nums[low] == nums[low+1]) low++;&#10;                    while(low &lt; high &amp;&amp; nums[high] == nums[high-1]) high--;&#10;                    low++; high--;&#10;                } else if(sum &lt; target) low++;&#10;                else high--;&#10;            }&#10;        }&#10;    }&#10;    return ans;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def fourSum(nums, target):&#10;    nums.sort()&#10;    ans = []&#10;    n = len(nums)&#10;    for i in range(n):&#10;        if i &gt; 0 and nums[i] == nums[i-1]: continue&#10;        for j in range(i + 1, n):&#10;            if j &gt; i + 1 and nums[j] == nums[j-1]: continue&#10;            low, high = j + 1, n - 1&#10;            while low &lt; high:&#10;                total = nums[i] + nums[j] + nums[low] + nums[high]&#10;                if total == target:&#10;                    ans.append([nums[i], nums[j], nums[low], nums[high]])&#10;                    while low &lt; high and nums[low] == nums[low+1]: low += 1&#10;                    while low &lt; high and nums[high] == nums[high-1]: high -= 1&#10;                    low += 1; high -= 1&#10;                elif total &lt; target: low += 1&#10;                else: high -= 1&#10;    return ans</code></pre></details></td>
     </tr>
   </tbody>
 </table>

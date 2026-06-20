@@ -8,5 +8,5 @@ Given an array of integers nums and an integer target, return indices of the two
 
 ## Tags
 - Striver_A_Z
-- Love_Babbar
 - SDE_Sheet
+- Love_Babbar

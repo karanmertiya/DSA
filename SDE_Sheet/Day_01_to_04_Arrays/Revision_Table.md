@@ -18,7 +18,16 @@
   <tbody>
     <tr>
       <td>1</td>
-      <td>Arr 01 Largest Element<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/largest-element-in-array/1' target='_blank'>GFG</a></td>
+      <td>Bit 01 Single Number<br><br></b> <a href='https://leetcode.com/problems/single-number/' target='_blank'>LeetCode 136</a><br><br><b>Variants:</b><br>- What if elements are sorted? (Can use Binary Search `O(log N)` Time).<br>- What if elements are strictly positive? (Can use Array mapping if constraints allow).</td>
+      <td><b>Example 1:</b> Input: nums = [4,1,2,1,2], Output: 4<br><br><b>Note (Constraint):</b> 1 &le; N &le; 3 * 10<sup>4</sup><br>-3 * 10<sup>4</sup> &le; nums[i] &le; 3 * 10<sup>4</sup></td>
+      <td><b>Time:</b> O(N) (Constraint)<br><b>Space:</b> O(N) (Trade-off)</td>
+      <td><b>Data Structure:</b><br><code>std::unordered_map</code> / <code>dict</code></td>
+      <td><b>Memory Heavy:</b> Fails optimal space constraint due to dynamic hash mapping allocation.</td>
+      <td><b>Explanation:</b> Use a Hash Map to count occurrences. Return the element with count 1.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">#include &lt;vector&gt;&#10;&#10;int singleNumber(std::vector&lt;int&gt;&amp; nums) {&#10;    int ans = 0;&#10;    for(int num : nums) {&#10;        ans ^= num;&#10;    }&#10;    return ans;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def single_number(nums: list[int]) -&gt; int:&#10;    ans = 0&#10;    for num in nums:&#10;        ans ^= num&#10;    return ans</code></pre></details></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Arr 02 Largest Element<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/largest-element-in-array/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Input: A = [1, 8, 7, 56, 90], Output: 90</td>
       <td><b>Time:</b> O(N) (Constraint)<br><b>Space:</b> O(1) (Constraint)</td>
       <td>-</td>
@@ -26,8 +35,8 @@
       <td><b>Explanation:</b> Iterate through the array maintaining a variable for the maximum element seen so far.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">#include &lt;vector&gt;&#10;#include &lt;algorithm&gt;&#10;&#10;int largest(std::vector&lt;int&gt; &amp;arr) {&#10;    int max_val = arr[0];&#10;    for (int i = 1; i &lt; arr.size(); i++) {&#10;        if (arr[i] &gt; max_val) {&#10;            max_val = arr[i];&#10;        }&#10;    }&#10;    return max_val;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def largest(arr: list[int]) -&gt; int:&#10;    max_val = arr[0]&#10;    for num in arr:&#10;        if num &gt; max_val:&#10;            max_val = num&#10;    return max_val</code></pre></details></td>
     </tr>
     <tr>
-      <td>2</td>
-      <td>Arr 02 Second Largest Element<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/second-largest3735/1' target='_blank'>GFG</a></td>
+      <td>3</td>
+      <td>Arr 03 Second Largest Element<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/second-largest3735/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Input: arr = [12, 35, 1, 10, 34, 1], Output: 34<br><br><b>Note (Constraint):</b> Find it in a single pass O(N) time.</td>
       <td><b>Time:</b> O(N) (Constraint)<br><b>Space:</b> O(1) (Constraint)</td>
       <td>-</td>
@@ -35,8 +44,8 @@
       <td><b>Explanation:</b> Maintain two variables, `largest` and `second_largest`. Update them simultaneously during a single pass.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">#include &lt;vector&gt;&#10;&#10;int print2largest(std::vector&lt;int&gt; &amp;arr) {&#10;    int largest = -1, second_largest = -1;&#10;    for (int num : arr) {&#10;        if (num &gt; largest) {&#10;            second_largest = largest;&#10;            largest = num;&#10;        } else if (num &gt; second_largest &amp;&amp; num != largest) {&#10;            second_largest = num;&#10;        }&#10;    }&#10;    return second_largest;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def print2largest(arr: list[int]) -&gt; int:&#10;    largest = -1&#10;    second_largest = -1&#10;    for num in arr:&#10;        if num &gt; largest:&#10;            second_largest = largest&#10;            largest = num&#10;        elif num &gt; second_largest and num != largest:&#10;            second_largest = num&#10;    return second_largest</code></pre></details></td>
     </tr>
     <tr>
-      <td>3</td>
-      <td>Arr 03 Check If Array Is Sorted And Rotated<br><br></b> <a href='https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/' target='_blank'>LeetCode 1752</a></td>
+      <td>4</td>
+      <td>Arr 04 Check If Array Is Sorted And Rotated<br><br></b> <a href='https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/' target='_blank'>LeetCode 1752</a></td>
       <td><b>Example 1:</b> Input: nums = [3,4,5,1,2], Output: true</td>
       <td><b>Time:</b> O(N) (Constraint)<br><b>Space:</b> O(1) (Constraint)</td>
       <td>-</td>
@@ -44,8 +53,8 @@
       <td><b>Explanation:</b> Count the number of "breaks" where `nums[i] > nums[i+1]`. For a sorted and rotated array, there can be at most 1 break.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">#include &lt;vector&gt;&#10;&#10;bool check(std::vector&lt;int&gt;&amp; nums) {&#10;    int count = 0, n = nums.size();&#10;    for (int i = 0; i &lt; n; i++) {&#10;        if (nums[i] &gt; nums[(i + 1) % n]) {&#10;            count++;&#10;        }&#10;    }&#10;    return count &lt;= 1;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def check(nums: list[int]) -&gt; bool:&#10;    count = 0&#10;    n = len(nums)&#10;    for i in range(n):&#10;        if nums[i] &gt; nums[(i + 1) % n]:&#10;            count += 1&#10;    return count &lt;= 1</code></pre></details></td>
     </tr>
     <tr>
-      <td>4</td>
-      <td>Arr 04 Remove Duplicates From Sorted Array<br><br></b> <a href='https://leetcode.com/problems/remove-duplicates-from-sorted-array/' target='_blank'>LeetCode 26</a></td>
+      <td>5</td>
+      <td>Arr 05 Remove Duplicates From Sorted Array<br><br></b> <a href='https://leetcode.com/problems/remove-duplicates-from-sorted-array/' target='_blank'>LeetCode 26</a></td>
       <td><b>Example 1:</b> Input: nums = [1,1,2], Output: 2, nums = [1,2,_]</td>
       <td><b>Time:</b> O(N) (Constraint)<br><b>Space:</b> O(1) (Constraint)</td>
       <td>-</td>
@@ -53,8 +62,8 @@
       <td><b>Explanation:</b> Two-pointer approach. Pointer `i` keeps track of unique elements, pointer `j` scans the array to find new unique elements.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">#include &lt;vector&gt;&#10;&#10;int removeDuplicates(std::vector&lt;int&gt;&amp; nums) {&#10;    if (nums.empty()) return 0;&#10;    int i = 0;&#10;    for (int j = 1; j &lt; nums.size(); j++) {&#10;        if (nums[j] != nums[i]) {&#10;            i++;&#10;            nums[i] = nums[j];&#10;        }&#10;    }&#10;    return i + 1;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def removeDuplicates(nums: list[int]) -&gt; int:&#10;    if not nums: return 0&#10;    i = 0&#10;    for j in range(1, len(nums)):&#10;        if nums[j] != nums[i]:&#10;            i += 1&#10;            nums[i] = nums[j]&#10;    return i + 1</code></pre></details></td>
     </tr>
     <tr>
-      <td>5</td>
-      <td>Arr 05 Rotate Array<br><br></b> <a href='https://leetcode.com/problems/rotate-array/' target='_blank'>LeetCode 189</a></td>
+      <td>6</td>
+      <td>Arr 06 Rotate Array<br><br></b> <a href='https://leetcode.com/problems/rotate-array/' target='_blank'>LeetCode 189</a></td>
       <td><b>Example 1:</b> Input: nums = [1,2,3,4,5,6,7], k = 3, Output: [5,6,7,1,2,3,4]</td>
       <td><b>Time:</b> O(N) (Constraint)<br><b>Space:</b> O(1) (Constraint)</td>
       <td><code>std::reverse</code></td>
@@ -62,8 +71,8 @@
       <td><b>Explanation:</b> Reverse Algorithm. Reverse the whole array, then reverse the first `k` elements, then reverse the remaining `N-k` elements.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">#include &lt;vector&gt;&#10;#include &lt;algorithm&gt;&#10;&#10;void rotate(std::vector&lt;int&gt;&amp; nums, int k) {&#10;    int n = nums.size();&#10;    k = k % n;&#10;    std::reverse(nums.begin(), nums.end());&#10;    std::reverse(nums.begin(), nums.begin() + k);&#10;    std::reverse(nums.begin() + k, nums.end());&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def rotate(nums: list[int], k: int) -&gt; None:&#10;    n = len(nums)&#10;    k = k % n&#10;    nums.reverse()&#10;    nums[:k] = reversed(nums[:k])&#10;    nums[k:] = reversed(nums[k:])</code></pre></details></td>
     </tr>
     <tr>
-      <td>6</td>
-      <td>Arr 06 Move Zeroes<br><br></b> <a href='https://leetcode.com/problems/move-zeroes/' target='_blank'>LeetCode 283</a></td>
+      <td>7</td>
+      <td>Arr 07 Move Zeroes<br><br></b> <a href='https://leetcode.com/problems/move-zeroes/' target='_blank'>LeetCode 283</a></td>
       <td><b>Example 1:</b> Input: nums = [0,1,0,3,12], Output: [1,3,12,0,0]</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td><code>std::swap</code></td>
@@ -71,8 +80,8 @@
       <td><b>Explanation:</b> Two-pointer approach (Snowball method). Pointer `i` tracks the first zero found, pointer `j` scans for non-zeroes to swap.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">#include &lt;vector&gt;&#10;#include &lt;algorithm&gt;&#10;&#10;void moveZeroes(std::vector&lt;int&gt;&amp; nums) {&#10;    int i = 0;&#10;    for(int j = 0; j &lt; nums.size(); j++) {&#10;        if(nums[j] != 0) {&#10;            std::swap(nums[i], nums[j]);&#10;            i++;&#10;        }&#10;    }&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def moveZeroes(nums: list[int]) -&gt; None:&#10;    i = 0&#10;    for j in range(len(nums)):&#10;        if nums[j] != 0:&#10;            nums[i], nums[j] = nums[j], nums[i]&#10;            i += 1</code></pre></details></td>
     </tr>
     <tr>
-      <td>7</td>
-      <td>Arr 07 Missing Number<br><br></b> <a href='https://leetcode.com/problems/missing-number/' target='_blank'>LeetCode 268</a></td>
+      <td>8</td>
+      <td>Arr 08 Missing Number<br><br></b> <a href='https://leetcode.com/problems/missing-number/' target='_blank'>LeetCode 268</a></td>
       <td><b>Example 1:</b> Input: nums = [3,0,1], Output: 2</td>
       <td><b>Time:</b> O(N) (Constraint)<br><b>Space:</b> O(1) (Constraint)</td>
       <td>-</td>
@@ -80,22 +89,13 @@
       <td><b>Explanation:</b> Using XOR: XORing a number with itself results in 0. XOR all indices `[0,n]` and all elements in `nums`. The missing number will remain.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">#include &lt;vector&gt;&#10;&#10;int missingNumber(std::vector&lt;int&gt;&amp; nums) {&#10;    int res = nums.size();&#10;    for(int i = 0; i &lt; nums.size(); i++) {&#10;        res ^= i ^ nums[i];&#10;    }&#10;    return res;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def missingNumber(nums: list[int]) -&gt; int:&#10;    res = len(nums)&#10;    for i, num in enumerate(nums):&#10;        res ^= i ^ num&#10;    return res</code></pre></details></td>
     </tr>
     <tr>
-      <td>8</td>
-      <td>Arr 08 Max Consecutive Ones<br><br></b> <a href='https://leetcode.com/problems/max-consecutive-ones/' target='_blank'>LeetCode 485</a></td>
+      <td>9</td>
+      <td>Arr 09 Max Consecutive Ones<br><br></b> <a href='https://leetcode.com/problems/max-consecutive-ones/' target='_blank'>LeetCode 485</a></td>
       <td><b>Example 1:</b> Input: nums = [1,1,0,1,1,1], Output: 3</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td><code>std::max</code></td>
       <td><b>Trailing Ones:</b> Must perform a final max check outside the loop or update max dynamically inside.</td>
       <td><b>Explanation:</b> Iterate while counting 1s. If a 0 is found, update max count and reset current count to 0.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">#include &lt;vector&gt;&#10;#include &lt;algorithm&gt;&#10;&#10;int findMaxConsecutiveOnes(std::vector&lt;int&gt;&amp; nums) {&#10;    int max_cnt = 0, current_cnt = 0;&#10;    for(int num : nums) {&#10;        if(num == 1) {&#10;            current_cnt++;&#10;            max_cnt = std::max(max_cnt, current_cnt);&#10;        } else {&#10;            current_cnt = 0;&#10;        }&#10;    }&#10;    return max_cnt;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def findMaxConsecutiveOnes(nums: list[int]) -&gt; int:&#10;    max_cnt = current_cnt = 0&#10;    for num in nums:&#10;        if num == 1:&#10;            current_cnt += 1&#10;            max_cnt = max(max_cnt, current_cnt)&#10;        else:&#10;            current_cnt = 0&#10;    return max_cnt</code></pre></details></td>
-    </tr>
-    <tr>
-      <td>9</td>
-      <td>Arr 09 Single Number<br><br></b> <a href='https://leetcode.com/problems/single-number/' target='_blank'>LeetCode 136</a></td>
-      <td><b>Example 1:</b> Input: nums = [4,1,2,1,2], Output: 4<br><br><b>Note (Constraint):</b> Linear runtime and constant extra space.</td>
-      <td><b>Time:</b> O(N) (Constraint)<br><b>Space:</b> O(1) (Constraint)</td>
-      <td>-</td>
-      <td><b>Single Element array:</b> The loop just processes one element and returns it.</td>
-      <td><b>Explanation:</b> XOR property: `A ^ A = 0` and `A ^ 0 = A`. XOR all elements together, duplicates cancel out, leaving only the single element.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">#include &lt;vector&gt;&#10;&#10;int singleNumber(std::vector&lt;int&gt;&amp; nums) {&#10;    int result = 0;&#10;    for(int num : nums) {&#10;        result ^= num;&#10;    }&#10;    return result;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def singleNumber(nums: list[int]) -&gt; int:&#10;    result = 0&#10;    for num in nums:&#10;        result ^= num&#10;    return result</code></pre></details></td>
     </tr>
     <tr>
       <td>10</td>
@@ -306,16 +306,7 @@
     </tr>
     <tr>
       <td>33</td>
-      <td>Arr 33 Count Inversions<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/inversion-of-array-1587115620/1' target='_blank'>GFG</a></td>
-      <td><b>Example 1:</b> Modified Merge Sort.</td>
-      <td><b>Time:</b> O(N log N)<br><b>Space:</b> O(N)</td>
-      <td>-</td>
-      <td>-</td>
-      <td><b>Explanation:</b> Use Merge Sort. During the merge step, if `arr[i] > arr[j]`, then there are `(mid - i + 1)` inversions because the left array is sorted, so all elements after `i` in the left array will also be greater than `arr[j]`.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">long long merge(long long arr[], long long temp[], int left, int mid, int right) {&#10;    int i = left, j = mid, k = left;&#10;    long long inv_count = 0;&#10;    while((i &lt;= mid - 1) &amp;&amp; (j &lt;= right)) {&#10;        if(arr[i] &lt;= arr[j]) {&#10;            temp[k++] = arr[i++];&#10;        } else {&#10;            temp[k++] = arr[j++];&#10;            inv_count += (mid - i);&#10;        }&#10;    }&#10;    while(i &lt;= mid - 1) temp[k++] = arr[i++];&#10;    while(j &lt;= right) temp[k++] = arr[j++];&#10;    for(i = left; i &lt;= right; i++) arr[i] = temp[i];&#10;    return inv_count;&#10;}&#10;long long mergeSort(long long arr[], long long temp[], int left, int right) {&#10;    long long mid, inv_count = 0;&#10;    if(right &gt; left) {&#10;        mid = (right + left) / 2;&#10;        inv_count += mergeSort(arr, temp, left, mid);&#10;        inv_count += mergeSort(arr, temp, mid + 1, right);&#10;        inv_count += merge(arr, temp, left, mid + 1, right);&#10;    }&#10;    return inv_count;&#10;}&#10;long long int inversionCount(long long arr[], long long N) {&#10;    long long temp[N];&#10;    return mergeSort(arr, temp, 0, N - 1);&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def merge(arr, temp, left, mid, right):&#10;    i, j, k = left, mid, left&#10;    inv_count = 0&#10;    while i &lt;= mid - 1 and j &lt;= right:&#10;        if arr[i] &lt;= arr[j]:&#10;            temp[k] = arr[i]&#10;            i += 1&#10;        else:&#10;            temp[k] = arr[j]&#10;            inv_count += (mid - i)&#10;            j += 1&#10;        k += 1&#10;    while i &lt;= mid - 1:&#10;        temp[k] = arr[i]&#10;        i += 1; k += 1&#10;    while j &lt;= right:&#10;        temp[k] = arr[j]&#10;        j += 1; k += 1&#10;    for i in range(left, right + 1):&#10;        arr[i] = temp[i]&#10;    return inv_count&#10;&#10;def mergeSort(arr, temp, left, right):&#10;    inv_count = 0&#10;    if right &gt; left:&#10;        mid = (right + left) // 2&#10;        inv_count += mergeSort(arr, temp, left, mid)&#10;        inv_count += mergeSort(arr, temp, mid + 1, right)&#10;        inv_count += merge(arr, temp, left, mid + 1, right)&#10;    return inv_count&#10;&#10;def inversionCount(arr, n):&#10;    temp = [0] * n&#10;    return mergeSort(arr, temp, 0, n - 1)</code></pre></details></td>
-    </tr>
-    <tr>
-      <td>34</td>
-      <td>Arr 34 Maximum Product Subarray<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/maximum-product-subarray3604/1' target='_blank'>GFG</a></td>
+      <td>Arr 33 Maximum Product Subarray<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/maximum-product-subarray3604/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Prefix and Suffix iteration.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -323,8 +314,8 @@
       <td><b>Explanation:</b> Iterate from left to right calculating prefix product, and right to left calculating suffix product. If either is 0, reset it to 1. The max product will be the max of all prefix and suffix products.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">long long maxProduct(vector&lt;int&gt; arr, int n) {&#10;    long long max_prod = INT_MIN;&#10;    long long pref = 1, suff = 1;&#10;    for(int i = 0; i &lt; n; i++) {&#10;        if(pref == 0) pref = 1;&#10;        if(suff == 0) suff = 1;&#10;        pref *= arr[i];&#10;        suff *= arr[n - i - 1];&#10;        max_prod = max({max_prod, pref, suff});&#10;    }&#10;    return max_prod;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def maxProduct(arr, n):&#10;    max_prod = float(&#x27;-inf&#x27;)&#10;    pref, suff = 1, 1&#10;    for i in range(n):&#10;        if pref == 0: pref = 1&#10;        if suff == 0: suff = 1&#10;        pref *= arr[i]&#10;        suff *= arr[n - i - 1]&#10;        max_prod = max(max_prod, pref, suff)&#10;    return max_prod</code></pre></details></td>
     </tr>
     <tr>
-      <td>35</td>
-      <td>Arr 35 Longest Consecutive Subsequence<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/longest-consecutive-subsequence2449/1' target='_blank'>GFG</a></td>
+      <td>34</td>
+      <td>Arr 34 Longest Consecutive Subsequence<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/longest-consecutive-subsequence2449/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Hash Set.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
       <td>Hash Set</td>
@@ -332,8 +323,8 @@
       <td><b>Explanation:</b> Insert all elements into a hash set. For each element, check if `element - 1` exists. If not, it's the start of a sequence. Then increment to find consecutive elements.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">int findLongestConseqSubseq(int arr[], int N) {&#10;    unordered_set&lt;int&gt; s;&#10;    for(int i = 0; i &lt; N; i++) s.insert(arr[i]);&#10;    int longest = 0;&#10;    for(int num : s) {&#10;        if(s.find(num - 1) == s.end()) {&#10;            int curr = num;&#10;            int count = 1;&#10;            while(s.find(curr + 1) != s.end()) {&#10;                curr++;&#10;                count++;&#10;            }&#10;            longest = max(longest, count);&#10;        }&#10;    }&#10;    return longest;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def findLongestConseqSubseq(arr, N):&#10;    s = set(arr)&#10;    longest = 0&#10;    for num in s:&#10;        if (num - 1) not in s:&#10;            curr = num&#10;            count = 1&#10;            while (curr + 1) in s:&#10;                curr += 1&#10;                count += 1&#10;            longest = max(longest, count)&#10;    return longest</code></pre></details></td>
     </tr>
     <tr>
-      <td>36</td>
-      <td>Arr 36 Minimum Platforms<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-platforms-1587115620/1' target='_blank'>GFG</a></td>
+      <td>35</td>
+      <td>Arr 35 Minimum Platforms<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/minimum-platforms-1587115620/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Sort arrival and departure times separately.</td>
       <td><b>Time:</b> O(N log N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -341,8 +332,8 @@
       <td><b>Explanation:</b> Sort arrival and departure arrays separately. Use two pointers, one for arrival and one for departure. If arrival < departure, a platform is needed, so increment count. If arrival >= departure, a platform is freed, so decrement count. Track the maximum count.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">int findPlatform(int arr[], int dep[], int n) {&#10;    sort(arr, arr + n);&#10;    sort(dep, dep + n);&#10;    int plat_needed = 1, result = 1;&#10;    int i = 1, j = 0;&#10;    while(i &lt; n &amp;&amp; j &lt; n) {&#10;        if(arr[i] &lt;= dep[j]) {&#10;            plat_needed++;&#10;            i++;&#10;        } else if(arr[i] &gt; dep[j]) {&#10;            plat_needed--;&#10;            j++;&#10;        }&#10;        if(plat_needed &gt; result) result = plat_needed;&#10;    }&#10;    return result;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def findPlatform(arr, dep, n):&#10;    arr.sort()&#10;    dep.sort()&#10;    plat_needed, result = 1, 1&#10;    i, j = 1, 0&#10;    while i &lt; n and j &lt; n:&#10;        if arr[i] &lt;= dep[j]:&#10;            plat_needed += 1&#10;            i += 1&#10;        else:&#10;            plat_needed -= 1&#10;            j += 1&#10;        result = max(result, plat_needed)&#10;    return result</code></pre></details></td>
     </tr>
     <tr>
-      <td>37</td>
-      <td>Arr 37 Trapping Rain Water<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/trapping-rain-water-1587115621/1' target='_blank'>GFG</a></td>
+      <td>36</td>
+      <td>Arr 36 Trapping Rain Water<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/trapping-rain-water-1587115621/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Two Pointers.</td>
       <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -350,62 +341,8 @@
       <td><b>Explanation:</b> Use two pointers, left and right. Maintain left_max and right_max. If `arr[left] <= arr[right]`, the water trapped depends on left_max. If `arr[left] > left_max`, update left_max, else add `left_max - arr[left]` to answer and increment left. Repeat for right.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">long long trappingWater(int arr[], int n) {&#10;    int left = 0, right = n - 1;&#10;    int left_max = 0, right_max = 0;&#10;    long long res = 0;&#10;    while(left &lt;= right) {&#10;        if(arr[left] &lt;= arr[right]) {&#10;            if(arr[left] &gt;= left_max) left_max = arr[left];&#10;            else res += left_max - arr[left];&#10;            left++;&#10;        } else {&#10;            if(arr[right] &gt;= right_max) right_max = arr[right];&#10;            else res += right_max - arr[right];&#10;            right--;&#10;        }&#10;    }&#10;    return res;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def trappingWater(arr, n):&#10;    left, right = 0, n - 1&#10;    left_max, right_max = 0, 0&#10;    res = 0&#10;    while left &lt;= right:&#10;        if arr[left] &lt;= arr[right]:&#10;            if arr[left] &gt;= left_max: left_max = arr[left]&#10;            else: res += left_max - arr[left]&#10;            left += 1&#10;        else:&#10;            if arr[right] &gt;= right_max: right_max = arr[right]&#10;            else: res += right_max - arr[right]&#10;            right -= 1&#10;    return res</code></pre></details></td>
     </tr>
     <tr>
-      <td>38</td>
-      <td>Arr 38 Find Maximum Product Subarray<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/maximum-product-subarray3604/1' target='_blank'>GFG</a></td>
-      <td><b>Example 1:</b> Prefix and suffix loop.</td>
-      <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
-      <td>-</td>
-      <td>Zero in array</td>
-      <td><b>Explanation:</b> Iterate from left to right calculating prefix product, and from right to left calculating suffix product. If either is 0, reset it to 1. Track the max across all steps.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">long long maxProduct(vector&lt;int&gt; arr, int n) {&#10;    long long max_prod = INT_MIN;&#10;    long long pref = 1, suff = 1;&#10;    for(int i = 0; i &lt; n; i++) {&#10;        if(pref == 0) pref = 1;&#10;        if(suff == 0) suff = 1;&#10;        pref *= arr[i];&#10;        suff *= arr[n - i - 1];&#10;        max_prod = max({max_prod, pref, suff});&#10;    }&#10;    return max_prod;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def maxProduct(arr, n):&#10;    max_prod = float(&#x27;-inf&#x27;)&#10;    pref, suff = 1, 1&#10;    for i in range(n):&#10;        if pref == 0: pref = 1&#10;        if suff == 0: suff = 1&#10;        pref *= arr[i]&#10;        suff *= arr[n - i - 1]&#10;        max_prod = max(max_prod, pref, suff)&#10;    return max_prod</code></pre></details></td>
-    </tr>
-    <tr>
-      <td>39</td>
-      <td>Arr 39 Majority Element Ii<br><br></b> <a href='https://leetcode.com/problems/majority-element-ii/' target='_blank'>LeetCode 229</a></td>
-      <td><b>Example 1:</b> Extended Boyer Moore's Voting Algorithm.</td>
-      <td><b>Time:</b> O(N)<br><b>Space:</b> O(1)</td>
-      <td>-</td>
-      <td>-</td>
-      <td><b>Explanation:</b> Since at most two elements can appear more than n/3 times, maintain two potential candidates (`num1`, `num2`) and their counts. Iterate through the array updating candidates and counts. After finding the candidates, iterate again to count their actual occurrences and check if they exceed n/3.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">vector&lt;int&gt; majorityElement(vector&lt;int&gt;&amp; nums) {&#10;    int num1 = -1, num2 = -1, c1 = 0, c2 = 0;&#10;    for(int x : nums) {&#10;        if(x == num1) c1++;&#10;        else if(x == num2) c2++;&#10;        else if(c1 == 0) { num1 = x; c1 = 1; }&#10;        else if(c2 == 0) { num2 = x; c2 = 1; }&#10;        else { c1--; c2--; }&#10;    }&#10;    vector&lt;int&gt; ans;&#10;    c1 = 0; c2 = 0;&#10;    for(int x : nums) {&#10;        if(x == num1) c1++;&#10;        else if(x == num2) c2++;&#10;    }&#10;    if(c1 &gt; nums.size() / 3) ans.push_back(num1);&#10;    if(c2 &gt; nums.size() / 3) ans.push_back(num2);&#10;    return ans;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def majorityElement(nums):&#10;    num1, num2, c1, c2 = -1, -1, 0, 0&#10;    for x in nums:&#10;        if x == num1: c1 += 1&#10;        elif x == num2: c2 += 1&#10;        elif c1 == 0: num1, c1 = x, 1&#10;        elif c2 == 0: num2, c2 = x, 1&#10;        else: c1 -= 1; c2 -= 1&#10;    ans = []&#10;    c1, c2 = 0, 0&#10;    for x in nums:&#10;        if x == num1: c1 += 1&#10;        elif x == num2: c2 += 1&#10;    if c1 &gt; len(nums) // 3: ans.append(num1)&#10;    if c2 &gt; len(nums) // 3: ans.append(num2)&#10;    return ans</code></pre></details></td>
-    </tr>
-    <tr>
-      <td>40</td>
-      <td>Arr 40 3Sum<br><br></b> <a href='https://leetcode.com/problems/3sum/' target='_blank'>LeetCode 15</a></td>
-      <td><b>Example 1:</b> Sort + Two Pointers.</td>
-      <td><b>Time:</b> O(N^2)<br><b>Space:</b> O(1) excluding output</td>
-      <td>-</td>
-      <td>-</td>
-      <td><b>Explanation:</b> Sort the array. Fix the first element `nums[i]`. Use two pointers (`left = i+1`, `right = n-1`) to find the remaining two elements that sum to `-nums[i]`. Skip duplicates for `i`, `left`, and `right` to ensure unique triplets.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">vector&lt;vector&lt;int&gt;&gt; threeSum(vector&lt;int&gt;&amp; nums) {&#10;    vector&lt;vector&lt;int&gt;&gt; ans;&#10;    sort(nums.begin(), nums.end());&#10;    int n = nums.size();&#10;    for(int i = 0; i &lt; n - 2; i++) {&#10;        if(i == 0 || (i &gt; 0 &amp;&amp; nums[i] != nums[i-1])) {&#10;            int low = i + 1, high = n - 1, sum = 0 - nums[i];&#10;            while(low &lt; high) {&#10;                if(nums[low] + nums[high] == sum) {&#10;                    ans.push_back({nums[i], nums[low], nums[high]});&#10;                    while(low &lt; high &amp;&amp; nums[low] == nums[low+1]) low++;&#10;                    while(low &lt; high &amp;&amp; nums[high] == nums[high-1]) high--;&#10;                    low++; high--;&#10;                } else if(nums[low] + nums[high] &lt; sum) low++;&#10;                else high--;&#10;            }&#10;        }&#10;    }&#10;    return ans;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def threeSum(nums):&#10;    nums.sort()&#10;    ans = []&#10;    n = len(nums)&#10;    for i in range(n - 2):&#10;        if i == 0 or nums[i] != nums[i-1]:&#10;            low, high, target = i + 1, n - 1, -nums[i]&#10;            while low &lt; high:&#10;                if nums[low] + nums[high] == target:&#10;                    ans.append([nums[i], nums[low], nums[high]])&#10;                    while low &lt; high and nums[low] == nums[low+1]: low += 1&#10;                    while low &lt; high and nums[high] == nums[high-1]: high -= 1&#10;                    low += 1&#10;                    high -= 1&#10;                elif nums[low] + nums[high] &lt; target: low += 1&#10;                else: high -= 1&#10;    return ans</code></pre></details></td>
-    </tr>
-    <tr>
-      <td>41</td>
-      <td>Arr 41 4Sum<br><br></b> <a href='https://leetcode.com/problems/4sum/' target='_blank'>LeetCode 18</a></td>
-      <td><b>Example 1:</b> Sort + Two Pointers.</td>
-      <td><b>Time:</b> O(N^3)<br><b>Space:</b> O(1) excluding output</td>
-      <td>-</td>
-      <td>Integer overflow during sum</td>
-      <td><b>Explanation:</b> Sort the array. Fix the first two elements using nested loops (`i` and `j`). Then use two pointers (`left` and `right`) to find the remaining two elements that sum up to `target - nums[i] - nums[j]`. Skip duplicates for all 4 variables.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">vector&lt;vector&lt;int&gt;&gt; fourSum(vector&lt;int&gt;&amp; nums, int target) {&#10;    vector&lt;vector&lt;int&gt;&gt; ans;&#10;    sort(nums.begin(), nums.end());&#10;    int n = nums.size();&#10;    for(int i = 0; i &lt; n; i++) {&#10;        if(i &gt; 0 &amp;&amp; nums[i] == nums[i-1]) continue;&#10;        for(int j = i + 1; j &lt; n; j++) {&#10;            if(j &gt; i + 1 &amp;&amp; nums[j] == nums[j-1]) continue;&#10;            int low = j + 1, high = n - 1;&#10;            while(low &lt; high) {&#10;                long long sum = (long long)nums[i] + nums[j] + nums[low] + nums[high];&#10;                if(sum == target) {&#10;                    ans.push_back({nums[i], nums[j], nums[low], nums[high]});&#10;                    while(low &lt; high &amp;&amp; nums[low] == nums[low+1]) low++;&#10;                    while(low &lt; high &amp;&amp; nums[high] == nums[high-1]) high--;&#10;                    low++; high--;&#10;                } else if(sum &lt; target) low++;&#10;                else high--;&#10;            }&#10;        }&#10;    }&#10;    return ans;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def fourSum(nums, target):&#10;    nums.sort()&#10;    ans = []&#10;    n = len(nums)&#10;    for i in range(n):&#10;        if i &gt; 0 and nums[i] == nums[i-1]: continue&#10;        for j in range(i + 1, n):&#10;            if j &gt; i + 1 and nums[j] == nums[j-1]: continue&#10;            low, high = j + 1, n - 1&#10;            while low &lt; high:&#10;                total = nums[i] + nums[j] + nums[low] + nums[high]&#10;                if total == target:&#10;                    ans.append([nums[i], nums[j], nums[low], nums[high]])&#10;                    while low &lt; high and nums[low] == nums[low+1]: low += 1&#10;                    while low &lt; high and nums[high] == nums[high-1]: high -= 1&#10;                    low += 1; high -= 1&#10;                elif total &lt; target: low += 1&#10;                else: high -= 1&#10;    return ans</code></pre></details></td>
-    </tr>
-    <tr>
-      <td>42</td>
-      <td>Arr 42 Subarray With Given Xor<br><br></b> <a href='https://www.interviewbit.com/problems/subarray-with-given-xor/' target='_blank'>InterviewBit</a></td>
-      <td><b>Example 1:</b> Hash Map.</td>
-      <td><b>Time:</b> O(N)<br><b>Space:</b> O(N)</td>
-      <td>Hash Map</td>
-      <td>-</td>
-      <td><b>Explanation:</b> Maintain the prefix XOR. Use a hash map to store the frequency of each prefix XOR. If current prefix XOR is `xr`, we want to find if there was a previous prefix XOR `xr ^ B`. If so, add its frequency to the count. Then add the current `xr` to the map.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">int solve(vector&lt;int&gt; &amp;A, int B) {&#10;    unordered_map&lt;int, int&gt; freq;&#10;    int count = 0, xr = 0;&#10;    for(int i = 0; i &lt; A.size(); i++) {&#10;        xr = xr ^ A[i];&#10;        if(xr == B) count++;&#10;        if(freq.find(xr ^ B) != freq.end()) {&#10;            count += freq[xr ^ B];&#10;        }&#10;        freq[xr]++;&#10;    }&#10;    return count;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def solve(A, B):&#10;    freq = {}&#10;    count = 0&#10;    xr = 0&#10;    for num in A:&#10;        xr ^= num&#10;        if xr == B: count += 1&#10;        if (xr ^ B) in freq:&#10;            count += freq[xr ^ B]&#10;        freq[xr] = freq.get(xr, 0) + 1&#10;    return count</code></pre></details></td>
-    </tr>
-    <tr>
-      <td>43</td>
-      <td>Arr 43 Merge Intervals<br><br></b> <a href='https://leetcode.com/problems/merge-intervals/' target='_blank'>LeetCode 56</a></td>
-      <td><b>Example 1:</b> Sort and Merge.</td>
-      <td><b>Time:</b> O(N log N)<br><b>Space:</b> O(N)</td>
-      <td>-</td>
-      <td>-</td>
-      <td><b>Explanation:</b> Sort the intervals by their start times. Iterate through them. If the result list is empty or the current interval's start is > the last interval's end, append it. Otherwise, update the last interval's end to the maximum of its end and current end.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">vector&lt;vector&lt;int&gt;&gt; merge(vector&lt;vector&lt;int&gt;&gt;&amp; intervals) {&#10;    sort(intervals.begin(), intervals.end());&#10;    vector&lt;vector&lt;int&gt;&gt; merged;&#10;    for(auto interval : intervals) {&#10;        if(merged.empty() || merged.back()[1] &lt; interval[0]) {&#10;            merged.push_back(interval);&#10;        } else {&#10;            merged.back()[1] = max(merged.back()[1], interval[1]);&#10;        }&#10;    }&#10;    return merged;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def merge(intervals):&#10;    intervals.sort(key=lambda x: x[0])&#10;    merged = []&#10;    for interval in intervals:&#10;        if not merged or merged[-1][1] &lt; interval[0]:&#10;            merged.append(interval)&#10;        else:&#10;            merged[-1][1] = max(merged[-1][1], interval[1])&#10;    return merged</code></pre></details></td>
-    </tr>
-    <tr>
-      <td>44</td>
-      <td>Arr 44 Merge Sorted Array Without Extra Space<br><br></b> <a href='https://leetcode.com/problems/merge-sorted-array/' target='_blank'>LeetCode 88</a></td>
+      <td>37</td>
+      <td>Arr 37 Merge Sorted Array Without Extra Space<br><br></b> <a href='https://leetcode.com/problems/merge-sorted-array/' target='_blank'>LeetCode 88</a></td>
       <td><b>Example 1:</b> Two pointers from end.</td>
       <td><b>Time:</b> O(M + N)<br><b>Space:</b> O(1)</td>
       <td>-</td>

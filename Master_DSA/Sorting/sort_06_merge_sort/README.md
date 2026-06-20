@@ -8,5 +8,5 @@ Sort an array of integers in ascending order using the Merge Sort algorithm.<br>
 
 ## Tags
 - Striver_A_Z
-- Love_Babbar
 - Apna_College
+- Love_Babbar

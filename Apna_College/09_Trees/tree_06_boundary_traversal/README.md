@@ -8,6 +8,6 @@ Given a Binary Tree, find its Boundary Traversal. The traversal should be in the
 
 ## Tags
 - Striver_A_Z
-- Love_Babbar
-- SDE_Sheet
 - Apna_College
+- SDE_Sheet
+- Love_Babbar

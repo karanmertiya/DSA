@@ -7,4 +7,5 @@ Given an integer n, return the number of prime numbers that are strictly less th
 <b>Example 1:</b> Sieve of Eratosthenes.
 
 ## Tags
+- Striver_A_Z
 - Love_Babbar

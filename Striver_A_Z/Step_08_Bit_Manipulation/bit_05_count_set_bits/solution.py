@@ -2,10 +2,10 @@
 # Space Complexity: O(1)
 # Explanation: Iterate through all 32 bits and check if each is set.
 
-def hamming_weight_brute(n: int) -> int:
+def hamming_weight(n: int) -> int:
     count = 0
-    for i in range(32):
-        if (n >> i) & 1:
-            count += 1
+    while n:
+        n &= (n - 1)
+        count += 1
     return count
 

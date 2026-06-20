@@ -10,19 +10,21 @@ You must know how to initialize Maps/Sets, check for key existence, and iterate 
 ```cpp
 #include <unordered_map>
 #include <unordered_set>
+#include <string>
 
 int main() {
-    std::unordered_map<int, int> freq;
+    std::unordered_map<std::string, int> freq;
     std::unordered_set<int> seen;
     
     // Insertion
-    freq[5] = 1;
-    freq[5]++; // Auto-initializes to 0 if not present, then increments
+    freq["apple"] = 1;
+    freq["apple"]++; // Auto-initializes to 0 if not present, then increments
     seen.insert(10);
     
-    // Lookup
-    if(freq.find(5) != freq.end()) { /* Exists */ }
-    if(freq.count(5)) { /* Also checks existence */ }
+    // Lookup / Exists check
+    if(freq.find("apple") != freq.end()) { /* Exists */ }
+    if(freq.count("apple")) { /* Also checks existence */ }
+    if(seen.count(10)) { /* Exists in set */ }
     
     // Iteration
     for(auto const& [key, val] : freq) {
@@ -43,15 +45,19 @@ seen = set()
 
 # Safe counting (defaultdict)
 freq_safe = defaultdict(int)
-freq_safe[5] += 1 # No KeyError if 5 doesn't exist
+freq_safe["apple"] += 1 # No KeyError if "apple" doesn't exist
 
 # Counter (Pythonic frequency mapping)
 arr = [1, 1, 2, 3]
 counts = Counter(arr) # Counter({1: 2, 2: 1, 3: 1})
 
-# Lookup and Iteration
-if 5 in freq:
+# Lookup / Exists Check
+if "apple" in freq:
     pass
+if 10 in seen:
+    pass
+
+# Iteration
 for key, val in freq.items():
     pass
 ```

@@ -3,14 +3,12 @@
 // Explanation: Use a Hash Map to count occurrences. Return the element with count 1.
 
 #include <vector>
-#include <unordered_map>
 
-int singleNumberBrute(std::vector<int>& nums) {
-    std::unordered_map<int, int> freq;
-    for(int num : nums) freq[num]++;
-    for(auto it : freq) {
-        if(it.second == 1) return it.first;
+int singleNumber(std::vector<int>& nums) {
+    int ans = 0;
+    for(int num : nums) {
+        ans ^= num;
     }
-    return -1;
+    return ans;
 }
 

@@ -8,5 +8,5 @@ For an array, inversion count indicates how far the array is from being sorted. 
 
 ## Tags
 - Striver_A_Z
-- Love_Babbar
 - SDE_Sheet
+- Love_Babbar

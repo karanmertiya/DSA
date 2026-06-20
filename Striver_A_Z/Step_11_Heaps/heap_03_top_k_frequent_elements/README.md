@@ -9,3 +9,4 @@ Given an integer array nums and an integer k, return the k most frequent element
 ## Tags
 - Striver_A_Z
 - SDE_Sheet
+- Love_Babbar

@@ -8,5 +8,5 @@ Given an integer array nums, return the number of reverse pairs. A reverse pair 
 
 ## Tags
 - Striver_A_Z
-- Love_Babbar
 - SDE_Sheet
+- Love_Babbar

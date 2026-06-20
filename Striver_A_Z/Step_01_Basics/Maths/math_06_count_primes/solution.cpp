@@ -1,6 +1,6 @@
 // Time Complexity: O(N log(log N))
 // Space Complexity: O(N)
-// Explanation: Use the Sieve of Eratosthenes. Create a boolean array of size `n` initialized to true. Set indices 0 and 1 to false. Iterate from `p=2` to `sqrt(n)`. If `p` is prime, mark all its multiples starting from `p*p` as false. Count the remaining true values.
+// Explanation: Use the Sieve of Eratosthenes. Initialize a boolean array of size `n` with `true`. Mark `0` and `1` as `false`. For each `i` from `2` to `sqrt(n)`, if `i` is prime, mark its multiples as `false` starting from `i*i`. Finally, count the number of `true`s.
 
 int countPrimes(int n) {
     if(n <= 2) return 0;

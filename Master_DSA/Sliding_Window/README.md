@@ -10,11 +10,14 @@ Same as Arrays. You will primarily use two integer variables (`left` and `right`
 ```text
 Initialize left = 0, right = 0
 While right < array_length:
-    1. Add array[right] to current window state
+    1. Add array[right] to current window state (e.g., sum += array[right])
+    
     2. While window state is INVALID:
-        a. Remove array[left] from window state
+        a. Remove array[left] from window state (e.g., sum -= array[left])
         b. Increment left
-    3. Update maximum/minimum answer using valid window
+        
+    3. Update maximum/minimum answer using valid window length (right - left + 1)
+    
     4. Increment right
 ```
 </details>

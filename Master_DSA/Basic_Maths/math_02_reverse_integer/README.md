@@ -8,5 +8,5 @@ Given a signed 32-bit integer x, return x with its digits reversed.<br><br><b>ğŸ
 
 ## Tags
 - Striver_A_Z
-- Love_Babbar
 - SDE_Sheet
+- Love_Babbar

@@ -67,8 +67,8 @@
       <td><b>Example 1:</b> Sieve of Eratosthenes.</td>
       <td><b>Time:</b> O(N log(log N))<br><b>Space:</b> O(N)</td>
       <td>-</td>
-      <td>n <= 2</td>
-      <td><b>Explanation:</b> Use the Sieve of Eratosthenes. Create a boolean array of size `n` initialized to true. Set indices 0 and 1 to false. Iterate from `p=2` to `sqrt(n)`. If `p` is prime, mark all its multiples starting from `p*p` as false. Count the remaining true values.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">int countPrimes(int n) {&#10;    if(n &lt;= 2) return 0;&#10;    vector&lt;bool&gt; isPrime(n, true);&#10;    isPrime[0] = isPrime[1] = false;&#10;    for(int i = 2; i * i &lt; n; i++) {&#10;        if(isPrime[i]) {&#10;            for(int j = i * i; j &lt; n; j += i) {&#10;                isPrime[j] = false;&#10;            }&#10;        }&#10;    }&#10;    int count = 0;&#10;    for(int i = 2; i &lt; n; i++) {&#10;        if(isPrime[i]) count++;&#10;    }&#10;    return count;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def countPrimes(n):&#10;    if n &lt;= 2: return 0&#10;    is_prime = [True] * n&#10;    is_prime[0] = is_prime[1] = False&#10;    for i in range(2, int(n**0.5) + 1):&#10;        if is_prime[i]:&#10;            for j in range(i*i, n, i):&#10;                is_prime[j] = False&#10;    return sum(is_prime)</code></pre></details></td>
+      <td>-</td>
+      <td><b>Explanation:</b> Use the Sieve of Eratosthenes. Initialize a boolean array of size `n` with `true`. Mark `0` and `1` as `false`. For each `i` from `2` to `sqrt(n)`, if `i` is prime, mark its multiples as `false` starting from `i*i`. Finally, count the number of `true`s.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">int countPrimes(int n) {&#10;    if(n &lt;= 2) return 0;&#10;    vector&lt;bool&gt; isPrime(n, true);&#10;    isPrime[0] = isPrime[1] = false;&#10;    for(int i = 2; i * i &lt; n; i++) {&#10;        if(isPrime[i]) {&#10;            for(int j = i * i; j &lt; n; j += i) {&#10;                isPrime[j] = false;&#10;            }&#10;        }&#10;    }&#10;    int count = 0;&#10;    for(int i = 2; i &lt; n; i++) {&#10;        if(isPrime[i]) count++;&#10;    }&#10;    return count;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def countPrimes(n: int) -&gt; int:&#10;    if n &lt;= 2: return 0&#10;    isPrime = [True] * n&#10;    isPrime[0] = isPrime[1] = False&#10;    for i in range(2, int(n ** 0.5) + 1):&#10;        if isPrime[i]:&#10;            for j in range(i * i, n, i):&#10;                isPrime[j] = False&#10;    return sum(isPrime)</code></pre></details></td>
     </tr>
     <tr>
       <td>7</td>
@@ -108,25 +108,7 @@
     </tr>
     <tr>
       <td>11</td>
-      <td>Math 11 Reverse Integer<br><br></b> <a href='https://leetcode.com/problems/reverse-integer/' target='_blank'>LeetCode 7</a></td>
-      <td><b>Example 1:</b> Math with overflow check.</td>
-      <td><b>Time:</b> O(log10(X))<br><b>Space:</b> O(1)</td>
-      <td>-</td>
-      <td>Overflow checks</td>
-      <td><b>Explanation:</b> Use a while loop to extract the last digit using `x % 10` and add it to the reversed number `ans = ans * 10 + digit`. Check for overflow before multiplying by 10.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">int reverse(int x) {&#10;    int ans = 0;&#10;    while(x != 0) {&#10;        int digit = x % 10;&#10;        if(ans &gt; INT_MAX / 10 || ans &lt; INT_MIN / 10) return 0;&#10;        ans = ans * 10 + digit;&#10;        x /= 10;&#10;    }&#10;    return ans;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def reverse(x):&#10;    sign = [1, -1][x &lt; 0]&#10;    ans = int(str(abs(x))[::-1]) * sign&#10;    if not -2**31 &lt;= ans &lt;= 2**31 - 1: return 0&#10;    return ans</code></pre></details></td>
-    </tr>
-    <tr>
-      <td>12</td>
-      <td>Math 12 Palindrome Number<br><br></b> <a href='https://leetcode.com/problems/palindrome-number/' target='_blank'>LeetCode 9</a></td>
-      <td><b>Example 1:</b> Reverse half the number.</td>
-      <td><b>Time:</b> O(log10(X))<br><b>Space:</b> O(1)</td>
-      <td>-</td>
-      <td>x < 0, x % 10 == 0</td>
-      <td><b>Explanation:</b> Negative numbers are not palindromes. Numbers ending in 0 (except 0 itself) are not palindromes. Reverse the second half of the number. If `x == reversed` or `x == reversed / 10` (for odd length), it's a palindrome.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">bool isPalindrome(int x) {&#10;    if(x &lt; 0 || (x != 0 &amp;&amp; x % 10 == 0)) return false;&#10;    int rev = 0;&#10;    while(x &gt; rev) {&#10;        rev = rev * 10 + x % 10;&#10;        x /= 10;&#10;    }&#10;    return (x == rev || x == rev / 10);&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def isPalindrome(x):&#10;    if x &lt; 0 or (x != 0 and x % 10 == 0): return False&#10;    rev = 0&#10;    while x &gt; rev:&#10;        rev = rev * 10 + x % 10&#10;        x //= 10&#10;    return x == rev or x == rev // 10</code></pre></details></td>
-    </tr>
-    <tr>
-      <td>13</td>
-      <td>Math 13 Armstrong Number<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/armstrong-numbers2727/1' target='_blank'>GFG</a></td>
+      <td>Math 11 Armstrong Number<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/armstrong-numbers2727/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Math.</td>
       <td><b>Time:</b> O(log10(N))<br><b>Space:</b> O(1)</td>
       <td>-</td>
@@ -134,8 +116,8 @@
       <td><b>Explanation:</b> Extract each digit, cube it, and sum them up. If the sum equals the original number, it's an Armstrong number.<br><br><details><summary><b>View C++</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-cpp">string armstrongNumber(int n) {&#10;    int original = n, sum = 0;&#10;    while(n &gt; 0) {&#10;        int digit = n % 10;&#10;        sum += (digit * digit * digit);&#10;        n /= 10;&#10;    }&#10;    return sum == original ? &quot;Yes&quot; : &quot;No&quot;;&#10;}</code></pre></details><br><details><summary><b>View Python</b></summary><pre style="white-space: pre-wrap; word-wrap: break-word;"><code class="language-python">def armstrongNumber(n):&#10;    return &quot;Yes&quot; if sum(int(d)**3 for d in str(n)) == n else &quot;No&quot;</code></pre></details></td>
     </tr>
     <tr>
-      <td>14</td>
-      <td>Math 14 Gcd Or Hcf<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/gcd-of-two-numbers3459/1' target='_blank'>GFG</a></td>
+      <td>12</td>
+      <td>Math 12 Gcd Or Hcf<br><br></b> <a href='https://practice.geeksforgeeks.org/problems/gcd-of-two-numbers3459/1' target='_blank'>GFG</a></td>
       <td><b>Example 1:</b> Euclidean Algorithm.</td>
       <td><b>Time:</b> O(log(min(A, B)))<br><b>Space:</b> O(1)</td>
       <td>-</td>

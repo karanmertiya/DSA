@@ -14,8 +14,14 @@ String mutability is the biggest language difference here. C++ strings are mutab
 int main() {
     std::string s = "hello";
     
-    // Mutability (O(1))
+    // Accessing & Mutability (O(1))
+    char first_char = s[0];
     s[0] = 'H'; // "Hello"
+    
+    // Iteration
+    for(int i = 0; i < s.length(); i++) {
+        char c = s[i];
+    }
     
     // Substrings
     std::string sub = s.substr(1, 3); // (start_idx, length) -> "ell"
@@ -35,11 +41,18 @@ int main() {
 ```python
 s = "hello"
 
+# Accessing
+first_char = s[0]
+
 # Immutability! You cannot do s[0] = 'H'
 # Convert to list if you need frequent mutations:
 char_list = list(s)
 char_list[0] = 'H'
 s = "".join(char_list) # "Hello"
+
+# Iteration
+for i, char in enumerate(s):
+    pass
 
 # Substrings (Slicing)
 sub = s[1:4] # (start_idx, end_idx_exclusive) -> "ell"
@@ -47,6 +60,7 @@ sub = s[1:4] # (start_idx, end_idx_exclusive) -> "ell"
 # ASCII Math
 c = 'c'
 index = ord(c) - ord('a') # 2
+character = chr(97) # 'a'
 
 # String building (Optimal)
 # Using += in a loop is O(N^2) in Python! Use a list and .join()

@@ -8,6 +8,6 @@ A peak element is an element that is strictly greater than its neighbors. Given 
 
 ## Tags
 - Striver_A_Z
-- Love_Babbar
-- SDE_Sheet
 - Apna_College
+- SDE_Sheet
+- Love_Babbar

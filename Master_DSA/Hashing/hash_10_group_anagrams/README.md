@@ -8,5 +8,5 @@ Given an array of strings strs, group the anagrams together. You can return the 
 
 ## Tags
 - Striver_A_Z
-- Love_Babbar
 - SDE_Sheet
+- Love_Babbar

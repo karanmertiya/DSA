@@ -1,18 +1,18 @@
-// Time Complexity: O(2^N * N)
-// Space Complexity: O(2^N * N)
-// Explanation: Iterate from 1 to `2^N - 1`. For each number, treat its binary representation as a mask to pick characters from the string. Sort the resulting list of subsequences.
+// Time Complexity: O(N * 2^N)
+// Space Complexity: O(N * 2^N)
+// Explanation: Iterate from 1 to `(1 << n) - 1`. For each number, its binary representation indicates which characters of the string to include. Example: 011 means include 1st and 2nd char.
 
 vector<string> AllPossibleStrings(string s){
     int n = s.length();
-    vector<string> ans;
+    vector<string> res;
     for(int i = 1; i < (1 << n); i++) {
         string sub = "";
         for(int j = 0; j < n; j++) {
             if(i & (1 << j)) sub += s[j];
         }
-        ans.push_back(sub);
+        res.push_back(sub);
     }
-    sort(ans.begin(), ans.end());
-    return ans;
+    sort(res.begin(), res.end());
+    return res;
 }
 

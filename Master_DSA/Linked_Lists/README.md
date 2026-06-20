@@ -24,6 +24,7 @@ int main() {
     // Traversal (Always check != nullptr)
     ListNode* curr = head;
     while(curr != nullptr) {
+        // Do something with curr->val
         curr = curr->next;
     }
 }
@@ -45,6 +46,7 @@ head.next = ListNode(2)
 # Traversal (Always check is not None)
 curr = head
 while curr is not None:
+    # Do something with curr.val
     curr = curr.next
 ```
 </details>
