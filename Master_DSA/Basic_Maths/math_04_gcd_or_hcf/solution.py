@@ -21,7 +21,7 @@ def lcmAndGcd(a: int, b: int) -> list[int]:
             a = a % b
         else:
             b = b % a
-    # m if n == 0 else n can be replaced by a + b since one is 0
+    # The non-zero value is the GCD. Since one of them is 0, we can just return a + b
     gcd = a + b
     lcm = (original_a // gcd) * original_b  # Divide first to prevent overflow
     return [lcm, gcd]
